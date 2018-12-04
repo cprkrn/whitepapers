@@ -1,0 +1,858 @@
+<!doctype html>
+<html>
+<head>
+    <title>Hcash | The New Standard of Value</title>
+<meta name="description" content="The New Standard of Value" />
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=1">
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<meta content="email=no" name="format-detection" />
+
+<link href="/favicon.ico" mce_href="/favicon.ico" rel="bookmark" type="image/x-icon" />
+<link href="/favicon.ico" mce_href="/favicon.ico" rel="icon" type="image/x-icon" />
+<link href="/favicon.ico" mce_href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="https://h.cash/themes/en/fonts/fonts.css" />
+<link rel="stylesheet" type="text/css" href="https://h.cash/themes/en/css/libs.min.css" />
+<link rel="stylesheet" type="text/css" href="https://h.cash/themes/en/css/base.min.css" />
+<link rel="stylesheet" type="text/css" href="https://h.cash/themes/en/css/main.min.css" />
+<script type="text/javascript" src="https://h.cash/themes/en/js/jquery-3.3.1.min.js"></script>
+<!--[if lt IE 9]>
+<script src="//cdn.bootcss.com/respond.js/1.4.2/respond.js"></script>
+<script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<![endif]--></head>
+<body>
+<nav class="side-menu">
+    <div class="close"><span class="icon"><i></i><i></i><i></i></span><span class="name">Close menu</span></div>
+    <div class="box">
+        <a href="/" class="side-logo"><img src="https://h.cash/themes/en/images/logo5.png" alt=""></a>
+        <div class="nnav clearfix scroll-bd">
+            <ul>
+                <li><a href="/#section2" data-menuanchor="section2">Exchange Platform</a></li>
+                <li><a href="/#section3"data-menuanchor="section3">What is Hcash</a></li>
+                <li><a href="/#section5"data-menuanchor="section5">Hcash X Hyper Exchange</a></li>
+                <li><a href="/#section8"data-menuanchor="section8">Roadmap</a></li>
+                <li><a href="/#section9"data-menuanchor="section9">Team</a></li>
+                <!--li><a href="/#section14"data-menuanchor="section14">Contact</a></li-->
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="https://hc-explorer.h.cash" target="_blank">HC Explorer</a></li>
+                <li><a href="https://wiki.h.cash/" target="_blank" >HC Documents</a></li>
+                <li><a href="http://explorer.h.cash" target="_blank">HSR Explorer</a></li>
+            </ul> 
+        </div>
+        <div class="btns clearfix">
+            <!-- div class="tohx"><a href="http://hx.cash/" target="_blank" class="swapbtn btn-style4 btn-middle btn"><span>Visit Hyper Exchange</span><span class="icon_3"></span></a></div -->
+            <div class="tohx">
+                <a href="https://h.cash/themes/en/images/How to deploy hcd nodes.pdf" target="_blank" class="swapbtn btn-style4 btn-middle btn">
+                    <span>Nodes Deployment</span>
+                    <!-- span class="icon_3"></span -->
+                </a>
+            </div>
+            <div class="hcdocbox"><a href="https://h.cash/themes/en/images/hcGUI Wallet User Manual.pdf" target="_blank" class="swapbtn btn-style4 btn-middle btn"><span>User Guide</span><span class="icon_4"></a></div>
+            <div class="swapbtnbox"><a h href="https://swap.h.cash" target="_blank" class="swapbtn btn-style4 btn-middle btn"><span>Swap HSR to HC</span><span class="icon_1"></span></a></div>
+            <div class="swapbtnbox"><a target="_blank" href="https://github.com/HcashOrg/gominer/" class="swapbtn btn-style4 btn-middle btn"><span>HC PoW tool</span></a></div>
+            <div class="clearfix">
+                <div class="downloadapp clearfix">
+                    <a class="btn-style1 btn-middle btn"><span>Download Wallet</span> <span class="icon"><img src="https://h.cash/themes/en/images/svg_down.svg" alt=""></span></a>
+                    <ul class="clearfix">
+                        <li><a target="_blank" href="https://github.com/HcashOrg/hcGUI/releases/download/R2.1.6/HcGui-2.1.6.dmg" class="btn-style1 btn-small btn">for Mac OSX 2.1.6</a></li>
+                        <li><a target="_blank" href="https://github.com/HcashOrg/hcGUI/releases/download/R2.1.5/HcGui.Setup.2.1.5.exe" class="btn-style1 btn-small btn">for Windows 2.1.5</a></li>
+                        <li><a target="_blank" href="https://github.com/HcashOrg/hcGUI/releases/download/R2.1.6/HcGui_2.1.6.deb" class="btn-style1 btn-small btn">for Ubuntu 2.1.6</a></li>
+                        <li><a target="_blank" href="https://hcash.oss-ap-southeast-1.aliyuncs.com/hcGUI/forMacOSX/HcGui-2.1.6.dmg" class="btn-style1 btn-small btn">for Mac OSX 2.1.6 (from OSS)</a></li>
+                        <li><a target="_blank" href="https://hcash.oss-ap-southeast-1.aliyuncs.com/hcGUI/forWindows/HcGui.Setup.2.1.5.exe" class="btn-style1 btn-small btn">for Windows 2.1.5 (from OSS)</a></li>
+                        <li><a target="_blank" href="https://hcash.oss-ap-southeast-1.aliyuncs.com/hcGUI/forUbuntu/HcGui_2.1.6.deb" class="btn-style1 btn-small btn">for Ubuntu 2.1.6 (from OSS)</a></li>
+                        <li><a target="_blank" href="/app_down" class="btn-style1 btn-small btn">for App wallet</a></li>
+                        <li><a target="_blank" href="https://www.hyperpay.tech/download" class="btn-style1 btn-small btn">for Hyperpay wallet</a></li>
+                    </ul>
+                </div>
+                <div class="lang clearfix">
+                    <a href="?lang=zh-cn" class="btn-2">中</a>
+                </div>
+            </div>
+            <div class="yellowpaper clearfix">
+                <a href="https://h.cash/themes/en/images/HCASH-YellowPaper-1.0.pdf" download="HCASH-YellowPaper-1.0.pdf">
+                    <div class="icon"><img src="https://h.cash/themes/en/images/svg_whitepaper.svg" alt=""></div>
+                    <div class="name">Yellow Paper</div>
+                    <div class="size">Download</div>
+                </a>
+            </div>
+            <div class="whitepaper clearfix" style="border-bottom: 1px solid #543365;padding-bottom: 12px;">
+                <a href="https://h.cash/themes/en/images/Hcash+Whitepaper+V0.8.5.pdf" download="Hcash+Whitepaper+V0.8.5.pdf">
+                    <div class="icon"><img src="https://h.cash/themes/en/images/svg_whitepaper.svg" alt=""></div>
+                    <div class="name">White Paper</div>
+                    <div class="size">Download</div>
+                </a>
+            </div>
+            <div class="whitepaper clearfix">
+                <a href="https://h.cash/themes/en/images/Omni_operation_manual.pdf" download="Omni_operation_manual.pdf">
+                    <div class="icon"><img src="https://h.cash/themes/en/images/svg_whitepaper.svg" alt=""></div>
+                    <div class="name">Omni operation manual</div>
+                    <div class="size">Download</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav><header class="header clearfix" style="display:none !important;">
+    <div class="wrapper clearfix">
+        <h1 class="logo"><a href="/"><img src="https://h.cash/themes/en/images/logo.png" alt=""></a><a href=""><img src="https://h.cash/themes/en/images/logo_blue.png" alt=""></a></h1>
+        <!--<div class="logo2"><div class="img"><img src="https://h.cash/themes/en/images/logo2.png" alt=""></div></div>-->
+        <div class="menu" hidden></div>
+        <div class="other clearfix" data-slshow>
+            <!--<nav class="nav clearfix">-->
+            <!--<ul class="clearfix">-->
+            <!--<li><a href="#section3" data-menuanchor="section3">HC CHain</a></li>-->
+            <!--<li><a href="#section9"data-menuanchor="section9">Team</a></li>-->
+            <!--<li><a href="#"data-menuanchor="">Blog</a></li>-->
+            <!--<li><a href="#section4"data-menuanchor="section4">Explorer</a></li>-->
+            <!--<li><a href="#section14"data-menuanchor="section14">Contact</a></li>-->
+            <!--</ul>-->
+            <!--</nav>-->
+            <div class="btns clearfix">
+                <div class="yellowpaper clearfix">
+                    <a href="">
+                        <div class="icon"><img src="https://h.cash/themes/en/images/svg_whitepaper.svg" alt=""></div>
+                        <div class="name">Yellow Paper</div>
+                        <div class="size">Download</div>
+                    </a>
+                </div>
+                <div class="whitepaper clearfix">
+                    <a href="">
+                        <div class="icon"><img src="https://h.cash/themes/en/images/svg_whitepaper.svg" alt=""></div>
+                        <div class="name">White Paper</div>
+                        <div class="size">Download</div>
+                    </a>
+                </div>
+                <div class="downloadapp clearfix">
+                    <a href="" class="btn-style1 btn-middle btn"><span>Download Wallet</span> <span class="icon"><img src="https://h.cash/themes/en/images/svg_down.svg" alt=""></span></a>
+                </div>
+                <div class="lang clearfix">
+                    <a href="/?lang=en" class="btn2">EN</a>
+                    <ul class="clearfix">
+                        <li><a href="/?lang=zh-cn" class="btn-2">中</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div id="fullpage">
+    <div class="section1 section1-1 section bg-img" style="background-image: url(https://h.cash/themes/en/images/bg_01.jpg);">
+
+        <div class="imgs clearfix">
+            <div class="img1">
+                <div class="img"><img src="https://h.cash/themes/en/images/section1_08.png" alt=""></div>
+                <div class="slogo"><img src="https://h.cash/themes/en/images/section1_01.png" alt=""></div>
+            </div>
+            <div class="img2">
+                <div class="img"><img src="https://h.cash/themes/en/images/section1_09.png" alt=""></div>
+                <div class="slogo">
+                    <a href="http://hx.cash/" target="_blank" class="linkto"><img src="https://h.cash/themes/en/images/HX-logo-white.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="wrapper clearfix">
+                <div class="title">
+                    <div class="t0-1">A New Standard of Value</div>
+                    <div class="t0-2">A parallel, dual-chain ecosystem</div>
+                </div>
+                <div class="txt2">
+                    <div class="t0-4">
+                        <p> Featuring Post-quantum </p>
+                        <p> Signature Technology </p>
+                    </div>
+                </div>
+                <div class="txt txt-1">
+                    <!-- <div class="t0-3">Featuring Post-quantum <br />Signature Technology</div> -->
+                    <div class="t6"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section1 section1-2 section bg-img" style="background-image: url(https://h.cash/themes/en/images/bg_01.jpg);">
+        <a href="http://hx.cash" target="_blank" class="visit btn-middle btn-style2 btn"><span>Visit</span><span class="icon"><img src="https://h.cash/themes/en/images/svg_right2.svg" alt=""></span><span>Hyper Exchange</span><span class="icon"><img src="https://h.cash/themes/en/images/svg_other.svg" alt=""></span></a>
+
+        <div class="imgs clearfix">
+            <div class="img1">
+                <div class="img"><img src="https://h.cash/themes/en/images/section1_08.png" alt=""></div>
+                <div class="slogo"><img src="https://h.cash/themes/en/images/section1_01.png" alt=""></div>
+                <div class="txt">
+					<p>PoW + PoS</p>
+					<p><small>HCASH AI Lighting Protocol (HAILP)</small></p>
+					<p><small>Quantum-resistant Signature</small></p>
+					<p><small>ASIC Resistance</small></p>
+					<p><small>Privacy Preserving Protocol</small></p>
+				</div>
+            </div>
+            <div class="img2">
+                <div class="img"><img src="https://h.cash/themes/en/images/section1_09.png" alt=""></div>
+                <div class="slogo"><img src="https://h.cash/themes/en/images/HX-logo-white.svg" alt=""></div>
+                <div class="txt">
+                    <p>Smart Contracts</p>
+                    <p>Cross-Chain Communication</p>
+                    <p><small>BMT Protocol<br />Hyper Exchange Axis<br />Indicator</small></p>
+                </div>
+                <div class="imgs2">
+                    <div class="imgs2-1"><img src="https://h.cash/themes/en/images/section1_04.png" alt=""></div>
+                    <div class="imgs2-2 clearfix"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                    <div class="imgs2-t1 clearfix"><span>Asset management</span></div>
+                    <div class="imgs2-3"><img src="https://h.cash/themes/en/images/section1_05.png" alt=""></div>
+                    <div class="imgs2-t1 clearfix"><span>Asset exchange</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="wrapper clearfix">
+                <div class="title" data-slshow>
+                    <div class="t1">A New Standard <br />of Value </div>
+                </div>
+                <div class="txt">
+                    <div class="t4">Featuring Post-quantum <br /><br />Signature Technology</div>
+                    <div class="t5">A dual-chain ecosystem</div>
+                    <div class="t6"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                    <div class="t3"><img src="https://h.cash/themes/en/images/section1_07.png" alt=""></div>
+                </div>
+                <!-- <div class="btns clearfix">
+                    <a href="" class="btn-style1 btn-large btn"><span>Get Hcash</span><span class="icon"><img src="https://h.cash/themes/en/images/svg_down.svg" alt=""></span></a>
+                    <a href="" class="btn-style2 btn-large btn"><span>Watch Video</span><span class="icon"><img src="https://h.cash/themes/en/images/svg_play.svg" alt=""></span></a>
+                </div> -->
+            </div>
+        </div>
+
+    </div>
+    <div class="section2 section bg-img">
+        <div class="content">
+            <div class="wrapper clearfix">
+                <div class="grow clearfix">
+                    <div class="col12-md-4">
+                        <div class="hd">
+                            <div class="hTitle">
+                                <div class="icon"><img src="https://h.cash/themes/en/images/svg_block2.svg" alt=""></div>
+                                <h3>Exchange Platforms</h3>
+                            </div>
+                            <div class="hContent">
+                                <div class="article1">Become part of our ever-growing ecosystem</div>
+                                <div class="article2">Purchase or trade HCASH on any of the following platforms:</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col12-sm-8">
+                        <div class="bd">
+                            <div class="imglist">
+                                <ul class="clearfix">
+                                                                        <li><a target="_blank" href="https://www.binance.com/"><div class="img"><img src="/data/upload/2018-07/20180718213448131948.png" title="Binance" alt="Binance"></div></a><a target="_blank" href="https://www.binance.com/"><div class="img"><img src="/data/upload/2018-07/20180718213448109448.png" title="Binance" alt="Binance"></div></a></li>
+                                                                        <li><a target="_blank" href="https://www.okb.com/?channelId=1162544"><div class="img"><img src="/data/upload/2018-07/20180718213631193089.png" title="OKex" alt="OKex"></div></a><a target="_blank" href="https://www.okb.com/?channelId=1162544"><div class="img"><img src="/data/upload/2018-07/20180718213631182089.png" title="OKex" alt="OKex"></div></a></li>
+                                                                        <li><a target="_blank" href="https://www.coinw.me/"><div class="img"><img src="/data/upload/2018-07/20180723142104164136.png" title="COINW" alt="COINW"></div></a><a target="_blank" href="https://www.coinw.me/"><div class="img"><img src="/data/upload/2018-07/20180723142104650636.png" title="COINW" alt="COINW"></div></a></li>
+                                                                        <li><a target="_blank" href="https://www.hbg.com/en-us/"><div class="img"><img src="/data/upload/2018-07/20180718213749197821.png" title="HUOBI" alt="HUOBI"></div></a><a target="_blank" href="https://www.hbg.com/en-us/"><div class="img"><img src="/data/upload/2018-07/20180718213749115021.png" title="HUOBI" alt="HUOBI"></div></a></li>
+                                                                        <li><a target="_blank" href="https://www.bithumb.com/"><div class="img"><img src="/data/upload/2018-07/20180724152020151847.png" title="Bithumb" alt="Bithumb"></div></a><a target="_blank" href="https://www.bithumb.com/"><div class="img"><img src="/data/upload/2018-07/20180724152020363947.png" title="Bithumb" alt="Bithumb"></div></a></li>
+                                                                        <li><a target="_blank" href="https://www.exx.com/"><div class="img"><img src="/data/upload/2018-07/20180724152853176420.png" title="EXX" alt="EXX"></div></a><a target="_blank" href="https://www.exx.com/"><div class="img"><img src="/data/upload/2018-07/20180724152853241521.png" title="EXX" alt="EXX"></div></a></li>
+                                                                        <li><a target="_blank" href="https://www.bit-z.com/"><div class="img"><img src="/data/upload/2018-07/20180712100745353950.png" title="bitz" alt="bitz"></div></a><a target="_blank" href="https://www.bit-z.com/"><div class="img"><img src="/data/upload/2018-07/20180718213827502487.png" title="bitz" alt="bitz"></div></a></li>
+                                                                        <li><a target="_blank" href="https://gateio.io/"><div class="img"><img src="/data/upload/2018-07/20180718213847113973.png" title="GATEIO" alt="GATEIO"></div></a><a target="_blank" href="https://gateio.io/"><div class="img"><img src="/data/upload/2018-07/20180718213847121573.png" title="GATEIO" alt="GATEIO"></div></a></li>
+                                                                        <li><a target="_blank" href="https://www.zb.com/"><div class="img"><img src="/data/upload/2018-07/20180718213913258033.png" title="zb" alt="zb"></div></a><a target="_blank" href="https://www.zb.com/"><div class="img"><img src="/data/upload/2018-07/20180718213913897733.png" title="zb" alt="zb"></div></a></li>
+                                                                        <li><a target="_blank" href="https://topbtc.com/"><div class="img"><img src="/data/upload/2018-07/20180718214001159146.png" title="TopBtc" alt="TopBtc"></div></a><a target="_blank" href="https://topbtc.com/"><div class="img"><img src="/data/upload/2018-07/20180718214001696646.png" title="TopBtc" alt="TopBtc"></div></a></li>
+                                                                        <li><a target="_blank" href="https://www.kucoin.com/#/"><div class="img"><img src="/data/upload/2018-07/20180718214041425571.png" title="KUCOIN" alt="KUCOIN"></div></a><a target="_blank" href="https://www.kucoin.com/#/"><div class="img"><img src="/data/upload/2018-07/20180718214041685672.png" title="KUCOIN" alt="KUCOIN"></div></a></li>
+                                                                        <li><a target="_blank" href="https://www.cryptopia.co.nz/"><div class="img"><img src="/data/upload/2018-07/20180718214117873759.png" title="CRY" alt="CRY"></div></a><a target="_blank" href="https://www.cryptopia.co.nz/"><div class="img"><img src="/data/upload/2018-07/20180718214117846959.png" title="CRY" alt="CRY"></div></a></li>
+                                                                        <li><a target="_blank" href="https://acx.io/"><div class="img"><img src="/data/upload/2018-07/20180718214145113978.png" title="acx" alt="acx"></div></a><a target="_blank" href="https://acx.io/"><div class="img"><img src="/data/upload/2018-07/20180718214145122579.png" title="acx" alt="acx"></div></a></li>
+                                                                        <li><a target="_blank" href="https://www.hpx.com/"><div class="img"><img src="/data/upload/2018-07/20180718214204448190.png" title="HPX" alt="HPX"></div></a><a target="_blank" href="https://www.hpx.com/"><div class="img"><img src="/data/upload/2018-07/20180718214204167590.png" title="HPX" alt="HPX"></div></a></li>
+                                                                        <li><a target="_blank" href="https://www.hitbtc.com"><div class="img"><img src="/data/upload/2018-07/20180724180444403576.png" title="hitbtc" alt="hitbtc"></div></a><a target="_blank" href="https://www.hitbtc.com"><div class="img"><img src="/data/upload/2018-07/20180724180444167777.png" title="hitbtc" alt="hitbtc"></div></a></li>
+                                                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section3 section bg-img" style="background-image:url(https://h.cash/themes/en/images/bg_02.jpg);">
+        <div class="content">
+            <div class="hd">
+                <div class="hTitle">
+                    <div class="icon"><img src="https://h.cash/themes/en/images/svg_block2.svg" alt=""></div>
+                    <h3>What is HCASH ?</h3>
+                </div>
+            </div>
+            <div class="bd clearfix">
+                <div class="grow clearfix">
+                    <div class="col12-sl-4">
+                        <div class="txtlist clearfix">
+                            <div class="img"><img src="https://h.cash/themes/en/images/img_02.png" alt=""></div>
+                            <div class="txt">A decentralised and open-source cross-platform cryptocurrency.</div>
+                        </div>
+                    </div>
+                    <div class="col12-sl-4">
+                        <div class="txtlist clearfix">
+                            <div class="img"><img src="https://h.cash/themes/en/images/img_03.png" alt=""></div>
+                            <div class="txt">Designed to facilitate the exchange of information between blockchains and non-blockchain networks.</div>
+                        </div>
+                    </div>
+                    <div class="col12-sl-4">
+                        <div class="txtlist clearfix">
+                            <div class="img"><img src="https://h.cash/themes/en/images/img_04.png" alt=""></div>
+                            <div class="txt">A highly secure network, featuring quantum resistant signature technology.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section4 section">
+        <div class="content">
+            <div class="wrapper clearfix">
+                <div class="grow clearfix">
+                    <div class="col12-sm-5 col12-gt-6">
+                        <div class="circleimg">
+                            <img src="https://h.cash/themes/en/images/img_05.png" alt="">
+                            <p>A dual-chain ecosystem</p>
+                        </div>
+                    </div>
+                    <div class="col12-sm-7 col12-gt-6">
+                        <div class="hd">
+                            <div class="hTitle">
+                                <div class="icon"><img src="https://h.cash/themes/en/images/svg_block2.svg" alt=""></div>
+                                <h3>The Next Generation of HCASH</h3>
+                                <p>- A parallel, dual-chain ecosystem</p>
+                            </div>
+                        </div>
+                        <div class="bd">
+                            <div class="article2">
+                                <p>The HCASH network has two chains running laterally, with each serving different functions within the ecosystem. These two chains serve to provide us with an interlinked, bifocal dual-token, dual-chain ecosystem that will help us solve interconnection, privacy and security issues prevalent in the current blockchain ecosystem.</p>
+                                <p>&nbsp;</p>
+                                <p>The HCASH ecosystem will consist of two chains that include the HyperCash (HC) main chain and the HyperExchange (HX) chain that is derived from the main chain, but will work towards bridging communication between blockchains including BTC, ETH and others, and non-blockchains such as DAGs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section5 section bg-img" style="background-image: url(https://h.cash/themes/en/images/bg_03.jpg);">
+        <div class="logo3"><img src="https://h.cash/themes/en/images/logo3.png" alt=""></div>
+        <div class="slider">
+            <div class="content">
+				<div class="s-logo" data-smhidden><img src="https://h.cash/themes/en/images/logo6.png" alt=""></div>
+                <ul class="list2 clearfifx">
+                    <li>
+                        <div class="hTitle2">
+                            <div class="icon"><div class="num">1</div><img src="https://h.cash/themes/en/images/svg_block3.svg" alt=""></div>
+                            <h3>Decentralised autonomous governance</h3>
+                        </div>
+                        <div class="article2">
+                            <p>We believe that a community-driven autonomous governance model can adequately fulfill the needs of the HCASH community, ensuring the efficiency of decision-making, and creating a more sustainable and inclusive development environment.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="hTitle2">
+                            <div class="icon"><div class="num">2</div><img src="https://h.cash/themes/en/images/svg_block3.svg" alt=""></div>
+                            <h3>PoW+PoS hybrid mechanism</h3>
+                        </div>
+                        <div class="article2">
+                            <p>Under the hybrid Pow + PoS consensus mechanism, all PoW-generated blocks must be verified by PoS miners in order to join the blockchain. Having both miners and stakeholders participating in block production eliminates the possibility of hashpower monopoly to a great extent, while ensuring the security of the network.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="hTitle2">
+                            <div class="icon"><div class="num">3</div><img src="https://h.cash/themes/en/images/svg_block3.svg" alt=""></div>
+                            <h3>Privacy Preserving Protocols</h3>
+                        </div>
+                        <div class="article2">
+                            <p>HCASH implements post-quantum lattice RingCT protocols, and improves and optimises zk-snarks, providing clients who use our platform with more effective options for safeguarding their privacy in the future.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="hTitle2">
+                            <div class="icon"><div class="num">4</div><img src="https://h.cash/themes/en/images/svg_block3.svg" alt=""></div>
+                            <h3>Post-quantum Signature Technology</h3>
+                        </div>
+                        <div class="article2">
+                            <p>HCASH supports multiple post quantum signature schemes, and is compatible with traditional ECDSA signatures, providing a high-level security protection scheme for users in a future quantum computing environment.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="slider2">
+            <div class="content">
+				<div class="s-logo" data-smhidden><img src="https://h.cash/themes/en/images/logo7.png" alt=""></div>
+                <div class="list">
+                    <ul class="clearfix">
+                        <li>Cross chain transaction</li>
+                        <li>Smart contract</li>
+                        <li>Random Pool Proof of Multi-properties</li>
+                        <li>High efficiency</li>
+                        <li>Flexible transaction fee</li>
+                        <li>100% Reserve</li>
+                    </ul>
+                </div>
+                <a href="http://hx.cash/" target="_blank" class="visit btn-middle btn-style2 btn"><span>Visit</span><span class="icon"><img src="https://h.cash/themes/en/images/svg_right2.svg" alt=""></span><span>Hyper Exchange</span><span class="icon"><img src="https://h.cash/themes/en/images/svg_other.svg" alt=""></span></a>
+            </div>
+        </div>
+    </div>
+    <div class="section6 section bg-img" style="background-image: url(https://h.cash/themes/en/images/bg_04.jpg);">
+        <div class="content">
+            <div class="wrapper clearfix">
+                <div class="box">
+                    <div class="grow clearfix">
+                        <div class="col12-sm-6">
+                            <div class="article3">HCASH will create a new platform which is able to be 'Connected' to different blockchains, allowing value and information to circulate freely between networks, redefining the value of a blockchain.</div>
+                        </div>
+                        <div class="col12-sm-6">
+                            <div class="title">REDEFINE <br/>THE <br />BLOCKCHAIN</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section7 section bg-img" style="background-image: url(https://h.cash/themes/en/images/bg_02.jpg);">
+        <div class="widget"><img src="https://h.cash/themes/en/images/pic_01_1.png" alt=""></div>
+        <div class="content">
+            <div class="wrapper clearfix">
+                <div class="box">
+                    <div class="grow clearfix">
+                        <div class="col12-sl-7">
+                            <div class="hTitle">
+                                <div class="icon"><img src="https://h.cash/themes/en/images/svg_block2.svg" alt=""></div>
+                                <h3>Wallet</h3>
+                                <a target="_blank" href="/app_down" class="btn-style2 btn-middle btn active">Download Wallet</a>
+                            </div>
+                            <div class="article3">Your funds are stored in hot and cold multi-signature addresses on their original chain, managed by a RPPOM consensus mechanism, and only accessible by you.</div>
+                            <div class="more"><img src="https://h.cash/themes/en/images/icon_lineArrow.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="grow clearfix">
+                        <div class="col12-sl-4">
+                            <div class="imglist2">
+                                <div class="img"><img src="https://h.cash/themes/en/images/img_06.png" alt=""></div>
+                                <div class="article2">Take advantage of our platform's outstanding security</div>
+                            </div>
+                        </div>
+                        <div class="col12-sl-4">
+                            <div class="imglist2">
+                                <div class="img"><img src="https://h.cash/themes/en/images/img_07.png" alt=""></div>
+                                <div class="article2">Transfer funds easily from person to person</div>
+                            </div>
+                        </div>
+                        <div class="col12-sl-4">
+                            <div class="imglist2">
+                                <div class="img"><img src="https://h.cash/themes/en/images/img_08.png" alt=""></div>
+                                <div class="article2">Start mining with our intuitive wallet</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section8 section bg-img" style="background-image:url(https://h.cash/themes/en/images/bg_05.jpg);">
+        <div class="content">
+            <div class="wrapper clearfix">
+                <div class="hd">
+                    <div class="hTitle">
+                        <div class="icon"><img src="https://h.cash/themes/en/images/svg_block2.svg" alt=""></div>
+                        <h3>Road Map</h3>
+                    </div>
+                </div>
+                <div class="bd grow clearfix">
+                    <div class="bd-left doneline col12-sm-3">
+                        <div class="title">Accomplished features</div>
+                        <div class="txt">
+                            <ul class="clearfix">
+								<li>Quantum resistant signature</li>
+								<li>PoW + PoS hybrid consensus</li>
+								<li>Community voting module function ready</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div style="margin-bottom:40px;" data-smhidden></div>
+                    <div class="bd-right col12-sm-9">
+						<div class="timeline-prev arrow"><img src="https://h.cash/themes/en/images/svg_right.svg" alt=""></div>
+						<div class="timeline-next arrow"><img src="https://h.cash/themes/en/images/svg_right.svg" alt=""></div>
+						<div class="timeline-container swiper-container">
+							<div class="swiper-wrapper clearfix">
+								<div class="swiper-slide">
+									<div class="icon"></div>
+									<div class="date">July</div>
+									<div class="title">Improving HC mainchain performance</div>
+									<div class="txt">RC2 open beta</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="icon"></div>
+									<div class="date">August</div>
+									<div class="title">Complete HC mainchain performance improvement, Start HSR/HC swap.</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="icon"></div>
+									<div class="date">September</div>
+									<div class="title">Complete most HSR/HC swap</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="icon"></div>
+									<div class="date">19 Q1</div>
+									<div class="title">Kick-off HAIL Protocol development</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="icon"></div>
+									<div class="date">19 Q2</div>
+									<div class="title">Complete HAIL Protocol development</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="icon"></div>
+									<div class="date">19 Q3</div>
+									<div class="title">Complete development for automatic deployment of community autonomous governing protocol function</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="icon"></div>
+									<div class="date">19 Q4</div>
+									<div class="title">Complete layer and sharding technologies, achieve high TPS DAG side chain development</div>
+								</div>
+							</div>
+						</div>
+					</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section9 section">
+        <div class="content">
+            <div class="wrapper clearfix">
+                <div class="hd">
+                    <div class="hTitle">
+                        <div class="icon"><img src="https://h.cash/themes/en/images/svg_block2.svg" alt=""></div>
+                        <h3>Meet the Team</h3>
+                    </div>
+                </div>
+                <div class="bd">
+                    <div class="team-container swiper-container">
+                        <div class="swiper-wrapper clearfix">
+                                                        <div class="swiper-slide">
+                                <div class="team-box2">
+                                    <div class="team-pic"><div class="bg-img" style="background-image:url(/data/upload/2018-07/20180724024343500657.jpg);"></div></div>
+                                    <div class="team-txt">
+                                        <h3 class="name">Chief Executive Officer</h3>
+                                        <div class="job">Adam Geri</div>
+                                        <div class="article2">
+                                            With extensive experience in strategic and operations management from his over 25 years of being an owner manager in the automotive industry, Adam understands what makes good businesses work. From stakeholder relations to external marketing practices, Ada
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="swiper-slide">
+                                <div class="team-box2">
+                                    <div class="team-pic"><div class="bg-img" style="background-image:url(/data/upload/2018-07/20180724024333137691.jpg);"></div></div>
+                                    <div class="team-txt">
+                                        <h3 class="name">Chief Operation Officer</h3>
+                                        <div class="job">Andrew Wasylewicz</div>
+                                        <div class="article2">
+                                            Andrew has been passionately involved in the blockchain industry since its inception, has supported a number of projects, enjoys educating newcomers to the industry and acts as the HCASH Chief Operation Officer. With a Masters of Applied Scienc
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="swiper-slide">
+                                <div class="team-box2">
+                                    <div class="team-pic"><div class="bg-img" style="background-image:url(/data/upload/2018-07/20180723230040209978.png);"></div></div>
+                                    <div class="team-txt">
+                                        <h3 class="name">Chief Scientist</h3>
+                                        <div class="job">Dr. Joseph Liu</div>
+                                        <div class="article2">
+                                            Dr. Joseph Liu is an expert of cyber security and applying cryptographic technologies into world systems. He is well-known as“God Father of Monero”because of his remarkable researches in Ring Signature, which is the theory basis of Monero (XMR) since 2011
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section10 section10-1 section">
+        <div class="content">
+            <div class="wrapper clearfix">
+                <div class="hd">
+                    <div class="hTitle">
+                        <div class="icon"><img src="https://h.cash/themes/en/images/svg_block2.svg" alt=""></div>
+                        <h3>Advisory Board</h3>
+                    </div>
+                </div>
+                <div class="bd">
+                    <div class="swiper-container team-container2">
+                        <div class="swiper-wrapper clearfix">
+                            <div class="swiper-slide">
+                                <div class="team-box2">
+                                    <div class="team-pic"><div class="bg-img" style="background-image:url(https://h.cash/themes/en/images/ab_01.png);"></div></div>
+                                    <div class="team-txt">
+                                        <h3 class="name">Dawu Gu</h3>
+                                        <div class="job">Computer Science Professor from Shanghai Jiao Tong University</div>
+                                        <div class="article2">
+                                            <p>Dawu is now in charge of the cryptography and information security research team and serves as the director of Lab of Cryptology and Computer Security (SJTU & WNT Blockchain Lab). His research interests include cryptography, software security, hardware and embedded security, big data, cloud security with privacy, and financial security techniques.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="team-box2">
+                                    <div class="team-pic"><div class="bg-img" style="background-image:url(https://h.cash/themes/en/images/ab_02.png);"></div></div>
+                                    <div class="team-txt">
+                                        <h3 class="name">Ryan Xu</h3>
+                                        <div class="job">Managing Director of Collinstar Capital</div>
+                                        <div class="article2">
+                                            <p>Over 7 years’ experience in fintech. Investor in bitcoin mining and other related projects. Initiatives include the Melbourne Bitcoin Technology Centre , Bitcoin Boulevard Australia and Bitcoin Buskers Awarded “Blockchain opinion leader” in 2016.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--div class="swiper-slide">
+                                <div class="team-box2">
+                                    <div class="team-pic"><div class="bg-img" style="background-image:url(https://h.cash/themes/en/images/ab_04.jpg);"></div></div>
+                                    <div class="team-txt">
+                                        <h3 class="name">Tian Jia</h3>
+                                        <div class="job">Chief Scientist of Cortex</div>
+                                        <div class="article2">
+                                            <p>Shareholder of Bitfinex</p>
+                                            <p>LP of Bitfund</p>
+                                            <p>Venture Partner of Zhenfund</p>
+                                            <p>hydrogenesis@bitcointalk</p>
+                                            <p>Miner Since 2011</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </di-->
+                            <div class="swiper-slide">
+                                <div class="team-box2">
+                                    <div class="team-pic"><div class="bg-img" style="background-image:url(https://h.cash/themes/en/images/ab_05.png);"></div></div>
+                                    <div class="team-txt">
+                                        <h3 class="name">Haobo Ma</h3>
+                                        <div class="job">the founder of <span style="text-transform: none;">ælf</span></div>
+                                        <div class="article2">
+                                            <p>Haobo Ma is the founder of ælf, expert of blockchain industry, early practitioner in field of digital asset. He served as CTO at Gempay and CTO at AllCoin. He is the current member of Blockchain Experts Committee of the Chinese Institute of Electronics and Blockchain Experts Committee of China Computer Federation.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="team-box2">
+                                    <div class="team-pic"><div class="bg-img" style="background-image:url(https://h.cash/themes/en//images/ab_06.png);"></div></div>
+                                    <div class="team-txt">
+                                        <h3 class="name">Dr. Man Ho Allen AU</h3>
+                                        <div class="job">The Hong Kong Polytechnic University</div>
+                                        <div class="article2">
+                                            <p>Dr. Allen Au received his PhD degree from the University of Wollongong (2009). He is now an assistant professor and the director of Monash-PolyU-CollinstarCaptialJoint Laboratory on Blockchain and Cryptocurrency at the Hong Kong Polytechnic University. His research interests include information security, accountable anonymity and applied cryptography. He has made important contributions to the area of privacy-enhancing technologies.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section10 section10-2 section">
+        <div class="content">
+            <div class="wrapper clearfix">
+                <div class="hd">
+                    <div class="hTitle">
+                        <div class="icon"><img src="https://h.cash/themes/en/images/svg_block2.svg" alt=""></div>
+                        <h3>Research Committee</h3>
+                    </div>
+                </div>
+                <div class="bd">
+                    <div class="swiper-container team-container2">
+                        <div class="swiper-wrapper clearfix">
+                            <div class="swiper-slide">
+                                <div class="team-box2">
+                                    <div class="team-pic"><div class="bg-img" style="background-image:url(https://h.cash/themes/en/images/rc_01.jpg);"></div></div>
+                                    <div class="team-txt">
+                                        <h3 class="name">A/Prof. Gavin Brennen</h3>
+                                        <div class="job">Macquarie University</div>
+                                        <div class="article2">
+                                            <p>Dr.Gavin Brennen received his PhD from University of New Mexico, United States (2001), and is nowwith the Department of Physics and Astronomy at Macquarie University. He is director of the Macquarie Centre for Quantum Science and Technology (QSciTech) and also a chief investigator in the ARC Centre for Excellence in Engineered Quantum Systems (EQuS). </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="team-box2">
+                                    <div class="team-pic"><div class="bg-img" style="background-image:url(https://h.cash/themes/en/images/rc_02.jpg);"></div></div>
+                                    <div class="team-txt">
+                                        <h3 class="name">Dr.Miklos Santha</h3>
+                                        <div class="job">CNRS & National University of Singapore</div>
+                                        <div class="article2">
+                                            <p>Dr.Miklos Santha received his PhD from Université Paris-Diderot, France (1983), and is now a Senior Research Director at the Centre National de la RechercheScientifique in the Université Paris Diderot and a Principal Investigator at the Centre for Quantum Technologies at the National University of Singapore since 2008. He is an expertof classical and quantum algorithms and complexity.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="team-box2">
+                                    <div class="team-pic"><div class="bg-img" style="background-image:url(https://h.cash/themes/en/images/rc_03.jpg);"></div></div>
+                                    <div class="team-txt">
+                                        <h3 class="name">A/Prof. Troy Lee</h3>
+                                        <div class="job">Nanyang Technological University</div>
+                                        <div class="article2">
+                                            <p>Dr. Troy Lee received his PhD from the University of Amsterdam, Netherlands (2006), and is now an Associate Professor at Nanyang Technological University and a Principal Investigator at the Centre for Quantum Technologies. He has made important contributions to the areas of quantum algorithms and communication complexity. In 2013, Dr. Lee was awarded a prestigious Singapore National Research Foundation Fellowship.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="team-box2">
+                                    <div class="team-pic"><div class="bg-img" style="background-image:url(https://h.cash/themes/en/images/rc_04.jpg);"></div></div>
+                                    <div class="team-txt">
+                                        <h3 class="name">Dr.Marco Tomamichel</h3>
+                                        <div class="job">University of Technology Sydney</div>
+                                        <div class="article2">
+                                            <p>Dr. Marco Tomamichel received his PhD from ETH Zurich, Switzerland (2012), and is now a Senior Lecturer at the Centre for Quantum Software and Information with the University of Technology Sydney. His research interests lie at the intersection of quantum mechanics, information theory and cryptography. In 2015, Dr. Tomamichel won a Discovery Early Career Researcher Award to research how information can be processed with small quantum devices.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section11 section bg-img " style="background-image: url(https://h.cash/themes/en/images/bg_02.jpg);">
+        <div class="content">
+            <div class="wrapper clearfix">
+                <div class="hd">
+                    <div class="hTitle">
+                        <div class="icon"><img src="https://h.cash/themes/en/images/svg_block2.svg" alt=""></div>
+                        <h3>Research Partners</h3>
+                    </div>
+                </div>
+                <div class="bd">
+                    <div class="grow clearfix">
+                        <div class="col12-sm-4">
+                            <div class="imglist2">
+                                <div class="img"><img src="https://h.cash/themes/en/images/img_09.png" alt=""></div>
+                                <div class="name">SJTU</div>
+                                <div class="article2">SJTU is a public research university in Shanghai, China. The university is one of the first national institutions of higher learning in China, and renowned as one of the oldest, most prestigious and selective. It is one of the nine members that make up the C9 League of universities.</div>
+                            </div>
+                        </div>
+                        <div class="col12-sm-4">
+                            <div class="imglist2">
+                                <div class="img"><img src="https://h.cash/themes/en/images/img_10.png" alt=""></div>
+                                <div class="name">Hong Kong Polytechnic University</div>
+                                <div class="article2">The Hong Kong Polytechnic University is a public university located in Hung Hom, Hong Kong. The institution ranks 7th place on the 2019 Quacquarelli Symonds “Top 50 under 50” list which ranks the world’s top 50 universities established within the last 50 years.</div>
+                            </div>
+                        </div>
+                        <div class="col12-sm-4">
+                            <div class="imglist2">
+                                <div class="img"><img src="https://h.cash/themes/en/images/img_11.png" alt=""></div>
+                                <div class="name">Monash University</div>
+                                <div class="article2">Monash University is a member of Australia’s Group of Eight, a coalition of Australia’s eight leading research Universities, a member of the ASAIHL, and is the only Australian member of the influential M8 Alliance of Academic Health Centers, Universities and National Academies. Monash is one of two Australian universities to be ranked in the École des Mines de Paris (Mines ParisTech) ranking on the basis of the number of alumni listed among CEOs in the 500 largest worldwide companies.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section12 section fp-auto-height">
+        <div class="content">
+            <div class="wrapper clearfix">
+                <div class="hd">
+                    <div class="hTitle">
+                        <div class="icon"><img src="https://h.cash/themes/en/images/svg_block2.svg" alt=""></div>
+                        <h3>Investors</h3>
+                    </div>
+                </div>
+                <div class="bd">
+                    <ul class="imglist3">
+                                                <li><a><img src="/data/upload/2018-07/20180712112304129991.png"></a></li>
+                                                <li><a><img src="/data/upload/2018-07/20180712112233109213.png"></a></li>
+                                                <li><a><img src="/data/upload/2018-07/20180712112336895954.png"></a></li>
+                                                <li><a><img src="/data/upload/2018-07/20180712112240870219.png"></a></li>
+                                                <li><a><img src="/data/upload/2018-08/20180820065340201035.png"></a></li>
+                                                <li><a><img src="/data/upload/2018-07/20180712112218210761.png"></a></li>
+                                                <li><a><img src="/data/upload/2018-08/20180820104953688522.png"></a></li>
+                                                <li><a><img src="/data/upload/2018-07/20180712112345108086.png"></a></li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section13 section fp-auto-height">
+        <div class="content">
+            <div class="wrapper clearfix">
+                <div class="hd">
+                    <div class="hTitle">
+                        <div class="icon"><img src="https://h.cash/themes/en/images/svg_block2.svg" alt=""></div>
+                        <h3>Corporate Pools</h3>
+                    </div>
+                </div>
+                <div class="bd">
+                    <ul class="imglist3">
+                                                <li><a href="https://btccpool.info/?lang=zh" target="_blank"><img src="/data/upload/2018-07/20180712113414190297.png"></a></li>
+                                                <li><a href="http://www.91pool.com/" target="_blank"><img src="/data/upload/2018-07/20180712113427699311.png"></a></li>
+                                                <li><a href="https://www.bw.com/" target="_blank"><img src="/data/upload/2018-07/20180712113438149541.png"></a></li>
+                                                <li><a href="http://btc.top/" target="_blank"><img src="/data/upload/2018-07/20180712113446719035.png"></a></li>
+                                                <li><a href="https://www.antpool.com/" target="_blank"><img src="/data/upload/2018-07/20180712113455137537.png"></a></li>
+                                                <li><a href="http://hcash.globalpool.cc/" target="_blank"><img src="/data/upload/2018-07/20180712113503630538.png"></a></li>
+                                                <li><a href="https://uupool.cn/" target="_blank"><img src="/data/upload/2018-07/20180712113513549978.png"></a></li>
+                                                <li><a href="https://www.batpool.com/" target="_blank"><img src="/data/upload/2018-07/20180712113545156328.png"></a></li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section14 section fp-auto-height">
+        <div class="content">
+            <div class="wrapper clearfix">
+                <div class="hd">
+                    <div class="hTitle">
+                        <div class="icon"><img src="https://h.cash/themes/en/images/svg_block2.svg" alt=""></div>
+                        <h3>Join our Community</h3>
+                    </div>
+                </div>
+                <div class="bd">
+                    <ul class="imglist3">
+                                                <li>
+							<a href="https://www.facebook.com/HcashOfficial/" target="_blank"><img src="/data/upload/2018-07/20180712115138268313.png"></a>
+													</li>
+                                                <li>
+							<a href="https://twitter.com/HcashOfficial" target="_blank"><img src="/data/upload/2018-07/20180712115212159290.png"></a>
+													</li>
+                                                <li>
+							<a href="https://medium.com/@media_30378/" target="_blank"><img src="/data/upload/2018-07/20180723143213155570.png"></a>
+													</li>
+                                                <li>
+							<a href="http://t.me/HcashOfficialEnglish/" target="_blank"><img src="/data/upload/2018-07/20180723143131132824.png"></a>
+													</li>
+                                                <li>
+							<a href="http://reddit.com/r/hcash/" target="_blank"><img src="/data/upload/2018-07/20180712115433805698.png"></a>
+													</li>
+                                                <li>
+							<a href="https://github.com/HcashOrg" target="_blank"><img src="/data/upload/2018-07/20180712115455924285.png"></a>
+													</li>
+                                                <li>
+							<a href="" target="_blank"><img src="/data/upload/2018-07/20180712120004174023.png"></a>
+							                            <span><img src="https://h.cash/themes/en/images/ewm_weixin.jpg" alt=""></span>
+                            						</li>
+                                                <li>
+							<a href="https://www.linkedin.com/company/hcash/" target="_blank"><img src="/data/upload/2018-07/20180712115731100847.png"></a>
+													</li>
+                        
+                    </ul>
+                    <p>© Copyright 2018 HCASH. All rights reserved. Designed by <a href="http://www.legenddigital.com.au" style="text-decoration:underline;">Legend Digital</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="https://h.cash/themes/en/js/libs.min.js?v=0.3"></script>
+<script type="text/javascript" src="https://h.cash/themes/en/js/main.js?v=0.3"></script>
+</body>
+</html>

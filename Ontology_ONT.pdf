@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en" ng-app="public">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./css/NanumSquare-master/nanumsquare.css">
+    <link rel="stylesheet" href="./css/result.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <link rel="stylesheet" href="./css/developer.css">
+    
+    <title>Ontology</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113878921-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-113878921-1');
+    </script>
+</head>
+<body ng-controller="language">
+<nav id="nav">
+    <div class="content">
+        <a href="/" class="logo"><img src="./images/index_logo_03.png" alt="logo"></a>
+        <ul class="menu">
+            <li><a href="/" ng-bind="language.d1"></a></li>
+            <li><a href="{{language.d2durl}}" ng-bind="language.d2"></a></li>
+            <li><a href="{{language.d2url}}" ng-bind="language.d2a"></a></li>
+           <!--  <li><a href="{{language.d100}}" ng-bind="language.d3"></a></li> -->
+            <li><a href="{{language.d3004url}}" ng-bind="language.d3004"></a></li>
+            <li><a href="{{language.d1001}}" ng-bind="language.d3001"></a></li>
+            <li><a href="{{language.d3002url}}" ng-bind="language.d3002" target="_blank"></a></li>
+            <li><a href="{{language.d3003url}}" ng-bind="language.d3003" target="_blank"></a></li>
+            <li class="active"><a href="javascript:" ng-bind="language.d4"></a>
+                <ul class="two">
+                    <li><a href="{{language.d100}}" ng-bind="language.d3"></a></li>
+                    <li><a href="{{language.d102}}" ng-bind="language.d5"></a></li>
+                    <!--<li><a href="http://info.ont.io/event" ng-bind="language.d6"></a></li>-->
+                    <li><a href="{{language.d101}}" ng-bind="language.d7"></a></li>
+                    <li><a href="{{language.d103}}" ng-bind="language.d9"></a></li>
+                    <li><a href="/about" ng-bind="language.d8"></a></li>
+                    <div class="arrow_down"></div>
+                </ul>
+            </li>
+            <li class="last_menu" ><a href="javascript:" ></a><span ng-bind="language.dlang" ></span>
+                <ul class="one">
+                    <li><a href="javascript:" ng-click="lang('en')"class="nokoreanlang">English</a></li>
+                    <li><a href="javascript:" ng-click="lang('cn')"class="nokoreanlang">中文</a></li>
+                    <li><a href="javascript:" ng-click="lang('ko')" class="koreanlang">한국어</a></li>
+                    <li><a href="javascript:" ng-click="lang('jp')" class="nokoreanlang">日本語</a></li>
+                    <div class="arrow_down"></div>
+                </ul>
+            </li>
+            <!--<li><a href="javascript:">Language <i class="icon_arrow"></i></a></li>-->
+            <!--<li>
+                <form action="">
+                    <input type="text" placeholder="Search">
+                    <i class="icon_search"></i>
+                </form>
+            </li>-->
+        </ul>
+    </div>
+    <div class="mobile_btn active">
+        <span></span>
+        <strong></strong>
+        <i></i>
+    </div>
+</nav>
+<div id="mobile_nav">
+    <ul class="menu">
+        <li><a href="/" ng-bind="language.d1"></a></li>
+        <li><a href="{{language.d2durl}}" ng-bind="language.d2"></a></li>
+        <li><a href="{{language.d2url}}" ng-bind="language.d2a"></a></li>
+        <li><a href="{{language.d3004url}}" ng-bind="language.d3004"></a></li>
+        <li><a href="{{language.d1001}}" ng-bind="language.d3001"></a></li>
+        <li><a href="{{language.d3002url}}" ng-bind="language.d3002" target="_blank"></a></li>
+        <li><a href="{{language.d3003url}}" ng-bind="language.d3003" target="_blank"></a></li>
+        <li><a href="{{language.d100}}" ng-bind="language.d3"></a></li>
+        <li><a href="{{language.d102}}" ng-bind="language.d5"></a></li>
+        <li><a href="{{language.d101}}" ng-bind="language.d7"></a></li>
+        <li><a href="{{language.d103}}" ng-bind="language.d9"></a></li>
+        <li><a href="/about" ng-bind="language.d8"></a></li>
+        <li>
+            <a href="javascript:">Language</a>
+            <ul class="lang_menu">
+                <li><a href="javascript:" ng-click="lang('en')" class="nokoreanlang">English</a></li>
+                <li><a href="javascript:" ng-click="lang('cn')" class="nokoreanlang">中文</a></li>
+                <li><a href="javascript:" ng-click="lang('ko')" class="koreanlang">한국어</a></li>
+                <li><a href="javascript:" ng-click="lang('jp')" class="nokoreanlang">日本語</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+		<main id="main" class="main">
+			<div class="inner">
+				<h3 ng-bind="language.d23"></h3>
+
+				<ul>
+					<li>
+						<a style="cursor:pointer;color:#fff"  target="view_window" href="{{language.d156}}" download="{{language.d157}}">
+							<p ng-bind="language.d24" ></p>
+							<div class="posi"></div>
+					    </a>
+					</li>
+					<li>
+						<a style="cursor:pointer;color:#fff"  target="view_window" href="{{language.d158}}" download="{{language.d159}}">
+							<p ng-bind="language.d25"></p>
+						    <div class="posi"></div>
+					    </a>
+					</li>
+					<li>
+						<a style="cursor:pointer;color:#fff"  target="view_window" href="{{language.d160}}" download="{{language.d161}}">
+							<p ng-bind="language.d26" ></p>
+						    <div class="posi"></div>
+					    </a>
+					</li>
+					<li>
+						<p  ng-bind="language.d27"></p>
+						<div class="posi"></div>
+					</li>
+					<li>
+						<p ng-bind="language.d28"></p>
+						<div class="posi"></div>
+					</li>
+				</ul>
+				<div class="github">
+					<img src="images/developer/04.jpg"/>
+					<a href="javascript:">github</a>
+				</div>
+				<div class="opendoc" >
+					<img src="images/developer/04.jpg"/>
+					<a href="{{language.d170}}" ng-bind="language.d169"></a>
+				</div>
+			</div>
+		</main>
+<div id="back_up"></div>
+<footer id="footer">
+    <div class="inner">
+        <div class="top clearfix">
+            <div class="left">
+                <img src="images/index_logo_03.png" />
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a target="view_window" href="{{language.d150}}"><img src="images/footer_01.png"/></a></li>
+                    <li><a target="view_window" href="{{language.d151}}"><img src="images/footer_02.png"/></a></li>
+                    <li><a target="view_window" href="{{language.d152}}"><img src="images/footer_03.png"/></a></li>
+                    <li><a target="view_window" href="{{language.d153}}"><img src="images/footer_04.png"/></a></li>
+                    <li><a target="view_window" href="{{language.d154}}"><img src="images/footer_05.png"/></a></li>
+                    <li><a target="view_window" href="{{language.d155}}"><img src="images/footer_06.png"/></a></li>
+                    <li><a  href="mailto:contact@ont.io"><img src="images/footer_08.png"/></a></li>
+                    <li><a target="view_window" href="https://github.com/ontio"><img src="images/footer_07.png"/></a></li>
+                    <li><a target="view_window" href="https://www.linkedin.com/company/ontology-network-official/"><img src="images/footer_09.png"/></a></li>
+                    <!--<li><img src="images/footer_07.png"/></li>-->
+                </ul>
+            </div>
+        </div>
+        <div class="center clearfix">
+            <ul class="dl">
+                <li>
+                    <ul class="down_list">
+                        <li><a href="/" ng-bind="language.d147"></a></li>
+                        <li><a href="/about" ng-bind="language.d96"></a></li>
+                        <li><a href="{{language.d103}}" ng-bind="language.d97"></a></li>
+                        <li><a href="{{language.d100}}" ng-bind="language.d95"></a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="down_list">
+                        <li><a href="/documents" ng-bind="language.d94"></a></li>
+                        <li><a href="{{language.d102}}" ng-bind="language.d98"></a></li>
+                        <li><a href="{{language.d101}}" ng-bind="language.d7"></a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="wei" ng-if="language.d148">
+                <div class="right">
+                    <p class="one">wechat</p>
+                    <img src="images/footer_08.jpg"/>
+                </div>
+                <div class="foot_posi">
+                    <a href="javascript:" class="mo">{{key_lang}}<img src="images/foot_posi.png"/></a>
+                    <ul>
+                        <li><a href="javascript:" ng-click="lang('cn')">中文</a></li>
+                        <li><a href="javascript:" ng-click="lang('en')">English</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="dot">Copyright © 2018 The Ontology Team</div>
+    </div>
+</footer>
+<script src="./js/jquery-1.10.2.min.js"></script>
+<script src="js/angular.min.js"></script>
+<script src="js/style.js"></script>
+
+<script src="./js/developer.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,1116 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-lLo2nlsdl+bHLu6PGvC2j3wfP45RnK4wKQLiPnCDcuXfU38AiD+JCdMywnF3WbJC1jaxe3lAI6AM4uJuMFBLEw==" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-08fc49d3bd2694c870ea23d0906f3610.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-eB5YQL276GYTLnjRSk9GlYg20IwKRa2HBFTNOpo8PTPbQUH479bYZW9IXOC/6edaDS+qWnGmdKfaFpliM4ufAw==" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-94dfbe9ddd7668765d322949275239a7.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" integrity="sha512-PcJMPDRp7jbbEAmTk9kaL2kRQqg69QZ26WsZf07xsPyaipKsi3wVG0805PZNYXxotPDAliKKFvNSQPhD8fp1FQ==" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-50c740d9290419d070dd6213a7cd03b5.css" />
+  
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>ION Technical Whitepaper · ionomy/ion Wiki · GitHub</title>
+    <meta name="description" content="Ion Core integration/staging tree. Contribute to ionomy/ion development by creating an account on GitHub.">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/18120543?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="ionomy/ion" /><meta property="og:url" content="https://github.com/ionomy/ion" /><meta property="og:description" content="Ion Core integration/staging tree. Contribute to ionomy/ion development by creating an account on GitHub." />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="4A5A:150A:32DC6BF:4CECCD0:5C06DF32" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_wiki" data-pjax-transient>
+
+      <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+    <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="4A5A:150A:32DC6BF:4CECCD0:5C06DF32" /><meta name="octolytics-dimension-region_edge" content="sea" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/wiki/show" data-pjax-transient="true" />
+
+
+
+    <meta name="google-analytics" content="UA-3769691-2">
+
+
+<meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="YTc3NWZlZDE4ODUxZGE5OTMxYjNlZDE2MWMyNmEwNDgxMjBlNTNkZmM5OGVjZmJkZjdhZDFhNDMwMDk3NjJjMXx7InJlbW90ZV9hZGRyZXNzIjoiMTI4LjE3Ny4xMTMuMTAyIiwicmVxdWVzdF9pZCI6IjRBNUE6MTUwQTozMkRDNkJGOjRDRUNDRDA6NUMwNkRGMzIiLCJ0aW1lc3RhbXAiOjE1NDM5NTQyMjYsImhvc3QiOiJnaXRodWIuY29tIn0=">
+
+    <meta name="enabled-features" content="DASHBOARD_V2_LAYOUT_OPT_IN,EXPLORE_DISCOVER_REPOSITORIES,UNIVERSE_BANNER,MARKETPLACE_PLAN_RESTRICTION_EDITOR">
+
+  <meta name="html-safe-nonce" content="6ad2a6027a01736ad7c4eff6df6b58e81eb883ed">
+
+  <meta http-equiv="x-pjax-version" content="e8c0c5533f915fb591e3ba08037f7263">
+  
+
+      <link href="https://github.com/ionomy/ion/commits/master.atom" rel="alternate" title="Recent Commits to ion:master" type="application/atom+xml">
+
+  <meta name="go-import" content="github.com/ionomy/ion git https://github.com/ionomy/ion.git">
+
+  <meta name="octolytics-dimension-user_id" content="18120543" /><meta name="octolytics-dimension-user_login" content="ionomy" /><meta name="octolytics-dimension-repository_id" content="126834154" /><meta name="octolytics-dimension-repository_nwo" content="ionomy/ion" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="true" /><meta name="octolytics-dimension-repository_parent_id" content="126659885" /><meta name="octolytics-dimension-repository_parent_nwo" content="cevap/ion" /><meta name="octolytics-dimension-repository_network_root_id" content="126659885" /><meta name="octolytics-dimension-repository_network_root_nwo" content="cevap/ion" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production page-responsive min-width-0">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+        
+<header class="Header header-logged-out js-details-container Details position-relative f4 py-3" role="banner">
+  <div class="container-lg d-lg-flex flex-items-center p-responsive">
+    <div class="d-flex flex-justify-between flex-items-center">
+        <a class="mr-4" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+          <svg height="32" class="octicon octicon-mark-github text-white" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+        </a>
+
+          <div class="d-lg-none css-truncate css-truncate-target width-fit p-2">
+            
+              <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+    <strong><a class="text-white" href="/ionomy">ionomy</a></strong>
+    /
+    <strong><a class="text-white" href="/ionomy/ion">ion</a></strong>
+
+
+          </div>
+
+        <div class="d-flex flex-items-center">
+            <a class="d-inline-block d-lg-none f5 text-white no-underline border border-gray-dark rounded-2 px-2 py-1 mr-3 mr-sm-5" href="/join?source=experiment-header-dropdowns-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up; experiment:site_header_dropdowns; group:dropdowns">Sign&nbsp;up</a>
+
+          <button class="btn-link d-lg-none mt-1 js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+            <svg height="24" class="octicon octicon-three-bars text-white" viewBox="0 0 12 16" version="1.1" width="18" aria-hidden="true"><path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"/></svg>
+          </button>
+        </div>
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--logged-out position-fixed top-0 right-0 bottom-0 height-fit position-lg-relative d-lg-flex flex-justify-between flex-items-center flex-auto">
+      <div class="d-flex d-lg-none flex-justify-end border-bottom bg-gray-light p-3">
+        <button class="btn-link js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <svg height="24" class="octicon octicon-x text-gray" viewBox="0 0 12 16" version="1.1" width="18" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+        </button>
+      </div>
+
+        <nav class="mt-0 px-3 px-lg-0 mb-5 mb-lg-0" aria-label="Global">
+          <ul class="d-lg-flex list-style-none">
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Why GitHub?
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <a href="/features" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Features">Features <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
+                    <ul class="list-style-none f5 pb-3">
+                      <li class="edge-item-fix"><a href="/features/code-review/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code review">Code review</a></li>
+                      <li class="edge-item-fix"><a href="/features/project-management/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Project management">Project management</a></li>
+                      <li class="edge-item-fix"><a href="/features/integrations" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Integrations">Integrations</a></li>
+                      <li class="edge-item-fix"><a href="/features#team-management" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Team management">Team management</a></li>
+                      <li class="edge-item-fix"><a href="/features#social-coding" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Social coding">Social coding</a></li>
+                      <li class="edge-item-fix"><a href="/features#documentation" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Documentation">Documentation</a></li>
+                      <li class="edge-item-fix"><a href="/features#code-hosting" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code hosting">Code hosting</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
+                      <li class="edge-item-fix"><a href="/case-studies" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Case studies">Case Studies <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="/security" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Security">Security <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+              <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
+                <a href="/business" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Business">Business</a>
+              </li>
+
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Explore
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/explore" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Features">Explore GitHub <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2 border-lg-top pt-lg-3">Learn &amp; contribute</h4>
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/topics" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Topics">Topics</a></li>
+                      <li class="edge-item-fix"><a href="/collections" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Collections">Collections</a></li>
+                      <li class="edge-item-fix"><a href="/trending" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Trending">Trending</a></li>
+                      <li class="edge-item-fix"><a href="https://lab.github.com/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Learning lab">Learning Lab</a></li>
+                      <li class="edge-item-fix"><a href="https://opensource.guide" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Open source guides">Open source guides</a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2 border-lg-top pt-lg-3">Connect with others</h4>
+                    <ul class="list-style-none mb-0">
+                      <li class="edge-item-fix"><a href="/events" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Events">Events</a></li>
+                      <li class="edge-item-fix"><a href="https://github.community" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Community forum">Community forum</a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Education">GitHub Education</a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+
+              <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
+                <a href="/marketplace" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Marketplace">Marketplace</a>
+              </li>
+
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Pricing
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                       <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-4 mt-0 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <a href="/pricing" class="pb-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Pricing">Plans <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/pricing/developer" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Developers">Developer</a></li>
+                      <li class="edge-item-fix"><a href="/pricing/team" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Team">Team</a></li>
+                      <li class="edge-item-fix"><a href="/pricing/business-cloud" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Business Cloud">Business Cloud</a></li>
+                      <li class="edge-item-fix"><a href="/pricing/enterprise" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Enterprise">Enterprise</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
+                      <li class="edge-item-fix"><a href="/pricing#feature-comparison" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Compare features">Compare plans <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="/nonprofit" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Nonprofits">Nonprofit <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com/discount_requests/new" class="py-2 pb-0 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover"  data-ga-click="(Logged out) Header, go to Education">Education <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+          </ul>
+        </nav>
+
+      <div class="d-lg-flex flex-items-center px-3 px-lg-0 text-center text-lg-left">
+          <div class="d-lg-flex mr-lg-3 mb-3 mb-lg-0">
+            <div class="header-search scoped-search site-scoped-search js-site-search position-relative js-jump-to"
+  role="combobox"
+  aria-owns="jump-to-results"
+  aria-label="Search or jump to"
+  aria-haspopup="listbox"
+  aria-expanded="false"
+>
+  <div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scope-type="Repository" data-scope-id="126834154" data-scoped-search-url="/ionomy/ion/search" data-unscoped-search-url="/search" action="/ionomy/ion/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+      <label class="form-control header-search-wrapper header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
+        <input type="text"
+          class="form-control header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
+          data-hotkey="s,/"
+          name="q"
+          value=""
+          placeholder="Search"
+          data-unscoped-placeholder="Search GitHub"
+          data-scoped-placeholder="Search"
+          autocapitalize="off"
+          aria-autocomplete="list"
+          aria-controls="jump-to-results"
+          aria-label="Search"
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=lIY8W2fESdbphe20v+n2xEZH78CFgGhWpqr0ZlmPAVrih1TP8vV1Iip0RAN/eRiC3zogpblM04y03GQ7ouezgQ=="
+          spellcheck="false"
+          autocomplete="off"
+          >
+          <input type="hidden" class="js-site-search-type-field" name="type" >
+            <img src="https://assets-cdn.github.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
+
+            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+              
+<ul class="d-none js-jump-to-suggestions-template-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+</ul>
+
+<ul class="d-none js-jump-to-no-results-template-container">
+  <li class="d-flex flex-justify-center flex-items-center f5 d-none js-jump-to-suggestion p-2">
+    <span class="text-gray">No suggested jump to results</span>
+  </li>
+</ul>
+
+<ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+
+</ul>
+
+            </div>
+      </label>
+</form>  </div>
+</div>
+
+          </div>
+
+        <a class="HeaderMenu-link no-underline mr-3" href="/login?return_to=%2Fionomy%2Fion%2Fwiki%2FION-Technical-Whitepaper" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign&nbsp;in</a>
+          <a class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1" href="/join?source=experiment-header-dropdowns-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign&nbsp;up</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+
+</div>
+
+
+
+  <div role="main" class="application-main " data-commit-hovercards-enabled>
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div  >
+      
+
+
+
+  
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav pt-0 pt-lg-3 ">
+    <div class="repohead-details-container clearfix container-lg p-responsive d-none d-lg-block">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Fionomy%2Fion"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-s"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/ionomy/ion/watchers"
+     aria-label="12 users are watching this repository">
+    12
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fionomy%2Fion"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-s"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/ionomy/ion/stargazers"
+      aria-label="8 users starred this repository">
+      8
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fionomy%2Fion"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-s"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/ionomy/ion/network/members" class="social-count"
+       aria-label="13 users forked this repository">
+      13
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" data-hovercard-type="organization" data-hovercard-url="/orgs/ionomy/hovercard" href="/ionomy">ionomy</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/ionomy/ion">ion</a></strong>
+
+    <span class="fork-flag">
+      <span class="text">forked from <a href="/cevap/ion">cevap/ion</a></span>
+    </span>
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container-lg p-responsive d-none d-lg-block"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+    aria-label="Repository"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /ionomy/ion" href="/ionomy/ion">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /ionomy/ion/issues" href="/ionomy/ion/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">0</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /ionomy/ion/pulls" href="/ionomy/ion/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">1</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /ionomy/ion/projects" href="/ionomy/ion/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+    <a class="js-selected-navigation-item selected reponav-item" data-hotkey="g w" aria-current="page" data-selected-links="repo_wiki /ionomy/ion/wiki" href="/ionomy/ion/wiki">
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      Wiki
+</a>
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse alerts security /ionomy/ion/pulse" href="/ionomy/ion/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+  <div class="reponav-wrapper reponav-small d-lg-none">
+  <nav class="reponav js-reponav text-center no-wrap"
+       itemscope
+       itemtype="http://schema.org/BreadcrumbList">
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a class="js-selected-navigation-item reponav-item" itemprop="url" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /ionomy/ion" href="/ionomy/ion">
+        <span itemprop="name">Code</span>
+        <meta itemprop="position" content="1">
+</a>    </span>
+
+      <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /ionomy/ion/issues" href="/ionomy/ion/issues">
+          <span itemprop="name">Issues</span>
+          <span class="Counter">0</span>
+          <meta itemprop="position" content="2">
+</a>      </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /ionomy/ion/pulls" href="/ionomy/ion/pulls">
+        <span itemprop="name">Pull requests</span>
+        <span class="Counter">1</span>
+        <meta itemprop="position" content="3">
+</a>    </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /ionomy/ion/projects" href="/ionomy/ion/projects">
+        <span itemprop="name">Projects</span>
+        <span class="Counter">0</span>
+        <meta itemprop="position" content="4">
+</a>    </span>
+
+      <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+        <a itemprop="url" class="js-selected-navigation-item selected reponav-item" aria-current="page" data-selected-links="repo_wiki /ionomy/ion/wiki" href="/ionomy/ion/wiki">
+          <span itemprop="name">Wiki</span>
+          <meta itemprop="position" content="5">
+</a>      </span>
+
+    <a class="js-selected-navigation-item reponav-item" data-selected-links="pulse /ionomy/ion/pulse" href="/ionomy/ion/pulse">
+      Pulse
+</a>
+
+  </nav>
+</div>
+
+
+  </div>
+
+<div class="container-lg new-discussion-timeline experiment-repo-nav  p-responsive">
+  <div class="repository-content ">
+
+    
+  <div id="wiki-wrapper" class="page">
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="b/GVm9U5Eem2sr/dl+jDpQpykVJU8sgBknet3996g13J1E9pfRHcPKDhaNmoPGWSac05glgohxGN9OMabj2HEw==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 28 million developers working together to host and review code, manage projects, and build software together.</p>
+          <a class="btn btn-primary" href="/join?source=prompt-wiki-show" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="d-flex flex-column flex-md-row gh-header">
+    <h1 class="flex-auto min-width-0 mb-2 mb-md-0 mr-0 mr-md-2 gh-header-title instapaper_title">ION Technical Whitepaper</h1>
+
+      <div class="mt-0 mt-lg-1 flex-shrink-0 gh-header-actions">
+        <a href="#wiki-pages-box" class="d-md-none ">Jump to bottom</a>
+
+      </div>
+  </div>
+
+    <div class="mt-2 mt-md-1 pb-3 gh-header-meta">
+      FornaxA edited this page <relative-time datetime="2018-03-26T16:06:22Z">Mar 26, 2018</relative-time>
+      &middot;
+      <a href="/ionomy/ion/wiki/ION-Technical-Whitepaper/_history" class="muted-link">
+        1 revision
+      </a>
+    </div>
+
+  <div id="wiki-content" class="d-flex flex-column flex-md-row">
+    <div id="wiki-body" class="mt-4 flex-auto min-width-0 gollum-markdown-content instapaper_body">
+        <div class="markdown-body">
+          <p><img src="https://camo.githubusercontent.com/107c1c4a91e3976ecc6a63ef856c8f8957f4f1ed/687474703a2f2f692e696d6775722e636f6d2f59515172395a612e706e67" alt="image alt text" data-canonical-src="http://i.imgur.com/YQQr9Za.png">
+**</p><p align="center">
+ION white paper v. 0.1</p>
+**
+**<p align="center">
+https://github.com/ionomy/ion/wiki/ION-Technical-Whitepaper
+</p>**
+**<p align="center">
+April 9, 2016
+</p>**
+**<p align="center">
+ION white paper v. 0.1
+</p>**
+**<p align="center">
+Adam Matlack  
+adam@ionomy.com
+</p>**
+**<p align="center">
+Michael Pfeiffer  
+michael@ionomy.com
+</p>**
+<p>**</p><p align="center">
+Richard Nelson<br>
+<a href="mailto:richard@ionomy.com">richard@ionomy.com</a></p>
+**
+<p>**_</p><p align="center">
+<em>This "living document" will be updated and revised until published upon public launch of ION.</em></p>
+_**
+## Abstract
+<p>ION is a blockchain based decentralized cryptocurrency that rewards network participation via static proof of stake. ION rewards "connectivity age" instead of “coin age,” thus eliminating abuse from exchanges and users that do not actively contribute to the network. By having a static reward system, the rewards for participation are proportional to the work every active node contributes. This discourages centralization and promotes network health. In addition to static rewards, ION implements a masternode network to incentivize large holders, and perform advanced functions such as near instant and private transactions.</p>
+<p>This paper describes the basic coin specifications, features, and capabilities of the coin. The paper also describes coin distribution, funding purposes, future growth efforts, and the involvement of ionomy.com.</p>
+<p>The long term vision for ION is a thriving cryptocurrency ecosystem centered on gaming and digital goods.</p>
+<table>
+  <tr>
+    <td>
+</td>
+![Authors](http://i.imgur.com/MIT78gw.png)
+<h2>
+<a id="user-content-table-of-contents" class="anchor" href="#table-of-contents" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Table of contents</h2>
+<ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#table-of-contents">Table of contents</a></li>
+<li><a href="#coin-overview">Coin overview</a></li>
+<li><a href="#proof-of-work-vs-static-proof-of-stake">Proof of work vs. Static proof of stake</a></li>
+<li><a href="#initial-coin-supply">Initial coin supply</a></li>
+<li><a href="#block-reward-schedule">Block reward schedule</a></li>
+<li><a href="#distribution-of-coin">Distribution of coin</a></li>
+<li><a href="#blockchain-specifications">Blockchain specifications</a></li>
+<li><a href="#staking-wallets">Staking wallets</a></li>
+<li><a href="#masternodes">Masternodes</a></li>
+<li><a href="#private-transactions">Private transactions</a></li>
+<li><a href="#coin-development-roadmap">Coin development roadmap</a></li>
+<li><a href="#bounties">Bounties</a></li>
+<li><a href="#coins-in-context">Coins in Context</a></li>
+<li><a href="#conclusions">Conclusions</a></li>
+<li><a href="#acknowledgements">Acknowledgements</a></li>
+<li><a href="#references">References</a></li>
+<li><a href="#sample-ion-block">Sample ION Block</a></li>
+</ul>
+<h2>
+<a id="user-content-coin-overview" class="anchor" href="#coin-overview" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Coin overview</h2>
+<ul>
+<li>
+<p><strong>Static proof of stake, version 3</strong></p>
+</li>
+<li>
+<p><strong>Initial coin supply: 10,900,000 IONs</strong></p>
+<ul>
+<li>5 million IONs will be available through the Initial Coin Offering (ICO) in exchange for BTC and a wide selection of other cryptocurrencies.</li>
+<li>3.4 million IONs are allocated to ionomy.com and shall be distributed as structured incentives to gamers through the gaming applications designed by ionomy.com.</li>
+<li>2.5 million IONs are reserved to pay bounties for coin development.</li>
+</ul>
+</li>
+<li>
+<p><strong>Block rewards</strong></p>
+<ul>
+<li>Year 1 = 23 IONs per block</li>
+<li>Year 2 = 17 IONs per block</li>
+<li>Year 3 = 11.5 IONs per block</li>
+<li>Year 4 = 5.75 IONs per block</li>
+<li>Years 5 to 9 = 1.85 IONs per block</li>
+<li>Years 10 to 100 = 0.2 IONs per block</li>
+</ul>
+</li>
+<li>
+<p><strong>Final coin supply: 55 million total coins</strong></p>
+</li>
+<li>
+<p><strong>Blockchain specifications</strong></p>
+<ul>
+<li>Target block generation time: 1 minute</li>
+<li>Block height: 1 kb to 8 mb</li>
+</ul>
+</li>
+<li>
+<p><strong>Masternodes</strong></p>
+<ul>
+<li>20,000 IONs transaction with 15 block confirmations</li>
+<li>Peer validated network uptime</li>
+<li>Private transactions (0.01 ION fee to masternodes)</li>
+<li>Active masternodes proportionally receive 50% of each block reward.</li>
+</ul>
+</li>
+<li>
+<p><strong>Staking wallets</strong></p>
+<ul>
+<li>Connected wallets rewarded proportional to network uptime and coin volume</li>
+</ul>
+</li>
+<li>
+<p><strong>Coin development roadmap</strong></p>
+<ul>
+<li>Specified rewards engage talented developers to improve coin functionality</li>
+<li>Developers paid when code is validated to meeting bounty specifications and is merged into the ION core code on github</li>
+</ul>
+</li>
+</ul>
+<h2>
+<a id="user-content-proof-of-work-vs-static-proof-of-stake" class="anchor" href="#proof-of-work-vs-static-proof-of-stake" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Proof of work vs Static proof of stake</h2>
+<p>Bitcoin achieved the first distributed blockchain-based transaction ledger and an immutable digital currency. To achieve this, Bitcoin rewarded the distribution of computing equipment to maintain a decentralized blockchain and secure network. There was a short period of time when this worked well, but now Bitcoin rewards the <em>accumulation</em> of computing power, and only a few consolidated pools maintain the network.</p>
+<p>The rapid growth of the Bitcoin network is also a disastrous burden on ecology. The exponential expansion of computing power has lead to a similar rise in difficulty, and power hungry mining consume a vast amount of electricity.</p>
+<p>This concentration of power threatens the distributed model of checks and balances, and even governance over core development is at odds with how to solve the growing problems. A single transaction confirmation can take in excess of 12 minutes (blockchain.info, 2016) and the technology is vulnerable to attacks increase the delays.</p>
+<p>Thus, ionomy.com rejected mining and proof of work as the basis for security and adopted proof of stake instead.</p>
+<p>Critics of proof of work developed proof of stake (PoS) as an alternative protocol. PoS systems depend upon a low-energy, distributed computing network to achieve the same ends of a secure, distributed blockchain. They rely on accumulation of coin instead of computing power as the basis for rewards for securing the network.</p>
+<p>Early models of proof of stake were designed around "coin age," the length of time that the coin was held in a wallet, and “coin weight,” the total amount of coin in the wallet. These have proven to be necessary but insufficient conditions for rewards because they do not reward active facilitation of network transactions. In theory, and in practice, holders of cryptocurrencies based on the first versions of PoS could deposit large volumes of coin into a wallet, take it offline, accrue coin age for an extended period of time, then bringing the wallet online momentarily to obtain an instantaneous reward.</p>
+<p>This first version of PoS rewards users for holding onto coins without actively contributing to the integrity of the network. In this model, exchanges and other large holders of coin maintain offline wallets, and only periodically connect them to the network to generate and sell the stake. This directly increases the coin supply while driving down the market value of the coin.</p>
+<p>In contrast, ION uses a "static" proof of stake system, version 3 (PoS 3, or SPoS), which aligns incentives with user behaviors to actively contribute to a robust, fast, and secure network. The reward is “static” because it is always the same (50% of the block reward). Coin weight still matters, but “connectivity age,” – the duration a wallet maintains active network communication – replaces coin age as the primary probability parameter for staking. Rewards are thus contingent upon active work and the amount of ION held in wallets to maintain and secure the network.</p>
+<p>In addition, ION implements masternodes (Duffield, 2015) to reward large holders of coin, contribute to network robustness, and perform advanced functions such as near instant and private transactions.</p>
+<h2>
+<a id="user-content-initial-coin-supply" class="anchor" href="#initial-coin-supply" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Initial coin supply</h2>
+<p>A total of 10,900,000 IONs will be used for the initial coin supply. These coins are generated in the genesis block and will be held in trust by ionomy.com. The coins shall be distributed as follows:</p>
+<ul>
+<li>
+<p>5 million IONs will be available through the Initial Coin Offering (ICO) in exchange for BTC and a wide selection of other cryptocurrencies. Details about the ICO and cost can be found at ionomy.com. ionomy.com will manage the procedes from the ICO and any coins that are not sold will be used to incentivize independent developers to integrate their games into ionomy.com.</p>
+</li>
+<li>
+<p>3.4 million IONs are allocated to ionomy.com and shall be distributed as structured incentives to gamers through the gaming applications designed by ionomy.com. These incentives are meant to help distribute the coin, grow the user base, and engage users in the ION social, financial, and gaming economy.</p>
+</li>
+<li>
+<p>2.5 million IONs are reserved to pay bounties for coin development. Bounties contribute to decentralized development. They invite cross-fertilization across the crypto space, bringing the best minds to contribute to the ION economy (the "ionomy"). Bounties also allow the community to drive initiatives by posting rewards for any feature desired. Initial development priorities are outlined in the <em>Bounties</em> section below.</p>
+</li>
+</ul>
+<h2>
+<a id="user-content-block-reward-schedule" class="anchor" href="#block-reward-schedule" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Block reward schedule</h2>
+<p><img src="https://camo.githubusercontent.com/aa043b515b3b5b3a1b66ddd4b171640f7aa2b60f/687474703a2f2f692e696d6775722e636f6d2f64706b637051592e706e67" alt="http://i.imgur.com/dpkcpQY.png" data-canonical-src="http://i.imgur.com/dpkcpQY.png"></p>
+<h2>
+<a id="user-content-distribution-of-coin" class="anchor" href="#distribution-of-coin" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Distribution of coin</h2>
+<p>Many alternative cryptocurrencies start with a proof of work phase. Developers reason that miners become engaged with the coin economy and earn the coin through the work of mining. The lesson the ionomy.com team has taken from the history of cryptocurrency, however, is that the PoW phase encourages "mining and dumping" which drives down the value of the asset from the start. This supposedly “engaged” user base simply uses mining as a vehicle for quick profit then leaves without contributing ongoing value to the coin or community that uses it.</p>
+<p>The ionomy.com business plan, however, is designed to grow the coin value through partial centralization in order to nurture a community whose continuous use of ION gives the coin lasting transactional value. For fuller details on the business model, please see the ionomy.com white paper.</p>
+<p>Distribution of IONs takes place both through the ION technology and through the ionomy.com gaming company, according to its business plan. On the technology side, IONs are distributed as a reward for network security and blockchain maintenance performed by wallets and masternodes holding IONs. On the business side, ionomy.com rewards participants on the ionomy.com investment and social platform and rewards gamers on the gaming platforms for their investments, engagement and contributions to the ION community. This joint mode of distribution safeguards the technological infrastructure and populates the ION economy with an active user base. The plan is designed to generate a continuous stream of ION users and to give the coin lasting transactional value. For fuller details on the business model, please see the ionomy.com white paper.</p>
+<h2>
+<a id="user-content-blockchain-specifications" class="anchor" href="#blockchain-specifications" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><strong>Blockchain Specifications</strong>
+</h2>
+<ul>
+<li>Target block generation time: 1 minute</li>
+<li>Block height: 1 kb to 8 mb</li>
+<li>Fee for private transactions: 0.01 ION</li>
+<li>Static proof of stake version 3</li>
+<li>See <a href="#appendix-a">Appendix A</a> for sample ION block</li>
+</ul>
+<p>The combination of one minute block time and minimum transaction fees were designed with speed and security in mind. The ample block height allows for scaling as network transaction volume increases. Collectively, these specifications prevent malicious actors from flooding the network with fake transactions, as has happened lately bringing Bitcoin transactions to a crawl (Gautham, 2016). Bad actors can still try to fill large blocks with multiple small transactions, but they will waste their time and money. The masternodes will collect large fees from their failed efforts.</p>
+<h2>
+<a id="user-content-staking-wallets" class="anchor" href="#staking-wallets" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><strong>Staking wallets</strong>
+</h2>
+<p>QT wallets have been developed for general users. Daemon wallets have been developed for advanced users. Wallets will be maintained for all major desktop platforms: Windows, Mac, and Linux. QT and daemon wallets give ION holders complete control of the security of their ION, with controls to send and receive transactions. Online wallets contribute to network security by confirming successive blocks of validated transactions as they are added to the official blockchain, thus maintaining the complete ledger of all ION transactions.</p>
+<ul>
+<li>
+<p>Coins required: No minimum. (Wallets must contain a non-zero sum of IONs to receive stake rewards.)</p>
+</li>
+<li>
+<p>Wallet stake reward = 50% block reward for each discovered block.</p>
+</li>
+</ul>
+<p>Staking is probabilistic, and probability is distributed according the amount of ION in the wallet address (coin weight) and the duration ION is held in the continuously connected wallet (connectivity age). Valid network connectivity requires that the wallet be connected to the internet with a sufficiently high-speed, stable connection to support the blockchain.</p>
+<p>Previous versions of Proof of Stake require what is known as checkpointing. Checkpointing is a centrally broadcasted full node that is signed by the developer and is designed to help verify coin stake before it is accepted into the block tree. In ION, every node is a full node, and because of this no checkpoint system is needed. By removing this partial centralized dependency that existed in previous PoS versions, all nodes are fully authorized and makes a network attack far more difficult.</p>
+<h2>
+<a id="user-content-masternodes" class="anchor" href="#masternodes" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Masternodes</h2>
+<p>####Secure public and private transactions</p>
+<p>Masternodes validate all public transactions within about 4 seconds by communicating each transaction across all nodes on the network to prevent double spending (Duffield, Schinzel, and Gutierrez, 2014). When private transactions are initiated, masternodes also perform the work necessary to make the transactions hard to trace. The masternode network will be able to perform additional functions as new developments are commissioned and the bounties executed.</p>
+<h4>
+<a id="user-content-masternode-specifications" class="anchor" href="#masternode-specifications" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Masternode specifications</h4>
+<ul>
+<li>Coins required: 20,000 (minimum and maximum)</li>
+<li>Reward: 50% of the block reward  all fees for transactions contained in the block</li>
+<li>Peer validated network uptime</li>
+</ul>
+<h4>
+<a id="user-content-private-transactions" class="anchor" href="#private-transactions" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Private transactions</h4>
+<p>Masternodes facilitate private transactions through a decentralized mixing service that takes advantage of the perfect fungibility of the currency. Any unit of ION has the equivalent value to any other unit of identical size, regardless of the transaction history of any particular unit. Masternodes use this property to automatically break up private transactions into multiple identical and indistinguishable transactions, both adding complexity to the original transaction and obfuscating the provenance of any given unit.</p>
+<p><img src="https://camo.githubusercontent.com/9e42d4cacb441cf398de15d845b72e72d1875334/687474703a2f2f692e696d6775722e636f6d2f4645746e73514e2e706e67" alt="image alt text" data-canonical-src="http://i.imgur.com/FEtnsQN.png"></p>
+<p>***<em>Each color represents one user's transactions</em></p>
+<p>*Diagram 2: In this example of a block of transactions, three users submit funds in various set denominations. **Users pay themselves back in the form of new outputs, which are randomly ordered. *</p>
+<p>Private ION transactions are initiated through a local wallet and received by the masternode subnetwork. Transactions are processed in groups of three. Inputs of common denominations are required – for example 0.1 ION, 1 ION, 10 ION, or 100 ION.</p>
+<p>Upon application to the mixing pool, a receiving masternode propagates the transaction set throughout the network. If only one or two private transactions are pending, they are held in queue until three are in the mixing pool. Fees are extracted from the individual transactions, then charged collectively to further obfuscate the transaction history.</p>
+<p>Private send is limited to 20,000 ION, thus requiring multiple sessions to thoroughly delink associated transaction history from significant amounts of money. Since each session is limited to three clients, an observer has a one in three chance of being able to follow a transaction.</p>
+<p>Mixed transactions are chained together through multiple masternodes, making traceability exponentially more difficult with each additional chained transaction. Users have some control over the degree of mixing. More mixing takes more time, but more thoroughly obfuscates inputs. The fee for these transactions grows with each degree, as the process is more labor intensive for the masternodes (Duffield and Diaz, 2015).</p>
+<p>This method of mixing is a trustless, integrated, on-chain, on-network service that is efficient, effective, and safe. It is initiated directly within a local wallet and completed without leaving the ION network. While some details of private transactions are obscured, the system nevertheless retains verifiable integrity of spent coins on the ION blockchain.</p>
+<h4>
+<a id="user-content-what-is-the-incentive-to-run-a-masternode" class="anchor" href="#what-is-the-incentive-to-run-a-masternode" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>What is the incentive to run a masternode?</h4>
+<p><img src="https://camo.githubusercontent.com/7da79e89ac64d9aa343103d3212a6ccb9270b194/687474703a2f2f692e696d6775722e636f6d2f434771576c51322e706e67" alt="image alt text" data-canonical-src="http://i.imgur.com/CGqWlQ2.png"></p>
+<p><em>Diagram 3: Average daily reward ≃ (# of blocks per day * block reward * 50%) / (# of <strong>masternodes</strong>)</em></p>
+<p>Masternodes receive fixed rewards (50% of the block reward) which are probabilistically distributed among peer validated masternodes. Masternodes recursively scan peer node performance, and only high performance nodes with sustained, stable, high-speed internet connections are eligible for rewards. In addition to receiving 50% of the block reward, a masternode receives all fees for public transactions completed in a block and for all private transaction pools initiated in the block. These incentives promote continuous connectivity to maintain a high performance network.</p>
+<p><img src="https://camo.githubusercontent.com/0beeb2b60a956650d1c777b11abaf1506561714b/687474703a2f2f692e696d6775722e636f6d2f736c67714c77582e706e67" alt="image alt text" data-canonical-src="http://i.imgur.com/slgqLwX.png"></p>
+<p><em>Diagram 4: Procedure to activate a masternode.</em></p>
+<h4>
+<a id="user-content-masternode-network-performance-maintenance" class="anchor" href="#masternode-network-performance-maintenance" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Masternode network performance maintenance</h4>
+<p>In theory, malicious actors could also run ION masternodes, but not provide any of the quality service that is required of the rest of the network. To reduce this possibility and discourage people from using the system to their advantage, all nodes must regularly ping the rest of the ION masternode network to ensure they remain active. This work is done through a selection of 2 quorums per block. At every new block hash, Quorum A checks the service of Quorum B. Quorum A are the closest nodes to the current hash, while Quorum B are the furthest nodes from said hash.</p>
+<p>Masternode A (1) checks Masternode B (rank 2300)</p>
+<p>Masternode A (2) checks Masternode B (rank 2299)</p>
+<p>Masternode A (3) checks Masternode B (rank 2298)</p>
+<p>The masternode network is self-monitoring. Approximately 1% of the network will be checked for each block added to the blockchain. This results in the entire masternode network being checked approximately six times per day. To maintain this trustless system, nodes are selected randomly via the quorum system; the network also requires a minimum of six violations in order to deactivate a node (Duffield and Diaz, 2015).</p>
+<h2>
+<a id="user-content-coin-development-roadmap" class="anchor" href="#coin-development-roadmap" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><strong>Coin development roadmap</strong>
+</h2>
+<p>ionomy.com will foster development on the open source core code for ION by defining targets, posting specifications for bounties, and paying independent developers for completed and validated commits. This approach allows the ionomy core development team to focus on what they do best, building the mobile and social games at the heart of the ION economy. The bounties engage the best talent from the developer community to enhance the core coin code while decentralizing coin development. The ION community can collectively influence the direction of the coin: if the community wants a feature and is prepared to post a bounty, the bounty will motivate developers to built it.</p>
+<p>Payments for the bounties will be held in multisignature wallets. Pull requests are first implemented in the test network environment. Once deemed to meet the requirements and specifications set forth in the bounty, pull requests will be merged into the main branch of ION source code on github and bounties will be paid directly to the code developer.</p>
+<h2>
+<a id="user-content-bounties" class="anchor" href="#bounties" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><strong>Bounties</strong>
+</h2>
+<p>The following bounties have been identified as post launch priorities:</p>
+<ul>
+<li>Time delay transaction / Safe address (see example #1 below for further specification)</li>
+<li>Smart contract / escrow</li>
+<li>Colored coins / side chains / assets (see, for instance, example #2 below)</li>
+<li>HTML5 wallet</li>
+<li>Electrum wallet</li>
+<li>ION-j for mobile wallet based on java</li>
+<li>In-wallet social integration</li>
+</ul>
+<h4>
+<a id="user-content-bounty-example-1-time-delayed-transactions-with-safe-address" class="anchor" href="#bounty-example-1-time-delayed-transactions-with-safe-address" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Bounty example #1: Time delayed transactions with safe address*</h4>
+<p><em>The problem</em>: Cold wallets — storage addresses with completely privately generated keys holding coins that are never online — provide the best known security in cryptocurrency. Users can print a private key on paper wallet that can be stored in a safe location. The optimal network, however, depends upon widespread participation by users holding ION in online wallets. Consider this scenario: If user Jane had a connected wallet (or masternode) at work and she leaves it running at night, then Dick, an employee in the IT department, could hack into her computer and send all her coins to his own address. Jane would have no remedy.</p>
+<p><em>The bounty</em>: Create a safe address system with delayed transactions to protect the ION owner even if the private key security is compromised. The developer will create an on-chain parameter that sets a variable delay in any send action for a given address, and points the wallet contents to a designated failover address if triggered. Now if Jane sets the time delay parameter to 10,000 blocks, then when Dick hacks her wallet, Jane still has a week to trigger the failsafe. If she does not trigger the failsafe, Dick gets her coins. But if she catches the attack in time, she can simply send a signal which diverts the coins to her cold wallet address. From there she can delete the compromised keys, and start fresh with new security measures, access her safe wallet and start staking again. The developer who wins the bounty will provide ION users with a whole new level of security: a "warm" wallet which strikes a balance between the safety of a cold wallet and the utility of a hot wallet. The “stake safe” system will optimize speed and security for the network and reward opportunities for the individual.</p>
+<p>*<em>This bounty example is a simplification for illustrative purposes. Actual bounties, posted on github, will fully detail specific requirements and parameters.</em></p>
+<h2>
+<a id="user-content-coins-in-context" class="anchor" href="#coins-in-context" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Coins in context</h2>
+<p>Historically, most cryptocurrencies are designed to incentivize miners and stakers to expand and secure the network. Since low-difficulty mining is highly profitable, this brings some attention to the coin and begins to distribute it. However, these users are quick to divest their holdings without an ongoing driver of value. As coin supply rises faster than adoption growth, supply overwhelms demand, reducing the coin’s value. While the coin may now be somewhat more distributed, it is still concentrated among a small community of core users and transient holders whose primary interest is financial gain. Speculators and traders may buy the coin, but they are also short term holders. The cycle of price manipulation and massive sell offs repeats and the result over time is a devalued coin with low visibility, poor reputation, and a user base comprised of transient profiteers with no interest in a long term investment.</p>
+<p>By contrast, the relationship between ionomy.com and ION is designed to build value from the start. ionomy.com produces and sells digital goods with a focus on mobile and social gaming applications. The company funds a system of social and financial incentives to cultivate an engaged user base. Users are rewarded for activity within the company’s products. By continuously creating desirable uses for ION, the company incentivizes more users to join the ecosystem. The user base then consumes more IONs, creating demand and scarcity.</p>
+<p>At the same time, masternodes reward users for holding ION and performing work to secure the integrity of the network and blockchain. Furthermore, ION features powerful technical capacities designed to attract entrepreneurs to build new businesses, expand the user base, and increase the utility of the coin.</p>
+<h2>
+<a id="user-content-conclusions" class="anchor" href="#conclusions" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Conclusions</h2>
+<p>ION integrates static proof of stake (PoS v.3) system with an incentivized masternode/wallet matrix. The result is fast transaction confirmation, reliable network security, enhanced privacy through decentralized coin mixing, and reduced price volatility. This technological foundation establishes possibilities for smart contracts, colored coins, side chains and advanced security mechanisms.</p>
+<p>This combination of ION’s powerful coin technology with ionomy.com’s creative corporate plan brings about compelling opportunities. Entrepreneurs and developers can leverage a social network of engaged customers and investors in a way that never before has been attempted in this industry.</p>
+<h2>
+<a id="user-content-acknowledgements" class="anchor" href="#acknowledgements" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Acknowledgements</h2>
+<p>Special thanks to contributing editors including:</p>
+<p>Robert Hoppenfeld, Derek Broyhill and James Pass</p>
+<h1>
+<a id="user-content-references" class="anchor" href="#references" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><strong><em>References:</em></strong>
+</h1>
+<hr>
+<p>Blockchain.info. (2012). <em>Bitcoin Median Transaction Confirmation Time (With Fee Only)</em>. Retrieved from <a href="https://blockchain.info/fr/charts/avg-confirmation-time" rel="nofollow">https://blockchain.info/fr/charts/avg-confirmation-time</a></p>
+<p>Duffield, E. (2015). *Dash: Video Series - #4 - Incentivized Infrastructure and Masternodes. *DVS15E04. Retrieved March 28, 2016, from <a href="https://www.youtube.com/watch?v=FY1mciGGhO4" rel="nofollow">https://www.youtube.com/watch?v=FY1mciGGhO4</a>.</p>
+<p>Duffield, E. and Diaz, D. (2015). <em>Dash: A Privacy-Centric Crypto-Currency</em>. Retrieved from: <a href="https://www.dash.org/wp-content/uploads/2015/04/Dash-WhitepaperV1.pdf" rel="nofollow">https://www.dash.org/wp-content/uploads/2015/04/Dash-WhitepaperV1.pdf</a>.</p>
+<p>Duffield, E., Schinzel, H., and Gutierrez, F. (2014). <em>Transaction locking and masternode consensus: A mechanism for mitigating double spending attacks</em>. Version 2. Retrieved from <a href="https://www.dash.org/wp-content/uploads/2014/09/InstantTX.pdf" rel="nofollow">https://www.dash.org/wp-content/uploads/2014/09/InstantTX.pdf</a></p>
+<p>Gautham. (2016). <em>Blockchain Monday Blues Due to Spam Transactions on Bitcoin Network</em>. NEWSBTC. Retrieved from: <a href="http://www.newsbtc.com/2016/03/02/bitcoin-network-spam-attack/" rel="nofollow">http://www.newsbtc.com/2016/03/02/bitcoin-network-spam-attack/</a></p>
+<h2>
+<a id="user-content-appendix-a" class="anchor" href="#appendix-a" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Appendix A</h2>
+<hr>
+<h2>
+<a id="user-content-sample-ion-block" class="anchor" href="#sample-ion-block" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sample ION block</h2>
+<p><code>SetBestChain: new best=0254614e1a37e7d1681738031a1ea18efa53773972b1b6cedeafb1a4877d926c </code>
+<code>height=5043 </code><br>
+<code>trust=23477951177320352418 </code><br>
+<code>blocktrust=1099304894429909 </code><br>
+<code>date=04/05/16 21:52:00</code><br>
+<code>ProcessBlock: ACCEPTED</code><br>
+<code>connected to self at 25.12.221.127:39286,</code><br>
+<code>Successfully synced, asking for Masternode ist and payment list</code></p>
+<p><code>IONd masternode list</code><br>
+<code>{</code><br>
+<code>"25.12.221.127:9999" : 0</code><br>
+<code>}</code></p>
+<p><code>CommitTransaction:</code><br>
+<code>CTransaction(hash=fff53d85c32a301bf61d6cde7951667e7740292e8f360c614aeb18eed7a143e8, </code><br>
+<code>nTime=1459893428, </code><br>
+<code>ver=1, </code><br>
+<code>vin.size=1, </code><br>
+<code>vout.size=2, </code><br>
+<code>nLockTime=0)</code><br>
+<code>CTxIn(COutPoint(50f90a5bc8, 1), </code><br>
+<code>scriptSig=3045022100e135cbb17ee9fc)</code><br>
+<code>CTxOut(nValue=1000.00, </code><br>
+<code>scriptPubKey=OP_DUP OP_HASH160 dd28713d7c72c6a6017a98dd8f29743cf4ce6a49 OP_EQUALVERIFY OP_CHECKSIG)</code><br>
+<code>CTxOut(nValue=8.03999, </code><br>
+<code>scriptPubKey=OP_DUP OP_HASH160 7b9a6410aea5fd21755d42778b65b5db5c898b36 OP_EQUALVERIFY OP_CHECKSIG)</code><br>
+<code>keypool keep 13</code></p>
+</tr>
+</table>
+        </div>
+
+        <div id="wiki-footer" class="mt-5 mb-0 wiki-footer gollum-markdown-content">
+          <div class="Box Box--condensed bg-gray box-shadow">
+            <div class="Box-body  markdown-body">
+              <hr>
+<p>Home - <a href="https://www.ionomy.com" rel="nofollow">https://www.ionomy.com</a><br>
+Facebook - <a href="https://facebook.com/ionomy" rel="nofollow">https://facebook.com/ionomy</a><br>
+Twitter - <a href="https://twitter.com/ionomics" rel="nofollow">https://twitter.com/ionomics</a><br>
+Forum - <a href="https://ion.community" rel="nofollow">https://ion.community</a><br>
+Reddit - <a href="https://www.reddit.com/r/ionomy" rel="nofollow">https://www.reddit.com/r/ionomy</a><br>
+Discord - <a href="https://discord.gg/vuZn7gC" rel="nofollow">https://discord.gg/vuZn7gC</a><br>
+Telegram -  <a href="https://t.me/ionomy" rel="nofollow">https://t.me/ionomy</a><br>
+YouTube - <a href="https://www.youtube.com/ionomy" rel="nofollow">https://www.youtube.com/ionomy</a><br>
+GitHub - <a href="https://github.com/ionomy/ion">https://github.com/ionomy/ion</a><br>
+Wiki - <a href="http://ionomy.wiki" rel="nofollow">http://ionomy.wiki</a><br>
+Support - <a href="mailto:support@ionomy.com">support@ionomy.com</a><br></p>
+
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div id="wiki-rightbar" class="mt-4 ml-md-6 flex-shrink-0 width-full wiki-rightbar">
+      <div id="wiki-pages-box" class="mb-4 wiki-pages-box js-wiki-pages-box" role="navigation">
+        
+<div class="Box Box--condensed box-shadow">
+  <div class="Box-header js-wiki-toggle-collapse" style="cursor: pointer">
+    <h3 class="Box-title">
+      <svg class="octicon octicon-triangle-down js-wiki-sidebar-toggle-display" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 5l6 6 6-6H0z"/></svg>
+      <svg class="octicon octicon-triangle-right js-wiki-sidebar-toggle-display d-none" viewBox="0 0 6 16" version="1.1" width="6" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 14l6-6-6-6v12z"/></svg>
+      Pages <span class="Counter Counter--gray">13</span>
+    </h3>
+  </div>
+  <div class=" js-wiki-sidebar-toggle-display">
+    <div class="filter-bar">
+      <input type="text" id="wiki-pages-filter" class="form-control input-sm input-block js-filterable-field" placeholder="Find a Page…" aria-label="Find a Page…">
+    </div>
+
+    <ul class="m-0 p-0 list-style-none" data-filterable-for="wiki-pages-filter" data-filterable-type="substring">
+        <li class="Box-row">
+          <strong><a class="d-block" href="/ionomy/ion/wiki">Home</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="/ionomy/ion/wiki/How-to:-Backup-and-restore-xION-Zerocoin-private-seed">How to: Backup and restore xION Zerocoin private seed</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="/ionomy/ion/wiki/HOW-TO:-Compile-iond-Daemon-from-source">HOW TO: Compile iond Daemon from source</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="/ionomy/ion/wiki/HOW-TO:-Compile-the-ION-QT-wallet-on-Ubuntu">HOW TO: Compile the ION QT wallet on Ubuntu</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="/ionomy/ion/wiki/HOW-TO:-Convert-xION-to-ION">HOW TO: Convert xION to ION</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="/ionomy/ion/wiki/HOW-TO:-Export-Private-Keys-from-**OLD**-ion-QT">HOW TO: Export Private Keys from **OLD** ion QT</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="/ionomy/ion/wiki/HOW-TO:-Import-private-key-to-ION-3.0-Wallet">HOW TO: Import private key to ION 3.0 Wallet</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="/ionomy/ion/wiki/HOW-TO:-Setup-ION-remote-Masternode-with-Ubuntu-remote-and-local-QT-wallet">HOW TO: Setup ION remote Masternode with Ubuntu remote and local QT wallet</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="/ionomy/ion/wiki/HOW-TO:-Upgrade-to-ION-3.0-(windows)">HOW TO: Upgrade to ION 3.0 (windows)</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="/ionomy/ion/wiki/ion-Bounty-Information">ion Bounty Information</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="/ionomy/ion/wiki/ION-Technical-Whitepaper">ION Technical Whitepaper</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="/ionomy/ion/wiki/ionomy-Bounty-Information">ionomy Bounty Information</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="/ionomy/ion/wiki/Masternode-FAQ">Masternode FAQ</a></strong>
+        </li>
+    </ul>
+  </div>
+</div>
+
+      </div>
+
+
+      <h5 class="mt-0 mb-2">Clone this wiki locally</h5>
+      <div class="width-full input-group">
+        <input
+            id="wiki-clone-url"
+            type="text"
+            data-autoselect
+            class="form-control input-sm text-small text-gray input-monospace"
+            aria-label="Clone URL for this wiki"
+            value="https://github.com/ionomy/ion.wiki.git"
+            readonly="readonly">
+        <span class="input-group-button">
+          <clipboard-copy for="wiki-clone-url" aria-label="Copy to clipboard" class="btn btn-sm zeroclipboard-button">
+            <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+          </clipboard-copy>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+
+    </div>
+  </div>
+
+  </div>
+
+        
+<div class="footer container-lg p-responsive" role="contentinfo">
+  <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap col-12 col-lg-6 flex-justify-center flex-lg-justify-start mb-2 mb-lg-0">
+      <li class="mr-3">&copy; 2018 <span title="0.15348s from unicorn-6fd6976f86-m9cmx">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon mr-lg-4" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap col-12 col-lg-6 flex-justify-center flex-lg-justify-end mb-2 mb-lg-0">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+        <li class="mr-3"><a href="https://github.com/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" integrity="sha512-WnyO4VoIUwWWQOmFLjYf4UGg/c1z9VlaLN8IMuiI3uMhhl6rejyThRdLPDyePeUPW6N+38OoBMs6AkqcvWALtA==" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-b66b5d97b4442a01f057c74b091c4368.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-092+yG9tBLtacCexwGKGjTtkuRfZo0YUa8VrsiKW+Zh/nyA2j7MvftFLeoIor9CGQ9uDFYNIcbFDbbTPw7tV3Q==" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-176ef037f2b2ddbb94c6810c7bce4ec9.js"></script>
+    
+    <script crossorigin="anonymous" async="async" integrity="sha512-/IIqCpmAgdVmzF8Uu80MllAz5uW6rwCnxNYt4kDKdKKiTiaSog2fPavP4S+fjp4W/j1eAqnuFRDblRaSf6OZhA==" type="application/javascript" src="https://assets-cdn.github.com/assets/github-710afc3a0a59c4e7ec1e796f976dcb83.js"></script>
+    
+      <script crossorigin="anonymous" integrity="sha512-Sbh6IBBheIyLGxM01XCHt9e+gxJYNopkvwAfMqPt58UaiGYfQPfaWe3kYAoCbJtbrXUTfLg2cWmZ1XuedFjZ1A==" type="application/javascript" src="https://assets-cdn.github.com/assets/wiki-afeeb054a0010fbe05e1039a2049ea2c.js"></script>
+
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <template id="site-details-dialog">
+  <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark" open>
+    <summary aria-haspopup="dialog" aria-label="Close dialog"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast">
+      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+      </button>
+      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
+    </details-dialog>
+  </details>
+</template>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

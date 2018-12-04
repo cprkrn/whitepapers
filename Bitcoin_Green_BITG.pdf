@@ -1,0 +1,748 @@
+<!doctype html>
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:website="http://ogp.me/ns/website" lang="en-US" itemscope itemtype="http://schema.org/WebPage"  class="touch-styles">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- This is Squarespace. --><!-- zachary-richter-5ak4 -->
+<base href="">
+<meta charset="utf-8" />
+<title>Bitcoin Green Whitepaper &mdash; Bitcoin Green</title>
+<link rel="shortcut icon" type="image/x-icon" href="https://static1.squarespace.com/static/5aa6e7c2372b96538f12ae65/t/5ab24eb0352f5362833ac969/favicon.ico"/>
+<link rel="canonical" href="https://www.savebitcoin.io/whitepaper/"/>
+<meta property="og:site_name" content="Bitcoin Green"/>
+<meta property="og:title" content="Bitcoin Green Whitepaper &mdash; Bitcoin Green"/>
+<meta property="og:url" content="https://www.savebitcoin.io/whitepaper/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:description" content="Bitcoin Green (BITG) is a sustainable cryptocurrency modeled after Satoshi Nakamoto's vision for Bitcoin. Read the whitepaper."/>
+<meta property="og:image" content="http://static1.squarespace.com/static/5aa6e7c2372b96538f12ae65/t/5abef38170a6ad85f49450df/1522463625529/1200x630_v2.png?format=1500w"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta itemprop="name" content="Bitcoin Green Whitepaper — Bitcoin Green"/>
+<meta itemprop="url" content="https://www.savebitcoin.io/whitepaper/"/>
+<meta itemprop="description" content="Bitcoin Green (BITG) is a sustainable cryptocurrency modeled after Satoshi Nakamoto's vision for Bitcoin. Read the whitepaper."/>
+<meta itemprop="thumbnailUrl" content="http://static1.squarespace.com/static/5aa6e7c2372b96538f12ae65/t/5abef38170a6ad85f49450df/1522463625529/1200x630_v2.png?format=1500w"/>
+<link rel="image_src" href="http://static1.squarespace.com/static/5aa6e7c2372b96538f12ae65/t/5abef38170a6ad85f49450df/1522463625529/1200x630_v2.png?format=1500w" />
+<meta itemprop="image" content="http://static1.squarespace.com/static/5aa6e7c2372b96538f12ae65/t/5abef38170a6ad85f49450df/1522463625529/1200x630_v2.png?format=1500w"/>
+<meta name="twitter:title" content="Bitcoin Green Whitepaper — Bitcoin Green"/>
+<meta name="twitter:image" content="http://static1.squarespace.com/static/5aa6e7c2372b96538f12ae65/t/5abef38170a6ad85f49450df/1522463625529/1200x630_v2.png?format=1500w"/>
+<meta name="twitter:url" content="https://www.savebitcoin.io/whitepaper/"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:description" content="Bitcoin Green (BITG) is a sustainable cryptocurrency modeled after Satoshi Nakamoto's vision for Bitcoin. Read the whitepaper."/>
+<meta name="description" content="Bitcoin Green (BITG) is a sustainable cryptocurrency modeled after Satoshi 
+Nakamoto's vision for Bitcoin. Read the whitepaper." />
+<script type="text/javascript" src="//use.typekit.net/ik/2fALB879VMRY3ktVUakHpKk6s-Y1DHOEYpSe3FC1uY3fe7tffFHN4UJLFRbh52jhWDmyjQZ8FhwkwDSkjRqhFQwtZRIkjA9hFs76MPG0pcBR-eBkpPuk-AFGiemkOQmy-Db0SaBujW48Sagyjh90jhNlOeUzjhBC-eNDifUDjWZ8jc8XjhNTdKoTdkUaiaS0ShBhZA4TieFz-At0-AvCiaiaO1TyjhyyS1qlSc8R-Ys8SKXujACXO1FUiABkZWF3jAF8OcFzdPUEjAFGjW4oOW4TjhyXZWJlFABnFfoDSWmyScmDSeBRZPoRdhXKIeZkZA81-YblShB0Sku3Scv7fbKb-sMMeMw6MKG4fwTmIMMjgfMfH6qJqcqbMg6BJMJ7fbK9-sMMeMj6MKG4fJoTIMMjgkMfH6qJqAqbMg6FJMJ7fbKV-sMMegI6MTMghFLIub9.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Rubik:700,700i,400i,400,300,300i"/>
+<script type="text/javascript">SQUARESPACE_ROLLUPS = {};</script>
+<script>(function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//static.squarespace.com/universal/scripts-compressed/common-c7d7b16dd87966d0ac7b-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-common');</script>
+<script crossorigin="anonymous" src="//static.squarespace.com/universal/scripts-compressed/common-c7d7b16dd87966d0ac7b-min.en-US.js" ></script><script crossorigin="anonymous" src="//static.squarespace.com/universal/scripts-compressed/performance-9e96520b4e9e6b86af71-min.en-US.js" defer ></script><script data-name="static-context">Static = window.Static || {}; Static.SQUARESPACE_CONTEXT = {"facebookAppId":"314192535267336","rollups":{"squarespace-announcement-bar":{"css":"//static.squarespace.com/universal/styles-compressed/announcement-bar-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/announcement-bar-6b6fb80d5b0a076d2879-min.en-US.js"},"squarespace-audio-player":{"css":"//static.squarespace.com/universal/styles-compressed/audio-player-a57b8f3aa31918104f57a068648fbc63-min.css","js":"//static.squarespace.com/universal/scripts-compressed/audio-player-527596f13e0b0b596f2a-min.en-US.js"},"squarespace-blog-collection-list":{"css":"//static.squarespace.com/universal/styles-compressed/blog-collection-list-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/blog-collection-list-94a7df32a99bcdefe1a6-min.en-US.js"},"squarespace-calendar-block-renderer":{"css":"//static.squarespace.com/universal/styles-compressed/calendar-block-renderer-61a327b8527a1fbf9b1fe569505ed5ae-min.css","js":"//static.squarespace.com/universal/scripts-compressed/calendar-block-renderer-accae4f6924eabb1305f-min.en-US.js"},"squarespace-chartjs-helpers":{"css":"//static.squarespace.com/universal/styles-compressed/chartjs-helpers-9935a41d63cf08ca108505d288c1712e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/chartjs-helpers-68bee362a451b026bb48-min.en-US.js"},"squarespace-comments":{"css":"//static.squarespace.com/universal/styles-compressed/comments-bfcda0f17dd987db5206c1d15e83fd19-min.css","js":"//static.squarespace.com/universal/scripts-compressed/comments-0fba31175634ffb694f1-min.en-US.js"},"squarespace-commerce-cart":{"js":"//static.squarespace.com/universal/scripts-compressed/commerce-cart-456c03210b7838f14f65-min.en-US.js"},"squarespace-dialog":{"css":"//static.squarespace.com/universal/styles-compressed/dialog-b548cc83dd846f17dd31de0760e67bc5-min.css","js":"//static.squarespace.com/universal/scripts-compressed/dialog-7fce6726c5997cedb30e-min.en-US.js"},"squarespace-events-collection":{"css":"//static.squarespace.com/universal/styles-compressed/events-collection-61a327b8527a1fbf9b1fe569505ed5ae-min.css","js":"//static.squarespace.com/universal/scripts-compressed/events-collection-360f67422f87229a95c4-min.en-US.js"},"squarespace-form-rendering-utils":{"js":"//static.squarespace.com/universal/scripts-compressed/form-rendering-utils-3201d4eac79b88f88ae6-min.en-US.js"},"squarespace-forms":{"css":"//static.squarespace.com/universal/styles-compressed/forms-ac7917c174031c937e3df4b3a2005b34-min.css","js":"//static.squarespace.com/universal/scripts-compressed/forms-b45567284ef2c2dc763e-min.en-US.js"},"squarespace-gallery-collection-list":{"css":"//static.squarespace.com/universal/styles-compressed/gallery-collection-list-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/gallery-collection-list-5c43fb5dce4c3c74d729-min.en-US.js"},"squarespace-image-zoom":{"css":"//static.squarespace.com/universal/styles-compressed/image-zoom-72b0ab7796582588032aa6472e2e2f14-min.css","js":"//static.squarespace.com/universal/scripts-compressed/image-zoom-9044dd5163a26ab276ea-min.en-US.js"},"squarespace-pinterest":{"css":"//static.squarespace.com/universal/styles-compressed/pinterest-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/pinterest-6154c6b07fb075a05ce0-min.en-US.js"},"squarespace-popup-overlay":{"css":"//static.squarespace.com/universal/styles-compressed/popup-overlay-7b48efeab9b323dfdb524a256cf61595-min.css","js":"//static.squarespace.com/universal/scripts-compressed/popup-overlay-07f81a869b1e45f490a6-min.en-US.js"},"squarespace-product-quick-view":{"css":"//static.squarespace.com/universal/styles-compressed/product-quick-view-bc8694b75a40e4bd969b662b80ebafb5-min.css","js":"//static.squarespace.com/universal/scripts-compressed/product-quick-view-37f46aa39a0ade2eefd9-min.en-US.js"},"squarespace-products-collection-item-v2":{"css":"//static.squarespace.com/universal/styles-compressed/products-collection-item-v2-72b0ab7796582588032aa6472e2e2f14-min.css","js":"//static.squarespace.com/universal/scripts-compressed/products-collection-item-v2-245b025690293166d976-min.en-US.js"},"squarespace-products-collection-list-v2":{"css":"//static.squarespace.com/universal/styles-compressed/products-collection-list-v2-72b0ab7796582588032aa6472e2e2f14-min.css","js":"//static.squarespace.com/universal/scripts-compressed/products-collection-list-v2-eb4b0027e8a1699d95c9-min.en-US.js"},"squarespace-search-page":{"css":"//static.squarespace.com/universal/styles-compressed/search-page-ea3e98edb84abbc5e758884f69149027-min.css","js":"//static.squarespace.com/universal/scripts-compressed/search-page-7415813eeea6f563b118-min.en-US.js"},"squarespace-search-preview":{"js":"//static.squarespace.com/universal/scripts-compressed/search-preview-f21ecaf35291b3b91aa8-min.en-US.js"},"squarespace-share-buttons":{"js":"//static.squarespace.com/universal/scripts-compressed/share-buttons-7b6779a0be2420125bbe-min.en-US.js"},"squarespace-simple-liking":{"css":"//static.squarespace.com/universal/styles-compressed/simple-liking-310d0b18e112f708f91339b11fd55714-min.css","js":"//static.squarespace.com/universal/scripts-compressed/simple-liking-d43c23675054d66d6260-min.en-US.js"},"squarespace-social-buttons":{"css":"//static.squarespace.com/universal/styles-compressed/social-buttons-26106f808f7e9c739a7f862a408ed039-min.css","js":"//static.squarespace.com/universal/scripts-compressed/social-buttons-839916620f6ee698d8fb-min.en-US.js"},"squarespace-tourdates":{"css":"//static.squarespace.com/universal/styles-compressed/tourdates-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/tourdates-ba7f33c5925f054f5ad5-min.en-US.js"},"squarespace-website-overlays-manager":{"css":"//static.squarespace.com/universal/styles-compressed/website-overlays-manager-0db5c7c60d1d79fe731ced48ff0cc7c0-min.css","js":"//static.squarespace.com/universal/scripts-compressed/website-overlays-manager-305ec3a4d45b3d379fc0-min.en-US.js"}},"pageType":1,"website":{"id":"5aa6e7c2372b96538f12ae65","identifier":"zachary-richter-5ak4","websiteType":1,"contentModifiedOn":1543575840476,"cloneable":false,"siteStatus":{},"language":"en-US","timeZone":"America/Los_Angeles","machineTimeZoneOffset":-28800000,"timeZoneOffset":-28800000,"timeZoneAbbr":"PST","siteTitle":"Bitcoin Green","fullSiteTitle":"Bitcoin Green Whitepaper \u2014 Bitcoin Green","siteTagLine":"Sustainable cryptocurrency","siteDescription":"<p>Save Bitcoin before it\u2019s too late. The Green Protocol is a sustainable solution to Bitcoin\u2019s scalability issues.</p>","logoImageId":"5ab0776a8a922d6ee3b5fe6d","socialLogoImageId":"5abef38170a6ad85f49450df","shareButtonOptions":{"2":true,"6":true,"8":true,"5":true,"3":true,"1":true,"7":true,"4":true},"logoImageUrl":"//static1.squarespace.com/static/5aa6e7c2372b96538f12ae65/t/5ab0776a8a922d6ee3b5fe6d/1543575840476/","socialLogoImageUrl":"//static1.squarespace.com/static/5aa6e7c2372b96538f12ae65/t/5abef38170a6ad85f49450df/1543575840476/","authenticUrl":"https://www.savebitcoin.io","internalUrl":"https://zachary-richter-5ak4.squarespace.com","baseUrl":"https://www.savebitcoin.io","primaryDomain":"www.savebitcoin.io","sslSetting":3,"isHstsEnabled":false,"socialAccounts":[{"serviceId":4,"userId":"945217605576642560","userName":"btc_green","screenname":"Bitcoin Green","addedOn":1521560748117,"profileUrl":"https://twitter.com/btc_green","iconUrl":"http://pbs.twimg.com/profile_images/947035599709417472/K4THRXIp_normal.jpg","collectionId":"5ab12cac620b859944155b16","iconEnabled":true,"serviceName":"twitter"},{"serviceId":10,"userId":"6837566190","userName":"bitcoin_green","screenname":"Bitcoin Green","addedOn":1521560871284,"profileUrl":"http://instagram.com/bitcoin_green","iconUrl":"https://scontent.cdninstagram.com/vp/cf0b8fc28fd7ebd8589d02968b90e658/5B3747A6/t51.2885-19/s150x150/26070030_489359341464329_3792137397139931136_n.jpg","collectionId":"5ab12d275ffd204e5007c226","iconEnabled":true,"serviceName":"instagram"},{"serviceId":11,"userId":"UCb6gnNRU8RTqb9gIdgD7t8A","screenname":"awareness@savebitcoin.io","addedOn":1521576023717,"profileUrl":"https://www.youtube.com/channel/UCKdrQtAvD5yBtFX8fp0RzUw","iconUrl":"https://yt3.ggpht.com/-lmI54lclB8c/AAAAAAAAAAI/AAAAAAAAAAA/5Q5fYTA8LAg/s88-c-k-no-mo-rj-c0xffffff/photo.jpg","iconEnabled":true,"serviceName":"youtube"},{"serviceId":20,"userId":"awareness@savebitcoin.io","screenname":"awareness@savebitcoin.io","addedOn":1521560904702,"profileUrl":"mailto:awareness@savebitcoin.io","iconEnabled":true,"serviceName":"email"}],"typekitId":"","statsMigrated":false,"imageMetadataProcessingEnabled":false,"showOwnerLogin":false},"websiteSettings":{"id":"5aa6e7c2372b96538f12ae68","websiteId":"5aa6e7c2372b96538f12ae65","subjects":[],"country":"US","state":"CA","simpleLikingEnabled":true,"mobileInfoBarSettings":{"isContactEmailEnabled":false,"isContactPhoneNumberEnabled":false,"isLocationEnabled":false,"isBusinessHoursEnabled":false},"commentLikesAllowed":true,"commentAnonAllowed":true,"commentThreaded":true,"commentApprovalRequired":false,"commentAvatarsOn":true,"commentSortType":2,"commentFlagThreshold":0,"commentFlagsAllowed":true,"commentEnableByDefault":true,"commentDisableAfterDaysDefault":0,"disqusShortname":"","commentsEnabled":false,"storeSettings":{"returnPolicy":null,"termsOfService":null,"privacyPolicy":null,"paymentSettings":{},"expressCheckout":false,"continueShoppingLinkUrl":"/","useLightCart":false,"showNoteField":false,"shippingCountryDefaultValue":"US","billToShippingDefaultValue":false,"showShippingPhoneNumber":true,"isShippingPhoneRequired":false,"showBillingPhoneNumber":true,"isBillingPhoneRequired":false,"multipleQuantityAllowedForServices":true,"currenciesSupported":["CHF","HKD","MXN","EUR","DKK","USD","CAD","MYR","NOK","THB","AUD","SGD","ILS","PLN","GBP","CZK","SEK","NZD","PHP","RUB"],"defaultCurrency":"USD","selectedCurrency":"USD","measurementStandard":1,"orderConfirmationInjectCode":"","showCustomCheckoutForm":false,"enableMailingListOptInByDefault":false,"sameAsRetailLocation":false,"isLive":false},"useEscapeKeyToLogin":true,"ssBadgeType":1,"ssBadgePosition":4,"ssBadgeVisibility":1,"ssBadgeDevices":1,"pinterestOverlayOptions":{"mode":"disabled"},"ampEnabled":false},"cookieSettings":{"isCookieBannerEnabled":false,"isRestrictiveCookiePolicyEnabled":false,"isRestrictiveCookiePolicyAbsolute":false,"cookieBannerText":"","cookieBannerTheme":"","cookieBannerVariant":"","cookieBannerPosition":"","cookieBannerCtaVariant":"","cookieBannerCtaText":""},"websiteCloneable":false,"collection":{"title":"Bitcoin Green Whitepaper","id":"5aa8a8e9f9619a457061fb53","fullUrl":"/whitepaper/","type":1},"subscribed":false,"appDomain":"squarespace.com","templateTweakable":true,"tweakJSON":{"aspect-ratio":"Auto","banner-slideshow-controls":"Arrows","gallery-arrow-style":"No Background","gallery-aspect-ratio":"3:2 Standard","gallery-auto-crop":"true","gallery-autoplay":"false","gallery-design":"Grid","gallery-info-overlay":"Show on Hover","gallery-loop":"false","gallery-navigation":"Bullets","gallery-show-arrows":"true","gallery-transitions":"Fade","galleryArrowBackground":"rgba(34,34,34,1)","galleryArrowColor":"rgba(255,255,255,1)","galleryAutoplaySpeed":"3","galleryCircleColor":"rgba(255,255,255,1)","galleryInfoBackground":"rgba(0, 0, 0, .7)","galleryThumbnailSize":"100px","gridSize":"280px","gridSpacing":"10px","logoContainerWidth":"115px","product-gallery-auto-crop":"false","product-image-auto-crop":"true","siteTitleContainerWidth":"300px"},"templateId":"52a74dafe4b073a80cd253c5","pageFeatures":[1,2,4],"googleMapsStaticApiKey":"AIzaSyBQdch5IcgcQaKNG76sbMQv1MEBEKLeQ-8","impersonatedSession":false,"isFacebookTab":false,"tzData":{"zones":[[-480,"US","P%sT",null]],"rules":{"US":[[1967,2006,null,"Oct","lastSun","2:00","0","S"],[1987,2006,null,"Apr","Sun>=1","2:00","1:00","D"],[2007,"max",null,"Mar","Sun>=8","2:00","1:00","D"],[2007,"max",null,"Nov","Sun>=1","2:00","0","S"]]}}};</script><script type="text/javascript"> SquarespaceFonts.loadViaContext(); Squarespace.load(window);</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://www.savebitcoin.io/whitepaper?format=RSS" />
+<script type="application/ld+json">{"url":"https://www.savebitcoin.io","name":"Bitcoin Green","description":"<p>Save Bitcoin before it\u2019s too late. The Green Protocol is a sustainable solution to Bitcoin\u2019s scalability issues.</p>","image":"//static1.squarespace.com/static/5aa6e7c2372b96538f12ae65/t/5ab0776a8a922d6ee3b5fe6d/1543575840476/","@context":"http://schema.org","@type":"WebSite"}</script><!--[if gte IE 9]> <link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5aa6e7c2372b96538f12ae65/65/52a74dafe4b073a80cd253c5/5aa725c88165f5b3869f330c/1015-05142015/1539672396321/site.css?&filterFeatures=false&part=1"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5aa6e7c2372b96538f12ae65/65/52a74dafe4b073a80cd253c5/5aa725c88165f5b3869f330c/1015-05142015/1539672396321/site.css?&filterFeatures=false&part=2"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5aa6e7c2372b96538f12ae65/65/52a74dafe4b073a80cd253c5/5aa725c88165f5b3869f330c/1015-05142015/1539672396321/site.css?&filterFeatures=false&part=3"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5aa6e7c2372b96538f12ae65/65/52a74dafe4b073a80cd253c5/5aa725c88165f5b3869f330c/1015-05142015/1539672396321/site.css?&filterFeatures=false&part=4"/><![endif]-->
+<!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5aa6e7c2372b96538f12ae65/65/52a74dafe4b073a80cd253c5/5aa725c88165f5b3869f330c/1015-05142015/1539672396321/site.css?&filterFeatures=false&noMedia=true&part=1"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5aa6e7c2372b96538f12ae65/65/52a74dafe4b073a80cd253c5/5aa725c88165f5b3869f330c/1015-05142015/1539672396321/site.css?&filterFeatures=false&noMedia=true&part=2"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5aa6e7c2372b96538f12ae65/65/52a74dafe4b073a80cd253c5/5aa725c88165f5b3869f330c/1015-05142015/1539672396321/site.css?&filterFeatures=false&noMedia=true&part=3"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5aa6e7c2372b96538f12ae65/65/52a74dafe4b073a80cd253c5/5aa725c88165f5b3869f330c/1015-05142015/1539672396321/site.css?&filterFeatures=false&noMedia=true&part=4"/><![endif]-->
+<!--[if !IE]> --><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5aa6e7c2372b96538f12ae65/65/52a74dafe4b073a80cd253c5/5aa725c88165f5b3869f330c/1015-05142015/1539672396321/site.css?&filterFeatures=false"/><!-- <![endif]-->
+<meta name="google-site-verification" content="6d3isXTgfeIiN3BxMZCpM01d1aaJJAgWswaE4jgkmog" /><script>Static.COOKIE_BANNER_CAPABLE = true;</script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-116146423-1', 'auto');ga('send', 'pageview');</script><!-- End of Squarespace Headers -->
+    <script>/* Must be below squarespace-headers */(function(){var e='ontouchstart'in window||navigator.msMaxTouchPoints;var t=document.documentElement;if(!e&&t){t.className=t.className.replace(/touch-styles/,'')}})()
+    </script>
+  </head>
+
+  <body id="collection-5aa8a8e9f9619a457061fb53" class="transparent-header enable-nav-button nav-button-style-outline nav-button-corner-style-rounded banner-button-style-raised banner-button-corner-style-rounded banner-slideshow-controls-arrows meta-priority-date  hide-entry-author hide-list-entry-footer   hide-sidebar-title hide-blog-sidebar center-navigation--info     event-thumbnails event-thumbnail-size-32-standard event-date-label event-date-label-time event-list-show-cats event-list-date event-list-time event-list-address   event-icalgcal-links  event-excerpts  event-item-back-link    gallery-design-grid aspect-ratio-auto lightbox-style-light gallery-navigation-bullets gallery-info-overlay-show-on-hover gallery-aspect-ratio-32-standard gallery-arrow-style-no-background gallery-transitions-fade gallery-show-arrows gallery-auto-crop   product-list-titles-under product-list-alignment-center product-item-size-11-square product-image-auto-crop product-gallery-size-11-square  show-product-price show-product-item-nav product-social-sharing newsletter-style-dark  opentable-style-light small-button-style-solid small-button-shape-square medium-button-style-solid medium-button-shape-square large-button-style-solid large-button-shape-square image-block-poster-text-alignment-center image-block-card-dynamic-font-sizing image-block-card-content-position-center image-block-card-text-alignment-left image-block-overlap-dynamic-font-sizing image-block-overlap-content-position-center image-block-overlap-text-alignment-left image-block-collage-dynamic-font-sizing image-block-collage-content-position-top image-block-collage-text-alignment-left image-block-stack-dynamic-font-sizing image-block-stack-text-alignment-left button-style-solid button-corner-style-square tweak-product-quick-view-button-style-floating tweak-product-quick-view-button-position-bottom tweak-product-quick-view-lightbox-excerpt-display-truncate tweak-product-quick-view-lightbox-show-arrows tweak-product-quick-view-lightbox-show-close-button tweak-product-quick-view-lightbox-controls-weight-light native-currency-code-usd collection-5aa8a8e9f9619a457061fb53 collection-type-index collection-layout-default view-list mobile-style-available has-banner-image index-page">
+    <a href="#" class="body-overlay"></a>
+    <div class="sqs-announcement-bar-dropzone"></div>
+    <div id="sidecarNav">
+      
+
+  <div id="mobileNavWrapper" class="nav-wrapper" data-content-field="navigation-mobileNav">
+    <nav id="mobileNavigation">
+      
+
+      
+        
+          
+          <div class="index homepage">
+            <a href="/">
+              Home
+            </a>
+          </div>
+          
+        
+
+      
+        
+          
+          <div class="index">
+            <a href="/about/">
+              About
+            </a>
+          </div>
+          
+        
+
+      
+        
+          
+          <div class="index">
+            <a href="/team/">
+              Team
+            </a>
+          </div>
+          
+        
+
+      
+        
+          
+          <div class="external">
+            <a href="https://medium.com/bitcoin-green" target="_blank">
+              Blog
+            </a>
+          </div>
+          
+
+        
+
+      
+        
+          
+          <div class="index">
+            <a href="/resources/">
+              Resources
+            </a>
+          </div>
+          
+        
+
+      
+        
+          
+          <div class="index">
+            <a href="/wallet/">
+              Wallet
+            </a>
+          </div>
+          
+        
+
+      
+        
+          
+          <div class="index">
+            <a href="/masternodes/">
+              Masternodes
+            </a>
+          </div>
+          
+        
+
+      
+        
+          
+          <div class="index active">
+            <a href="/whitepaper/">
+              Whitepaper
+            </a>
+          </div>
+          
+        
+
+      
+        
+          
+          <div class="index">
+            <a href="/roadmap/">
+              Roadmap
+            </a>
+          </div>
+          
+        
+
+      
+        
+          
+          <div class="index">
+            <a href="/contact/">
+              Contact
+            </a>
+          </div>
+          
+        
+
+      
+    </nav>
+  </div>
+
+
+
+    </div>
+    <div id="siteWrapper" class="clearfix">
+
+      <div class="sqs-cart-dropzone"></div>
+
+      <header id="header" class="show-on-scroll" data-offset-el=".index-section" data-offset-behavior="bottom" role="banner">
+        <div class="header-inner">
+          <div id="logoWrapper" class="wrapper" data-content-field="site-title">
+            
+              <h1 id="logoImage"><a href="/"><img src="//static1.squarespace.com/static/5aa6e7c2372b96538f12ae65/t/5ab0776a8a922d6ee3b5fe6d/1543575840476/?format=1500w" alt="Bitcoin Green" /></a></h1>
+            
+          </div><!--
+          --><div class="mobile-nav-toggle"><div class="top-bar"></div><div class="middle-bar"></div><div class="bottom-bar"></div></div><div class="mobile-nav-toggle fixed-nav-toggle"><div class="top-bar"></div><div class="middle-bar"></div><div class="bottom-bar"></div></div><!--
+          --><div id="headerNav">
+
+  <div id="mainNavWrapper" class="nav-wrapper" data-content-field="navigation-mainNav">
+    <nav id="mainNavigation" data-content-field="navigation-mainNav">
+      
+
+      
+        
+          
+          <div class="index homepage">
+            <a href="/">
+              Home
+            </a>
+          </div>
+          
+        
+
+      
+        
+          
+          <div class="index">
+            <a href="/about/">
+              About
+            </a>
+          </div>
+          
+        
+
+      
+        
+          
+          <div class="index">
+            <a href="/team/">
+              Team
+            </a>
+          </div>
+          
+        
+
+      
+        
+          
+          <div class="external">
+            <a href="https://medium.com/bitcoin-green" target="_blank">
+              Blog
+            </a>
+          </div>
+          
+
+        
+
+      
+        
+          
+          <div class="index">
+            <a href="/resources/">
+              Resources
+            </a>
+          </div>
+          
+        
+
+      
+        
+          
+          <div class="index">
+            <a href="/wallet/">
+              Wallet
+            </a>
+          </div>
+          
+        
+
+      
+        
+          
+          <div class="index">
+            <a href="/masternodes/">
+              Masternodes
+            </a>
+          </div>
+          
+        
+
+      
+        
+          
+          <div class="index active">
+            <a href="/whitepaper/">
+              Whitepaper
+            </a>
+          </div>
+          
+        
+
+      
+        
+          
+          <div class="index">
+            <a href="/roadmap/">
+              Roadmap
+            </a>
+          </div>
+          
+        
+
+      
+        
+          
+          <div class="index">
+            <a href="/contact/">
+              Contact
+            </a>
+          </div>
+          
+        
+
+      
+    </nav>
+  </div>
+  <!-- style below blocks out the mobile nav toggle only when nav is loaded -->
+  <style>.mobile-nav-toggle-label { display: inline-block !important; }</style>
+
+
+</div>
+        </div>
+      </header>
+
+      
+        
+          
+            
+            
+          
+        
+      
+
+
+      
+      
+      
+
+      <main id="page" role="main">
+        
+        <!--
+        --><!--
+        --><div id="content" class="main-content" data-content-field="main-content" data-collection-id="5aa8a8e9f9619a457061fb53" >
+         <!-- Create index sections -->
+
+  
+  <div id="new-page-21" class="index-section empty" data-url-id="new-page-21" data-collection-id="5aa8b45ce2c48399700db9de" data-edit-main-image="Banner">
+    <div class="promoted-gallery-wrapper"></div>
+    
+      
+        <div class="banner-thumbnail-wrapper has-description" data-content-field="main-image">
+          <div class="color-overlay"></div>
+          <figure id="thumbnail" class="loading content-fill">
+            <img data-src="https://static1.squarespace.com/static/5aa6e7c2372b96538f12ae65/t/5aa9a2ebec212de9ab219fec/1521066736368/Header_Test_6.jpg" data-image="https://static1.squarespace.com/static/5aa6e7c2372b96538f12ae65/t/5aa9a2ebec212de9ab219fec/1521066736368/Header_Test_6.jpg" data-image-dimensions="2000x1334" data-image-focal-point="0.5,0.5" alt="Header_Test_6.jpg"  />
+          </figure>
+          <div class="desc-wrapper" data-content-field="description"><h1>Bitcoin Green Whitepaper</h1><p><a target="_blank" href="/s/BITG_Whitepaper_May2.pdf">DOWNLOAD THE WHITEPAPER (PDF)</a></p></div>
+        </div>
+      
+    
+
+    <div class="index-section-wrapper page-content">
+      <div class="content-inner" data-content-field="main-content">
+        
+      </div>
+    </div>
+  </div>
+  
+  <div id="new-page-47" class="index-section" data-url-id="new-page-47" data-collection-id="5ab07b11352f53a1f3ee5042" data-edit-main-image="Banner">
+    <div class="promoted-gallery-wrapper"></div>
+    
+      
+    
+
+    <div class="index-section-wrapper page-content">
+      <div class="content-inner has-content" data-content-field="main-content">
+        <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1526807193860" id="page-5ab07b11352f53a1f3ee5042"><div class="row sqs-row"><div class="col sqs-col-3 span-3"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-9f9b6e46b7f869ca6b29"><div class="sqs-block-content"><h2>Abstract</h2></div></div></div><div class="col sqs-col-9 span-9"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-2685331251995a1fc06b"><div class="sqs-block-content"><p>Bitcoin Green (BITG) is a sustainable cryptocurrency modeled after Satoshi Nakamoto’s vision for Bitcoin. It is a decentralized, peer-to-peer transactional currency designed to offer a solution to the problematic exponential increase in energy consumed by Bitcoin and other proof-of-work currencies.<br /><br />Proof-of-work mining is environmentally unsustainable due to the electricity used by high-powered mining hardware. Bitcoin Green utilizes an energy efficient proof-of-stake algorithm, can be mined on any computer, and will never require specialized mining equipment. The Green Protocol offers a simple solution to Bitcoin sustainability issues and provides a faster, more scalable blockchain that is better suited for daily transactional use.</p></div></div></div></div><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1521516672383_170964"><div class="sqs-block-content"><hr /></div></div><div class="row sqs-row"><div class="col sqs-col-3 span-3"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1521516672383_219301"><div class="sqs-block-content"><h2>Table of Contents</h2></div></div></div><div class="col sqs-col-9 span-9"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1521516672383_217391"><div class="sqs-block-content"><ol><li>Introduction</li><li>A Brief Primer on Bitcoin</li><li>Proof-of-Work: An Inconvenient Truth<ol><li>Unsustainable Energy Consumption</li><li>Network Division: Miners vs. Users</li><li>Low Network Throughput and High Fees</li><li>Waste of Computational Resources</li></ol></li><li>The Solution: Proof-Of-Stake</li><li>Bitcoin Green: The Proof-of-Stake Bitcoin</li><li>How is Bitcoin Green Funded?</li><li>The Bitcoin Green Foundation</li><li>Conclusion</li><li>References</li></ol></div></div></div></div><div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-404be3450faebab05a94"><div class="sqs-block-content"><hr /></div></div></div></div><div class="row sqs-row"><div class="col sqs-col-3 span-3"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-bf41a3027060b410b8d6"><div class="sqs-block-content"><h2>Introduction</h2></div></div></div><div class="col sqs-col-9 span-9"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-405d39b51f06645563c2"><div class="sqs-block-content"><p>Satoshi Nakamoto’s vision(1) for Bitcoin has been nothing short of revolutionary in allowing for cross-border peer-to-peer payments and creating the world’s first truly decentralized transfer-of-value network. Bitcoin’s underlying blockchain technology has also led to the creation of numerous decentralized networks which allow for smart contracts, identity protection, administration of intellectual property, supply chain management, and a plethora of other unprecedented innovations.</p><p>As public awareness of Bitcoin and blockchain technology increases, so do the cryptocurrency market valuations. Prices steadily increase as more and more investors and speculators begin to understand the true potential value of blockchain technology. Although the technology is promising, there is currently minimal public discourse regarding what steps need to be taken to ensure the long term sustainability, proliferation, and survival of the cryptocurrency ecosystem.</p><p>Bitcoin and other proof-of-work blockchain networks are heading towards a cliff. That cliff is unsustainable energy consumption. Bitcoin’s energy consumption is increasing rapidly because it uses a highly inefficient consensus mechanism to secure its network.</p><p>Bitcoin Green, the cryptocurrency, is a transactional, daily-use currency designed to provide a scalable and sustainable alternative to Bitcoin. The underlying Green Protocol utilizes a highly efficient proof-of-stake consensus algorithm that solves many of Bitcoin’s sustainability and scalability problems. Furthermore, Bitcoin Green can be mined on any computer or laptop without specialized equipment.</p><p>Bitcoin Green, the organization, aims to shed light on a number of critical issues facing proof-of-work based blockchains and raise public awareness for the environmental and economic problems arising from such issues.</p></div></div></div></div><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-130596809ea749161bf0"><div class="sqs-block-content"><hr /></div></div></div></div><div class="row sqs-row"><div class="col sqs-col-3 span-3"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-f260b1aed3d70ded6feb"><div class="sqs-block-content"><h2>A Brief Primer on Bitcoin</h2></div></div></div><div class="col sqs-col-9 span-9"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-19da34b94f96d46ef6a4"><div class="sqs-block-content"><p>Bitcoin was created in 2009 by pseudonymous author Satoshi Nakamoto and is the world’s first implementation of blockchain technology. The Bitcoin network is a large global network of computers connected by the Internet. Each computer is called a node. When someone sends some Bitcoin cryptocurrency, the transaction is beamed out to all the nodes. Each node then independently verifies that the transaction was not fraudulent.</p><p>Every few minutes, all the transactions that occurred in that period are bundled together into what is called a block. To fully process the block of transactions and add it to the blockchain, or public ledger of all historic valid transactions, the nodes compete to solve a difficult math problem. The lucky node that arrives at the correct solution first receives a reward of freshly-minted Bitcoin and the block is added to the blockchain, assuming they did not include any fraudulent transactions in that block.</p><p>This process of solving a difficult, computationally-intensive math problem is called proof-of-work, and is the consensus mechanism by which the Bitcoin network is secured.</p><p>By giving up their valuable computing resources to solve the math problem, nodes are then unable to freely spam the network with blocks containing fraudulent transactions.</p><p>Furthermore, in order to fully hijack the network, 51% or more of all the nodes would need to be monopolized, a difficult task given how large the network is.</p><p>Miners are the competitors that play in this problem-solving competition: they are nodes compensated for giving up their computing power and verifying transactions. In order to increase the probability that they solve the problem first, and thus increase their profits, miners use extremely powerful computers with processors specially designed to solve Bitcoin’s proof-of-work math problem, the SHA-256 encryption algorithm. To increase their expected profits, miners also operate a large number of these high-powered machines.</p><p>Thus, in a mining operation, each computer is powerful and there are a large number of them. In essence, the miners compete by using more and more energy. The economics of mining and proof-of-work has led to exponential and unsustainable growth in the energy consumption of Bitcoin and other proof-of-work networks. This is Bitcoin’s fundamental problem that can, thankfully, be solved by alternatives to the proof-of-work consensus mechanism.</p></div></div></div></div><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1521515631467_124782"><div class="sqs-block-content"><hr /></div></div><div class="row sqs-row"><div class="col sqs-col-3 span-3"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1521516672383_50152"><div class="sqs-block-content"><h2>Proof of Work: An inconvenient truth</h2></div></div></div><div class="col sqs-col-9 span-9"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1521516672383_12957"><div class="sqs-block-content"><p>Multiple critical problems stem from Bitcoin’s inefficient SHA-256 proof-of-work algorithm. Bitcoin is currently facing four major problems:</p><ol><li>It requires an unsustainable amount of energy</li><li>It splits incentives between miners and all other users</li><li>It has high fees and low network throughput</li><li>It consumes the world’s valuable computational resources</li></ol><p>Bitcoin Green utilizes the Green Protocol, which has been designed to solve all four problems.<br /><br /><strong>Unsustainable Energy Consumption</strong><br />Bitcoin consumes an astronomical amount of energy. Currently, the Bitcoin network uses more energy than 159 countries. There are only 195 countries on earth. That means 82% of the world’s countries use less energy than Bitcoin. Figure 1 allows one to visualize this.(2) Geographic regions highlighted in orange consume less electricity than Bitcoin:</p></div></div><div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-yui_3_17_2_1_1521516672383_98124"><div class="sqs-block-content">
+
+  
+
+  	
+      <div class="image-block-outer-wrapper layout-caption-below design-layout-inline   ">
+      
+        <div class="intrinsic" style="max-width:997.0px;">
+          
+            <div style="padding-bottom:53.5606803894043%;" class="image-block-wrapper   has-aspect-ratio" data-description="" >
+              <noscript><img src="https://static1.squarespace.com/static/5aa6e7c2372b96538f12ae65/t/5ab0829aaa4a991774a7314c/1521517215595/BITG_whitepaper_Jan26.jpg"  alt="BITG_whitepaper_Jan26.jpg"  /></noscript><img class="thumb-image" alt="BITG_whitepaper_Jan26.jpg" data-src="https://static1.squarespace.com/static/5aa6e7c2372b96538f12ae65/t/5ab0829aaa4a991774a7314c/1521517215595/BITG_whitepaper_Jan26.jpg" data-image="https://static1.squarespace.com/static/5aa6e7c2372b96538f12ae65/t/5ab0829aaa4a991774a7314c/1521517215595/BITG_whitepaper_Jan26.jpg" data-image-dimensions="997x534" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5ab0829aaa4a991774a7314c" data-type="image" />
+            </div>
+          
+
+          
+
+        </div>
+      
+      </div>
+    
+
+  
+
+
+</div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1521516672383_112908"><div class="sqs-block-content"><p>Zooming in at the user level, a single Bitcoin transaction consumes enough energy to power over 9 family homes in the United States for 24 hours.(3) As the Bitcoin network grows the block difficulty increases, and in turn the energy required to mine each block also increases. As long as more people use Bitcoin and the number of miners grows, the network will use more and more energy. Bitcoin’s proof-of-work difficulty dynamically changes to ensure block times stay within a narrow range of 10 minutes. The difficulty has increased 1,046% since January of 2014(4) and is continuing to rise exponentially. In December 2017, Bitcoin increased another 18% in difficulty from the previous month.(4) The Bitcoin network currently consumes 37,170,000,000 kWh of energy.(3)</p><p>Furthermore, Bitcoin mining accounts for only a portion of all cryptocurrency mining. As other currencies and "altcoins" begin to gain popularity, their mining networks also increase in energy consumption. At the time of this writing, Litecoin consumes 1,445,552,952 kWh per year,(5) which means if it were a country it would fall at number 149, just above Madagascar.(2) Ethereum, the second largest cryptocurrency, consumes 9,880,000,000 kWh per year.(6) Dash, another popular coin, consumes an estimated 1,611,840,000 kWh per year.(7) Although these coins are more efficient than Bitcoin, their net energy consumption is still over a third of Bitcoin’s, and growing fast. All popular proof-of-work coins consume an alarming amount of energy.</p><p>If Bitcoin mining growth continues at its current rate, Bitcoin will consume all electricity in the world by 2020.(8) Power that could be used for homes and electric cars will increasingly be redirected to Bitcoin’s massive hardware network, taxing energy grids all over the world. This ridiculous energy consumption is not necessary to secure a blockchain network and is the first and foremost problem Bitcoin Green is aiming to solve.<br /><br /><strong>3.2 Network Division: Miners vs. Users</strong><br />Proof-of-work splits blockchain networks into two interest groups: third-party miners and currency holders. Cryptocurrency mining is a big business, with over $18 billion in annual revenue.(3) The business model is such: build a warehouse in a region with cheap electricity, fill the warehouse with high-powered computers, mine Bitcoin, and sell Bitcoin for fiat currency to pay expenses. Miners make money both from the block reward of freshly minted Bitcoin and from the transaction fees associated with each block they mine. High transaction fees means more profit for miners. Smaller blocks also means more profit, as more blocks are needed to process a fixed number of transactions. The business of mining is the reason why Bitcoin has gone through multiple forks: miners make more money with high transaction fees and smaller block sizes, while everyone else wants low transaction fees and bigger block sizes. This divide inevitably leads to forks which destroy the valuable network effects essential to cryptocurrencies’ success. The problem is that miners are not actually required to hold the currency they mine. If one coin ceases to be profitable for miners they can simply start mining another coin. In fact, there are entire platforms that automatically allow miners to switch between the most profitable proof of stake coins.(9) Miners do not have to prove to the network that they actually care about the coin beyond its ability to generate immediate profits. Proof-of-work gives undue power to miners because the network can only be secured if miners contribute their processing power. Miners benefit from high fees and small block sizes, and thus incentives do not align with currency users who would like for the network to be as fast and as cheap as possible. This is a flawed system. The Bitcoin Green team believes a blockchain network should be designed to have all participants’ incentives aligned.<br /><br /><strong>3.3 Low Network Throughput and High Fees</strong><br />Bitcoin is currently designed to fit only 1 MB worth of transactions per block. Blocks of transactions occur roughly every 10 minutes. Given these two constraints, the Bitcoin network can only process a maximum of about 3.3-7 transactions per second.(10) Compare this to Visa’s 47,000 transactions per second.(11) Since miners, who ultimately determine the fate of a network by contributing processing power to verify transactions, profit from smaller block sizes, it is economically highly probable that they will continue to fight for maintaining the 1 MB hard-coded blocksize. This was recently demonstrated in the Bitcoin Cash hardfork of August 2017, which sought to increase block sizes to 2 MB. Nearly all miners stuck with the original Bitcoin network.(12)</p><p>In the Bitcoin network, users who send Bitcoin can increase the fees they spend to prioritize their transaction. In periods of high network congestion, users have been known to spend significant amounts of money to get their transactions processed. Figure 2 shows how the average US dollar cost of transaction fees and block rewards paid to miners has been increasing since Bitcoin’s inception.(13)</p></div></div><div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-yui_3_17_2_1_1521517767875_20850"><div class="sqs-block-content">
+
+  
+
+  	
+      <div class="image-block-outer-wrapper layout-caption-below design-layout-inline   ">
+      
+        <div class="intrinsic" style="max-width:2315.0px;">
+          
+            <div style="padding-bottom:48.59611129760742%;" class="image-block-wrapper   has-aspect-ratio" data-description="" >
+              <noscript><img src="https://static1.squarespace.com/static/5aa6e7c2372b96538f12ae65/t/5ab084f16d2a73ff3aa4c233/1521517818481/whitepaper-figure-2.jpg"  alt="whitepaper-figure-2.jpg"  /></noscript><img class="thumb-image" alt="whitepaper-figure-2.jpg" data-src="https://static1.squarespace.com/static/5aa6e7c2372b96538f12ae65/t/5ab084f16d2a73ff3aa4c233/1521517818481/whitepaper-figure-2.jpg" data-image="https://static1.squarespace.com/static/5aa6e7c2372b96538f12ae65/t/5ab084f16d2a73ff3aa4c233/1521517818481/whitepaper-figure-2.jpg" data-image-dimensions="2315x1125" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5ab084f16d2a73ff3aa4c233" data-type="image" />
+            </div>
+          
+
+          
+
+        </div>
+      
+      </div>
+    
+
+  
+
+
+</div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1521517767875_35617"><div class="sqs-block-content"><p>Proof-of-work causes both of these problems indirectly by giving undue power to the miners. For these two reasons—low network throughout and steadily increasing transaction fees, Bitcoin is neither scalable nor sustainable. As cryptocurrency becomes mainstream, Bitcoin fees will only soar higher. These fees make it impossible to cheaply and quickly<br />transact with Bitcoin.<br /><br /><strong>3.4 Waste of Computational Resources</strong><br />Cryptocurrency mining operations require high-powered computers to perform proof of work calculations. This requires many specialized computer parts, including graphics processing units (GPUs), application specific integrated circuits (ASICs), and field programmable gate arrays (FPGAs). These are the very same components that are required by the world’s artificial intelligence researchers, computer scientists, medical researchers, gamers and game designers, animators, graphic designers, and video editors, amongst others. Due to the increasing popularity and profitability of cryptocurrency mining, these critical computing components are becoming scarce. Miners are currently using this hardware to ensure network consensus via proof-of-work, however it could be used for the betterment of society in many other ways. Those who need this computing hardware are forced to settle for suboptimal hardware, pay inflated prices on secondary markets, or pay exorbitant fees to rent the necessary hardware on cloud computing platforms. A large portion of the world’s critical computing hardware is being used by miners to everyone else’s detriment. To grasp how much computing power is tied up in the Bitcoin network, it is helpful to compare the Bitcoin network to the world’s most powerful super computer, Sunway TaihuLight.(14) One metric to measure computing power is PETAFLOPS, or quadrillion floating point operations per second. Sunway TaihuLight can perform bursts of up to 93 PETAFLOPS.(15) The Bitcoin network currently outputs 80,704,290.84 PETAFLOPS to solve the proof-of-work problem and secure the network.(16) This means the Bitcoin network sucks up computing power equivalent to nearly 900,000 copies of the world’s most powerful super computer. One can only imagine what could be achieved if that scale of computing power was redirected perhaps towards areas of computationally intensive research, such as deep learning. The computing power of Bitcoin only continues to grow, and this problem will only get worse, as evidenced by the network’s exponentially, and nearly monotonically, increasing hashrate.(17)</p></div></div></div></div><div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1521516672383_68983"><div class="sqs-block-content"><hr /></div></div><div class="row sqs-row"><div class="col sqs-col-3 span-3"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1521518114310_37811"><div class="sqs-block-content"><h2>The Solution: Proof-Of-Stake</h2></div></div></div><div class="col sqs-col-9 span-9"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1521517767875_57513"><div class="sqs-block-content"><p>Despite the bleak picture painted above, a solution to all aforementioned problems does exists: proof-of-stake. Proof-of-stake is an energy-efficient, scalable, and intuitive consensus mechanism that uses economic incentives to secure a blockchain network. Proof-of-stake mining allows coin holders to mint new coins by holding their coins as collateral in a special staking wallet. In proof-of-work, your mining rewards are proportional to the amount of computing power you control in the network. In proof-of-stake, your mining rewards are proportional to the number of coins you hold in the network. Proof-of-stake miners hold their coin as collateral in a staking wallet, which is a desktop program that can run on any computer. By holding collateral, or a "stake", you prove to the network that you are economically incentivized to follow the network’s protocol. While staking, your staking wallet verifies transactions and mines blocks. When you successfully mine a block you are rewarded just like a proof-of-work miner would be.</p><p>In proof-of-stake, block rewards are distributed to coin holders instead of third-party miners. The cryptocurrency’s inflation flows to coin holders in an amount proportional to their staked collateral. This is a key advantage of proof-of-stake. There is no longer a distinction between miners and everyday users. In proof-of-work currencies, the cryptocurrency’s inflation flows to the third-party miners. This means that holders of the coin are hurt by inflation; their ownership of the coin is being diluted by miners. This is the same as how individuals who hold fiat currency have their buying power constantly reduced by central banks that print money. Holding a proof-of-stake currency and staking is the same as if your native country’s central bank sent you an additional 2%, or whatever the inflation rate is, of your fiat holdings every year. Although inflation has not prevented Bitcoin’s and other proof-of-work currencies’ value from rising, all of the inflation has been paid out to third-party miners instead of the holders and everyday users who are naturally the greatest proponents of the currency. With proof-of-stake, all members of the cryptocurrency ecosystem have their economic incentives aligned to improve the network’s technology and encourage widespread adoption, not to slow the network down or make it less efficient to increase profits for mining businesses.</p><p>Proof-of-stake works because it requires users to own a very large amount of currency in order to pose a threat to the network. Under proof-of-stake consensus, a user needs to hold more than fifty percent of a currency in order to commit fraud. If a user buys a majority stake and successfully approves fraudulent transactions, everyone else in the network is immediately made aware of this malicious activity. The public would lose confidence in the network and sell their coins, resulting in a significant loss of value for the malicious user. Instead of requiring miners to contribute computing power, proof-of-stake requires miners to post cryptocurrency collateral. In this way, proof-of-stake achieves consensus through economic incentives. Proof-of-stake networks do not require massive amounts of computing power or high-powered hardware, and are therefore extremely energy efficient and fast. Fees are also considerably lower in proof-of-stake cryptocurrencies.(18)</p><p>Some of the top blockchain networks currently use a form of proof-of-stake or are planning to switch to it in the future, such as Ethereum.(19) However, most of these major proof-of-stake blockchains are smart contract platforms, not transfer-of-value, deflationary currencies like Bitcoin. Bitcoin Green provides a simple solution to Bitcoin’s scalability problems, and is the first sustainable Bitcoin.</p></div></div></div></div><div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1521518114310_69913"><div class="sqs-block-content"><hr /></div></div><div class="row sqs-row"><div class="col sqs-col-3 span-3"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1521518114310_73494"><div class="sqs-block-content"><h2>Bitcoin Green: The Proof-of-Stake Bitcoin</h2></div></div></div><div class="col sqs-col-9 span-9"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1521518114310_70959"><div class="sqs-block-content"><p>The Bitcoin Green team has designed a revolutionary new consensus mechanism which called the Green Protocol. The Green Protocol is energy efficient, extremely fast, and combines proof-of-stake and masternode mining. The purpose of the Green Protocol is to act as a sustainable replacement for Bitcoin’s current SHA-256 proof-of-work algorithm. The Green Protocol employs proof-of-stake and masternode-only mining in combination with fixed block rewards in order to create a fair distribution of coins. Eighty-five percent of Bitcoin Green block rewards for to masternode stakers, 10% to stakers, and 5% goes to the decentralized governance pool (explained below). In this structure each masternode is equally weighted by the Bitcoin Green network, and large wallets do not get unfair benefits from compounding effects. This creates a more equitable mining experience and coin distribution. The total supply of Bitcoin Green is fixed at 21,000,000, just like Bitcoin.<br /><br />The Green Protocol is based on PIVX and has been modified to utilize both proof-ofstake and masternode consensus. There is no wasteful proof-of-work component to Bitcoin Green.</p><p>Running a proof-of-stake wallet requires no more than one-tenth of the energy required to run a single Bitcoin miner. Proof-of-stake wallets can also be run on extremely energy efficient computers, such as a Raspberry Pi. Assuming all users are using average desktop computers, the maximum energy consumption of Bitcoin Green is 25,754,400.00 kWh, or 0.06% of Bitcoin’s current consumption. However, this consumption is only possible at max supply with all coins locked in masternodes on separate computers. This is unlikely, and a more modest estimate would put Bitcoin Green at ten to one hundred times less than full consumption. It is more reasonable to assume that Bitcoin Green will only consume 0.0006% – 0.006% of Bitcoin’s current total consumption. Furthermore, it will take many years before consumption is anywhere near this level.</p><p>Bitcoin Green has extremely low fees, with an average transaction fee of less than $0.04 (assuming a price of $20,000 per BITG). This is significantly lower than Bitcoin’s current transaction fee of about $25.20</p><p>A crucial feature of Bitcoin Green is the decentralized governance protocol. As 5% of the network’s block rewards go to a network-locked address, or pool, the governance protocol allows any masternode to submit a proposal for how to use the pool’s funds and put it up to a vote. The proposal could be for using the pool’s resources to reward developers or community members, fund a foundation, donate to a charity, or any number of endeavors that would serve the Bitcoin Green mission. This ensures the Bitcoin Green ecosystem has a source of funding for perpetuity. Furthermore, the decentralized governance protocol doubles as a voting system that will be used to determine future developments in the network. This system will help prevent forks that destroy critical network effects. Masternode holders will determine protocol decisions and vote to make any necessary changes to the blockchain that will enable the long-term survival and success of the Bitcoin Green network.</p><p>Additionally, masternodes on the network allow for PrivateSend and InstantSend. This functionality allows Bitcoin Green to act as an extremely fast and optionally private transactional currency, a use-case simply not possible for Bitcoin given its slow transaction times and high fees. Bitcoin Green features a halving-reward mechanism similar to Bitcoin’s, designed to drive early platform adoption and incentivize early mining. There is also a fair-launch period of approximately one week that ensures everyone has enough time to configure their staking wallets after the initial launch.</p><p><strong>Inflation Schedule (Masternode Size: 2500 BITG)</strong></p></div></div><div class="row sqs-row"><div class="col sqs-col-4 span-4"><div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-yui_3_17_2_1_1521519393697_154748"><div class="sqs-block-content">
+
+  
+
+  	
+      <div class="image-block-outer-wrapper layout-caption-below design-layout-inline   ">
+      
+        <div class="intrinsic" style="max-width:806.0px;">
+          
+            <div style="padding-bottom:104.71464538574219%;" class="image-block-wrapper   has-aspect-ratio" data-description="" >
+              <noscript><img src="https://static1.squarespace.com/static/5aa6e7c2372b96538f12ae65/t/5ab08efe8a922d6ee3b97242/1521520389285/Screen+Shot+2018-03-19+at+9.29.31+PM.png"  alt="Screen Shot 2018-03-19 at 9.29.31 PM.png"  /></noscript><img class="thumb-image" alt="Screen Shot 2018-03-19 at 9.29.31 PM.png" data-src="https://static1.squarespace.com/static/5aa6e7c2372b96538f12ae65/t/5ab08efe8a922d6ee3b97242/1521520389285/Screen+Shot+2018-03-19+at+9.29.31+PM.png" data-image="https://static1.squarespace.com/static/5aa6e7c2372b96538f12ae65/t/5ab08efe8a922d6ee3b97242/1521520389285/Screen+Shot+2018-03-19+at+9.29.31+PM.png" data-image-dimensions="806x844" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5ab08efe8a922d6ee3b97242" data-type="image" />
+            </div>
+          
+
+          
+
+        </div>
+      
+      </div>
+    
+
+  
+
+
+</div></div></div><div class="col sqs-col-5 span-5"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1521519393697_150193"><div class="sqs-block-content">&nbsp;</div></div></div></div></div></div><div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1521519393697_161889"><div class="sqs-block-content"><hr /></div></div><div class="row sqs-row"><div class="col sqs-col-3 span-3"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1521519393697_225269"><div class="sqs-block-content"><h2>How is Bitcoin Green Distributed?</h2></div></div></div><div class="col sqs-col-9 span-9"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1521519393697_222141"><div class="sqs-block-content"><p>Initial coin offerings (ICO) have provided a revolutionary new way for blockchain projects to raise capital in a border-less, unrestricted fashion. However, many token distributions are disproportionately in favor of the founding team and partners. Some projects sell only a third or less of their tokens and keep the remainder, or distribute coins in a centralized fashion, allowing insiders to receive massive allocations at steep discounts. These practices destroy value for smaller ICO participants who are forced to buy in at higher prices. Bitcoin Green has designed its initial distribution to ensure initial ownership is as decentralized and equitable as possible.</p><p>The premine is for 500,000 BITG, or 2.4%, of the total supply of 21 million BITG coins. The remaining 20,500,000 BITG will be available for anyone to mine with masternodes. This 500,000 BITG equates to 200 masternodes. 160 of these masternodes will be distributed to the community, approximately 1 masternode per individual, including the 10 team members. 14 masternodes will be distributed to the initial team members, each individual receiving 0.5-3 masternodes for their efforts in creating the Bitcoin Green blockchain. 26 masternodes will be reserved for development costs, exchange listings, awareness campaigns, partnerships, and promotion of the Bitcoin Green mission.</p><p>Here is a breakdown of the initial BITG distribution:</p><p><strong>Community Distribution: 80%</strong></p><p>• Uniform distribution of Bitcoin Green to 160 early community supporters</p><p><strong>Development Fund: 4%</strong></p><p>• Used to fund future development of The Green Protocol</p><p>• Used to build out technologies and transaction processing infrastructure</p><p><strong>Awareness Fund: 5%</strong></p><p>• Used to promote awareness of Bitcoin’s sustainability problem</p><p>• Used to fund conferences, promotional materials, and other awareness objectives</p><p>• Used to donate to environmental organizations and causes</p><p><strong>Community Fund: 4%</strong></p><p>• All of these funds are distributed to the community</p><p>• Through airdrops, bounties, and contests</p><p>• Can also be used for promotional partnerships</p><p><strong>Team Fund: 7%</strong></p><p>• Funds paid to the team for work on the project</p><p>• Paid to developers, awareness team, and influencers</p></div></div><div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-yui_3_17_2_1_1521519393697_266481"><div class="sqs-block-content">
+
+  
+
+  	
+      <div class="image-block-outer-wrapper layout-caption-below design-layout-inline   ">
+      
+        <div class="intrinsic" style="max-width:1344.0px;">
+          
+            <div style="padding-bottom:50.595237731933594%;" class="image-block-wrapper   has-aspect-ratio" data-description="" >
+              <noscript><img src="https://static1.squarespace.com/static/5aa6e7c2372b96538f12ae65/t/5ae943b38a922d1389b7a19e/1525236681078/BITG_Distribution"  alt="BITG_Distribution"  /></noscript><img class="thumb-image" alt="BITG_Distribution" data-src="https://static1.squarespace.com/static/5aa6e7c2372b96538f12ae65/t/5ae943b38a922d1389b7a19e/1525236681078/BITG_Distribution" data-image="https://static1.squarespace.com/static/5aa6e7c2372b96538f12ae65/t/5ae943b38a922d1389b7a19e/1525236681078/BITG_Distribution" data-image-dimensions="1344x680" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5ae943b38a922d1389b7a19e" data-type="image" />
+            </div>
+          
+
+          
+
+        </div>
+      
+      </div>
+    
+
+  
+
+
+</div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1521519393697_275161"><div class="sqs-block-content"><p>Figure 3: Distribution of Bitcoin Green Premine (2.4% total supply)</p></div></div></div></div><div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1521519393697_300512"><div class="sqs-block-content"><hr /></div></div><div class="row sqs-row"><div class="col sqs-col-3 span-3"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1521519393697_305741"><div class="sqs-block-content"><h2>The Bitcoin Green Foundation</h2></div></div></div><div class="col sqs-col-9 span-9"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1521519393697_301978"><div class="sqs-block-content"><p>Our objectives extend beyond building out a sustainable, energy efficient, and secure cryptocurrency. We aim to publicize the problems surrounding proof-of-work cryptocurrencies with an aggressive campaign to promote awareness. As part of our long-term mission, we will be opening a non-profit legal entity called the Bitcoin Green Foundation.&nbsp;<br /><br />The Bitcoin Green Foundation is an organization created to bring awareness to Bitcoin’s sustainability issues. Furthermore, the Bitcoin Green Foundation will focus on education, teaching the public about cryptocurrencies and providing resources for investors and developers to learn about alternatives to proof-of-work. The Bitcoin Green Foundation believes in a future without proof-of-work cryptocurrencies. Our campaign to promote awareness will be an essential part to the success of Bitcoin Green.</p></div></div></div></div><div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1521519393697_346741"><div class="sqs-block-content"><hr /></div></div><div class="row sqs-row"><div class="col sqs-col-3 span-3"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1521519393697_352297"><div class="sqs-block-content"><h2>Conclusion</h2></div></div></div><div class="col sqs-col-9 span-9"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1521519393697_348280"><div class="sqs-block-content"><p>We are blockchain evangelists. We believe blockchain technology will change the world more than the internet has. Blockchain will add transparency to corrupt governments, corporations, and other powerful institutions. Blockchain will connect the world in business, social, and political domains to an unprecedented extent. Blockchain technology has enabled the first truly global economy, and is undoubtedly here to stay. We believe that most of the worlds inequalities and problems stem from third-parties getting rich without adding true value. They add costs, decrease transparency, censor content, and hinder innovation. Our aim is to contribute to the proliferation of such life-changing technology by shedding light and solving the biggest problem facing blockchain networks today.<br /><br />Bitcoin Green is the first sustainable Bitcoin. The Green Protocol is an intuitive, scalable solution that solves Bitcoin’s sustainability and scalability issues. Bitcoin Green is a truly decentralized network that addresses the key shortcomings of Bitcoin. It gives power to the coin holders and will never require expensive, wasteful mining equipment.<br /><br />Transaction fees will forever be low, and the network will remain high throughput. Bitcoin Green is a faster, more scalable cryptocurrency that is better suited for daily transactional use.</p></div></div></div></div><div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1521519393697_427073"><div class="sqs-block-content"><hr /></div></div><div class="row sqs-row"><div class="col sqs-col-3 span-3"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1521519393697_434142"><div class="sqs-block-content"><h2>References</h2></div></div></div><div class="col sqs-col-9 span-9"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1521519393697_428679"><div class="sqs-block-content"><ol><li><p>Satoshi Nakamoto. Bitcoin: A peer-to-peer electronic cash system. 2008. URL: https://bitcoin.org/bitcoin.pdf.</p></li><li><p>Power Compare. Bitcoin mining now consuming more electricity than 159 countries including ireland &amp; most countries in africa, 2017. URL: https://powercompare.co.uk/bitcoin/.</p></li><li><p>Digiconomist. Key network statistics, 2017. URL: https://digiconomist.net/bitcoin-energy-consumption.</p></li><li><p>Blockchain Luxembourg S.A.R.L. Difficulty, 2017. URL: https://blockchain.info/charts/difficulty?timespan=all.</p></li><li><p>Bitcoin Charts. Litecoin hashrate, 2017. URL: https://bitinfocharts.com/comparison/litecoin-hashrate.html.</p></li><li><p>Bitcoin Charts. Ethereum hashrate, 2017. URL: https://bitinfocharts.com/comparison/ethereum-hashrate.html.</p></li><li><p>Bitcoin Charts. Dash hashrate, 2017. URL: https://bitinfocharts.com/comparison/dash-hashrate.html.</p></li><li><p>Adam Jezard. World Economic Forum. In 2020 bitcoin will consume more power than the world does today, 2017. URL: https://www.weforum.org/agenda/2017/12/bitcoin-consume-more-power-than-world-2020/.</p></li><li><p>Nicehash. URL: https://www.nicehash.com/.</p></li><li><p>Ittay Eyal Kyle Croman. On scaling decentralized blockchains. 2016. URL: http://www.comp.nus.edu.sg/~prateeks/papers/Bitcoin-scaling.pdf.</p></li><li><p>Thaddeus Dryja Joseph Poon. The bitcoin lightning network. 2016. URL: https://lightning.network/lightning-network-paper.pdf.</p></li><li><p>Bitcoin vs. bitcoin cash hashrate. URL: https://fork.lol/pow/hashrate.</p></li><li><p>Blockchain Luxembourg S.A.R.L. Cost per transaction, 2017. URL: https://blockchain.info/charts/cost-per-transaction.</p></li><li><p>Wikipedia. Sunway taihulight, 2017. URL: https://en.wikipedia.org/wiki/Sunway_TaihuLight.</p></li><li><p>Michael Feldman. TOP500.org. China tops supercomputer rankings with new 93-petaflop machine, 2016. URL: https://www.top500.org/news/<br />china-tops-supercomputer-rankings-with-new-93-petaflop-machine/.</p></li><li><p>Bitcoin Charts, 2017. URL: https://bitcoincharts.com/bitcoin/.</p></li><li><p>Blockchain Luxembourg S.A.R.L. Hash rate, 2017. URL: https://blockchain.info/charts/hash-rate?timespan=all.</p></li><li><p>Bitcoin Wiki. Why proof-of-stake would likely decrease long-run txn fees considerably, 2017. URL: https://en.bitcoin.it/wiki/Proof_of_Stake#Why_Proof_of_Stake_Would_Likely_Decrease_Long-run_Txn_Fees_Considerably.</p></li><li><p>Ethereum.org. Proof of stake faq, 2017. URL: https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ.</p></li><li><p>Bitcoin fees, 2017. URL: https://bitcoinfees.info/.</p></li></ol></div></div></div></div></div></div></div>
+      </div>
+    </div>
+  </div>
+        </div><!--
+        -->
+        
+      </main>
+
+      <div id="preFooter">
+        <div class="pre-footer-inner">
+          <div class="sqs-layout sqs-grid-12 columns-12 empty" data-layout-label="Pre-Footer Content" data-type="block-field" data-updated-on="1522145897223" id="preFooterBlocks"><div class="row sqs-row"><div class="col sqs-col-12 span-12"></div></div></div>
+        </div>
+      </div>
+
+      <footer id="footer" role="contentinfo">
+        <div class="footer-inner">
+          <div class="nav-wrapper back-to-top-nav"><nav><div class="back-to-top"><a href="#header">Back to Top</a></div></nav></div>
+          
+
+
+          
+          <div class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Footer Content" data-type="block-field" data-updated-on="1543575601764" id="footerBlocks"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="row sqs-row"><div class="col sqs-col-6 span-6"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1521714226910_4631"><div class="sqs-block-content"><h3 style="white-space: pre-wrap;">Bitcoin Green</h3><p style="white-space: pre-wrap;">Bitcoin Green is a transactional, daily-use currency designed to provide a scalable and sustainable alternative to Bitcoin.</p></div></div><div class="sqs-block code-block sqs-block-code" data-block-type="23" id="block-yui_3_17_2_1_1522394987013_5757"><div class="sqs-block-content"><p>Current block: <strong><span class="live-data current-block">-</span></strong></p></div></div><div class="sqs-block socialaccountlinks-v2-block sqs-block-socialaccountlinks-v2" data-block-type="54" id="block-yui_3_17_2_1_1521009000943_12759"><div class="sqs-block-content">
+
+<div class="sqs-svg-icon--outer social-icon-alignment-left social-icons-color-white social-icons-size-medium social-icons-style-regular " >
+  <nav class="sqs-svg-icon--list">
+    <a href="https://twitter.com/btc_green" target="_blank" class="sqs-svg-icon--wrapper twitter">
+      <div>
+        <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
+          <use class="sqs-use--icon" xlink:href="#twitter-icon"></use>
+          <use class="sqs-use--mask" xlink:href="#twitter-mask"></use>
+        </svg>
+      </div>
+    </a><a href="http://instagram.com/bitcoin_green" target="_blank" class="sqs-svg-icon--wrapper instagram">
+      <div>
+        <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
+          <use class="sqs-use--icon" xlink:href="#instagram-icon"></use>
+          <use class="sqs-use--mask" xlink:href="#instagram-mask"></use>
+        </svg>
+      </div>
+    </a><a href="https://www.youtube.com/channel/UCKdrQtAvD5yBtFX8fp0RzUw" target="_blank" class="sqs-svg-icon--wrapper youtube">
+      <div>
+        <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
+          <use class="sqs-use--icon" xlink:href="#youtube-icon"></use>
+          <use class="sqs-use--mask" xlink:href="#youtube-mask"></use>
+        </svg>
+      </div>
+    </a><a href="mailto:awareness@savebitcoin.io" target="_blank" class="sqs-svg-icon--wrapper email">
+      <div>
+        <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
+          <use class="sqs-use--icon" xlink:href="#email-icon"></use>
+          <use class="sqs-use--mask" xlink:href="#email-mask"></use>
+        </svg>
+      </div>
+    </a>
+  </nav>
+</div></div></div></div><div class="col sqs-col-6 span-6"><div class="sqs-block html-block sqs-block-html sqs-col-3 span-3 float float-right" data-block-type="2" id="block-yui_3_17_2_1_1521714226910_20249"><div class="sqs-block-content"><h3 style="white-space: pre-wrap;">Explorer</h3><p style="white-space: pre-wrap;"><a href="https://www.coinexplorer.net/BITG" target="_blank">BITG on CoinExplorer</a><br><a href="https://explorer.savebitcoin.io/" target="_blank">Backup explorer</a></p><h3 style="white-space: pre-wrap;">Social</h3><p style="white-space: pre-wrap;"><a href="https://www.reddit.com/r/btcgreen/" target="_blank">Reddit</a><br><a href="https://discord.gg/QaPjqff" target="_blank">Discord</a><br><a href="http://t.me/bitcoin_green" target="_blank">Telegram</a> | <a href="https://t.me/bitcoingreen_RU" target="_blank">RU</a></p></div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1521714226910_16801"><div class="sqs-block-content"><p style="white-space: pre-wrap;"><a href="/about">About</a><br><a href="/resources">Resources</a><br><a href="/wallet">Wallet</a><br><a href="/masternodes">Masternodes</a><br><a href="/whitepaper">Whitepaper</a><br><a href="/roadmap">Roadmap</a><br><a href="https://github.com/bitcoingreen" target="_blank">Github</a></p><h3 style="white-space: pre-wrap;">Blog</h3><p style="white-space: pre-wrap;"><a href="https://medium.com/bitcoin-green" target="_blank">English</a><br><a href="https://medium.com/bitcoin-green-ch" target="_blank">CH</a> | RU | TR</p></div></div></div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-713fe491a2c303b33937"><div class="sqs-block-content"><p style="white-space: pre-wrap;">Copyright © 2018&nbsp; |&nbsp;&nbsp;<a href="/">SAVEBITCOIN.IO</a></p></div></div></div></div></div>
+        </div>
+      </footer>
+
+    </div>
+
+    <script src="https://static1.squarespace.com/static/ta/52a74d9ae4b0253945d2aee9/1015/scripts/site-bundle.js" type="text/javascript"></script>
+    <script>window.jQuery || document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"><\/script>')</script>
+<script>
+(function() {
+	"use strict";
+	
+	/*if (typeof jQuery === "undefined") {
+		console.log("jQuery not loaded.");
+		return;
+	}*/
+
+	function addCommas(num) {
+		return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+	}
+
+	var $ = jQuery.noConflict();
+	var debug = false;
+	var reqAPIs = [];
+	var apiCalls = [];
+	var logIt = function(data) { if(debug) console.log(data); };
+	var urlPath = window.location.pathname;
+	var bitg = {
+		"info": null,
+		"circSupply": null,
+		"mnCount": null
+	};
+
+	/*jQuery.fn.extend({
+		isUndefined: function() {
+			return (this === 'undefined');
+		});
+	});*/
+
+	$.ajaxSetup({
+		type: 'GET',
+		dataType:'json'
+	});
+
+	apiCalls = {
+		'info': function() {
+			return $.ajax({
+				url: "https://explorer.savebitcoin.io/api/getinfo"/*,
+				success: function(json) {
+					bitg.info=json;
+				}*/
+			})
+			.done(function(json) {
+				bitg.info=json;
+			})
+			.always(logIt)
+		},
+		'circSupply': function() {
+			return $.ajax({
+				url: "https://explorer.savebitcoin.io/ext/getcirculatingsupply"
+			})
+			.done(function(supply) {
+				bitg.circSupply = supply;
+			})
+			.always(logIt)
+		},
+		'mnCount': function() {
+			return $.ajax({
+				url: "https://explorer.savebitcoin.io/ext/getmasternodecount",
+				dataType: 'text'
+			})
+			.done(function(count) {
+				bitg.mnCount = count;
+			})
+			.always(logIt)
+		}
+	};
+
+	/* Determine required API calls per page type */
+	reqAPIs.push('info');
+	// About page
+	if (/\/about/.test(urlPath)) {
+		reqAPIs.push('circSupply');
+		reqAPIs.push('mnCount');
+	}
+	if (/\/masternodes/.test(urlPath)) {
+		reqAPIs.push('mnCount');
+	}
+	// if ($.inArray('info')>-1) reqAPIs.push('info');
+
+	/* BLOCK REWARD TIERS */
+	/*var blockIncrements = [0,200,5000,25000,100000,1050000,2100000,3150000];
+	var blockInflateConstant = 1050000;
+	var blockRanges = [];
+
+	$.each(blockIncrements, function(i, val) {
+		var lower = blockIncrements[i];
+		var upper = (typeof blockIncrements[i+1] !== 'undefined') ? blockIncrements[i+1] : blockIncrements[blockIncrements.length-1]+blockInflateConstant;
+		blockRanges.push([lower,upper]);
+	});*/
+
+	/* INITIAL DATA GRAB */
+	if(reqAPIs.length) {
+
+		var apisToCall = [];
+		$.each(reqAPIs, function(i, name) {
+			apisToCall.push(apiCalls[name]());
+		});
+
+		$.when.apply(undefined, apisToCall)
+		.then(function(data, textStatus, jqXHR) {
+
+			console.log(bitg);
+
+			/* ALL PAGES */
+			if(typeof bitg.info.blocks !== 'undefined' && $.isNumeric(bitg.info.blocks)) {
+				$(".live-data.current-block" ).text( addCommas(Math.round(bitg.info.blocks)) );
+			}
+
+			/* ABOUT PAGE */
+			var $supplyDesc = $('#section-supply .desc-wrapper');
+			if($supplyDesc.length) {
+				var $supplyContent = $('<div />');
+
+				$supplyContent.append('<p>MAX. BITCOIN GREEN SUPPLY<br><strong>21,000,000</strong></p>');
+				/*if (typeof bitg.info.moneysupply !== 'undefined' && $.isNumeric(bitg.info.moneysupply)) {
+					$supplyContent.append('<p>COIN SUPPLY<br><strong>'+addCommas(Math.round(bitg.info.moneysupply))+'</strong></p>');
+				}*/
+				if (typeof bitg.circSupply !== 'undefined' && $.isNumeric(bitg.circSupply)) {
+					$supplyContent.append('<p>CURRENT SUPPLY<br><strong>'+addCommas(Math.round(bitg.circSupply))+'</strong></p>');
+				}
+				if (typeof bitg.mnCount !== 'undefined' && $.isNumeric(bitg.mnCount)) {
+					$supplyContent.append('<p>MASTERNODES ONLINE<br><strong>'+addCommas(Math.round(bitg.mnCount))+'</strong></p>');
+				}
+				if (typeof bitg.circSupply !== 'undefined' && typeof bitg.mnCount !== 'undefined' && $.isNumeric(bitg.circSupply) && $.isNumeric(bitg.mnCount) ) {
+					var mnCoins = bitg.mnCount * 2500;
+					var mnRatio = mnCoins / bitg.circSupply;
+					$supplyContent.append('<p>COINS LOCKED IN MASTERNODES<br><strong>'+Math.round(mnRatio*100)+'%</strong></p>');
+				}
+				$supplyDesc.html($supplyContent);
+			}
+
+			/* MASTERNODES PAGE */
+			var $masternodesCount = $("#active-masternodes .desc-wrapper strong" );
+			if($masternodesCount.length) {
+				if (typeof bitg.mnCount !== 'undefined' && $.isNumeric(bitg.mnCount)) {
+					$masternodesCount.text(bitg.mnCount);
+				}
+			}
+
+		});
+
+	}
+
+	/*var $priceUsd = $(".live-data.price-usd" );
+	var $priceBtc = $(".live-data.price-btc" );
+	if($priceUsd.length || $priceBtc.length) {
+		jQuery.ajax({
+			url: "https://api.coinmarketcap.com/v1/ticker/bitcoin-green/",
+			success: function(json) {
+				console.log(json);
+				if (typeof json.price_usd !== 'undefined') {
+					$(".live-data.price-usd" ).text(json.price_usd);
+				}
+				if (typeof json.price_btc !== 'undefined') {
+					$(".live-data.price-btc" ).text(json.price_btc);
+				}
+			}
+		});
+	}*/
+
+})(jQuery);
+  
+(function($) {
+
+	//if(typeof window.enableBio !== "undefined" && window.enableBio == true) {
+	if(window.location.pathname == '/team/') {
+
+		$('body').addClass('enable-bio');
+
+		var $overlay = $('<div class="bio-overlay"><div class="row sqs-row"><div class="col sqs-col-1 span-1">&nbsp;</div><div class="col sqs-col-10 span-10"><h3 class="bio-name">&nbsp;</h3><div class="bio-content">&nbsp;</div><div class="bio-close">Click to close</div></div><div class="col sqs-col-1 span-1">&nbsp;</div></div></div>');
+
+		$('main').append($overlay);
+
+		function showOverlay(name, content) {
+			$overlay.find('.bio-name').html( name );
+			$overlay.find('.bio-content').text( content );
+			$('body').css({ 'overflow-y':'hidden' });
+			$overlay.css({ 'display':'block'});
+		}
+		function hideOverlay() {
+			$overlay.css({ 'display':'none'});
+			$('body').css({ 'overflow-y':'scroll' });
+		}
+
+		$overlay.on('click', function(e) {
+			hideOverlay();
+		});
+
+		$.each($('.image-block'), function(i, el) {
+
+			var $profile = $(el);
+
+			var $name = $profile.find('.image-card-wrapper .image-title-wrapper');
+			var $bio = $profile.find('.image-card-wrapper .image-subtitle-wrapper');
+			var $button = $profile.find('.image-card-wrapper .image-button-wrapper');
+
+			if($bio.length) {
+
+				$profile.addClass('clickable');
+				$button.find('a').on('click', function(e) {
+					e.preventDefault();
+				});
+				$profile.on('click', function(e) {
+					showOverlay($name.find('.image-title').html(), $bio.text());
+				});
+			}
+			// console.log($name.text());
+			// console.log($bio.text());
+		});
+
+	}
+
+})(jQuery);
+</script><script type="text/javascript" data-sqs-type="imageloader-bootstrapper">(function() {if(window.ImageLoader) { window.ImageLoader.bootstrap({}, document); }})();</script><script>Squarespace.afterBodyLoad(Y);</script><svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display:none"><symbol id="twitter-icon" viewBox="0 0 64 64"><path d="M48,22.1c-1.2,0.5-2.4,0.9-3.8,1c1.4-0.8,2.4-2.1,2.9-3.6c-1.3,0.8-2.7,1.3-4.2,1.6 C41.7,19.8,40,19,38.2,19c-3.6,0-6.6,2.9-6.6,6.6c0,0.5,0.1,1,0.2,1.5c-5.5-0.3-10.3-2.9-13.5-6.9c-0.6,1-0.9,2.1-0.9,3.3 c0,2.3,1.2,4.3,2.9,5.5c-1.1,0-2.1-0.3-3-0.8c0,0,0,0.1,0,0.1c0,3.2,2.3,5.8,5.3,6.4c-0.6,0.1-1.1,0.2-1.7,0.2c-0.4,0-0.8,0-1.2-0.1 c0.8,2.6,3.3,4.5,6.1,4.6c-2.2,1.8-5.1,2.8-8.2,2.8c-0.5,0-1.1,0-1.6-0.1c2.9,1.9,6.4,2.9,10.1,2.9c12.1,0,18.7-10,18.7-18.7 c0-0.3,0-0.6,0-0.8C46,24.5,47.1,23.4,48,22.1z"/></symbol><symbol id="twitter-mask" viewBox="0 0 64 64"><path d="M0,0v64h64V0H0z M44.7,25.5c0,0.3,0,0.6,0,0.8C44.7,35,38.1,45,26.1,45c-3.7,0-7.2-1.1-10.1-2.9 c0.5,0.1,1,0.1,1.6,0.1c3.1,0,5.9-1,8.2-2.8c-2.9-0.1-5.3-2-6.1-4.6c0.4,0.1,0.8,0.1,1.2,0.1c0.6,0,1.2-0.1,1.7-0.2 c-3-0.6-5.3-3.3-5.3-6.4c0,0,0-0.1,0-0.1c0.9,0.5,1.9,0.8,3,0.8c-1.8-1.2-2.9-3.2-2.9-5.5c0-1.2,0.3-2.3,0.9-3.3 c3.2,4,8.1,6.6,13.5,6.9c-0.1-0.5-0.2-1-0.2-1.5c0-3.6,2.9-6.6,6.6-6.6c1.9,0,3.6,0.8,4.8,2.1c1.5-0.3,2.9-0.8,4.2-1.6 c-0.5,1.5-1.5,2.8-2.9,3.6c1.3-0.2,2.6-0.5,3.8-1C47.1,23.4,46,24.5,44.7,25.5z"/></symbol><symbol id="instagram-icon" viewBox="0 0 64 64"><path d="M46.91,25.816c-0.073-1.597-0.326-2.687-0.697-3.641c-0.383-0.986-0.896-1.823-1.73-2.657c-0.834-0.834-1.67-1.347-2.657-1.73c-0.954-0.371-2.045-0.624-3.641-0.697C36.585,17.017,36.074,17,32,17s-4.585,0.017-6.184,0.09c-1.597,0.073-2.687,0.326-3.641,0.697c-0.986,0.383-1.823,0.896-2.657,1.73c-0.834,0.834-1.347,1.67-1.73,2.657c-0.371,0.954-0.624,2.045-0.697,3.641C17.017,27.415,17,27.926,17,32c0,4.074,0.017,4.585,0.09,6.184c0.073,1.597,0.326,2.687,0.697,3.641c0.383,0.986,0.896,1.823,1.73,2.657c0.834,0.834,1.67,1.347,2.657,1.73c0.954,0.371,2.045,0.624,3.641,0.697C27.415,46.983,27.926,47,32,47s4.585-0.017,6.184-0.09c1.597-0.073,2.687-0.326,3.641-0.697c0.986-0.383,1.823-0.896,2.657-1.73c0.834-0.834,1.347-1.67,1.73-2.657c0.371-0.954,0.624-2.045,0.697-3.641C46.983,36.585,47,36.074,47,32S46.983,27.415,46.91,25.816z M44.21,38.061c-0.067,1.462-0.311,2.257-0.516,2.785c-0.272,0.7-0.597,1.2-1.122,1.725c-0.525,0.525-1.025,0.85-1.725,1.122c-0.529,0.205-1.323,0.45-2.785,0.516c-1.581,0.072-2.056,0.087-6.061,0.087s-4.48-0.015-6.061-0.087c-1.462-0.067-2.257-0.311-2.785-0.516c-0.7-0.272-1.2-0.597-1.725-1.122c-0.525-0.525-0.85-1.025-1.122-1.725c-0.205-0.529-0.45-1.323-0.516-2.785c-0.072-1.582-0.087-2.056-0.087-6.061s0.015-4.48,0.087-6.061c0.067-1.462,0.311-2.257,0.516-2.785c0.272-0.7,0.597-1.2,1.122-1.725c0.525-0.525,1.025-0.85,1.725-1.122c0.529-0.205,1.323-0.45,2.785-0.516c1.582-0.072,2.056-0.087,6.061-0.087s4.48,0.015,6.061,0.087c1.462,0.067,2.257,0.311,2.785,0.516c0.7,0.272,1.2,0.597,1.725,1.122c0.525,0.525,0.85,1.025,1.122,1.725c0.205,0.529,0.45,1.323,0.516,2.785c0.072,1.582,0.087,2.056,0.087,6.061S44.282,36.48,44.21,38.061z M32,24.297c-4.254,0-7.703,3.449-7.703,7.703c0,4.254,3.449,7.703,7.703,7.703c4.254,0,7.703-3.449,7.703-7.703C39.703,27.746,36.254,24.297,32,24.297z M32,37c-2.761,0-5-2.239-5-5c0-2.761,2.239-5,5-5s5,2.239,5,5C37,34.761,34.761,37,32,37z M40.007,22.193c-0.994,0-1.8,0.806-1.8,1.8c0,0.994,0.806,1.8,1.8,1.8c0.994,0,1.8-0.806,1.8-1.8C41.807,22.999,41.001,22.193,40.007,22.193z"/></symbol><symbol id="instagram-mask" viewBox="0 0 64 64"><path d="M43.693,23.153c-0.272-0.7-0.597-1.2-1.122-1.725c-0.525-0.525-1.025-0.85-1.725-1.122c-0.529-0.205-1.323-0.45-2.785-0.517c-1.582-0.072-2.056-0.087-6.061-0.087s-4.48,0.015-6.061,0.087c-1.462,0.067-2.257,0.311-2.785,0.517c-0.7,0.272-1.2,0.597-1.725,1.122c-0.525,0.525-0.85,1.025-1.122,1.725c-0.205,0.529-0.45,1.323-0.516,2.785c-0.072,1.582-0.087,2.056-0.087,6.061s0.015,4.48,0.087,6.061c0.067,1.462,0.311,2.257,0.516,2.785c0.272,0.7,0.597,1.2,1.122,1.725s1.025,0.85,1.725,1.122c0.529,0.205,1.323,0.45,2.785,0.516c1.581,0.072,2.056,0.087,6.061,0.087s4.48-0.015,6.061-0.087c1.462-0.067,2.257-0.311,2.785-0.516c0.7-0.272,1.2-0.597,1.725-1.122s0.85-1.025,1.122-1.725c0.205-0.529,0.45-1.323,0.516-2.785c0.072-1.582,0.087-2.056,0.087-6.061s-0.015-4.48-0.087-6.061C44.143,24.476,43.899,23.682,43.693,23.153z M32,39.703c-4.254,0-7.703-3.449-7.703-7.703s3.449-7.703,7.703-7.703s7.703,3.449,7.703,7.703S36.254,39.703,32,39.703z M40.007,25.793c-0.994,0-1.8-0.806-1.8-1.8c0-0.994,0.806-1.8,1.8-1.8c0.994,0,1.8,0.806,1.8,1.8C41.807,24.987,41.001,25.793,40.007,25.793z M0,0v64h64V0H0z M46.91,38.184c-0.073,1.597-0.326,2.687-0.697,3.641c-0.383,0.986-0.896,1.823-1.73,2.657c-0.834,0.834-1.67,1.347-2.657,1.73c-0.954,0.371-2.044,0.624-3.641,0.697C36.585,46.983,36.074,47,32,47s-4.585-0.017-6.184-0.09c-1.597-0.073-2.687-0.326-3.641-0.697c-0.986-0.383-1.823-0.896-2.657-1.73c-0.834-0.834-1.347-1.67-1.73-2.657c-0.371-0.954-0.624-2.044-0.697-3.641C17.017,36.585,17,36.074,17,32c0-4.074,0.017-4.585,0.09-6.185c0.073-1.597,0.326-2.687,0.697-3.641c0.383-0.986,0.896-1.823,1.73-2.657c0.834-0.834,1.67-1.347,2.657-1.73c0.954-0.371,2.045-0.624,3.641-0.697C27.415,17.017,27.926,17,32,17s4.585,0.017,6.184,0.09c1.597,0.073,2.687,0.326,3.641,0.697c0.986,0.383,1.823,0.896,2.657,1.73c0.834,0.834,1.347,1.67,1.73,2.657c0.371,0.954,0.624,2.044,0.697,3.641C46.983,27.415,47,27.926,47,32C47,36.074,46.983,36.585,46.91,38.184z M32,27c-2.761,0-5,2.239-5,5s2.239,5,5,5s5-2.239,5-5S34.761,27,32,27z"/></symbol><symbol id="youtube-icon" viewBox="0 0 64 64"><path d="M46.7,26c0,0-0.3-2.1-1.2-3c-1.1-1.2-2.4-1.2-3-1.3C38.3,21.4,32,21.4,32,21.4h0 c0,0-6.3,0-10.5,0.3c-0.6,0.1-1.9,0.1-3,1.3c-0.9,0.9-1.2,3-1.2,3S17,28.4,17,30.9v2.3c0,2.4,0.3,4.9,0.3,4.9s0.3,2.1,1.2,3 c1.1,1.2,2.6,1.2,3.3,1.3c2.4,0.2,10.2,0.3,10.2,0.3s6.3,0,10.5-0.3c0.6-0.1,1.9-0.1,3-1.3c0.9-0.9,1.2-3,1.2-3s0.3-2.4,0.3-4.9 v-2.3C47,28.4,46.7,26,46.7,26z M28.9,35.9l0-8.4l8.1,4.2L28.9,35.9z"/></symbol><symbol id="youtube-mask" viewBox="0 0 64 64"><path d="M0,0v64h64V0H0z M47,33.1c0,2.4-0.3,4.9-0.3,4.9s-0.3,2.1-1.2,3c-1.1,1.2-2.4,1.2-3,1.3 C38.3,42.5,32,42.6,32,42.6s-7.8-0.1-10.2-0.3c-0.7-0.1-2.2-0.1-3.3-1.3c-0.9-0.9-1.2-3-1.2-3S17,35.6,17,33.1v-2.3 c0-2.4,0.3-4.9,0.3-4.9s0.3-2.1,1.2-3c1.1-1.2,2.4-1.2,3-1.3c4.2-0.3,10.5-0.3,10.5-0.3h0c0,0,6.3,0,10.5,0.3c0.6,0.1,1.9,0.1,3,1.3 c0.9,0.9,1.2,3,1.2,3s0.3,2.4,0.3,4.9V33.1z M28.9,35.9l8.1-4.2l-8.1-4.2L28.9,35.9z"/></symbol><symbol id="email-icon" viewBox="0 0 64 64"><path d="M17,22v20h30V22H17z M41.1,25L32,32.1L22.9,25H41.1z M20,39V26.6l12,9.3l12-9.3V39H20z"/></symbol><symbol id="email-mask" viewBox="0 0 64 64"><path d="M41.1,25H22.9l9.1,7.1L41.1,25z M44,26.6l-12,9.3l-12-9.3V39h24V26.6z M0,0v64h64V0H0z M47,42H17V22h30V42z"/></symbol></svg>
+
+  </body>
+</html>

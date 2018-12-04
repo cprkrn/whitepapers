@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta content="text/html; charset=UTF-8" name="Content-Type" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="csrf-token" content="xCHG09CBD7FSUJlyWGESeQ05L5VDsKidIjOt1RB2">
+    
+        <title>Salt Lending White Paper - CryptoGround</title>
+
+    <meta name="description" content="Read complete Salt Lending White Paper. You can also download Salt Lending White Paper in PDF." />
+
+    <meta property="og:title" content="Salt Lending White Paper - CryptoGround" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="https://www.cryptoground.com/images/coins/1437_SALT.jpg" />
+    <meta property="og:url" content="https://www.cryptoground.com/salt-lending-white-paper" />
+    <meta property="og:description" content="Read complete Salt Lending White Paper. You can also download Salt Lending White Paper in PDF." />
+
+    <meta name="twitter:card" content="summary">
+    
+    <meta name="twitter:site" content="@CryptoGround">
+    <meta name="twitter:creator" content="@CryptoGround">
+    <meta name="twitter:title" content="Salt Lending White Paper - CryptoGround" />
+    <meta name="twitter:description" content="Read complete Salt Lending White Paper. You can also download Salt Lending White Paper in PDF." />
+    <meta name="twitter:image" content="https://www.cryptoground.com/images/coins/1437_SALT.jpg" />
+    <link rel="canonical" href="https://www.cryptoground.com/salt-lending-white-paper" />
+    <!-- Latest compiled and minified CSS -->
+    
+    <meta name="msvalidate.01" content="962B006E5800EE44D6F55F1B35F0E44B" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:300,400,700|Roboto+Condensed:300,400,700|Source+Sans+Pro:300,400,700" rel="stylesheet">
+    <!-- Toaster css -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/app.css?id=96edafdbfbdc1419e919">
+    <link rel="icon" href="https://www.cryptoground.com/favicon.ico" type="image/x-icon">
+    <meta name="p:domain_verify" content="e6d4816253da61c9698f38a008fb19c5"/>
+        <style>
+        .coin-bottom-wrapper{
+            background-color: white;
+        }
+        .sidebar-heading{
+            font-weight: bold;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+        .sidebar-heading h4{
+            font-weight: bold;
+        }
+
+    </style>
+    <style>
+        @media  only screen and (device-width: 768px) {
+
+            .coin-single-navbar-wrapper .heading .top-section .text ul.right-ul li{
+                margin-bottom: 20px;
+            }
+        }
+
+    </style>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <style>
+        #ui-datepicker-div {display: none!important;}
+    </style>
+
+    
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-101881129-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-101881129-1');
+    </script>
+    <link rel="manifest" href="/manifest.json">
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+    <script>
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(["init", {
+            appId: "b75d277c-a09f-466d-93de-348b5142ad0c",
+            safari_web_id: 'web.onesignal.auto.399b8e00-4d8c-471a-9e28-27f67ae2986b',
+            autoRegister: true,
+            notifyButton: {
+                enable: false /* Set to false to hide */
+            }
+        }]);
+    </script>
+   
+       <script async src="//appsha1.cointraffic.io/js/?wkey=pjL9Hq"></script>
+       <!-- Hotjar Tracking Code for https://www.cryptoground.com/ -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:889279,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+    
+    
+</head>
+<body>
+<div class="page-header-container">
+    <div class="top-header">
+        <div class="container">
+            <ul class="list-inline top-header-right-menu pull-left">
+                <li><p>Market Cap: <span>$128b</span></p></li>
+                <li class="hidden-xs"><p>24H Vol:
+                        <span>$14b</span></p></li>
+                <li class="hidden-xs"><p>btc dominance: <span>53.83%</span></p></li>
+                
+            </ul>
+            <ul class="list-inline pull-right">
+                <li><i class="fa fa-calendar"></i>  <b>Dec 04, 2018</b></li>
+                                    <li>
+                        <button class="yellow-btn" type="button" data-toggle="modal" data-target="#subscriptionModal"><i
+                                    class="fa fa-envelope-open"></i></button>
+                    </li>
+                                <li>
+                    <form method="post" action="https://www.cryptoground.com/set-currency" class="locale-currency-selector-form">
+                        <select name="currency" class="locale-currency-selector" data-width="fit">
+                                                            <option value="USD" selected=&quot;selected&quot;>$ USD</option>
+                                                            <option value="INR" >₹ INR</option>
+                                                            <option value="GBP" >£ GBP</option>
+                                                            <option value="CAD" >$ CAD</option>
+                                                            <option value="EUR" >€ EUR</option>
+                                                            <option value="CHF" >SFr CHF</option>
+                                                            <option value="AUD" >$ AUD</option>
+                                                            <option value="JPY" >￥ JPY</option>
+                                                            <option value="KRW" >₩ KRW</option>
+                                                            <option value="ZAR" >R ZAR</option>
+                                                            <option value="THB" >฿ THB</option>
+                                                            <option value="SGD" >S$ SGD</option>
+                                                            <option value="RUB" >₽ RUB</option>
+                                                            <option value="MYR" >$ MYR</option>
+                                                            <option value="HKD" >HK$ HKD</option>
+                                                            <option value="MXN" >$ MXN</option>
+                                                            <option value="NZD" >$ NZD</option>
+                                                            <option value="BRL" >R$ BRL</option>
+                                                            <option value="BGN" >leva BGN</option>
+                                                            <option value="CNY" >亓 CNY</option>
+                                                            <option value="CZK" >Kč CZK</option>
+                                                            <option value="DKK" >kr DKK</option>
+                                                            <option value="HRK" >kn HRK</option>
+                                                            <option value="HUF" >Ft HUF</option>
+                                                            <option value="IDR" >Rp IDR</option>
+                                                            <option value="ILS" >₪ ILS</option>
+                                                            <option value="NOK" >kr NOK</option>
+                                                            <option value="PHP" >₱ PHP</option>
+                                                            <option value="PLN" >zł PLN</option>
+                                                            <option value="RON" >lei RON</option>
+                                                            <option value="SEK" >kr SEK</option>
+                                                            <option value="TRY" >₺ TRY</option>
+                                                            <option value="ISK" >Íkr ISK</option>
+                                                    </select>
+                    </form>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+    <div class="bottom-header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <a class="navbar-brand" href="https://www.cryptoground.com"><img src=https://www.cryptoground.com/images/logo_new.svg></a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="with-animation">
+                        <a class="search-toggle"><i class="fa fa-search"></i></a>
+                    </li>
+                    <li class="dropdown hidden-xs with-animation">
+                        <a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+                        <ul class="dropdown-menu profile-menu">
+                            
+                                                            <li><a class="green-text" href="https://www.cryptoground.com/login">Login</a>
+                                <li><a class="green-text" href="https://www.cryptoground.com/register">Sign Up</a>
+                                                    </ul>
+                    </li>
+                    <li class="hidden-lg hidden-md hidden-sm mobile-dropdown">
+                        <a><i class="fa fa-user"></i></a>
+                        <ul class="dropdown-menu">
+                            
+                                                            <li><a class="green-text" href="https://www.cryptoground.com/login">Login</a>
+                                <li><a class="green-text" href="https://www.cryptoground.com/register">Sign Up</a>
+                                                    </ul>
+                    </li>
+                </ul>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <!-- Mobile Menu-->
+                    <ul class="nav navbar-nav hidden-sm hidden-md hidden-lg  navbar-center">
+                        
+                        <li class="news-link with-animation hidden-xs ">
+                            <a href="https://www.cryptoground.com/news">News</a>
+                        </li>
+                        <li class="hidden-md with-animation hidden-sm hidden-lg ">
+                            <a class="main-menu">News </a>
+                            <ul class="tools-menu">
+                                <li class="sub-menu"><a href="https://www.cryptoground.com/news">All News</a></li>
+                                <li class="sub-menu"><a href="https://www.cryptoground.com/c/bitcoin">Bitcoin News</a></li>
+                                <li class="sub-menu"><a href="https://www.cryptoground.com/c/ethereum">Ethereum News</a></li>
+                                <li class="sub-menu"><a href="https://www.cryptoground.com/c/altcoin">Altcoin News</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="  with-animation"><a href="https://www.cryptoground.com/c/blockchain" class="main-menu">Blockchain News</a></li>
+                        <li class="  with-animation"><a href="https://www.cryptoground.com/c/ico" class="main-menu">ICO News</a></li>
+                        <li class="  with-animation"><a href="https://www.cryptoground.com/cryptocurrency-market" class="main-menu">Market</a></li>
+                        
+                        
+                        <li class=" tools-menu with-animation main-menu">
+                            <a class="main-menu">Tools </a>
+                            <ul class="tools-menu">
+                                <li class=" sub-menu"><a href="https://www.cryptoground.com/mining-calculators">Mining Calculator</a></li>
+                                <li class=" sub-menu"><a href="https://www.cryptoground.com/what-if">What IF</a></li>
+
+                                <li class=" sub-menu"><a href="https://www.cryptoground.com/compare">Compare CryptoCurrency</a></li>
+                                <li class=" sub-menu"><a class="" href="https://www.cryptoground.com/ico">ICO</a></li>
+                            </ul>
+                        </li>
+                        <li class=" with-animation"><a class="main-menu" href="https://www.cryptoground.com/games">Games</a></li>
+                        <li class=" with-animation "><a href="https://www.cryptoground.com/guide" class="main-menu"> Guide</a></li>
+                        
+                    </ul>
+                    <!-- Desktop Menu-->
+                    <ul class="nav navbar-nav desktop-nav  hidden-xs  navbar-center">
+                        <li class="news-link with-animation hidden-xs ">
+                            <a href="https://www.cryptoground.com/news">News</a>
+                        </li>
+                        <li class="hidden-md with-animation hidden-sm hidden-lg dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown">News <span class="fa fa-angle-down"></span></a>
+                            <ul class="dropdown-menu tools-menu">
+                                <li><a href="https://www.cryptoground.com/news">All News</a></li>
+                                <li><a href="https://www.cryptoground.com/c/bitcoin">Bitcoin News</a></li>
+                                <li><a href="https://www.cryptoground.com/c/ethereum">Ethereum News</a></li>
+                                <li><a href="https://www.cryptoground.com/c/altcoin">Altcoin News</a></li>
+                                
+                            </ul>
+                        </li>
+
+                        
+                        
+                        
+                        
+                        <li class="  with-animation"><a href="https://www.cryptoground.com/c/blockchain" >Blockchain News</a></li>
+                        <li class="  with-animation"><a href="https://www.cryptoground.com/c/ico" >ICO News</a></li>
+
+                        <li class="  with-animation"><a href="https://www.cryptoground.com/cryptocurrency-market">Market</a></li>
+                        <li class="dropdown  tools-menu with-animation">
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown">Tools <span
+                                        class="hidden-md hidden-sm hidden-lg fa fa-angle-down"></span></a>
+                            <ul class="dropdown-menu ">
+                                <li class=""><a href="https://www.cryptoground.com/mining-calculators">Mining Calculator</a></li>
+                                <li class=""><a href="https://www.cryptoground.com/what-if">What IF</a></li>
+                                <li class=" sub-menu"><a href="https://www.cryptoground.com/compare">Compare CryptoCurrency</a></li>
+                                <li class=" "><a href="https://www.cryptoground.com/ico">ICO</a></li>
+                                <li class=" "><a href="https://www.cryptoground.com/dapp">DApp</a></li>
+                            </ul>
+                        </li>
+                        <li class=" with-animation"><a href="https://www.cryptoground.com/games">Games</a></li>
+                        <li class=" with-animation"><a href="https://www.cryptoground.com/guide">Guide</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="slideable-search-menu">
+            <div class="container">
+                <div class="input-container">
+                    <form action="https://www.cryptoground.com/search">
+                        <div class="input-group">
+                            <span class="input-group-addon" id="basic-addon1"><i class="fa fa-search"></i></span>
+                            <input type="text" value="" class="form-control" name="q" placeholder="Search" aria-describedby="basic-addon1" required>
+                        </div>
+                        
+                    </form>
+                </div>
+                <a class="close-slideable-search"><i class="fa fa-close"></i></a>
+            </div>
+        </div>
+        <div class="slideable-menu news-slideable-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 padding-lr-0">
+                        <ul class="list-unstyled news-list nav nav-tabs">
+                            <li class="active">
+                                <a data-toggle="tab" href="#btc">Bitcoin News</a>
+                            </li>
+                            <li>
+                                <a data-toggle="tab" href="#eth">Ethereum news</a>
+                            </li>
+                            <li>
+                                <a data-toggle="tab" href="#alt">Altcoin news</a>
+                            </li>
+                           
+                        </ul>
+                    </div>
+                    <div class="col-md-9 padding-lr-0">
+                        <div class="tab-content">
+                            <div id="btc" class="tab-pane fade in active">
+                                <div class="col-md-6 padding-lr-0">
+                                                                            <a class="news-card" href="https://www.cryptoground.com/a/bitcoin-price-analysis-04-december-2018">
+                                            <img src="https://www.cryptoground.com/storage/images/posts/1543917863-btc.jpg">
+                                            <p>Bitcoin (BTC) Price Declined Towards $3,750 Level - Bitcoin Price Analysis - 4 Dec 2018</p>
+                                        </a>
+                                                                                                                    <a class="news-card" href="https://www.cryptoground.com/a/nasdaq-confirms-the-launch-of-bitcoin-futures-contract-in-2019">
+                                            <img src="https://www.cryptoground.com/storage/images/posts/1543903457-nasdaq.png">
+                                            <p>Nasdaq Confirms the Launch of Bitcoin Futures Contract in 2019</p>
+                                        </a>
+                                                                                                                    </div>
+                                <div class="col-md-6 padding-lr-0">
+                                                                                                                                                    <a class="news-card" href="https://www.cryptoground.com/a/bitcoin-price-analysis-03-december-2018">
+                                            <img src="https://www.cryptoground.com/storage/images/posts/1543832677-bitcoin.jpg">
+                                            <p>Bitcoin (BTC) Price Trades Above $3880 Support - Bitcoin Price Analysis - 3 Dec 2018</p>
+                                        </a>
+                                                                                                                    <a class="news-card" href="https://www.cryptoground.com/a/bangalore-bookstore-bitcoin-payments">
+                                            <img src="https://www.cryptoground.com/storage/images/posts/1543833757-1.jpg">
+                                            <p>One of the Oldest Bookstores in India Now Accepts Bitcoin Payments</p>
+                                        </a>
+                                                                                                                                                                                            </div>
+                            </div>
+                            <div id="eth" class="tab-pane fade ">
+                                <div class="col-md-6 padding-lr-0">
+                                                                            <a class="news-card" href="https://www.cryptoground.com/a/ethereum-price-analysis-04-december-2018">
+                                            <img src="https://www.cryptoground.com/storage/images/posts/1543925278-eth.jpg">
+                                            <p>Ethereum (ETH) Price May Move Down  And Test$102 Support - Ethereum Price Analysis - 4 Dec 2018</p>
+                                        </a>
+                                                                                                                    <a class="news-card" href="https://www.cryptoground.com/a/ethereum-price-analysis-30-november-2018">
+                                            <img src="https://www.cryptoground.com/storage/images/posts/1543572507-ethereum.jpg">
+                                            <p>Ethereum (ETH) Price Trades With A Short Term Declining Channel Above $115 - Ethereum Price Analysis - 30 Nov 2018</p>
+                                        </a>
+                                                                                                                    </div>
+                                <div class="col-md-6 padding-lr-0">
+                                                                                                                                                    <a class="news-card" href="https://www.cryptoground.com/a/ethereum-price-analysis-27-november-2018">
+                                            <img src="https://www.cryptoground.com/storage/images/posts/1543311357-ethereum.jpg">
+                                            <p>Ethereum (ETH) Price Failed To Break The $119 Resistance Level - Ethereum Price Analysis - 27 Nov 2018</p>
+                                        </a>
+                                                                                                                    <a class="news-card" href="https://www.cryptoground.com/a/ethereum-price-analysis-26-november-2018">
+                                            <img src="https://www.cryptoground.com/storage/images/posts/1543228756-ethereum.jpg">
+                                            <p>Ethereum (ETH) Price Spiked Below The $100 Level Before Recovering Above $110  - Ethereum Price Analysis - 26 Nov 2018</p>
+                                        </a>
+                                                                                                                                                                                            </div>
+                            </div>
+                            <div id="alt" class="tab-pane fade">
+                                <div class="col-md-6 padding-lr-0">
+                                                                            <a class="news-card" href="https://www.cryptoground.com/a/cardano-price-analysis-03-december-2018">
+                                            <img src="https://www.cryptoground.com/storage/images/posts/1543832788-cardano.jpg">
+                                            <p>Cardano (ADA) Price Remains Supported Near $0.0395 - Cardano Price Analysis - 3 Dec 2018</p>
+                                        </a>
+                                                                                                                    <a class="news-card" href="https://www.cryptoground.com/a/bitcoin-cash-price-analysis-03-december-2018">
+                                            <img src="https://www.cryptoground.com/storage/images/posts/1543832888-bitcoin-cash.jpg">
+                                            <p>Bitcoin Cash (BCH) Price Struggled To Hold Gains Above $180 - Bitcoin Cash Price Analysis - 3 Dec 2018</p>
+                                        </a>
+                                                                                                                    </div>
+                                <div class="col-md-6 padding-lr-0">
+                                                                                                                                                    <a class="news-card" href="https://www.cryptoground.com/a/38-delisted-okex">
+                                            <img src="https://www.cryptoground.com/storage/images/posts/1543833799-3.jpg">
+                                            <p>38 More Names Delisted from OKEx in Third Round of Delisting</p>
+                                        </a>
+                                                                                                                    <a class="news-card" href="https://www.cryptoground.com/a/tron-price-analysis-01-december-2018">
+                                            <img src="https://www.cryptoground.com/storage/images/posts/1543660590-tron.jpg">
+                                            <p>Tron (TRX) Performs Well Despite Altcoin Slowdown - Tron Price Analysis - 1 Dec 2018</p>
+                                        </a>
+                                                                                                                                                                                            </div>
+                            </div>
+                            <div id="ico" class="tab-pane fade">
+                                <div class="col-md-6 padding-lr-0">
+                                                                            <a class="news-card" href="https://www.cryptoground.com/a/make-your-stand-at-the-sigmaico-battle">
+                                            <img src="https://www.cryptoground.com/storage/images/posts/1542103583-new-example.jpg">
+                                            <p>Make Your Stand At The Sigmaico Battle</p>
+                                        </a>
+                                                                                                                    <a class="news-card" href="https://www.cryptoground.com/a/ico-bitcoin-cash-raises-30-million">
+                                            <img src="https://www.cryptoground.com/storage/images/posts/1539238750-first-major-ico-on-bitcoin-cash-blockchain-raises-30-million-in-2-hours.jpg">
+                                            <p>First Major ICO on Bitcoin Cash Blockchain Raises $30 Million in 2 Hours!</p>
+                                        </a>
+                                                                                                                    </div>
+                                <div class="col-md-6 padding-lr-0">
+                                                                                                                                                    <a class="news-card" href="https://www.cryptoground.com/a/kathleen-breitman-of-tezos-to-launch-video-games">
+                                            <img src="https://www.cryptoground.com/storage/images/posts/1538482574-kathleen-breitman-tezos-cofounder.">
+                                            <p>Kathleen Breitman of Tezos to Launch Video Games</p>
+                                        </a>
+                                                                                                                    <a class="news-card" href="https://www.cryptoground.com/a/5-reasons-why-citicash-might-make-it-big-in-the-crypto-market">
+                                            <img src="https://www.cryptoground.com/storage/images/posts/1536344646-citicash.jpg">
+                                            <p>5 reasons why CitiCash might make it BIG in the crypto market</p>
+                                        </a>
+                                                                                                                                                                                            </div>
+                            </div>
+                            <div id="blockchain" class="tab-pane fade">
+                                <div class="col-md-6 padding-lr-0">
+                                                                            <a class="news-card" href="https://www.cryptoground.com/a/indian-business-school-blockchain-based-degree-certificates">
+                                            <img src="https://www.cryptoground.com/storage/images/posts/1543933722-sp-jain-school-of-global-management-degree-certificates.jpg">
+                                            <p>Major Indian B-School Issues Blockchain-Based Degree Certificates</p>
+                                        </a>
+                                                                                                                    <a class="news-card" href="https://www.cryptoground.com/a/trading-tech-firm-join-forces-with-r3-blockchain-consortium">
+                                            <img src="https://www.cryptoground.com/storage/images/posts/1543922331-1537440902-blockchain-gen.jpg">
+                                            <p>Trading Tech Firm Join Forces With R3 Blockchain Consortium</p>
+                                        </a>
+                                                                                                                    </div>
+                                <div class="col-md-6 padding-lr-0">
+                                                                                                                                                    <a class="news-card" href="https://www.cryptoground.com/a/islamic-financial-foundation-join-hands-with-startup-for-developing-interbank-blockchain-tools">
+                                            <img src="https://www.cryptoground.com/storage/images/posts/1543908538-blockchain.jpg">
+                                            <p>Islamic Financial Foundation Join hands With Startup For Developing Interbank Blockchain Tools</p>
+                                        </a>
+                                                                                                                    <a class="news-card" href="https://www.cryptoground.com/a/huawei-cloud-declares-worldwide-launch-of-its-blockchain-services">
+                                            <img src="https://www.cryptoground.com/storage/images/posts/1543830500-huawei-cloud-declares-worldwide-launch-of-its-blockchain-services.jpg">
+                                            <p>Huawei Cloud declares Worldwide launch of its Blockchain services</p>
+                                        </a>
+                                                                                                                                                                                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="wrap" class="wrapper">
+    <section class="coin-page-body">
+    <div class="coin-single-navbar-wrapper desktop hidden-xs">
+    <ul class="coin-general-info list-inline">
+        <li>Rank: <span>#154</span></li>
+        <li>Algorithm: <span>N/A</span></li>
+        <li>Proof type: <span>N/A</span></li>
+        
+        <li>First Announced: <span>2017-07-28 00:00:00</span></li>
+    </ul>
+
+    <div class="heading">
+        <div class="top-section">
+            <div class="container">
+                <div class="media">
+                    <a href="https://www.cryptoground.com/salt-lending"><img
+                                src="https://www.cryptoground.com/images/coins/1437_SALT.jpg" height="141px" width="auto"></a>
+                </div>
+                <div class="row text">
+                    <div class="col-md-2 col-sm-2">
+                        <h3><a href="https://www.cryptoground.com/salt-lending">Salt Lending</a></h3>
+                        <h5><a href="https://www.cryptoground.com/salt-lending">SALT</a></h5>
+                    </div>
+                    <div class="col-md-10">
+                        <ul class="list-inline right-ul">
+                            <li>
+                                <h4>$29,919,668</h4>
+                                <p>Market Cap</p>
+                            </li>
+
+                            <li>
+                                <h4>$1,520,565</h4>
+                                <p>Volume 24H</p>
+                            </li>
+
+                            <li>
+                                <h4>120000000</h4>
+                                <p>Circulating Capacity</p>
+                            </li>
+
+                            <li>
+                                <h4>120000000</h4>
+                                <p>Max Supply</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 col-sm-6 coin-short-stats">
+                        <ul class="list-inline actionChange">
+                            <li class="blot"></li>
+                            <li>
+                                <h3 class="price ">$0.2493</h3>
+                            </li>
+                            <li>
+                                <small class="price-change ">0.0162770076</small>
+                            </li>
+                            <li>
+                                <a href="https://www.cryptoground.com/buy/salt-lending" class="btn bg-blue">Buy</a>
+                            </li>
+                            <li>
+                                <a href="https://www.cryptoground.com/buy/salt-lending" class="btn bg-blue">Sell</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5 col-sm-6">
+                        <ul class="text-right list-inline social-share">
+                            <li><a class="twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="fb"><i class="fa fa-facebook-f"></i></a></li>
+                            <li><a class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a class="reddit"><i class="fa fa-reddit-alien"></i></a></li>
+                            <li><a class="google"><i class="fa fa-google"></i></a></li>
+                            <li><a class="email"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="body-wrapper">
+        <div class="tab-container">
+            <div class="container">
+                <ul class="nav nav-tabs">
+                    <li><a href="https://www.cryptoground.com/salt-lending"
+                           class=""> Overview </a></li>
+                    <li><a href="https://www.cryptoground.com/salt-lending/price"
+                           class=""> Price </a></li>
+                    <li><a href="https://www.cryptoground.com/salt-lending-exchanges"
+                           class="">
+                            Exchanges </a></li>
+                    
+                    <li><a href="https://www.cryptoground.com/salt-lending/market-capitalization"
+                           class=""> Market Cap </a></li>
+                    <li><a href="https://www.cryptoground.com/c/salt-lending"
+                           class=""> News </a></li>
+                    <li><a href="https://www.cryptoground.com/salt-lending/social-buzz"
+                           class=""> Social
+                            Buzz </a></li>
+                    <li><a href="https://www.cryptoground.com/salt-lending-mining-calculator"
+                           class="">
+                            Mining Calculator </a></li>
+                    <li><a href="https://www.cryptoground.com/salt-lending-profit-calculator"
+                           class="">
+                            Profit Calculator </a></li>
+                    <li><a href="https://www.cryptoground.com/salt-lending-price-history"
+                           class="">
+                           Price History
+                        </a></li>
+                    <li class="dropdown coin-more-menu">
+                        <a href="" class="dropdown-toggle" data-toggle="dropdown">More</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://www.cryptoground.com/salt-lending/charts"
+                                   class=""> Charts </a>
+                            </li>
+                            <li><a href="https://www.cryptoground.com/salt-lending/widgets"
+                                   class=""> Widgets </a>
+                            </li>
+                            <li><a href="https://www.cryptoground.com/salt-lending-price-prediction"
+                                   class="">Price Predictions</a>
+                            </li>
+
+                                                                                        <li><a href="https://www.cryptoground.com/salt-lending-white-paper"
+                                       class="active">White Paper</a>
+                                </li>
+                                                                                        <li><a href="https://www.cryptoground.com/salt-lending-block-explorer"
+                                       class="">Block Explorer</a>
+                                </li>
+                            
+                            <li><a href="https://www.cryptoground.com/salt-lending-days-since-high"
+                                   class="">Days since All time High</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        
+
+    </div>
+</div>
+
+<div class="coin-single-page-wrapper mobile hidden-md hidden-lg hidden-sm">
+    <div class="heading">
+        <div class="top-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-3 col-sm-3 no-padding">
+                        <div class="media ">
+                            <a href="https://www.cryptoground.com/salt-lending">
+                                <img src="https://www.cryptoground.com/images/coins/1437_SALT.jpg" height="61px" width="auto">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-9 col-sm-9 no-padding">
+                        <div class="text pull-left">
+                            <h3><a href="https://www.cryptoground.com/salt-lending">Salt Lending</a></h3>
+                            <h5><a href="https://www.cryptoground.com/salt-lending">SALT</a></h5>
+                        </div>
+                        <div class="text">
+                            <div class="coin-short-stats pull-right">
+                                <ul class="list-inline actionChange">
+                                    <li>
+                                        <div class="blot"></div>
+                                        <h3 class="price ">$0.2493</h3>
+                                    </li>
+                                    <li>
+                                        <div class="blot"></div>
+                                        <small class="price-change ">0.0162770076</small>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="body-wrapper">
+        <div class="tab-container">
+            <i class="fa fa-chevron-circle-right" id="scroll-button"></i>
+            <div class="container">
+                <ul class="nav nav-tabs mob">
+                    <li><a href="https://www.cryptoground.com/salt-lending"
+                           class=""> Overview </a></li>
+                    <li><a href="https://www.cryptoground.com/salt-lending/price"
+                           class=""> Price </a></li>
+                    <li><a href="https://www.cryptoground.com/salt-lending-exchanges"
+                           class="">
+                            Exchanges </a></li>
+                    
+                    <li><a href="https://www.cryptoground.com/salt-lending/market-capitalization"
+                           class=""> Market Cap </a></li>
+                    <li><a href="https://www.cryptoground.com/c/salt-lending"
+                           class=""> News </a></li>
+                    <li><a href="https://www.cryptoground.com/salt-lending/social-buzz"
+                           class=""> Social
+                            Buzz </a></li>
+                    <li><a href="https://www.cryptoground.com/salt-lending-mining-calculator"
+                           class="">
+                            Mining Calculator </a></li>
+                    <li><a href="https://www.cryptoground.com/salt-lending-profit-calculator"
+                           class="">
+                            ROI Calculator </a></li>
+                    <li><a href="https://www.cryptoground.com/salt-lending-price-history"
+                           class=""> Historical
+                            Prices </a></li>
+                    <li><a href="https://www.cryptoground.com/salt-lending/charts"
+                           class=""> Charts </a>
+                    </li>
+                    <li><a href="https://www.cryptoground.com/salt-lending/widgets"
+                           class=""> Widgets </a>
+                    </li>
+                    <li><a href="https://www.cryptoground.com/salt-lending-price-prediction"
+                           class="">Price Predictions</a>
+                    </li>
+                                                                <li><a href="https://www.cryptoground.com/salt-lending-white-paper"
+                               class="active">White Paper</a>
+                        </li>
+                                                                <li><a href="https://www.cryptoground.com/salt-lending-block-explorer"
+                               class="">Block Explorer</a>
+                        </li>
+                                    </ul>
+            </div>
+        </div>
+
+        <a href="#moreStatistics" class="btn btn-menu btn-block" data-toggle="collapse"><span class="pull-left">More Statistics </span>
+            <i class="fa fa-chevron-down pull-right"></i>
+        </a>
+        <div class="clearfix"></div>
+        <div id="moreStatistics" class="collapse">
+            <ul class="list-inline coin-info">
+                <li>
+                    <h4>$29,919,668</h4>
+                    <p>Market Cap</p>
+                </li>
+
+                <li>
+                    <h4>$1,520,565</h4>
+                    <p>Volume 24H</p>
+                </li>
+
+                <li>
+                    <h4>120000000</h4>
+                    <p>Circulating Capacity</p>
+                </li>
+
+                <li>
+                    <h4>120000000</h4>
+                    <p>Max Supply</p>
+                </li>
+                <li><h4>Rank: <span>#154</span></h4></li>
+                <li><h4>Algorithm: <span>N/A</span></h4></li>
+                <li><h4>Proof type: <span>N/A</span></h4></li>
+                <li><h4>First Announced: <br><span>2017-07-28 00:00:00</span></h4></li>
+            </ul>
+        </div>
+
+
+    </div>
+
+
+</div>
+
+    <div class="coin-bottom-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-12 col-xs-12 content left-content" >
+                    <div class="page-header">
+                        <h1>Salt Lending (SALT) Whitepaper</h1>
+                        
+                    </div>
+                    <div class="content-wrapper">
+                       <div class="page-text-content">
+                                                       <p>
+                                You can check out Salt Lending (SALT) white paper below. It has all the details of how the Salt Lending (SALT) was formed and how it works. This white paper is original and unedited. This was extracted from the original site of Salt Lending (SALT).
+                            </p>
+                                                   </div>
+
+                        
+                        
+                        
+                        
+                        
+                            
+                        
+                        
+                        
+                        <iframe src="https://www.cryptoground.com/js/pdfviewer/web/viewer.html?file=https://www.cryptoground.com/storage/files/1527489068_abstract.pdf" style="border: 0px; width: 100%; min-height: 700px; height:928px;"></iframe>
+
+                        
+                        <div class="info-text text-left">
+                            <p>
+                                Click here to <a target="_blank" href="https://www.cryptoground.com/storage/files/1527489068_abstract.pdf">Download</a> Salt Lending (SALT) white paper in PDF.
+                            </p>
+                        </div>
+                        <div class="page-text-content">
+                            
+                                                    </div>
+                    </div>
+                </div>
+                <div class="col-md-3 right-sidebar hidden-xs">
+                    <div class="trending-post">
+    <div class="sidebar-heading">
+        <h4 class="pull-left">Recent News</h4>
+        
+    </div>
+
+            <a href="https://www.cryptoground.com/a/indian-business-school-blockchain-based-degree-certificates" class="new-trending-post-card">
+    <span>1</span>
+    <div class="media" style="background-image: url('https://www.cryptoground.com/storage/images/posts/1543933722-sp-jain-school-of-global-management-degree-certificates.jpg')">
+
+    </div>
+    <div class="text">
+        <p class="post-title">Major Indian B-School Issues Blockchain-Based Degree Certificates</p>
+        <ul class="list-inline">
+            <li>Aditya Worah</li>
+            <li>Dec 04, 2018</li>
+        </ul>
+    </div>
+</a>            <a href="https://www.cryptoground.com/a/bitcoin-price-analysis-04-december-2018" class="new-trending-post-card">
+    <span>2</span>
+    <div class="media" style="background-image: url('https://www.cryptoground.com/storage/images/posts/1543917863-btc.jpg')">
+
+    </div>
+    <div class="text">
+        <p class="post-title">Bitcoin (BTC) Price Declined Towards $3,750 Level - Bitcoin Price Analysis - 4 Dec 2018</p>
+        <ul class="list-inline">
+            <li>Vivek Sancheti</li>
+            <li>Dec 04, 2018</li>
+        </ul>
+    </div>
+</a>            <a href="https://www.cryptoground.com/a/ripple-price-analysis-04-december-2018" class="new-trending-post-card">
+    <span>3</span>
+    <div class="media" style="background-image: url('https://www.cryptoground.com/storage/images/posts/1543925274-xrp.jpg')">
+
+    </div>
+    <div class="text">
+        <p class="post-title">Ripple (XRP) Price Is  In A Bearish Zone - Ripple Price Analysis - 4 Dec 2018</p>
+        <ul class="list-inline">
+            <li>Smita Sodha</li>
+            <li>Dec 04, 2018</li>
+        </ul>
+    </div>
+</a>            <a href="https://www.cryptoground.com/a/ethereum-price-analysis-04-december-2018" class="new-trending-post-card">
+    <span>4</span>
+    <div class="media" style="background-image: url('https://www.cryptoground.com/storage/images/posts/1543925278-eth.jpg')">
+
+    </div>
+    <div class="text">
+        <p class="post-title">Ethereum (ETH) Price May Move Down  And Test$102 Support - Ethereum Price Analysis - 4 Dec 2018</p>
+        <ul class="list-inline">
+            <li>Girish Vidhani</li>
+            <li>Dec 04, 2018</li>
+        </ul>
+    </div>
+</a>            <a href="https://www.cryptoground.com/a/trading-tech-firm-join-forces-with-r3-blockchain-consortium" class="new-trending-post-card">
+    <span>5</span>
+    <div class="media" style="background-image: url('https://www.cryptoground.com/storage/images/posts/1543922331-1537440902-blockchain-gen.jpg')">
+
+    </div>
+    <div class="text">
+        <p class="post-title">Trading Tech Firm Join Forces With R3 Blockchain Consortium</p>
+        <ul class="list-inline">
+            <li>Keval Zatakiya</li>
+            <li>Dec 04, 2018</li>
+        </ul>
+    </div>
+</a>            <a href="https://www.cryptoground.com/a/the-second-largest-crypto-exchange-okex-launches-a-derivative-product-named-perpetual-swap" class="new-trending-post-card">
+    <span>6</span>
+    <div class="media" style="background-image: url('https://www.cryptoground.com/storage/images/posts/1543911237-1543833799-3.jpg')">
+
+    </div>
+    <div class="text">
+        <p class="post-title">The Second Largest Crypto Exchange OKEx Launches a Derivative Product named &#039;Perpetual Swap&#039;</p>
+        <ul class="list-inline">
+            <li>Keval Zatakiya</li>
+            <li>Dec 04, 2018</li>
+        </ul>
+    </div>
+</a>            <a href="https://www.cryptoground.com/a/islamic-financial-foundation-join-hands-with-startup-for-developing-interbank-blockchain-tools" class="new-trending-post-card">
+    <span>7</span>
+    <div class="media" style="background-image: url('https://www.cryptoground.com/storage/images/posts/1543908538-blockchain.jpg')">
+
+    </div>
+    <div class="text">
+        <p class="post-title">Islamic Financial Foundation Join hands With Startup For Developing Interbank Blockchain Tools</p>
+        <ul class="list-inline">
+            <li>Keval Zatakiya</li>
+            <li>Dec 04, 2018</li>
+        </ul>
+    </div>
+</a>        
+        
+    
+</div>                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+    <div id="subscriptionModal" class="mail-subscription-model modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="https://www.cryptoground.com/images/popup-image.png" >
+                    </div>
+                    <div class="col-md-6">
+                        <p class="pull-right text-uppercase close-modal" data-dismiss="modal"><a class="no-subscribe"><i class="fa fa-times"></i></a></p>
+                        <div class="white-section">
+                            <form class="modal-subscription-form">
+                                <h1>Blockchain and Cryptocurrency Updates</h1>
+                                <p>
+                                    Join our mailing list to get regular Blockchain and Cryptocurrency updates.
+                                </p>
+                                <input type="hidden" name="_token" value="xCHG09CBD7FSUJlyWGESeQ05L5VDsKidIjOt1RB2">
+                                <div class="input-group">
+                                    <input type="email" name="email" class="form-control subscriber-email" id="subscriber-email-input" placeholder="Enter your email" aria-describedby="basic-addon1" required>
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default popup subscribe-btn" id="popup subscribe-btn" type="button">Subscribe</button>
+                                    </span>
+                                </div>
+                                <span class="popup subscribe-feed-back"></span>
+                                <p class="text-center text-uppercase no-subscribe-wrapper" data-dismiss="modal"><a class="no-subscribe">No thanks</a></p>
+                            </form>
+                            <div class="loader hide" style="text-align:center;"><img src="https://www.cryptoground.com/images/loader-ripple-blue.svg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="footer">
+    <div class="container-fluid">
+        <div class="top-footer overflow-hidden">
+            <div class="pull-left ftr subscribe-form">
+                
+                    <form class="footer-subscribe-form" method="post">
+                        <input type="hidden" name="_token" value="xCHG09CBD7FSUJlyWGESeQ05L5VDsKidIjOt1RB2">
+                        <div class="input-group">
+                            <input type="email" class="form-control subscriber-email-2" name="email" id="footer-subscriber-email" placeholder="Subscribe to Newsletter" aria-describedby="basic-addon1">
+                            <span class="input-group-addon" id="basic-addon1"><button class="button-blue ftr subscribe-btn">Subscribe</button></span>
+                        </div>
+                    </form>
+                    
+                
+            </div>
+            <div class="pull-right hidden-xs">
+                <ul class="list-inline">
+                    <li>Follow Us</li>
+                    <li><a href="https://www.facebook.com/CryptoGround" rel="nofollow"><img src=https://www.cryptoground.com/images/footer_icon/fb.svg></a></li>
+                    <li><a href="https://twitter.com/cryptoground" rel="nofollow"><img src=https://www.cryptoground.com/images/footer_icon/twitter.svg></a></li>
+                    <li><a href="https://www.instagram.com/cryptoground" rel="nofollow"><img src=https://www.cryptoground.com/images/footer_icon/instagram.svg></a></li>
+                    <li><a href="https://plus.google.com/b/111482206626110065411" rel="nofollow"><img src=https://www.cryptoground.com/images/footer_icon/google.svg></a></li>
+                    <li><a href="https://www.linkedin.com/company/cryptoground" rel="nofollow"><img src=https://www.cryptoground.com/images/footer_icon/linkedin.png></a></li>
+                    <li><a href="https://www.reddit.com/r/CryptoGround" rel="nofollow"><img src=https://www.cryptoground.com/images/footer_icon/rediit.svg></a></li>
+                </ul>
+            </div>
+            <div class="hidden-lg hidden-md hidden-sm text-center">
+                <label >Follow us</label>
+                <ul class="list-inline">
+                    <li><a><img src=https://www.cryptoground.com/images/footer_icon/fb.svg></a></li>
+                    <li><a><img src=https://www.cryptoground.com/images/footer_icon/twitter.svg></a></li>
+                    <li><a><img src=https://www.cryptoground.com/images/footer_icon/google.svg></a></li>
+                    <li><a><img src=https://www.cryptoground.com/images/footer_icon/linkedin.png></a></li>
+                    <li><a><img src=https://www.cryptoground.com/images/footer_icon/rediit.svg></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="middle-footer hidden-xs">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://www.cryptoground.com"><img src=https://www.cryptoground.com/images/cryptoground_logo.svg width='80%'></a>
+                    <div class="info-text">
+
+                        <p>CryptoGround.com is an independent publishing house that provides Cryptocurrency & Blockchain Technology News. It is a News Media Platform which serves its audience with accurate News and Analytical Articles. Our team is committed to providing unbiased News & Reports related to various Cryptocurrencies, Decentralized Apps, Initial Coin Offerings (ICOs) and Blockchain technology.</p>
+                        <p>We strive to help our readers gain valuable, trusted insights through in-depth analysis, high-quality and well-researched News stories and views from the digital currency community experts. Our young and dynamic team is comprised of well-known journalists as well as Cryptocurrency & Blockchain Experts.</p>
+                        <h4>Contact Details</h4>
+                        <p>
+                            Email – <a href="mailto:contact@cryptoground.com">contact@cryptoground.com</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    
+                    <div class="footer-trending-post">
+    <div class="sidebar-heading">
+        <h4 class="pull-left">Recent News</h4>
+        
+    </div>
+
+            <a href="https://www.cryptoground.com/a/indian-business-school-blockchain-based-degree-certificates" class="new-trending-post-card">
+    <span>1</span>
+    <div class="media" style="background-image: url('https://www.cryptoground.com/storage/images/posts/1543933722-sp-jain-school-of-global-management-degree-certificates.jpg')">
+
+    </div>
+    <div class="text">
+        <p class="post-title">Major Indian B-School Issues Blockchain-Based Degree Certificates</p>
+        <ul class="list-inline">
+            <li>Aditya Worah</li>
+            <li>Dec 04, 2018</li>
+        </ul>
+    </div>
+</a>            <a href="https://www.cryptoground.com/a/bitcoin-price-analysis-04-december-2018" class="new-trending-post-card">
+    <span>2</span>
+    <div class="media" style="background-image: url('https://www.cryptoground.com/storage/images/posts/1543917863-btc.jpg')">
+
+    </div>
+    <div class="text">
+        <p class="post-title">Bitcoin (BTC) Price Declined Towards $3,750 Level - Bitcoin Price Analysis - 4 Dec 2018</p>
+        <ul class="list-inline">
+            <li>Vivek Sancheti</li>
+            <li>Dec 04, 2018</li>
+        </ul>
+    </div>
+</a>            <a href="https://www.cryptoground.com/a/ripple-price-analysis-04-december-2018" class="new-trending-post-card">
+    <span>3</span>
+    <div class="media" style="background-image: url('https://www.cryptoground.com/storage/images/posts/1543925274-xrp.jpg')">
+
+    </div>
+    <div class="text">
+        <p class="post-title">Ripple (XRP) Price Is  In A Bearish Zone - Ripple Price Analysis - 4 Dec 2018</p>
+        <ul class="list-inline">
+            <li>Smita Sodha</li>
+            <li>Dec 04, 2018</li>
+        </ul>
+    </div>
+</a>            <a href="https://www.cryptoground.com/a/ethereum-price-analysis-04-december-2018" class="new-trending-post-card">
+    <span>4</span>
+    <div class="media" style="background-image: url('https://www.cryptoground.com/storage/images/posts/1543925278-eth.jpg')">
+
+    </div>
+    <div class="text">
+        <p class="post-title">Ethereum (ETH) Price May Move Down  And Test$102 Support - Ethereum Price Analysis - 4 Dec 2018</p>
+        <ul class="list-inline">
+            <li>Girish Vidhani</li>
+            <li>Dec 04, 2018</li>
+        </ul>
+    </div>
+</a>            <a href="https://www.cryptoground.com/a/trading-tech-firm-join-forces-with-r3-blockchain-consortium" class="new-trending-post-card">
+    <span>5</span>
+    <div class="media" style="background-image: url('https://www.cryptoground.com/storage/images/posts/1543922331-1537440902-blockchain-gen.jpg')">
+
+    </div>
+    <div class="text">
+        <p class="post-title">Trading Tech Firm Join Forces With R3 Blockchain Consortium</p>
+        <ul class="list-inline">
+            <li>Keval Zatakiya</li>
+            <li>Dec 04, 2018</li>
+        </ul>
+    </div>
+</a>        
+        
+    
+</div>                </div>
+                <div class="col-md-2">
+                    <ul class="list-unstyled">
+                        <li class="title"><a href="https://www.cryptoground.com/cryptocurrency-market">Top coin price</a></li>
+                                                <li><a href="https://www.cryptoground.com/bitcoin/price">Bitcoin (BTC) Price</a></li>
+                                                <li><a href="https://www.cryptoground.com/ripple/price">Ripple (XRP) Price</a></li>
+                                                <li><a href="https://www.cryptoground.com/ethereum/price">Ethereum (ETH) Price</a></li>
+                                                <li><a href="https://www.cryptoground.com/stellar/price">Stellar (XLM) Price</a></li>
+                                                <li><a href="https://www.cryptoground.com/bitcoin-cash/price">Bitcoin Cash (BCH) Price</a></li>
+                                            </ul>
+                    <ul class="list-unstyled">
+                        <li class="title"><a href="#">Top Price Predictions</a></li>
+                                                <li><a href="https://www.cryptoground.com/bitcoin-price-prediction">Bitcoin  Price Prediction</a></li>
+                                                <li><a href="https://www.cryptoground.com/ripple-price-prediction">Ripple  Price Prediction</a></li>
+                                                <li><a href="https://www.cryptoground.com/ethereum-price-prediction">Ethereum  Price Prediction</a></li>
+                                                <li><a href="https://www.cryptoground.com/stellar-price-prediction">Stellar  Price Prediction</a></li>
+                                                <li><a href="https://www.cryptoground.com/bitcoin-cash-price-prediction">Bitcoin Cash  Price Prediction</a></li>
+                                            </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-unstyled">
+                        <li class="title"><a href="https://www.cryptoground.com/mining-calculators">Cryptocurrency Mining Calculator</a></li>
+                                                <li><a href="https://www.cryptoground.com/bitcoin-mining-calculator">Bitcoin Mining Calculator</a></li>
+                                                <li><a href="https://www.cryptoground.com/ethereum-mining-calculator">Ethereum Mining Calculator</a></li>
+                                                <li><a href="https://www.cryptoground.com/litecoin-mining-calculator">Litecoin Mining Calculator</a></li>
+                                                <li><a href="https://www.cryptoground.com/monero-mining-calculator">Monero Mining Calculator</a></li>
+                                                <li><a href="https://www.cryptoground.com/digitalcash-mining-calculator">DigitalCash Mining Calculator</a></li>
+                                                <li><a href="https://www.cryptoground.com/ethereum-classic-mining-calculator">Ethereum Classic Mining Calculator</a></li>
+                                                <li><a href="https://www.cryptoground.com/zcash-mining-calculator">ZCash Mining Calculator</a></li>
+                                                <li><a href="https://www.cryptoground.com/dogecoin-mining-calculator">Dogecoin Mining Calculator</a></li>
+                                                <li><a href="https://www.cryptoground.com/bytecoin-mining-calculator">ByteCoin Mining Calculator</a></li>
+                                                <li><a href="https://www.cryptoground.com/digibyte-mining-calculator">DigiByte Mining Calculator</a></li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <nav class="navbar">
+                <div class="container-fluid ">
+                    <div class="navbar-header hidden-xs">
+                        <a class="navbar-brand" href="https://www.cryptoground.com"><img src=https://www.cryptoground.com/images/cryptoground_logo.svg></a>
+                    </div>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="https://www.cryptoground.com/about-us" > About Us </a></li>
+                        <li><a href="https://www.cryptoground.com/contact-us" > Contact Us</a></li>
+                        <li><a href="https://www.cryptoground.com/team" > Team </a></li>
+                        
+                        <li><a href="https://www.cryptoground.com/privacy-policy" > Privacy Policy </a></li>
+                        <li><a href="https://www.cryptoground.com/editorial-policy" > Editorial Policy </a></li>
+                        <li><a href="https://www.cryptoground.com/press-release-submission" > Submit News </a></li>
+                        <li><a href="https://www.cryptoground.com/submit-ico" > Submit Ico </a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p class="text-center copyright-text">Copyright © 2018 CryptoGround.</p>
+        </div>
+    </div>
+</div>
+<script src="/js/app.js?id=71dbc27317701d0fa89f"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js'></script>
+    
+    <script>
+        var locale_price = parseFloat('1');
+        var symbol = '$';
+        var socket = io.connect('https://streamer.cryptoground.com');
+        socket.on('coin-prices-usd', function (data) {
+            //console.log(data);
+            var pair = 'SALT_USD';
+            SingleCoinliveChange(data, pair, locale_price, symbol);
+        });
+    </script>
+    <script>
+        $('#ui-datepicker-div').css('display', 'none');
+        $("#scroll-button").click(function () {
+            var far = $('.nav-tabs.mob').width();
+            var pos = $('.nav-tabs.mob').scrollLeft() + far;
+            $('.nav-tabs.mob').animate( { scrollLeft: pos }, 1000, 'easeOutQuad' );
+        });
+
+        $('.btn-menu').on('click',function () {
+           $(this).children('i').toggleClass('fa-chevron-down fa-chevron-up')
+        });
+
+    </script>
+    
+   
+    <script>
+        $('.desktop-nav li').mouseenter(function () {
+            if($(this).hasClass('news-link')){
+                $('.news-slideable-menu').slideDown(300);
+                //$(this).addClass('active');
+                $('[data-toggle="dropdown"]').parent().removeClass('open');
+            }
+            else
+            {
+                $('.news-slideable-menu').slideUp(300)
+            }
+        }).mouseleave(function () {
+            if($(".news-link:hover").length !== 0 && $(".news-slideable-menu:hover").length !== 0 ){
+                //console.log('yey')
+                // $(this).removeClass('active');
+                $('.news-slideable-menu').slideUp(300);
+            }
+        });
+        $('.news-slideable-menu').mouseleave(function () {
+            if($(".news-link:hover").length !== 0){
+                //
+            }else{
+                $('.news-slideable-menu').slideUp(300);
+            }
+        });
+        $('.dropdown-menu').on('click', function (e) {
+            if ($(this).children('li').hasClass('switch-container')) {
+                e.stopPropagation();
+            }
+        });
+        if ($(window).width < 767) {
+            $('.navbar-collapse').on('click', function (e) {
+//            if($(this).children('li').hasClass('switch-container')) {
+                e.stopPropagation();
+//            }
+            });
+        }
+
+        $('.search-toggle').on('click', function () {
+            $(this).siblings('.input-container').toggleClass('open')
+        })
+
+        $('.mobile-dropdown>a').on('click', function () {
+            $('.mobile-dropdown .dropdown-menu').toggleClass('open')
+        })
+
+        $(document).on('click',function(e)
+        {
+            var container = $(".mobile-dropdown");
+
+            // if the target of the click isn't the container nor a descendant of the container
+            if (!container.is(e.target) && container.has(e.target).length === 0)
+            {
+                if(container.children('.dropdown-menu').hasClass('open')){
+                    container.children('.dropdown-menu').removeClass('open')
+                }
+            }
+        });
+
+        $('.locale-currency-selector').change(function () {
+            $('.locale-currency-selector-form').submit();
+        });
+        /* $('.locale-currency-selector').selectpicker({
+             style: 'btn',
+             size: 6
+         });*/
+
+
+        $('.search-toggle').on('click', function () {
+            $('.slideable-search-menu').slideToggle('fast')
+        });
+
+        $('.close-slideable-search').on('click', function () {
+            $('.slideable-search-menu').slideUp('fast')
+        })
+    </script>
+    <script>
+        $('.popup.subscribe-btn').click(function(e){
+            e.preventDefault();
+
+            //alert('ok');
+            $('.modal-subscription-form').hide();
+            $('.loader').removeClass('hide');
+            $.post('https://www.cryptoground.com/cryptoground/subscribe',
+                { _token:'xCHG09CBD7FSUJlyWGESeQ05L5VDsKidIjOt1RB2',email: $("#subscriber-email-input").val() }, // data to be submit
+                function(data, status, jqXHR) {// success callback
+                    //var msgs = JSON.parse(data);
+                    //console.log(msgs);
+                    if(data.status=='success'||data.status=='error'){
+                        $('.loader').addClass('hide');
+                        $('.modal-subscription-form').show();
+                        $('.modal-subscription-form').html('<h3 class="title">'+ data.message +'</h3>');
+                        //$('.loader').addClass('hide');
+                        //$('.dialog-body').show();
+                        setTimeout(function(){
+                            $('#subscriptionModal').modal('hide');
+                        },2000);
+
+                    }else if(data.status=='invalid'){
+                        //$('.loader').addClass('hide');
+                        //$('.dialog-body').show();
+                        $('.loader').addClass('hide');
+                        $('.modal-subscription-form').show();
+                        $('.popup.subscribe-feed-back').html(data.error[0]);
+                    }
+                });
+        });
+        $('.no-subscribe').click(function () {
+            $.post('https://www.cryptoground.com/guide/subscribe-no',   // url
+                { _token:$("input[name='_token']").val() }, // data to be submit
+                function(data, status, jqXHR) {// success callback
+                    //var msgs = JSON.parse(data);
+                    //console.log(msgs);
+                    if(data.status=='success'||data.status=='error'){
+
+                    }else if(data.status=='invalid'){
+
+                    }
+
+                });
+        });
+    </script>
+            <script>
+            setTimeout(function(){
+                $('#subscriptionModal').modal('show');
+            },15000);
+        </script>
+        <script>
+        $('.ftr.subscribe-btn').click(function(e){
+            //alert('ok');
+            e.preventDefault();
+            $('.footer-subscribe-form').hide();
+            $('.ftr.subscribe-form').append('<p> requesting.. <p>');
+            $.post('https://www.cryptoground.com/cryptoground/subscribe',
+                { _token:$("input[name='_token']").val(),email: $('#footer-subscriber-email').val() }, // data to be submit
+                function(data, status, jqXHR) {// success callback
+                    //var msgs = JSON.parse(data);
+                    //console.log(msgs);
+                    if(data.status=='success'||data.status=='error'){
+                        $('.ftr.subscribe-form').html('<p class="title">'+ data.message +'</p>');
+                        //$('.loader').addClass('hide');
+                        //$('.dialog-body').show();
+                        setTimeout(function(){
+                            $('.ftr.subscribe-form').hide();
+                        },2000);
+                    }else if(data.status=='invalid'){
+                        //$('.loader').addClass('hide');
+                        //$('.dialog-body').show();
+                        $('.ftr.subscribe-form').find('p').remove();
+                        $('.footer-subscribe-form').hide();
+                        $('.ftr.subscribe-form').append('<p>'+data.error[0]+'<p>');
+                        setTimeout(function(){
+                            $('.ftr.subscribe-form').find('p').remove();
+                            $('.footer-subscribe-form').show();
+                        },2000);
+                        //$('.popup.subscribe-feed-back').html(data.error[0]);
+                    }
+                });
+        });
+    </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.0/js/toastr.min.js"></script>
+<script type="text/javascript"></script>
+</body>
+</html>

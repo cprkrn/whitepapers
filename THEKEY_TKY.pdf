@@ -1,0 +1,13 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=keywords content="THEKEY,TKY,BDMI,DMI,Catherine Li,Blockchain based multi-dimension identification,IDV,Identity verification,Chinese IDV,National big data,Government ID data,Smart social Insurance pay"><meta name=description content="THEKEY is a decentralized ecosystem of an identity verification tool using national big-data and blockchain. THEKEY project team, led by Catherine Li, is now developing a second-generation IDV (identity verification) solution for the internet via BDMI (blockchain based dynamic multi-dimension identification) technology to generate undeniable and unalterable online IDV results. Utilization of government ID data is one of the competing advantages of the project. THEKEY ecosystem consists of participants, Smart Contracts and TKY Tokens (THEKEY Tokens). Currently the first generation IDV solution - DMI (dynamic multi-dimension identification) is applied in smart social insurance pay in several pilot cities in China."><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" type=image/x-icon href=static/favicon.ico><title>Home | Thekey</title><style>.custom-file-label {
+        background: #cccccc!important;
+      }
+      @media (max-width: 768px) {
+        .dropdown-menu {
+          width: 250px; 
+        }
+        .dropdown-item {
+          white-space: normal!important;
+          line-height: 24px;
+          font-size: 12px;
+        }
+      }</style><link href=./static/css/app.fbe843472760f95f28b6d6698d08dc9c.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.3ad1d5771e9b13dbdad2.js></script><script type=text/javascript src=./static/js/vendor.d05bf0488c2b4b1d30aa.js></script><script type=text/javascript src=./static/js/app.180976a3cb13b2fbeb90.js></script></body></html>

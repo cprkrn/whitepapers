@@ -1,0 +1,1530 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <meta charset="utf-8">
+    <meta name="csrf-token" content="ZddPn1vCI5M7gZgglB0JPqe0BfBMLWI1dvwDuOnb">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>TraDove</title>
+    <meta name="description" content="TraDove">
+    <meta name="keywords" content="TraDove">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="/vendor/responsive-nav/responsive-nav.css">
+    <link rel="stylesheet" href="/vendor/videojs/video-js.css">
+    <link href="/css/tradove.css?v=201810301247002" rel="stylesheet">
+    <link rel="stylesheet" href="/css/dialog.css?v=201810301247002">
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq)return;
+            n = f.fbq = function () {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq)f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '311738599308993');
+        fbq('track', 'PageView');
+    </script>
+
+    <noscript>
+        <img height="1" width="1" src="https://www.facebook.com/tr?id=311738599308993&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
+</head>
+
+<body>
+
+
+<header>
+    <div class="box-wrap clearfix">
+        <a class="logo" target="_blank" href="https://www.tradove.com">
+            <img src="images/ico/logo.png" alt="">
+        </a>
+        <a class="header-btn" href="/home_cn">中文</a>
+        <nav class="nav-collapse">
+            <ul class="clearfix">
+                <li><a href="#teamBackers">Team & Backers</a></li>
+                <li><a href="#circulationModel">How to Use B2BCoin</a></li>
+                <li><a href="#traDovePlatform">TraDove Platform</a></li>
+                <li><a href="#">B2BCoin Sale</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="introduce">
+    <div class="box-1280">
+        <div class="box-content clearfix">
+            <div class="introduce-left">
+                <h1>Unlock corporate demand for a token based business-to-business (B2B) marketing, sales, and trade platform.</h1>
+                <div class="video-wrap">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/AhVGtP2DRdw" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                </div>
+
+                <dl class="notice">
+                    <dt><span>News & Updates</span> <a href="/announcements">more&gt;</a></dt>
+                    <dd><a target="_blank" href="https://medium.com/@tra_dove">Check Our Latest Post-ICO Progress</a></dd>
+                    <dd><a href="#post_ico_midia_cover">Check Our Post-ICO Media Coverage</a></dd>
+                                            <dd>
+                                                            <a target="_blank" href="/announcements/2">CEO Kent Yan’s Post-ICO Interview with James Bull</a>
+                                                    </dd>
+                                            <dd>
+                                                            <a target="_blank" href="/announcements/3">ICO Thank You Letter from CEO Kent J Yan</a>
+                                                    </dd>
+                                            <dd>
+                                                            <a target="_blank" href="/announcements/4">Richard Rosenberg Interview - TraDove Advisor</a>
+                                                    </dd>
+                                            <dd>
+                                                            <a target="_blank" href="/announcements/5">Congressman Mike Honda Interview - TraDove Advisor</a>
+                                                    </dd>
+                                            <dd>
+                                                            <a target="_blank" href="/announcements/6">Interview at NASDAQ</a>
+                                                    </dd>
+                                            <dd>
+                                                            <a target="_blank" href="/announcements/10">Rated 9 out of 10 on Hackernoon - Highest！</a>
+                                                    </dd>
+                                            <dd>
+                                                            <a target="_blank" href="/announcements/11">Top ICO Pick of 2018 : TraDove | Crypto Force YouTube</a>
+                                                    </dd>
+                                            <dd>
+                                                            <a target="_blank" href="/announcements/12">TRADOVE ICO REVIEW | James Bull YouTube Channel</a>
+                                                    </dd>
+                                    </dl>
+
+            </div>
+            <!-- 第一阶段 -->
+
+<script type="text/javascript" src="/vendor/responsive-nav/responsive-nav.js"></script>
+<script type="text/javascript" src="/vendor/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="/js/ico.js?v=1515387754519"></script>
+    <div class="introduce-right">
+        <div class="top-btn clearfix">
+            <a id="whitepaper_btn" href="javascript:void(0);">
+                <img src="./images/ico/white-paper.png" alt="">
+                <span>White Paper</span>
+            </a>
+            <a target="_blank" href="/doc/TraDove Global B2B Token Offering White Paper - Simplified Chinese  V0.3.2.pdf">
+                <img src="./images/ico/white-paper-zh.png" alt="">
+                <span>白皮书中文版</span>
+            </a>
+            <a id="prospectus_btn" href="javascript:void(0);">
+                <img src="./images/ico/offering-docs.png" alt="">
+                <span>Offering Docs</span>
+            </a>
+            
+                
+                
+            
+            
+                
+                
+            
+            
+                
+                
+            
+        </div>
+
+        <div class="box">
+            <div class="sale-data">
+                <p>
+                    The TraDove Global B2B Token Offering concluded on Feb. 28, 2018 at 23:59 PST. <small>Please log in to check your completed order details and to update your follow-up information before 03/15/2018.</small>
+                </p>
+
+            </div>
+            <div>
+                <a class="small" href="/login">Log In</a>
+                <br> <br>
+                <a id="buybbc_btn" class="small buy" href="javascript:void(0);" >Buy BBC</a>
+            </div>
+
+            <p class="new-text">
+                Final Results: USD 52,000,000
+
+
+<br/>
+<span style="font-size: small">Pending final audit & verification of committed funds</span>
+
+<br/>
+<br/>
+
+<a id="just_announ" target="_blank" href="javascript:void(0);">FAQ on TraDove’s B2BCoin ICO</a>
+            </p>
+
+        </div>
+    </div>
+
+
+        </div>
+        <div class="box-content">
+            <div class="telegram">
+                <div>
+                    <a target="_blank" onclick="recordStatClick(9);" href="https://t.me/tradoveglobalB2Btokenoffering">
+                        <img src="./images/ico/Telegram_1.png" alt="">
+                        <p>Main/English</p>
+                    </a>
+                    <a target="_blank" onclick="recordStatClick(9);" href="https://t.me/joinchat/G2lo8BILDmQCNID90B0SGg">
+                        <img src="./images/ico/Telegram_1.png" alt="">
+                        <p>中文</p>
+                    </a>
+                    <a target="_blank" onclick="recordStatClick(9);" href="https://t.me/bbckr">
+                        <img src="./images/ico/Telegram_1.png" alt="">
+                        <p>한국어</p>
+                    </a>
+                </div>
+                <div>
+                    <a target="_blank" onclick="recordStatClick(9);" href="https://t.me/tradoveglobalB2Btoken_deutsch">
+                        <img src="./images/ico/Telegram_1.png" alt="">
+                        <p>Deutsch</p>
+                    </a>
+                    <a target="_blank" onclick="recordStatClick(9);" href="https://t.me/TradovePortuguese">
+                        <img src="./images/ico/Telegram_1.png" alt="">
+                        <p>Português</p>
+                    </a>
+                    <a target="_blank" onclick="recordStatClick(9);" href="https://t.me/tradoveglobalB2Btoken_francais">
+                        <img src="./images/ico/Telegram_1.png" alt="">
+                        <p>Français</p>
+                    </a>
+                </div>
+                <div>
+                    <a target="_blank" onclick="recordStatClick(9);" href="https://t.me/joinchat/G1s06VDzQa2kcABfqv4EpA">
+                        <img src="./images/ico/Telegram_1.png" alt="">
+                        <p>Türkçe</p>
+                    </a>
+                    <a target="_blank" onclick="recordStatClick(9);" href="https://t.me/bbcvn">
+                        <img src="./images/ico/Telegram_1.png" alt="">
+                        <p>Tiếng Việt</p>
+                    </a>
+                    <a target="_blank" onclick="recordStatClick(9);" href="https://t.me/tradove_India">
+                        <img src="./images/ico/Telegram_1.png" alt="">
+                        <p>इंडिया</p>
+                    </a>
+                </div>
+                <div>
+                    <a target="_blank" onclick="recordStatClick(9);" href="https://t.me/TradoveIndonesia">
+                        <img src="./images/ico/Telegram_1.png" alt="">
+                        <p>Indonesia</p>
+                    </a>
+                    <a target="_blank" onclick="recordStatClick(9);" href="https://t.me/tradoveglobalB2Btoken_espanol">
+                        <img src="./images/ico/Telegram_1.png" alt="">
+                        <p>Español</p>
+                    </a>
+                    <a target="_blank" onclick="recordStatClick(9);" href="https://t.me/tradoveglobalB2Btoken_russia">
+                        <img src="./images/ico/Telegram_1.png" alt="">
+                        <p>pусский</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="traDovePlatform" class="b2b">
+    <div class="box-content">
+        <div class="title"><span>B2B Challenges</span></div>
+        <ul class="icon-list clearfix">
+            <li>
+                <div>
+                    <img src="images/ico/1.png" alt="">
+                    <span>Restricted Transparency in B2B</span>
+                    <p>Matching the right buyers and sellers is difficult. Authenticated reviews are nonexistent and due diligence is complex.</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/ico/2.png" alt="">
+                    <span>Difficult Buyer & Seller Discovery</span>
+                    <p>Traditional methods for searching buyers and sellers-- email, phone-- are slow, inefficient, and can take weeks or even months.</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/ico/3.png" alt="">
+                    <span>Lack of Targeted B2B Advertising</span>
+                    <p>Unlike Google AdWords in consumer marketing, B2B advertising platforms are limited and rudimentary.</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/ico/4.png" alt="">
+                    <span>Limited Trust In International Trade</span>
+                    <p>International trade lacks full trust. Local banking can be inconvenient. Sending money in and out of some countries can be inefficient and expensive.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="our">
+    <div class="box-content">
+        <div class="title"><span>Our Approach</span></div>
+        <ul class="icon-list clearfix">
+            <li>
+                <div>
+                    <img src="images/ico/7b.png" alt="">
+                    <span>Create B2B Transparency</span>
+                    <p>Utilize social network functions such as endorsements and references to authenticate users and reduce due diligence effort and time.</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/ico/5.png" alt="">
+                    <span>Facilitate Buyer/Seller Interaction</span>
+                    <p>Implement AI technologies to optimize the matching of buyers and sellers based on business objectives and user profiles.</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/ico/8.png" alt="">
+                    <span>Precision B2B Advertising</span>
+                    <p>Targeted product & service advertising based on business profiles and specific needs. Sellers can also present buyers with incentives to view B2B advertisements.</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/ico/6.png" alt="">
+                    <span>Disrupt B2B Payment Solutions</span>
+                    <p>TraDove will also develop an improved payment instrument to ensure trusted B2B transactions, particularly in the realm of international trade. Utilizing TraDove, Companies will be able to eliminate local banking stress and enjoy ease & low cost of payment when sending money in and out of countries.</p>
+                </div>
+            </li>
+        </ul>
+        <div class="items clearfix">
+            <div>
+                <img src="images/ico/b5b.png" alt="">
+            </div>
+            <div>
+                <span>Building Trust with Blockchain in International Trade</span>
+                <p>TraDove will utilize digital currencies, blockchain technologies, and advanced user authentication to solve the fundamental trust problem in B2B and international trade. Authenticated, vetted, and reviewed buyers & sellers will utilize smart contracts to execute trade across a
+                    global business-to-business platform, ensuring that payments are successful.</p>
+            </div>
+        </div>
+        <div class="items clearfix">
+            <div class="mobile">
+                <img src="images/ico/b3.png" alt="">
+            </div>
+            <div>
+                <span>About TraDove</span>
+                <p>Just as Facebook connects friends and LinkedIn connects professionals, the current TraDove platform connects business partners with its business social network. The next generation platform will utilize blockchain and AI-driven social networking technologies to further shorten the corporate buyer & seller discovery cycle, enhance B2B transparency, expand user trust, and allow for company-to-company precision advertising. Additionally, TraDove will provide a better payment instrument for international trade.
+                    <br/>
+                    <a target="_blank" href="https://www.tradove.com/">https://www.tradove.com/</a>
+                </p>
+
+            </div>
+            <div class="pc">
+                <img src="images/ico/b3.png" alt="">
+            </div>
+        </div>
+
+        <div class="items clearfix">
+            <div>
+                <img src="images/ico/b7.png" alt="">
+            </div>
+            <div>
+                <p>
+                    <strong>LinkedIn</strong> is not suitable for business. It does not authenticate its users. Most use public emails. Faking
+                    a LinkedIn profile is easy. It is too general and crowded. Most use LinkedIn for personal and professional relations
+                    oriented communication. It does not have a product/service component.</p>
+
+                <p><strong>TraDove</strong> has developed a proprietary process to authenticate its users in its general network. It is much harder to fake a profile. It is a social network tailored for corporate buying and selling people. It seamlessly connects business people, products/services
+                    and companies together to share knowledge, experience and opportunity in a much more relevant way.</p>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+<section class="market">
+    <div class="box-content">
+        <div class="title"><span>Market Size</span></div>
+        <div class="content-text">
+            <p>Size of Global B2B Marketing Spending: USD 76 Billion<br/>Volume of International Trade: USD 16 Trillion</p>
+        </div>
+    </div>
+</section>
+
+<section class="success">
+    <div class="box-content">
+        <div class="title"><span>TraDove Success</span></div>
+        <ul class="icon-list clearfix">
+            <li>
+                <div>
+                    <img src="images/ico/10.png" alt="">
+                    <strong>250,000+</strong>
+                    <span>Corporate Users on Running Platform</span>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/ico/11.png" alt="">
+                    <strong>100,000+</strong>
+                    <span>Companies</span>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/ico/12.png" alt="">
+                    <strong>200+</strong>
+                    <span>Global Fortune 1000 Companies</span>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/ico/9.png" alt="">
+                    <strong>80+</strong>
+                    <span>Countries</span>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/ico/13.png" alt="">
+                    <strong>5yrs</strong>
+                    <span>In Operation</span>
+                </div>
+            </li>
+        </ul>
+        <p>Companies Whose Employees Joined TraDove</p>
+        <ul class="logo-list clearfix">
+            <li>
+                <img src="images/ico/a1.png" alt="">
+            </li>
+            <li>
+                <img src="images/ico/a2.png" alt="">
+            </li>
+            <li>
+                <img src="images/ico/a3.png" alt="">
+            </li>
+            <li>
+                <img src="images/ico/a4.png" alt="">
+            </li>
+            <li>
+                <img src="images/ico/a5.png" alt="">
+            </li>
+            <li>
+                <img src="images/ico/a6.png" alt="">
+            </li>
+            <li>
+                <img src="images/ico/a7.png" alt="">
+            </li>
+            <li>
+                <img src="images/ico/a8.png" alt="">
+            </li>
+            <li>
+                <img src="images/ico/a9.png" alt="">
+            </li>
+            <li>
+                <img src="images/ico/a10.png" alt="">
+            </li>
+        </ul>
+        <a target="_blank" href="https://wwwus01.tradove.com/whoisin">See Other Companies</a>
+    </div>
+</section>
+
+<section id="circulationModel" class="bcm">
+    <div class="box-1280">
+        <div class="box-content">
+            <div class="title"><span>How B2BCoin Will Be Used</span></div>
+            <p class="text-info">We will let corporate buyers use our services for free. We will let corporate sellers use our basic services for free and use B2BCoin to pay for prioritized or value-added utilities, such as notifying sellers as to buyers' searched or expressed needs. (explained
+                below)</p>
+            <div class="phase-one phase">
+                <p><span>Phase 1</span></p>
+                <p>
+                    <font>Empower Buyer & Seller Interaction</font>
+                </p>
+                <img src="images/ico/b2.png" alt="">
+                <div class="clearfix">
+                    <div class="arrow-left">
+                        <div>
+                            <p>Sellers pay TraDove in B2BCoins for prioritized and value-added utilities.</p>
+                            <p>TraDove recommends sellers, their products/services to buyers based on buyer profiles and expressed interests derived from searches and posted leads.</p>
+                            <p>Companies and corporate sales personnel buy B2BCoins.</p>
+                        </div>
+                    </div>
+                    <div class="arrow-right">
+                        <div>
+                            <p>TraDove seeds the initial market: sales personnel are given a B2BCoin allocation. Coins can also be purchased on the open market.</p>
+                            <p>Seller pays potential customers B2BCoins in return for the opportunity to pitch their products/services directly to them.</p>
+                            <p>Buyer receives B2BCoins and redeposits into the company account. TraDove retains a facilitation fee.</p>
+                            <p>Sales people from buyer companies use B2BCoins, earned or otherwise purchased, to engage in conversations with potential customers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="phase-two phase">
+                <p><span>Phase 2</span></p>
+                <p>
+                    <font>Empower B2B Precision Advertising</font>
+                </p>
+                <div class="clearfix">
+                    <div class="arrow-right">
+                        <div>
+                            <p>Any company can purchase B2BCoins on the open market for marketing purposes.</p>
+                            <p>Companies create ads and target specific business users and/or searches.</p>
+                            <p>Buyers interact with advertisements, receive B2BCoins for their attention, and deposit tokens into company account. TraDove retains a facilitation fee.</p>
+                            <p>Companies use B2BCoins, purchased or earned, to execute additional targeted B2B advertising.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/ico/b4.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="phase-three phase">
+                <p><span>Phase 3</span></p>
+                <p>
+                    <font>Empower International Trade with Blockchain</font>
+                </p>
+                <div class="clearfix">
+                    <div>
+                        <img src="images/ico/b6.png" alt="">
+                    </div>
+                    <ul>
+                        <li>Blockchain-based payment for international trade.</li>
+                        <li>Eliminate local banking stress.</li>
+                        <li>Enjoy ease & low cost of payment to send money in and out of countries.</li>
+                        <li>Provide a reliable and less expensive payment method when trading in unreliable markets.</li>
+                        <!-- <li>Replace expensive payment methods such as Letter of Credit.</li> -->
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="key-dats">
+                <div>Roadmap</div>
+                <img src="./images/ico/Timeline_horizontal.png" alt="">
+                <img src="./images/ico/Timeline_vertical.png" alt="">
+            </div>
+
+            <div class="key-dats">
+                <div>Key Dates</div>
+                <ul class="clearfix">
+                    <!--
+                    <li>
+                        <div>
+                            <span>Presale Starts</span>
+                            <strong>26</strong>
+                            <font>Oct</font>
+                        </div>
+                    </li>
+                    -->
+
+                    <li>
+                        <div>
+                            <span>Presale Ends</span>
+                            <strong>31</strong>
+                            <font>Jan</font>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <span>Public Sale Starts</span>
+                            <strong>1</strong>
+                            <font>Feb</font>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <span>Public Sale Ends</span>
+                            <strong>28</strong>
+                            <font>Feb</font>
+                        </div>
+                    </li>
+                </ul>
+                <p></p>
+            </div>
+            <!-- <dl class="clearfix">
+              <dt>B2BCoin Demand Forecast</dt>
+              <dd>
+                <p># of B2BCoins indemand</p>
+                <img src="images/ico/S4-04.png" alt="">
+              </dd>
+              <dd>
+                <p># of Corporate Users</p>
+                <img src="images/ico/S4-05.png" alt="">
+              </dd>
+            </dl> -->
+        </div>
+    </div>
+    <img src="images/ico/bg_gray.png" alt="">
+</section>
+
+<section id="teamBackers" class="team">
+    <div class="box-1280">
+        <div class="box-content">
+            <div class="title"><span>TraDove Core Team</span></div>
+            <p>TraDove has first class team from MIT, Amazon, LinkedIn, Facebook and Alibaba.</p>
+            <ul class="clearfix">
+                <li>
+                    <div>
+                        <img src="images/ico/h-kjy.png" alt="">
+                        <strong>Kent J Yan</strong>
+                        <span>Business, Finance, and General Management</span>
+                        <ol>
+                            <li>Former Founder and CEO at Braincess , international trade</li>
+                            <li>MS, MIT Electrical Engineering </li>
+                            <li>MBA, MIT Sloan School of Management</li>
+                        </ol>
+                        <div class="clearfix">
+                            <img src="./images/ico/company/CM-KY-1.jpg" alt="">
+                            <img src="./images/ico/company/CM-KY-2.jpg" alt="">
+                            <img src="./images/ico/company/CM-KY-3.jpg" alt="">
+                        </div>
+
+                        <div>
+                            <a target="_blank" href="https://www.linkedin.com/in/kent-yan-ab3a3610/">LinkedIn Profile</a>
+                            <a target="_blank" href="https://www.youtube.com/watch?v=SS2yQu5x8sk">Interview on TraDove</a>
+                        </div>
+
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/ico/h-jz.png" alt="">
+                        <strong>Jian Zheng</strong>
+                        <span>Blockchain Technology, AI, Product Development</span>
+                        <ol>
+                            <li>VGM, Tencent</li>
+                            <li>Director of Engineering, Alibaba</li>
+                            <li>Senior Engineering Manager, Yahoo</li>
+                            <li>MS, Computer Science, NYU</li>
+                        </ol>
+                        <div class="clearfix">
+                            <img src="./images/ico/company/CM-TZ-1.jpg" alt="">
+                            <img src="./images/ico/company/CM-TZ-2.jpg" alt="">
+                            <img src="./images/ico/company/CM-TZ-3.jpg" alt="">
+                        </div>
+                        <div>
+                            <a target="_blank" href="https://www.linkedin.com/in/jian-zheng-9612754/">LinkedIn Profile</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/ico/parvis hanson.png" alt="">
+                        <strong>Parvis Hanson</strong>
+                        <span>Operations and Business Development EMEA</span>
+                        <ol>
+                            <li>Principal Consultant, Orange Business Services</li>
+                            <li>Senior Business Development Manager, World Economic Forum </li>
+                            <li>Manager, Ariba</li>
+                        </ol>
+                        <div class="clearfix">
+                            <img src="./images/ico/company/hanson-ariba.jpg" alt="">
+                            <img src="./images/ico/company/hanson-wef.jpg" alt="">
+                            <img src="./images/ico/company/CM-IG-3.jpg" alt="">
+                        </div>
+                        <div>
+                            <a target="_blank" href="https://www.linkedin.com/in/parvishanson/">LinkedIn Profile</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <img src="images/ico/h-lg.png" alt="">
+                        <strong>Igor Gustincic</strong>
+                        <span>Sales and Business Development, Europe</span>
+                        <ol>
+                            <li>20+ years of IT sales experience working with companies like Nestle, SITA, SGS, etc.</li>
+                            <li>BS, Univeriste Jean Moulin (Lyon III)</li>
+                        </ol>
+                        <div class="clearfix">
+                            <img src="./images/ico/company/CM-IG-1.jpg" alt="">
+                            <img src="./images/ico/company/CM-IG-2.jpg" alt="">
+                            <img src="./images/ico/company/CM-IG-3.jpg" alt="">
+                        </div>
+                        <div>
+                            <a target="_blank" href="https://www.linkedin.com/in/igor-gustincic-9a5a674/">LinkedIn Profile</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/ico/rowena bonnette.png" alt="">
+                        <strong>Rowena Bonnette</strong>
+                        <span>Vice President of Marketing</span>
+                        <ol>
+                            <li>Director, Online Marketing, Ooma</li>
+                            <li>Manager, Search Engine & Social Media, Thomson Reuters</li>
+                            <li>Product Manager, Oracle</li>
+                        </ol>
+                        <div class="clearfix">
+                            <img src="./images/ico/company/rowena-ooma.jpg" alt="">
+                            <img src="./images/ico/company/rowena-oracle.jpg" alt="">
+                            <img src="./images/ico/company/rowena-reuters.jpg" alt="">
+                        </div>
+                        <div>
+                            <a target="_blank" href="https://www.linkedin.com/in/rowenabonnette/">LinkedIn Profile</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/ico/h-gc.png" alt="">
+                        <strong>George Cheng</strong>
+                        <span>Network, Security, Big Data and Cloud</span>
+                        <ol>
+                            <li>Devops, Cloudera</li>
+                            <li>Sr. IT Architect, Amazon/Alexa</li>
+                            <li>Lead System Admin, Salesforce.com</li>
+                            <li>MS, State U. of New York</li>
+                        </ol>
+                        <div class="clearfix">
+                            <img src="./images/ico/company/CM-CGL-1.jpg" alt="">
+                            <img src="./images/ico/company/CM-CGL-2.jpg" alt="">
+                            <img src="./images/ico/company/CM-CGL-3.jpg" alt="">
+                        </div>
+                        <div>
+                            <a target="_blank" href="https://www.linkedin.com/in/george-guolin-cheng-6019883/">LinkedIn Profile</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <img src="images/ico/h-jl.png" alt="">
+                        <strong>Jia Liu</strong>
+                        <span>Mobile Development</span>
+                        <ol>
+                            <li>Engineer, Facebook</li>
+                            <li>IOS Engineer, Storm 8</li>
+                            <li>Software Engineer, Netscreen/Juniper</li>
+                            <li>MS, Computer Science, U. Arizona</li>
+                        </ol>
+                        <div class="clearfix">
+                            <img src="./images/ico/company/CM-JL-1.jpg" alt="">
+                            <img src="./images/ico/company/CM-JL-2.jpg" alt="">
+                            <img src="./images/ico/company/CM-JL-3.jpg" alt="">
+                        </div>
+                        <div>
+                            <a target="_blank" href="https://www.linkedin.com/in/jia-liu-a1221a2/">LinkedIn Profile</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/ico/h-aw.png" alt="">
+                        <strong>Albert Wang</strong>
+                        <span>User Experience and User Interface</span>
+                        <ol>
+                            <li>Lead UX Designer, LinkedIn</li>
+                            <li>Product Design Director, BloomReach</li>
+                            <li>Illinois Institute of Technology, Institute of Design, Master of Design</li>
+                        </ol>
+                        <div class="clearfix">
+                            <img src="./images/ico/company/CM-AW-1.jpg" alt="">
+                            <img src="./images/ico/company/CM-AW-2.jpg" alt="">
+                            <img src="./images/ico/company/default.png" alt="">
+                        </div>
+                        <div>
+                            <a target="_blank" href="https://www.linkedin.com/in/albertdesign/">LinkedIn Profile</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <p><a target="_blank" href="https://china.tradove.com/index_e.html">Team in China</a></p>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="inad">
+    <div class="box-1280">
+        <div class="box-content">
+            <div class="title"><span>Investors & Advisors</span></div>
+            <p>TraDove has raised $4M USD from first class investors.</p>
+            <ul class="clearfix">
+                <li>
+                    <div>
+                        <img src="images/ico/ia-rr.png" alt="">
+                        <strong>Richard Rosenberg</strong>
+                        <span>Former Chairman and CEO of Bank of America</span>
+                        <div class="clearfix">
+                            <img src="./images/ico/company/CM-RR-1.jpg" alt="">
+                            <img src="./images/ico/company/CM-RR-2.jpg" alt="">
+                            <img src="./images/ico/company/CM-RR-3.jpg" alt="">
+                        </div>
+                        <div>
+                            <a target="_blank" href="https://www.bloomberg.com/research/stocks/private/person.asp?personId=545569&privcapId=24713574">Profile</a>
+                            <a target="_blank" href="https://www.youtube.com/watch?v=Miwkpdl8Mtg">Interview on TraDove</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/ico/ia-pd.png" alt="">
+                        <strong>Phil Duff</strong>
+                        <span>Former CFO of Morgan Stanley</span>
+                        <div class="clearfix">
+                            <img src="./images/ico/company/CM-PD-1.jpg" alt="">
+                            <img src="./images/ico/company/CM-PD-2.jpg" alt="">
+                            <img src="./images/ico/company/CM-PD-3.jpg" alt="">
+                        </div>
+                        <div>
+                            <a target="_blank" href="https://www.linkedin.com/in/phil-duff-4a3389/">LinkedIn Profile</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/ico/ia-gs.png" alt="">
+                        <strong>Gerhard Schulmeyer</strong>
+                        <span>Former CEO of Siemens, Inc.</span>
+                        <div class="clearfix">
+                            <img src="./images/ico/company/CM-GS-1.jpg" alt="">
+                            <img src="./images/ico/company/CM-GS-2.jpg" alt="">
+                            <img src="./images/ico/company/CM-GS-3.jpg" alt="">
+                        </div>
+                        <div>
+                            <a target="_blank" href="https://www.linkedin.com/in/gerhard-schulmeyer-b6933431/">LinkedIn Profile</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/ico/ia-gc.png" alt="">
+                        <strong>Gary Cowger</strong>
+                        <span>Former Group VP of General Motors</span>
+                        <div class="clearfix">
+                            <img src="./images/ico/company/CM-GC-1.jpg" alt="">
+                            <img src="./images/ico/company/CM-GC-2.jpg" alt="">
+                            <img src="./images/ico/company/CM-GC-3.jpg" alt="">
+                        </div>
+                        <div>
+                            <a target="_blank" href="https://www.linkedin.com/in/gary-cowger-80600012/">LinkedIn Profile</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/ico/ia-gk.png" alt="">
+                        <strong>Gordon Kaufman</strong>
+                        <span>Professor Emeritus, MIT Sloan School of Management</span>
+                        <div class="clearfix">
+                            <img src="./images/ico/company/CM-GK-1.jpg" alt="">
+                            <img src="./images/ico/company/CM-GK-2.jpg" alt="">
+                            <img src="./images/ico/company/CM-GK-3.jpg" alt="">
+                        </div>
+                        <div>
+                            <a target="_blank" href="http://mitsloan.mit.edu/faculty-and-research/faculty-directory/detail/?id=41300">Profile</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/ico/ia-dal.jpg" alt="">
+                        <strong>Dr. Anastassia Lauterbach</strong>
+                        <span>Former SVP, Deutsche Telekom</span>
+                        <div class="clearfix">
+                            <img src="./images/ico/company/CM-AL-1.jpg" alt="">
+                            <img src="./images/ico/company/CM-AL-2.jpg" alt="">
+                            <img src="./images/ico/company/CM-AL-3.jpg" alt="">
+                        </div>
+                        <div>
+                            <a target="_blank" href="https://www.linkedin.com/in/anastassia-dr-lauterbach-021a004/">LinkedIn Profile</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/ico/ia-mh.png" alt="">
+                        <strong>Mike Honda</strong>
+                        <span>Retired US Congressman</span>
+                        <div class="clearfix">
+                            <img src="./images/ico/company/CM-MH-1.jpg" alt="">
+                            <img src="./images/ico/company/default.png" alt="">
+                            <img src="./images/ico/company/default.png" alt="">
+                        </div>
+                        <div>
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Mike_Honda">Profile</a>
+                            <a target="_blank" href="https://www.youtube.com/watch?v=lToEaSAVb10">Interview on TraDove</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/ico/ia-mr.png" alt="">
+                        <strong>Mario Rosati</strong>
+                        <span>Name Partner, Wilson Sonsini Goodrich and Rosati</span>
+                        <div class="clearfix">
+                            <img src="./images/ico/company/CM-MR-1.jpg" alt="">
+                            <img src="./images/ico/company/CM-MR-2.jpg" alt="">
+                            <img src="./images/ico/company/default.png" alt="">
+                        </div>
+                        <div>
+                            <a target="_blank" href="https://www.wsgr.com/WSGR/DBIndex.aspx?SectionName=attorneys/bios/115.htm">Profile</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/ico/ia-xl.png" alt="">
+                        <strong>Xiongwen Lu</strong>
+                        <span>Dean of School of Management, Fudan University, China</span>
+                        <div class="clearfix">
+                            <img src="./images/ico/company/CM-XL-1.jpg" alt="">
+                            <img src="./images/ico/company/CM-XL-2.jpg" alt="">
+                            <img src="./images/ico/company/CM-XL-3.jpg" alt="">
+                        </div>
+                        <div>
+                            <a target="_blank" href="http://www.fdsm.fudan.edu.cn/en/teacher/preview.aspx?UID=13">Profile</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ol class="text-item clearfix">
+                <li>
+                    <p>Founder and Chairman of Analog Devices</p>
+                </li>
+                <li>
+                    <p>President Emeritus of Mayo Foundation</p>
+                </li>
+                <li>
+                    <p>Founder and Chairman of ResMed</p>
+                </li>
+                <li>
+                    <p>Cofounder of WebEx</p>
+                </li>
+                <li>
+                    <p>Former VP of SAP, Oracle and PeopleSoft</p>
+                </li>
+                <li>
+                    <p>Chairman and CEO of MKS Instruments</p>
+                </li>
+                <li>
+                    <p>Former Owner and CEO of LA Dodgers</p>
+                </li>
+                <li>
+                    <p>CEO of Bacardi Rum</p>
+                </li>
+                <li>
+                    <p>Former McKinsey Director from Germany</p>
+                </li>
+                <li>
+                    <p>Senior exec from KKR</p>
+                </li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+<section class="cmmm">
+    <div class="box-1280">
+        <div class="box-content">
+            <div class="title"><span>Covers Most Major Markets</span></div>
+            <p class="text-info">TraDove has its teams in Silicon Valley, US, Europe and China.<br>Our investors encompass major economies, including the US, China, Germany, UK and Switzerland </p>
+            <img src="images/ico/S6-01.png" alt="">
+        </div>
+    </div>
+</section>
+
+<section class="topa">
+    <div class="box-1280">
+        <div class="box-content">
+            <div class="title"><span>Token Offering Partners and Advisors</span></div>
+            <ul class="clearfix">
+
+                <li>
+                    <div>
+                        <img src="./images/ico/topa-ha.jpg" alt="">
+                        <a href="https://www.linkedin.com/in/hugh-austin-67512610/" target="_blank">Hugh Austin</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="./images/ico/topa-bc.jpg" alt="">
+                        <a href="https://www.linkedin.com/in/bryancrane/" target="_blank">Bryan Crane</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="./images/ico/topa-don.jpg" alt="">
+                        <a href="https://www.linkedin.com/in/oneillcapital/" target="_blank">Dennis O’Neil</a>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <img src="./images/ico/topa-jk.jpg" alt="">
+                        <a href="https://www.linkedin.com/in/jae-kim-3b8755146/" target="_blank">Jae Kim</a>
+                    </div>
+                </li>
+
+
+                <li>
+                    <div>
+                        <img src="./images/ico/David-Drake.png" alt="">
+                        <a href="https://www.linkedin.com/in/ldjcapital/" target="_blank">David Drake</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="./images/ico/LDJ-Capital.png" alt="">
+                        <a href="http://www.ldjcapital.com/" target="_blank">LDJ Capital</a>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <img src="./images/ico/Nathan-Christian.png" alt="">
+                        <a href="https://www.linkedin.com/in/nathan-christian-90365414a" target="_blank">Nathan Christian</a>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <img src="./images/ico/Peter-M-Moricz.png" alt="">
+                        <a href="https://www.linkedin.com/in/petermmoricz/" target="_blank">Peter M. Moricz</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="./images/ico/topa-sb.jpg" alt="">
+                        <a href="https://www.linkedin.com/in/sean-brizendine-a71634b8/" target="_blank">Sean Brizendine</a>
+                    </div>
+                </li>
+
+
+                <li>
+                    <div>
+                        <img src="./images/ico/topa-ah.jpg" alt="">
+                        <a href="https://www.linkedin.com/in/atsushi-hisatsumi/" target="_blank">Atsushi Hisatsumi</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="./images/ico/topa-ts.jpg" alt="">
+                        <a href="https://www.linkedin.com/in/tshiraishi/" target="_blank">Teruhito Shiraishi</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="./images/ico/topa-hn.jpg" alt="">
+                        <a href="https://www.linkedin.com/in/hiroyukinoguchikacg/" target="_blank">Hiroyuki Naguchi</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="./images/ico/topa-is.jpg" alt="">
+                        <a href="https://www.linkedin.com/in/ianscarffe/" target="_blank">Ian Scarffe</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="./images/ico/topa-iw.jpg" alt="">
+                        <a href="https://www.linkedin.com/in/ivan-wood-3325bb150/" target="_blank">Ivan Wood</a>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <img src="./images/ico/topa-sbo.png" alt="">
+                        <a href="https://www.linkedin.com/in/soala-bobmanuel-orupabo-54b71a7/" target="_blank">Soala Bobmanuel Orupabo</a>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <img src="./images/ico/Soheil-Mirpour.png" alt="">
+                        <a href=" https://www.linkedin.com/in/mirpour/" target="_blank">Soheil Mirpour</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="./images/ico/Omri-Shabi.png" alt="">
+                        <a href="https://www.linkedin.com/in/omri-shabi-255b535b/" target="_blank">Omri Shabi</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="./images/ico/blocktech.png" alt="">
+                        <a href="https://www.blocktech.capital/" target="_blank">Block Tech Capital Corp</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="./images/ico/coinlab.png" alt="">
+                        <a href="https://www.linkedin.com/in/mark-kirby-35787049/" target="_blank">The Coin Lab</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="./images/ico/topa-cr.jpg" alt="">
+                        <a href="https://www.linkedin.com/in/curtriley/" target="_blank">Curt Riley</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="./images/ico/topa-sh.jpg" alt="">
+                        <a href="https://www.linkedin.com/in/sean-halverson-b11461123/" target="_blank">Sean Halverson</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="./images/ico/topa-gl.jpg" alt="">
+                        <a href="https://www.linkedin.com/in/greg-limon-835a23b9/" target="_blank">Greg Limon</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="./images/ico/topa-sm.jpg" alt="">
+                        <a href="https://www.linkedin.com/in/stan-milc-077962105/" target="_blank">Stan Milc</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="./images/ico/topa-rs.jpg" alt="">
+                        <a href="https://www.linkedin.com/in/theryanscott/" target="_blank">Ryan Scott</a>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <a target="_blank" href="http://traveller.ink-live.com/html5/reader/production/default.aspx?pubname=&edid=69bead03-9c55-425c-944e-58cedb7109fe">
+                            <img src="./images/ico/Traveller.png" alt="">
+                        </a>
+                        <a target="_blank" href="http://traveller.ink-live.com/html5/reader/production/default.aspx?pubname=&edid=69bead03-9c55-425c-944e-58cedb7109fe">easyJet Traveller</a>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+<section class="news">
+    <div class="box-1280">
+        <div class="box-content">
+            <div class="title" id="post_ico_midia_cover">
+                <span>Post-ICO Media Coverage</span>
+            </div>
+            <ul class="clearfix">
+                <li>
+                    <div>
+                        <a target="_blank" href="https://www.youtube.com/watch?v=rC-C4nl7EOY&t=115s">
+                            <img src="images/ico/Bloomberg.png" alt="">
+                        </a>
+                        <a target="_blank" href="https://www.youtube.com/watch?v=rC-C4nl7EOY&t=115s">Bloomberg</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a target="_blank" href="https://www.youtube.com/watch?v=jtIKxHN5taY">
+                            <img src="images/ico/FoxBusiness.png" alt="">
+                        </a>
+                        <a target="_blank" href="https://www.youtube.com/watch?v=jtIKxHN5taY">Fox Business</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a target="_blank" href="https://www.business-reporter.co.uk/2018/09/17/revitalising-and-democratising-economies-with-blockchain-mobile-b2b-payment-systems/#gsc.tab=0">
+                            <img src="images/ico/TheSundayTelegraph.png" alt="">
+                        </a>
+                        <a target="_blank" href="https://www.business-reporter.co.uk/2018/09/17/revitalising-and-democratising-economies-with-blockchain-mobile-b2b-payment-systems/#gsc.tab=0">The Sunday Telegraph</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a target="_blank" href="https://raconteur.uberflip.com/i/996176-cryptocurrencies-2018-special-report">
+                            <img src="images/ico/the-times.png" alt="">
+                        </a>
+                        <a target="_blank" href="https://raconteur.uberflip.com/i/996176-cryptocurrencies-2018-special-report">The Times UK</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a target="_blank" href="https://www.forbes.com/sites/andrewrossow/2018/07/10/top-10-new-blockchain-companies-to-watch-for-in-2018/#688234405600">
+                            <img src="images/ico/forbes_01.png" alt="">
+                        </a>
+                        <a target="_blank" href="https://www.forbes.com/sites/andrewrossow/2018/07/10/top-10-new-blockchain-companies-to-watch-for-in-2018/#688234405600">Forbes</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a target="_blank" href="http://traveller.ink-live.com/html5/reader/production/default.aspx?pubname=&edid=69bead03-9c55-425c-944e-58cedb7109fe">
+                            <img src="images/ico/Traveller.png" alt="">
+                        </a>
+                        <a target="_blank" href="http://traveller.ink-live.com/html5/reader/production/default.aspx?pubname=&edid=69bead03-9c55-425c-944e-58cedb7109fe">easyJet Traveller</a>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+<section class="news">
+    <div class="box-1280">
+        <div class="box-content">
+            <div class="title"><span>Media Coverage</span></div>
+            <ul class="clearfix">
+                <li>
+                    <div>
+                        <a target="_blank" href="https://www.forbes.com/sites/haroldstark/2017/12/12/keep-an-eye-on-these-blockchain-startups-throughout-2018/3/#5260e881b60e"><img src="images/ico/mc-1.png" alt=""></a>
+                        <a target="_blank" href="https://www.forbes.com/sites/haroldstark/2017/12/12/keep-an-eye-on-these-blockchain-startups-throughout-2018/3/#5260e881b60e">Forbes</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a target="_blank" href="https://www.inc.com/bill-carmody/4-revolutions-made-possible-by-blockchain-economy.html"><img src="images/ico/mc-4.png" alt=""></a>
+                        <a target="_blank" href="https://www.inc.com/bill-carmody/4-revolutions-made-possible-by-blockchain-economy.html">Inc.</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a target="_blank" href="https://www.entrepreneur.com/article/305984"><img src="images/ico/Entrepreneur.png" alt=""></a>
+                        <a target="_blank" href="https://www.entrepreneur.com/article/305984">Entrepreneur</a>
+                    </div>
+                </li>
+                <!--li>
+                    <div>
+                        <a target="_blank" href="https://www.huffingtonpost.com/entry/10innovative-blockchain-startups-to-watch-in-2018_us_5a4bababe4b0d86c803c7995"><img src="images/ico/mc-2.png" alt=""></a>
+                        <a target="_blank" href="https://www.huffingtonpost.com/entry/10innovative-blockchain-startups-to-watch-in-2018_us_5a4bababe4b0d86c803c7995">Huffington Post</a>
+                    </div>
+                </li-->
+                <li>
+                    <div>
+                        <a target="_blank" href="http://www.wfn1.com/interviews/radio-interviews/radio-archives/kent-yan-from-tradove-on-ceo-money/"><img src="images/ico/mc-3.png" alt=""></a>
+                        <a target="_blank" href="http://www.wfn1.com/interviews/radio-interviews/radio-archives/kent-yan-from-tradove-on-ceo-money/">CEO Money</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a target="_blank" href="https://e27.co/improved-trust-social-connections-blockchain-can-improve-b2b-relationships-says-tradove-ceo-kent-yan-20171220/"><img src="images/ico/e27.png" alt=""></a>
+                        <a target="_blank" href="https://e27.co/improved-trust-social-connections-blockchain-can-improve-b2b-relationships-says-tradove-ceo-kent-yan-20171220/">E27</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a target="_blank" href="https://hackernoon.com/6-interesting-blockchain-projects-8c315364ff7f"><img src="images/ico/hackernoon.png" alt=""></a>
+                        <a target="_blank" href="https://hackernoon.com/6-interesting-blockchain-projects-8c315364ff7f">Hackernoon</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a target="_blank" href="https://sg.news.yahoo.com/improved-trust-social-connections-blockchain-improve-b2b-relationships-081555223.html"><img src="images/ico/yahoonews.png" alt=""></a>
+                        <a target="_blank" href="https://sg.news.yahoo.com/improved-trust-social-connections-blockchain-improve-b2b-relationships-081555223.html">Yahoo News</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a target="_blank" href="https://coinspectator.com/news/184611/with-improved-trust-and-social-connections-blockchain-can-improve-b2b-relationships-says-tradove-ceo-kent-yan">
+                            <img src="images/ico/CoinSpectator.png" alt="">
+                        </a>
+                        <a target="_blank" href="https://coinspectator.com/news/184611/with-improved-trust-and-social-connections-blockchain-can-improve-b2b-relationships-says-tradove-ceo-kent-yan">CoinSpectator</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a target="_blank" href="http://reporter.sg/article/2373490/with-improved-trust-and-social-connections-blockchain-can-improve-b2b-relationships-says-tradove-ceo-kent-yan">
+                            <img src="images/ico/reporter.png" alt="">
+                        </a>
+                        <a target="_blank" href="http://reporter.sg/article/2373490/with-improved-trust-and-social-connections-blockchain-can-improve-b2b-relationships-says-tradove-ceo-kent-yan">Reporter</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a target="_blank" href="http://www.thedrum.com/profile/news/280488/qa-with-entrepreneur-kent-yan">
+                            <img src="images/ico/THEDRUM.png" alt="">
+                        </a>
+                        <a target="_blank" href="http://www.thedrum.com/profile/news/280488/qa-with-entrepreneur-kent-yan">THEDRUM</a>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <a target="_blank" href="https://en.bitnovosti.com/2018/01/19/tradove-intelligent-blockchain-solution-for-transparent-international-trade/">
+                            <img src="images/ico/bitnovosti.png" alt="">
+                        </a>
+                        <a target="_blank" href="https://en.bitnovosti.com/2018/01/19/tradove-intelligent-blockchain-solution-for-transparent-international-trade/">BitNovosti</a>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <a target="_blank" href="https://cointelegraph.com/news/a-social-network-for-buyers-and-sellers-to-boost-international-trade-with-its-crypto-currency">
+                            <img src="images/ico/COINTELEGRAPH.png" alt="">
+                        </a>
+                        <a target="_blank" href="https://cointelegraph.com/news/a-social-network-for-buyers-and-sellers-to-boost-international-trade-with-its-crypto-currency">COINTELEGRAPH</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a target="_blank" href="https://www.influencive.com/7-predictions-blockchain-technology-2018/">
+                            <img src="images/ico/INFLUENCIVE.png" alt="">
+                        </a>
+                        <a target="_blank" href="https://www.influencive.com/7-predictions-blockchain-technology-2018/">INFLUENCIVE</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a target="_blank" href="http://u.wn.com/2018/02/20/How_TraDove_is_Solving_Big_Problems_For_B2B_Players//">
+                            <img src="images/ico/wn.png" alt="">
+                        </a>
+                        <a target="_blank" href="http://u.wn.com/2018/02/20/How_TraDove_is_Solving_Big_Problems_For_B2B_Players/">World News</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a target="_blank" href="https://www.coinannouncer.com/tradove-hits-45-million-funds-raised-5-days-remaining/">
+                            <img src="images/ico/coinannouncer.png" alt="">
+                        </a>
+                        <a target="_blank" href="https://www.coinannouncer.com/tradove-hits-45-million-funds-raised-5-days-remaining/">Coin Announcer</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a target="_blank" href="https://channels.theinnovationenterprise.com/articles/50-blockchain-startups-to-watch-out-for-50-21">
+                            <img src="images/ico/Innovation-Enterprise.png" alt="">
+                        </a>
+                        <a target="_blank" href="https://channels.theinnovationenterprise.com/articles/50-blockchain-startups-to-watch-out-for-50-21">Innovation Enterprise</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+<section class="fdua">
+    <div class="box-1280">
+        <h1>Find Us At</h1>
+        <ul class="clearfix">
+            <li>
+                <a target="_blank" href="https://www.linkedin.com/company/2061291/" onclick="recordStatClick(4);">
+                    <img src="images/ico/07.png" alt="">
+                    <span>LinkedIn</span>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="https://www.facebook.com/tradove/" onclick="recordStatClick(5);">
+                    <img src="images/ico/08.png" alt="">
+                    <span>Facebook</span>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="https://twitter.com/TraDove_B2BCoin" onclick="recordStatClick(6);">
+                    <img src="images/ico/09.png" alt="">
+                    <span>Twitter</span>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="https://bitcointalk.org/index.php?topic=2288789.new#new" onclick="recordStatClick(7);">
+                    <img src="images/ico/010.png" alt="">
+                    <span>BitCoin Talk</span>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="https://www.reddit.com/r/tradove/" onclick="recordStatClick(8);">
+                    <img src="images/ico/014.png" alt="">
+                    <span>Reddit</span>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="https://t.me/joinchat/GCeNfxAVLy6bo6VNR3a9hg" onclick="recordStatClick(9);">
+                    <img src="images/ico/011.png" alt="">
+                    <span>Telegram</span>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="https://medium.com/@tra_dove/" onclick="recordStatClick(13);">
+                    <img src="images/ico/015.png" alt="">
+                    <span>Medium</span>
+                </a>
+            </li>
+
+        </ul>
+        <p>Email Us: <a href="javascript:void(0);">bbcoin@tradovemail.com</a></p>
+    </div>
+</section>
+
+
+<div class="buoy">
+    <a target="_blank" href="https://t.me/joinchat/GCeNfxAVLy6bo6VNR3a9hg" onclick="recordStatClick(9);">
+        <img src="./images/ico/telegram.png" alt="">
+    </a>
+</div>
+
+
+<footer>
+    <h1>Join Our Mailing List</h1>
+<form class="clearfix">
+    <div>
+        <div class="clearfix">
+            <div>
+                <input id="contacts_firstname"  type="text" placeholder="First Name">
+            </div>
+            <div>
+                <input id="contacts_lastname" type="text" placeholder="Last Name">
+            </div>
+        </div>
+    </div>
+    <input id="contacts_email" type="text" placeholder="Please enter your email address here">
+    <input id="contacts_btn" type="button" name="" value="JOIN">
+</form>
+<div>Copyright © 2012, 2018 TraDove, Inc. All rights reserved.</div>
+</footer>
+
+
+<script type="text/javascript" src="/vendor/responsive-nav/responsive-nav.js"></script>
+<script type="text/javascript" src="/vendor/videojs/video.min.js"></script>
+<script type="text/javascript" src="/vendor/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="/js/layer/layer.js"></script>
+<script type="text/javascript" src="/js/dialog.js"></script>
+<script type="text/javascript" src="/js/tradove.js"></script>
+<script type="text/javascript" src="/js/ico.js?v=1801202030710"></script>
+<script type="text/javascript">
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-24246288-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-24246288-2');
+
+    function recordStatClick(type) {
+        $.ajax({
+            url: "/stat/click",
+            data: {type: type},
+            method: 'POST',
+            success: function (data) {
+
+            },
+            error: function (xhr, status, error) {
+                console.log(error)
+            }
+        });
+    }
+
+
+    $("#prospectus_btn").on("click", function () {
+        recordStatClick(2);
+        var tplHtml = '<div class="tradove-dialog-text">';
+        tplHtml += '<a class="blue" target="_blank" href="/doc/Tradove SAFT Term.docx">SAFT Term Sheet</a><br/>';
+        tplHtml += '<a class="blue" target="_blank" href="/doc/TraDove-SAFT.DOCX">SAFT</a><br/>';
+        tplHtml += '<a class="blue" target="_blank" href="/doc/TraDove-SAFT Purchase Agreement.DOCX">SAFT Purchase Agreement</a><br/>';
+        tplHtml += '<a class="blue" target="_blank" href="/doc/TraDove SAFT Risk Factors.DOCX">SAFT Risk Factors</a><br/>';
+        tplHtml += '<a class="blue" target="_blank" href="/doc/TraDove BBCoin Risk Factors.DOCX">TraDove B2BCoin Risk Factors</a><br/>';
+        tplHtml += '<a class="blue" target="_blank" href="/doc/TraDove Token Purchase Agreement.DOCX">TraDove Token Purchase Agreement</a><br/>';
+        tplHtml += '<a class="blue" target="_blank" href="/doc/TraDove Token Term Sheet.DOCX">TraDove Token Term Sheet</a><br/><br/>';
+        tplHtml += '</div>';
+
+        $.dialog({
+            title: 'Offering Documents',
+            showClose: true,
+            tpl: tplHtml,
+        });
+    });
+
+    $("#buybbc_btn").on("click", function () {
+        var tplHtml = '<ul class="tradove-dialog-buy-bbc clearfix">' +
+                '<li>' +
+                '<img src="./images/ico/HitBTC.jpg" alt="">' +
+                '<a target="_blank"  href="https://hitbtc.com/exchange/BBC-to-ETH">HitBTC.com</a>' +
+                '</li>' +
+                '<li>' +
+                '<img src="./images/ico/SistemKoin.jpg" alt="">' +
+                '<a target="_blank"  href="https://www.sistemkoin.com">SistemKoin.com</a>' +
+                '</li>' +
+                '<li>' +
+                '<img src="./images/ico/Bit-z.png" alt="">' +
+                '<a target="_blank"  href="https://www.bit-z.pro/">Bit-z.pro</a>' +
+                '</li>' +
+                '<li>' +
+                '<img src="./images/ico/Coinrail.jpg" alt="">' +
+                '<a target="_blank"  href="https://www.coinrail.com/">Coinrail.com</a>' +
+                '</li>' +
+                '<li><img src="./images/ico/wwe.jpg" alt=""><a target="_blank" href="https://www.coinbit.co.kr/">Coinbit.co.kr</a></li>'+
+                '</ul>';
+
+
+
+
+
+        $.dialog({
+            title: 'Buy BBC',
+            showClose: true,
+            tpl: tplHtml,
+        });
+    });
+
+    $("#howtobuy_btn").on("click", function () {
+        $.dialog({
+            title: 'How to Buy',
+            showClose: true,
+            tpl: '<div class="tradove-tradove-dialog-text-bonus">1. Register at https://bbcoin.tradove.com<br/><br/>2. Fill KYC info and provide supporting documents.<br/><br/>3. Watch for approval email. Also check your spam box. Login again if not received it in 24 hours.<br/><br/>4. Place order and upload payment proof.<br/><br/>5. Watch email for TraDove confirmation',
+        });
+    });
+
+    $("#bonus_schedule_btn").on("click", function () {
+        $.dialog({
+            title: 'Bonus Schedule',
+            showClose: true,
+            tpl: '<div class="tradove-tradove-dialog-text-bonus">' +
+
+            '<b>Presale Bonus Schedule</b><br>' +
+            'Before and on January 10th: 30% bonus<br>' +
+            'After January 10th and before and on January 20th: 20% bonus<br/>' +
+            'After January 20th and before and on January 31st: 10% bonus<br/>' +
+
+            'Large amount bonus:<br>' +
+            'Contribution above and equal to: USD48,000: 30% bonus.<br>' +
+            'There can only be one bonus applicable<br><br>' +
+
+
+            '<b>Public Sale Bonus Schedule</b><br>' +
+            'Until Feb 10th, 11:59pm California time, 20% bonus<br>' +
+            'Until Feb 20th, 11:59pm California time, 10% bonus<br>' +
+            'Until Feb 28th, 11:59pm California time, 5% bonus<br><br>' +
+            'Large amount bonus: USD 48,000 - 99,999, 20% bonus<br>' +
+            'Large amount bonus: USD 100,000+, 25% bonus<br><br>' +
+            'There can only be one bonus applicable<br>' +
+            '</div>',
+        });
+    });
+
+
+    $("#whitepaper_btn").on("click", function () {
+        $.dialog({
+            title: 'White Paper',
+            showClose: true,
+            tpl: '<div class="tradove-dialog-text"><a class="blue" target="_blank" onclick="recordStatClick(1);" href="/doc/TraDove Global B2B Token Offering White Paper.pdf">White Paper</a><br/> <a class="blue" target="_blank" onclick="recordStatClick(12);" href="/doc/TraDove_BBcoin_1-pager.pdf">One Pager</a><br/></div>',
+        });
+    });
+    var nav = responsiveNav(".nav-collapse");
+
+
+</script>
+<script src="//scripts.iconnode.com/64413.js"></script>
+
+</body>
+
+</html>

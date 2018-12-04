@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://www.facebook.com/2008/fbml"
+      xmlns:og="http://ogp.me/ns#"
+      lang="en-gb">
+    <head>
+      <script>
+        var mp_global = {"subsection": null, "section": null, "urlname": "white-paper", "type": "tag", "instance": "tct", "tag": ["White Paper"], "author": null};
+      </script>
+      
+      <script type="text/javascript">
+(function(d) {
+var config = {
+  kitId: 'weh8cmj',
+  scriptTimeout: 3000},h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(
+/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement(
+"script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";
+tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;
+f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+})(document);
+</script>
+      <title>White Paper TCT Magazine</title>
+      <meta name="generator" content="Metro Publisher (www.metropublisher.com)" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta itemprop="name" id="publisher-name" content="TCT Magazine | 3D Printer &amp; 3D Printing News | Additive Manufacturing | Product Development Technology" />
+      
+        <script type="text/javascript">var _mp_require = {"config": {"js\/minigrid": {}, "js\/topic": {"offset_img": 6, "offset_by": 20, "offset_about": 20}}, "baseUrl": "https:\/\/d2az0yupc2akbm.cloudfront.net\/vanguardistas.publicview\/4.132.post43.dev348692182841\/static\/", "shim": {"facebook": {"exports": "FB"}}, "paths": {"facebook": "\/\/connect.facebook.net\/en_GB\/sdk"}};</script>
+<script
+  id="requirejs"
+  src="https://d3t13abgv0q40.cloudfront.net/mp-public/js/require-jquery.bbdcab34b563441ac2b91d548bf4ab20.js"></script>
+
+
+        
+      
+      <meta name="description" content="White Paper"/>
+      <meta name="keywords" content="White Paper"/>
+      <link rel="manifest" href="/manifest.json">
+      
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+    <script>
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(["init", {
+          appId: "7464e331-0b0f-4d60-ad2b-66f27d73e704",
+          allowLocalhostAsSecureOrigin: true,
+          autoRegister: false,
+          notifyButton: {
+            enable: true /* Set to false to hide */
+          }
+        }]);
+    </script>
+      
+      
+
+      <link href="https://www.tctmagazine.com/api/rss/content.rss" rel="alternate" type="application/rss+xml" title="White Paper TCT Magazine" />
+      <link href="https://www.tctmagazine.com/api/rss/flipboard.rss" rel="alternate" type="application/rss+xml" title="White Paper TCT Magazine" />
+
+      <link rel="stylesheet" type="text/css" href="https://d3t13abgv0q40.cloudfront.net/mp-public/css/theme-openly.b9283e9cf287a9a500437795177f1a7c.css"/>
+      <link rel="stylesheet" type="text/css" href="https://www.tctmagazine.com/api/design-1a554d95c1455ceb3c63c660b90c2c5c/screen.css"/>
+      
+      <script src="https://d3t13abgv0q40.cloudfront.net/mp-public/js/mp.d3ee0cdb24fc86d7382cbf8454fa18a9.js" async="true"></script>
+      <link rel="shortcut icon" href="https://www.tctmagazine.com/api/design-1a554d95c1455ceb3c63c660b90c2c5c/TCTMagazine%20Logo%202016.png"/>
+
+      <!-- Google Analytics -->
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-29990447-1', 'auto');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<!-- End Google Analytics -->
+      
+<script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+
+
+
+(function() {
+  var resizeTimer;
+  var windowwidth = window.innerWidth;
+  function resizer() {
+      googletag.pubads().refresh();
+  }
+
+  window.addEventListener("resize", function(){ 
+      if (window.innerWidth != windowwidth) {
+          windowwidth = window.innerWidth;
+          clearTimeout(resizeTimer);
+          resizeTimer = setTimeout(resizer, 250);
+      }
+  });
+})();
+
+
+googletag.cmd.push(function() {
+  var target_keys = ['tag', 'type', 'instance', 'section', 'subsection', 'urlname'],
+        i;
+  for (i = 0; i < target_keys.length; i++) {
+      googletag.pubads().setTargeting(target_keys[i], mp_global[target_keys[i]]);
+  }
+
+  var leaderboard_mapping = googletag.sizeMapping().
+addSize([0, 0], [[320, 50], [300, 50]]).
+addSize([750, 200], [728, 90]).
+addSize([1050, 250], [[970, 90], [970, 250]]).
+build();
+
+var billboard_mapping = googletag.sizeMapping().
+addSize([0, 0], []).
+addSize([970, 250], [970, 250]).
+build();
+
+var mpu_mapping = googletag.sizeMapping().
+addSize([0, 0], [[300, 250], [300, 600]]).
+build();
+
+var wallpaper_right_mapping = googletag.sizeMapping().
+addSize([0, 0], []).
+addSize([1000, 0], [160, 600]).
+build();
+
+var wallpaper_left_mapping = googletag.sizeMapping().
+addSize([0, 0], []).
+addSize([1000, 0], [160, 600]).
+build();
+
+
+  
+  
+  googletag.defineSlot('16880776/mp_leaderboard_top', [728, 90], 'leaderboard_top').defineSizeMapping(leaderboard_mapping).addService(googletag.pubads());
+  googletag.defineSlot('16880776/mp_leaderboard_bottom', [728, 90], 'leaderboard_bottom').defineSizeMapping(leaderboard_mapping).addService(googletag.pubads());
+  googletag.defineSlot('16880776/mp_wallpaper_right', [160, 600], 'wallpaper_right').defineSizeMapping(wallpaper_right_mapping).addService(googletag.pubads());
+  googletag.defineSlot('16880776/mp_leaderboard_nav', [728, 90], 'leaderboard_nav').defineSizeMapping(leaderboard_mapping).addService(googletag.pubads());
+  googletag.defineSlot('16880776/mp_wallpaper_left', [160, 600], 'wallpaper_left').defineSizeMapping(wallpaper_left_mapping).addService(googletag.pubads());
+
+  googletag.defineSlot('16880776/mp_mpu_right', [728, 90], 'ac02b60c-f801-11e8-9b0b-1229dc00fa42').defineSizeMapping(mpu_mapping).addService(googletag.pubads());
+
+  
+
+  googletag.pubads().enableSingleRequest();
+
+
+  googletag.pubads().collapseEmptyDivs(true);
+  googletag.enableServices();
+
+
+  var last_refresh = Date.now();
+  document.addEventListener('refresh_ads', function () {
+    if (Date.now() - last_refresh > 1000) {
+        last_refresh = Date.now();
+        googletag.pubads().refresh();
+    }
+  });
+
+
+});
+</script>
+
+      <meta property="og:description" content="White Paper"/><meta property="og:url" content="https://www.tctmagazine.com/topics/white-paper/"/><meta property="og:title" content="White Paper"/><meta property="og:image" content="https://www.tctmagazine.com/api/design-1a554d95c1455ceb3c63c660b90c2c5c/TCTMagazine%20Logo%202016.png"/><meta property="og:site_name" content="TCT Magazine"/><meta name="twitter:card" content="summary"/><meta name="twitter:site" content="@thetctmagazine"/><meta name="twitter:creator" content="@thetctmagazine"/><meta name="twitter:image" content="https://www.tctmagazine.com/api/design-1a554d95c1455ceb3c63c660b90c2c5c/TCTMagazine%20Logo%202016.png"/>
+      
+      
+
+      
+      <link rel="apple-touch-icon" href="https://www.tctmagazine.com/api/design-1a554d95c1455ceb3c63c660b90c2c5c/TCTMagazine%20Logo%202016.png" />
+      
+
+      
+
+      
+
+      
+      
+      <!--Genecy Geo Floater
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineOutOfPageSlot('/16880776/TCT-1X1PX-OUT-OF-PAGE', 'div-gpt-ad-1536249699767-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.pubads().setTargeting('type', ['homepage']);
+    googletag.enableServices();
+  });
+</script> -->
+        
+        
+        
+
+      <meta id="worstRating" itemprop="worstRating" content="0" />
+      <meta id="bestRating" itemprop="bestRating" content="5" />
+    </head>
+  <body class="mp-type-tag mp-sidebar">
+      
+
+    <div id="body">
+    <a class="skip-to-main" href="#maincontent">Skip to main content</a>
+    <div id="wallpaper_left">
+ <script type="text/javascript">
+     googletag.cmd.push(function() { googletag.display('wallpaper_left'); });
+ </script>
+</div>
+
+    
+      
+        <div id="section_website">
+          <div id="subsection_website">
+      <div id="page">
+
+
+
+
+        <div id="top">
+          <div id="topads">
+
+            <div id="topad1">
+              <div id="leaderboard_top">
+ <script type="text/javascript">
+     googletag.cmd.push(function() { googletag.display('leaderboard_top'); });
+ </script>
+</div>
+
+            </div>
+
+            
+
+          </div>
+          
+<div id="logo">
+  
+  <div id="mp-search-bar">
+    <form action="https://www.tctmagazine.com/api/search.html">
+      <input type="text" name="q" title="Enter Search Words" placeholder="Search..." />
+      <button class="search submit" type="submit" name="sa">Search</button>
+    </form>
+  </div>
+  <div class="logo">
+  <!--div class="header_links" tal:condition="python: header_links or socialmedia_urls"-->
+    
+    <div class="chicklets">
+        
+        <a href="https://www.facebook.com/thetctmagazine/" class="chicklet facebook" target="_blank">facebook</a>
+        <a href="https://twitter.com/thetctmagazine" class="chicklet twitter" target="_blank">twitter</a>
+        <a href="https://www.youtube.com/user/tctmagazine" class="chicklet youtube" target="_blank">youtube</a>
+        <a href="https://plus.google.com/+PrsnlzMe/posts" class="chicklet gplus" target="_blank" rel="publisher">google_plus</a>
+        <a href="https://www.linkedin.com/groups/48133" class="chicklet linkedin" target="_blank">linkedin</a>
+    </div>
+  <a rel="home" href="https://www.tctmagazine.com" title="TCT Magazine"><img src="https://www.tctmagazine.com/api/design-1a554d95c1455ceb3c63c660b90c2c5c/TCT-BANNER.png" class="standard" alt="TCT Magazine" title="TCT Magazine" />
+    <meta id="logo-url" itemprop="url" content="https://www.tctmagazine.com/api/design-1a554d95c1455ceb3c63c660b90c2c5c/TCT-BANNER.png" />
+    <meta id="logo-width" itemprop="width" content="427" />
+    <meta id="logo-height" itemprop="height" content="98" />
+    <meta id="publisher-logo" itemprop="logo" itemscope="" itemtype="http://schema.org/ImageObject"
+        itemref="logo-url logo-width logo-height" />
+                                                                       <img src="https://www.tctmagazine.com/api/design-1a554d95c1455ceb3c63c660b90c2c5c/TCT-BANNER.png" class="responsive" alt="TCT Magazine" title="TCT Magazine" /></a>
+</div>
+
+</div>
+
+<nav id="topnav">
+  <a href="#" class="pull">Menu</a>
+  
+<ul class="mainnav">
+  <li class="menu_section_start menu_section_x3d-printing-news">
+	<a href="https://www.tctmagazine.com/3d-printing-news">News</a>
+    
+  </li>
+  <li class="menu_section_metrology-3d-scanning-imagine-inspection-news">
+	<a href="https://www.tctmagazine.com/metrology-3d-scanning-imagine-inspection-news">Imaging</a>
+    
+  </li>
+  <li class="menu_section_x3d-software-news">
+	<a href="https://www.tctmagazine.com/3d-software-news">Software</a>
+    
+  </li>
+  <li class="menu_section_x3d-printing-services-bureaux-news">
+	<a href="https://www.tctmagazine.com/3d-printing-services-bureaux-news">Services</a>
+    
+  </li>
+  <li class="menu_section_tct-events">
+	<a href="https://www.tctmagazine.com/tct-events">TCT Events<span class="nav_handle"></span></a>
+    <ul class="subnav_nested">
+      <li class="menu_subsection_start menu_subsection_tct-show-uk">
+        <a href="https://www.tctmagazine.com/tct-events/tct-show-uk">TCT Show</a>
+      </li>
+      <li class="menu_subsection_tct-awards">
+        <a href="http://tctawards.com/" target="_blank">TCT Awards</a>
+      </li>
+      <li class="menu_subsection_tct-asia">
+        <a href="http://www.tctmagazine.com/topics/tct_asia/">TCT Asia</a>
+      </li>
+      <li class="menu_subsection_x3d-printing-at-rapid-tct">
+        <a href="https://www.tctmagazine.com/tct-events/3d-printing-at-rapid-tct">RAPID + TCT</a>
+      </li>
+      <li class="menu_subsection_end menu_subsection_tct-conference-formnext">
+        <a href="https://www.tctmagazine.com/tct-events/tct-conference-formnext">TCT Conference @ Formnext</a>
+      </li>
+    </ul>
+  </li>
+  <li class="menu_section_tctblogs">
+	<a href="https://www.tctmagazine.com/tctblogs">Blogs<span class="nav_handle"></span></a>
+    <ul class="subnav_nested">
+      <li class="menu_subsection_start menu_subsection_daniel-oconnors-blog">
+        <a href="https://www.tctmagazine.com/tctblogs/daniel-oconnors-blog">Daniel O'Connor's Blog</a>
+      </li>
+      <li class="menu_subsection_laura-griffiths-blog">
+        <a href="https://www.tctmagazine.com/tctblogs/laura-griffiths-blog">Laura Griffiths' Blog</a>
+      </li>
+      <li class="menu_subsection_sam-davies">
+        <a href="https://www.tctmagazine.com/tctblogs/sam-davies">Sam Davies' Blog</a>
+      </li>
+      <li class="menu_subsection_grimmblog">
+        <a href="http://tct.metropublisher.net/blogs/grimmblog">The Todd Grimm Column</a>
+      </li>
+      <li class="menu_subsection_jim-woodcocks-blog">
+        <a href="http://tct.metropublisher.net/blogs/jwblog">Jim Woodcock's Blog</a>
+      </li>
+      <li class="menu_subsection_duncan-wood">
+        <a href="https://www.tctmagazine.com/tctblogs/duncan-wood">Duncan Wood's Blog</a>
+      </li>
+      <li class="menu_subsection_end menu_subsection_guest-blogs">
+        <a href="http://www.tctmagazine.com/blogs/guest-column">Guest Blogs</a>
+      </li>
+    </ul>
+  </li>
+  <li class="menu_section_tct-awards">
+	<a href="https://www.tctmagazine.com/tct-awards">TCT Awards<span class="nav_handle"></span></a>
+    <ul class="subnav_nested">
+      <li class="menu_subsection_start menu_subsection_end menu_subsection_tct-hall-of-fame">
+        <a href="https://www.tctmagazine.com/tct-awards/tct-hall-of-fame">TCT Hall of Fame</a>
+      </li>
+    </ul>
+  </li>
+  <li class="menu_section_x3d-printing-webinars">
+	<a href="https://www.tctmagazine.com/3d-printing-webinars">Webinars</a>
+    
+  </li>
+  <li class="menu_section_directory">
+	<a href="http://www.tctmagazine.com/directory-home">Directory</a>
+    
+  </li>
+  <li class="menu_section_end menu_section_subscribe">
+	<a href="http://rapidnews.circdata-solutions.co.uk/microsites/rfg/publish/TCTSUB/" target="_blank">Subscribe</a>
+    
+  </li>
+</ul>
+
+
+
+</nav>
+
+
+        </div>
+        <div id="leaderboard_nav">
+ <script type="text/javascript">
+     googletag.cmd.push(function() { googletag.display('leaderboard_nav'); });
+ </script>
+</div>
+
+        <div id="breadcrumbs"><a href="https://www.tctmagazine.com">Home</a> <a href="https://www.tctmagazine.com/topics/white-paper/">White Paper</a></div>
+        <main id="maincontent" role="main" tabindex="-1">
+<div id="pagetype_tags">
+    <div id="main">
+        <div itemscope="" itemtype="http://schema.org/Thing">
+        <div id="title">
+            <a target="_blank" class="RSS_link" href="https://www.tctmagazine.com/topics/white-paper/index.rss">RSS</a>
+            <h1 itemprop="name">White Paper</h1>
+        </div>
+
+        
+        </div>
+
+        
+
+        <div id="about_entries">
+            <div class="feature "
+    itemscope="" itemtype="http://schema.org/Article">
+<meta itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization" itemref="publisher-name publisher-logo" />
+
+
+<div class="image">
+  <a href="https://www.tctmagazine.com/spon-con/projet-mjp-2500-series/" title="InfoTrends on the 3D Systems ProJet MJP 2500 Series">
+    <img sizes="auto" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="mp-lazyload" alt="3D Systems Whitepaper thumbnail" data-src="https://www.tctmagazine.com/downloads/10926/download/3D-Systems-white-paper.png?cb=97e43a1a3e42a1f89919c1e6e0247c51&amp;w={width}&amp;h={height}" data-widths="[100, 150, 220, 399]" itemprop="image" src="https://www.tctmagazine.com/downloads/10926/download/3D-Systems-white-paper.png?cb=97e43a1a3e42a1f89919c1e6e0247c51" /><div
+                    class="play embed_overlay"></div></a>
+    
+</div>
+
+
+<h3 itemprop="headline"><a href="https://www.tctmagazine.com/spon-con/projet-mjp-2500-series/" itemprop="url">InfoTrends on the 3D Systems ProJet MJP 2500 Series</a></h3>
+<p class="description"><span>Leading worldwide market research and strategic consulting firm for the digital imaging and document solutions industry, InfoTrends explore the ProJet MJP 2500 Series' key attribute.</span> <a href="https://www.tctmagazine.com/spon-con/projet-mjp-2500-series/" class="more_link" title="Read InfoTrends on the 3D Systems ProJet MJP 2500 Series">more</a></p>
+<p class="infos">
+<time itemprop="datePublished" datetime="2017-09-15T15:07:23.563183"><span class="date">15 Sep 2017</span><span class="time"> 15:07</span></time>
+
+<span class="section"><a href="https://www.tctmagazine.com/spon-con">Sponsored Content</a></span>
+<span class="comments_count"><a href="https://www.tctmagazine.com/spon-con/projet-mjp-2500-series/">2 <span>Comments</span></a></span>
+</p>
+
+</div>
+
+        </div>
+        
+
+        
+        
+
+        
+        
+
+    </div>
+
+    <div id="side">
+        
+        <div id="ac02b60c-f801-11e8-9b0b-1229dc00fa42" class="mp-ad-sprocket ">
+ <script type="text/javascript">
+     googletag.cmd.push(function() {
+        "use strict";
+        var div_id = 'ac02b60c-f801-11e8-9b0b-1229dc00fa42';
+        
+        googletag.display('ac02b60c-f801-11e8-9b0b-1229dc00fa42');
+     });
+ </script>
+</div>
+
+<div class="mp-html">
+  <script type='text/javascript'>
+googletag.cmd.push(function() { var slot_put_slot_name = 
+googletag.defineSlot('/16880776/mp_mpu_right_sprocket', [300, 250], 'div-gpt-ad-1440068474105-0')
+.addService(googletag.pubads()); 
+googletag.pubads().enableSingleRequest(); googletag.enableServices(); });
+</script><!-- mp_mpu_right_sprocket -->
+<div id="div-gpt-ad-1440068474105-0" style="height:300px; width:250px;"><script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1440068474105-0'); });
+</script></div>
+
+</div>
+
+    </div>
+</div>
+
+
+
+</main>
+
+        <div id="bottom">
+          <div id="bottomads">
+            <div id="leaderboard_bottom">
+ <script type="text/javascript">
+     googletag.cmd.push(function() { googletag.display('leaderboard_bottom'); });
+ </script>
+</div>
+
+          </div>
+          
+  
+    <nav id="bottomnav">
+      
+<ul class="mainnav">
+  <li class="menu_section_start menu_section_x3d-printing-news">
+	<a href="https://www.tctmagazine.com/3d-printing-news">News</a>
+    
+  </li>
+  <li class="menu_section_metrology-3d-scanning-imagine-inspection-news">
+	<a href="https://www.tctmagazine.com/metrology-3d-scanning-imagine-inspection-news">Imaging</a>
+    
+  </li>
+  <li class="menu_section_x3d-software-news">
+	<a href="https://www.tctmagazine.com/3d-software-news">Software</a>
+    
+  </li>
+  <li class="menu_section_x3d-printing-services-bureaux-news">
+	<a href="https://www.tctmagazine.com/3d-printing-services-bureaux-news">Services</a>
+    
+  </li>
+  <li class="menu_section_tct-events">
+	<a href="https://www.tctmagazine.com/tct-events">TCT Events<span class="nav_handle"></span></a>
+    <ul class="subnav_nested">
+      <li class="menu_subsection_start menu_subsection_tct-show-uk">
+        <a href="https://www.tctmagazine.com/tct-events/tct-show-uk">TCT Show</a>
+      </li>
+      <li class="menu_subsection_tct-awards">
+        <a href="http://tctawards.com/" target="_blank">TCT Awards</a>
+      </li>
+      <li class="menu_subsection_tct-asia">
+        <a href="http://www.tctmagazine.com/topics/tct_asia/">TCT Asia</a>
+      </li>
+      <li class="menu_subsection_x3d-printing-at-rapid-tct">
+        <a href="https://www.tctmagazine.com/tct-events/3d-printing-at-rapid-tct">RAPID + TCT</a>
+      </li>
+      <li class="menu_subsection_end menu_subsection_tct-conference-formnext">
+        <a href="https://www.tctmagazine.com/tct-events/tct-conference-formnext">TCT Conference @ Formnext</a>
+      </li>
+    </ul>
+  </li>
+  <li class="menu_section_tctblogs">
+	<a href="https://www.tctmagazine.com/tctblogs">Blogs<span class="nav_handle"></span></a>
+    <ul class="subnav_nested">
+      <li class="menu_subsection_start menu_subsection_daniel-oconnors-blog">
+        <a href="https://www.tctmagazine.com/tctblogs/daniel-oconnors-blog">Daniel O'Connor's Blog</a>
+      </li>
+      <li class="menu_subsection_laura-griffiths-blog">
+        <a href="https://www.tctmagazine.com/tctblogs/laura-griffiths-blog">Laura Griffiths' Blog</a>
+      </li>
+      <li class="menu_subsection_sam-davies">
+        <a href="https://www.tctmagazine.com/tctblogs/sam-davies">Sam Davies' Blog</a>
+      </li>
+      <li class="menu_subsection_grimmblog">
+        <a href="http://tct.metropublisher.net/blogs/grimmblog">The Todd Grimm Column</a>
+      </li>
+      <li class="menu_subsection_jim-woodcocks-blog">
+        <a href="http://tct.metropublisher.net/blogs/jwblog">Jim Woodcock's Blog</a>
+      </li>
+      <li class="menu_subsection_duncan-wood">
+        <a href="https://www.tctmagazine.com/tctblogs/duncan-wood">Duncan Wood's Blog</a>
+      </li>
+      <li class="menu_subsection_end menu_subsection_guest-blogs">
+        <a href="http://www.tctmagazine.com/blogs/guest-column">Guest Blogs</a>
+      </li>
+    </ul>
+  </li>
+  <li class="menu_section_tct-awards">
+	<a href="https://www.tctmagazine.com/tct-awards">TCT Awards<span class="nav_handle"></span></a>
+    <ul class="subnav_nested">
+      <li class="menu_subsection_start menu_subsection_end menu_subsection_tct-hall-of-fame">
+        <a href="https://www.tctmagazine.com/tct-awards/tct-hall-of-fame">TCT Hall of Fame</a>
+      </li>
+    </ul>
+  </li>
+  <li class="menu_section_x3d-printing-webinars">
+	<a href="https://www.tctmagazine.com/3d-printing-webinars">Webinars</a>
+    
+  </li>
+  <li class="menu_section_directory">
+	<a href="http://www.tctmagazine.com/directory-home">Directory</a>
+    
+  </li>
+  <li class="menu_section_end menu_section_subscribe">
+	<a href="http://rapidnews.circdata-solutions.co.uk/microsites/rfg/publish/TCTSUB/" target="_blank">Subscribe</a>
+    
+  </li>
+</ul>
+
+
+
+    </nav>
+
+    <div id="textnav">
+      <ul>
+  <li class="menu_section_start "
+    >
+    <a href="https://www.tctmagazine.com/about">About Us</a>
+  </li>
+  <li class=""
+    >
+    <a href="https://www.tctmagazine.com/advertise">Advertise with TCT</a>
+  </li>
+  <li class=""
+    >
+    <a href="https://www.tctmagazine.com/contact-us">Contact Us</a>
+  </li>
+  <li class=""
+    >
+    <a href="https://www.tctmagazine.com/partners">Partners</a>
+  </li>
+  <li class=""
+    >
+    <a href="https://www.rapidnews.com/privacy-policy" target="_blank">Privacy Policy</a>
+  </li>
+  <li class="menu_section_end"
+    >
+    <a href="https://www.tctmagazine.com/terms-conditions">Terms &amp; Conditions</a>
+  </li>
+</ul>
+
+    </div>
+  
+  
+
+  <div id="copyright">
+    <p>© 2018 Rapid News Publications Ltd. A Rapid News Communications Group Company. All Rights Reserved</p>
+  </div>
+
+  <div id="mp_credits">
+    Built with <a href="https://www.metropublisher.com" target="new">Metro Publisher&#8482;</a>
+  </div>
+
+
+
+
+        </div>
+
+      </div>
+      </div>
+      </div>
+      
+    
+    <div id="wallpaper_right">
+ <script type="text/javascript">
+     googletag.cmd.push(function() { googletag.display('wallpaper_right'); });
+ </script>
+</div>
+
+    </div>
+  
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-DbLswGdeYvhfC"
+});
+</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-DbLswGdeYvhfC.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag -->
+
+  
+  <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":"http://www.tctmagazine.com/privacypolicy","theme":"light-floating"};
+</script>
+
+
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
+<!--Genecy Geo Floater -->
+<!-- /16880776/TCT-1X1PX-OUT-OF-PAGE
+<div id='div-gpt-ad-1536249699767-0'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1536249699767-0'); });
+</script>
+</div> -->
+
+  <script type="text/javascript">
+    feathr_account_id = "57c5a0fe8e802745c211161c";
+    (function () {
+    var loadBoomer = function(){
+    if (!/complete|loaded/.test(document.readyState)) {setTimeout(loadBoomer, 10);return}
+    var scr = document.createElement("script");
+    scr.src = "//cdn.feathr.co/js/boomerang.min.js";
+    scr.async = true;
+    __feathr_loaded = true;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+    };
+    if (/complete|loaded/.test(document.readyState)) {setTimeout(loadBoomer, 10);}
+    else if (window.addEventListener) {window.addEventListener('load', loadBoomer, false);}
+    else {window.attachEvent('onload', loadBoomer)}
+    }());
+</script>
+
+
+
+
+
+<!-- POP UP MODAL -->
+<div id="modal-content">
+  <div class="modal-topbar">
+    <img class="modal-topbar-logo" src="https://www.tctmagazine.com/downloads/11541/download/tct-logo.png"/>  
+    <h1 class="modal-title-tct">Claim your free subscription to TCT today!</h1>
+  </div>
+  <div class="modal-inner-content">
+    <img alt="" class="modal-phone-tct" src="https://www.tctmagazine.com/downloads/12003/download/mags-tct.jpg" />
+    <div style="display:flex; flex-direction: column;">
+      <p class="modal-body-tct">The TCT Community is the largest knowledge transfer network for innovative design and manufacturing technologies. We ensure that you’re at the cutting edge through our magazine, newsletters and live events.</p>
+      <a class="modal-button-tct subscribe-now" href="https://rapidnews.circdata-solutions.co.uk/microsites/rfg/publish/TCTSUB/?data=[CD|random_id|]&source=SubsTCT_POPUP" target="_blank" onclick="ga('send','event','Subs-Modal-TCT','Subscribe-TCT','Subscribe-now-TCT');" style="color: #ffffff;">SUBSCRIBE NOW! </a>
+    </div>
+  </div>
+</div>
+<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script><script src='https://cdn.rawgit.com/jackmoore/colorbox/master/jquery.colorbox-min.js'></script><script src='https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.3/js.cookie.min.js'></script><script>
+
+$(".clear-cookie").on("click", function() {
+  Cookies.remove('colorboxShown');
+  $(this).replaceWith("<p><em>Cookie cleared. Re-run demo</em></p>");
+});
+
+$(".subscribe-now").on("click", function() {
+  $.colorbox.close();
+});
+
+function onPopupOpen() {
+  $("#modal-content").show();
+  $("#yurEmail").focus();
+}
+
+function onPopupClose() {
+  $("#modal-content").hide();
+  Cookies.set('colorboxShown', 'yes', {
+    expires: 1
+  });
+  $(".clear-cookie").fadeIn();
+  lastFocus.focus();
+}
+
+function displayPopup() {
+  $.colorbox({
+    inline: true,
+    href: "#modal-content",
+    className: "subs",
+    width: 600,
+    height: '50%',
+    maxWidth:'95%',
+    minHeight: 450,
+    maxHeight: 450,
+    onComplete: onPopupOpen,
+    onClosed: onPopupClose
+  });
+}
+
+var lastFocus;
+var popupShown = Cookies.get('colorboxShown');
+
+
+
+if (popupShown) {
+  console.log("Cookie found. No action necessary");
+  $(".clear-cookie").show();
+} else {
+  console.log("No cookie found. Opening popup in 3 seconds");
+  $(".clear-cookie").hide();
+  setTimeout(function() {
+    lastFocus = document.activeElement;
+    displayPopup();
+  }, 15000);
+}
+</script>
+  
+    
+  
+
+    
+
+    
+
+    
+
+    <span id="mp-config" data-js="{&quot;_mp_topic&quot;: {&quot;offset_img&quot;: 6, &quot;offset_by&quot;: 20, &quot;offset_about&quot;: 20}, &quot;_mp_minigrid&quot;: {}}"/><script async src="https://d3t13abgv0q40.cloudfront.net/mp-public/js/topic.5eb1b05820981b26e30f8200b9ecb867.js" data-config="{&quot;offset_img&quot;: 6, &quot;offset_by&quot;: 20, &quot;offset_about&quot;: 20}" id="_mp_topic"></script><script async src="https://d3t13abgv0q40.cloudfront.net/mp-public/js/minigrid.7970301bb7cded2cb7f880169213d788.js" data-config="{}" id="_mp_minigrid"></script>
+
+  </body>
+</html>

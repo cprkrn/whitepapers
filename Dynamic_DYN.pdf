@@ -1,0 +1,2276 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-lLo2nlsdl+bHLu6PGvC2j3wfP45RnK4wKQLiPnCDcuXfU38AiD+JCdMywnF3WbJC1jaxe3lAI6AM4uJuMFBLEw==" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-08fc49d3bd2694c870ea23d0906f3610.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-eB5YQL276GYTLnjRSk9GlYg20IwKRa2HBFTNOpo8PTPbQUH479bYZW9IXOC/6edaDS+qWnGmdKfaFpliM4ufAw==" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-94dfbe9ddd7668765d322949275239a7.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" integrity="sha512-PcJMPDRp7jbbEAmTk9kaL2kRQqg69QZ26WsZf07xsPyaipKsi3wVG0805PZNYXxotPDAliKKFvNSQPhD8fp1FQ==" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-50c740d9290419d070dd6213a7cd03b5.css" />
+  
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>Duality Blockchain Solutions Ltd · GitHub</title>
+    <meta name="description" content="The Binary Blockchain Platform. Duality Blockchain Solutions Ltd has 22 repositories available. Follow their code on GitHub.">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars2.githubusercontent.com/u/22928904?s=280&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="profile" /><meta property="og:title" content="Duality Blockchain Solutions Ltd" /><meta property="og:url" content="https://github.com/duality-solutions" /><meta property="og:description" content="The Binary Blockchain Platform. Duality Blockchain Solutions Ltd has 22 repositories available. Follow their code on GitHub." /><meta property="profile:username" content="duality-solutions" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="D498:1508:18EF41A:25BF7CE:5C06E0DD" data-pjax-transient>
+
+    <meta name="hovercard-subject-tag" content="organization:22928904" data-pjax-transient>
+
+  
+
+  <meta name="selected-link" value="/duality-solutions" data-pjax-transient>
+
+      <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+    <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="D498:1508:18EF41A:25BF7CE:5C06E0DD" /><meta name="octolytics-dimension-region_edge" content="sea" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;org-login&gt;" data-pjax-transient="true" />
+
+
+
+    <meta name="google-analytics" content="UA-3769691-2">
+
+
+<meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="YjY1YzZhMTEwODU4YjgzYThjNDdlNTIwYjg2ZjdkMzY0ZTYzMjIwMmVkZGEyMjcyYTNhYzlkZjQwYWU5ODQyNHx7InJlbW90ZV9hZGRyZXNzIjoiMTI4LjE3Ny4xMTMuMTAyIiwicmVxdWVzdF9pZCI6IkQ0OTg6MTUwODoxOEVGNDFBOjI1QkY3Q0U6NUMwNkUwREQiLCJ0aW1lc3RhbXAiOjE1NDM5NTQ2NTQsImhvc3QiOiJnaXRodWIuY29tIn0=">
+
+    <meta name="enabled-features" content="DASHBOARD_V2_LAYOUT_OPT_IN,EXPLORE_DISCOVER_REPOSITORIES,UNIVERSE_BANNER,MARKETPLACE_PLAN_RESTRICTION_EDITOR">
+
+  <meta name="html-safe-nonce" content="be450a67f257f72b61783083c88f77e74c6d6e1f">
+
+  <meta http-equiv="x-pjax-version" content="e8c0c5533f915fb591e3ba08037f7263">
+  
+
+
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+        
+<header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+        <a class="mr-4" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark; experiment:site_header_dropdowns; group:dropdowns">
+          <svg height="32" class="octicon octicon-mark-github text-white" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+        </a>
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--logged-out d-flex flex-justify-between flex-items-center flex-auto">
+      <div class="d-none">
+        <button class="btn-link js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <svg height="24" class="octicon octicon-x text-gray" viewBox="0 0 12 16" version="1.1" width="18" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+        </button>
+      </div>
+
+        <nav class="mt-0" aria-label="Global">
+          <ul class="d-flex list-style-none">
+              <li class=" mr-3 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap  d-inline-block">
+                    Why GitHub?
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 mt-0  p-4 left-n4 position-absolute">
+                    <a href="/features" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Features">Features <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
+                    <ul class="list-style-none f5 pb-3">
+                      <li class="edge-item-fix"><a href="/features/code-review/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code review">Code review</a></li>
+                      <li class="edge-item-fix"><a href="/features/project-management/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Project management">Project management</a></li>
+                      <li class="edge-item-fix"><a href="/features/integrations" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Integrations">Integrations</a></li>
+                      <li class="edge-item-fix"><a href="/features#team-management" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Team management">Team management</a></li>
+                      <li class="edge-item-fix"><a href="/features#social-coding" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Social coding">Social coding</a></li>
+                      <li class="edge-item-fix"><a href="/features#documentation" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Documentation">Documentation</a></li>
+                      <li class="edge-item-fix"><a href="/features#code-hosting" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code hosting">Code hosting</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
+                      <li class="edge-item-fix"><a href="/case-studies" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Case studies">Case Studies <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="/security" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Security">Security <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+              <li class=" mr-3 mr-lg-3">
+                <a href="/business" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Business">Business</a>
+              </li>
+
+              <li class=" mr-3 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap  d-inline-block">
+                    Explore
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-0 mt-0  p-4 left-n4 position-absolute">
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/explore" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Features">Explore GitHub <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2  border-top pt-3">Learn &amp; contribute</h4>
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/topics" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Topics">Topics</a></li>
+                      <li class="edge-item-fix"><a href="/collections" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Collections">Collections</a></li>
+                      <li class="edge-item-fix"><a href="/trending" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Trending">Trending</a></li>
+                      <li class="edge-item-fix"><a href="https://lab.github.com/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Learning lab">Learning Lab</a></li>
+                      <li class="edge-item-fix"><a href="https://opensource.guide" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Open source guides">Open source guides</a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2  border-top pt-3">Connect with others</h4>
+                    <ul class="list-style-none mb-0">
+                      <li class="edge-item-fix"><a href="/events" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Events">Events</a></li>
+                      <li class="edge-item-fix"><a href="https://github.community" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Community forum">Community forum</a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Education">GitHub Education</a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+
+              <li class=" mr-3 mr-lg-3">
+                <a href="/marketplace" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Marketplace">Marketplace</a>
+              </li>
+
+              <li class=" mr-3 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap  d-inline-block">
+                    Pricing
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-relative">
+                       <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-4 mt-0  p-4 left-n4 position-absolute">
+                    <a href="/pricing" class="pb-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Pricing">Plans <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/pricing/developer" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Developers">Developer</a></li>
+                      <li class="edge-item-fix"><a href="/pricing/team" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Team">Team</a></li>
+                      <li class="edge-item-fix"><a href="/pricing/business-cloud" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Business Cloud">Business Cloud</a></li>
+                      <li class="edge-item-fix"><a href="/pricing/enterprise" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Enterprise">Enterprise</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0  border-top pt-3">
+                      <li class="edge-item-fix"><a href="/pricing#feature-comparison" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Compare features">Compare plans <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="/nonprofit" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Nonprofits">Nonprofit <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com/discount_requests/new" class="py-2 pb-0 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover"  data-ga-click="(Logged out) Header, go to Education">Education <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex flex-items-center px-0 text-center text-left">
+          <div class="d-lg-flex mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search position-relative js-jump-to"
+  role="combobox"
+  aria-owns="jump-to-results"
+  aria-label="Search or jump to"
+  aria-haspopup="listbox"
+  aria-expanded="false"
+>
+  <div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scope-type="Organization" data-scope-id="22928904" data-scoped-search-url="/orgs/duality-solutions/search" data-unscoped-search-url="/search" action="/orgs/duality-solutions/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+      <label class="form-control header-search-wrapper header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
+        <input type="text"
+          class="form-control header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
+          data-hotkey="s,/"
+          name="q"
+          value=""
+          placeholder="Search"
+          data-unscoped-placeholder="Search GitHub"
+          data-scoped-placeholder="Search"
+          autocapitalize="off"
+          aria-autocomplete="list"
+          aria-controls="jump-to-results"
+          aria-label="Search"
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=It5ie40CT7wCJF1RdX65KGOJ6icloJAHDxUq+ydheS9LKpcUZZ23O0+ufkiqPNbG8+pf7n+fAn9I86jmI/f6XA=="
+          spellcheck="false"
+          autocomplete="off"
+          >
+          <input type="hidden" class="js-site-search-type-field" name="type" >
+            <img src="https://assets-cdn.github.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
+
+            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+              
+<ul class="d-none js-jump-to-suggestions-template-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this organization">
+        In this organization
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+</ul>
+
+<ul class="d-none js-jump-to-no-results-template-container">
+  <li class="d-flex flex-justify-center flex-items-center f5 d-none js-jump-to-suggestion p-2">
+    <span class="text-gray">No suggested jump to results</span>
+  </li>
+</ul>
+
+<ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this organization">
+        In this organization
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this organization">
+        In this organization
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+
+</ul>
+
+            </div>
+      </label>
+</form>  </div>
+</div>
+
+          </div>
+
+        <a class="HeaderMenu-link no-underline mr-3" href="/login?return_to=%2Fduality-solutions" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign&nbsp;in</a>
+          <a class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1" href="/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign&nbsp;up</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+
+</div>
+
+
+
+  <div role="main" class="application-main " data-commit-hovercards-enabled>
+      
+      <div id="js-pjax-container" data-pjax-container>
+        
+
+
+
+
+
+
+
+<div itemscope itemtype="http://schema.org/Organization">
+  
+
+<header class="orghead">
+  <div class="container">
+
+    <div class="TableObject org-header-wrapper mb-4">
+        <img itemprop="image" class="TableObject-item avatar" src="https://avatars3.githubusercontent.com/u/22928904?s=200&amp;v=4" width="100" height="100" alt="@duality-solutions" />
+      <div class="TableObject-item TableObject-item--primary">
+        <div class="d-flex flex-justify-between">
+          <h1 class="org-name lh-condensed">
+            Duality Blockchain Solutions Ltd
+          </h1>
+        </div>
+          <p class="org-description" itemprop="description"><div>The Binary Blockchain Platform</div></p>
+          <ul class="org-header-meta has-location has-blog">
+              <li class="meta-item v-align-middle">
+                <svg class="octicon octicon-location" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 0C2.69 0 0 2.5 0 5.5 0 10.02 6 16 6 16s6-5.98 6-10.5C12 2.5 9.31 0 6 0zm0 14.55C4.14 12.52 1 8.44 1 5.5 1 3.02 3.25 1 6 1c1.34 0 2.61.48 3.56 1.36.92.86 1.44 1.97 1.44 3.14 0 2.94-3.14 7.02-5 9.05zM8 5.5c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                <span itemprop="location" title="Online">Online</span>
+              </li>
+              <li class="meta-item v-align-middle">
+                <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+                <a rel="nofollow" itemprop="url" class="text-gray" title="https://duality.solutions" href="https://duality.solutions">https://duality.solutions</a>
+              </li>
+
+              
+
+
+
+          </ul>
+      </div>
+    </div>
+
+    <nav class="orgnav" role="navigation">
+  <a class="pagehead-tabs-item selected" href="/duality-solutions">
+    <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+    Repositories
+    <span class="Counter">22</span>
+  </a>
+
+
+    <a class="pagehead-tabs-item " href="/orgs/duality-solutions/people">
+      <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4z"/></svg>
+      People
+      <span class="Counter">3</span>
+    </a>
+
+
+    <a class="pagehead-tabs-item " href="/orgs/duality-solutions/projects" data-hotkey="g b">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+    </a>
+
+
+
+</nav>
+
+  </div>
+</header>
+
+
+  <div class="org-profile container js-pinned-repos-reorder-container">
+        <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="vVi1T1ByDMn+iwBRf/nJ5RCfU/O/iub+yoclZg1h88HnNGIcfVn2GYVO02Di1Z/8RFiZa/WLuTkEZ6bkWYI7Tg==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>          <h3 class="pt-2">Grow your team on GitHub</h3>
+          <p class="col-8 mx-auto">GitHub is home to over 28 million developers working together. Join them to grow your own development teams, manage permissions, and collaborate on projects.</p>
+          <a class="btn btn-primary" href="/join?source=prompt-org-profile" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+      
+<div class="border-bottom border-gray-dark pb-3 mb-3">
+  <div class="TableObject">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-pjax="#org-repositories" data-pjax-preserve-scroll="true" data-results-container="org-repositories" class="TableObject-item TableObject-item--primary" role="search" action="/duality-solutions" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+      <div class="TableObject width-full">
+        <div class="TableObject-item TableObject-item--primary">
+          <input type="search" id="your-repos-filter" name="q"
+                 class="form-control width-full js-autosearch-field"
+                 placeholder="Find a repository&hellip;"
+                 autocomplete="off"
+                 aria-label="Find a repository&hellip;"
+                 value="">
+        </div>
+
+        <div class="TableObject-item text-right">
+          <details class="details-reset details-overlay select-menu ml-2  d-inline-block select-menu-modal-right">
+            <summary class="btn select-menu-button">
+              <i>Type:</i>
+              <span data-menu-button>
+                All
+              </span>
+            </summary>
+            <details-menu class="select-menu-modal position-absolute right-0" style="z-index: 99;">
+              <div class="select-menu-header text-left">
+                <span class="select-menu-title">Select type</span>
+              </div>
+              <div class="select-menu-list">
+                  <label class="select-menu-item" role="menuitemradio" aria-checked="true" tabindex="0">
+                    <input type="radio" name="type" id="type_" value="" data-autosubmit="true" checked="checked" />
+                    <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                    <span class="text-normal select-menu-item-text" data-menu-button-text>All</span>
+                  </label>
+                  <label class="select-menu-item" role="menuitemradio" aria-checked="false" tabindex="0">
+                    <input type="radio" name="type" id="type_source" value="source" data-autosubmit="true" />
+                    <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                    <span class="text-normal select-menu-item-text" data-menu-button-text>Sources</span>
+                  </label>
+                  <label class="select-menu-item" role="menuitemradio" aria-checked="false" tabindex="0">
+                    <input type="radio" name="type" id="type_fork" value="fork" data-autosubmit="true" />
+                    <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                    <span class="text-normal select-menu-item-text" data-menu-button-text>Forks</span>
+                  </label>
+                  <label class="select-menu-item" role="menuitemradio" aria-checked="false" tabindex="0">
+                    <input type="radio" name="type" id="type_archived" value="archived" data-autosubmit="true" />
+                    <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                    <span class="text-normal select-menu-item-text" data-menu-button-text>Archived</span>
+                  </label>
+                  <label class="select-menu-item" role="menuitemradio" aria-checked="false" tabindex="0">
+                    <input type="radio" name="type" id="type_mirror" value="mirror" data-autosubmit="true" />
+                    <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                    <span class="text-normal select-menu-item-text" data-menu-button-text>Mirrors</span>
+                  </label>
+              </div>
+            </details-menu>
+          </details>
+
+            <details class="details-reset details-overlay select-menu ml-1  d-inline-block select-menu-modal-right">
+              <summary class="btn select-menu-button">
+                <i>Language:</i>
+                <span data-menu-button>
+                  All
+                </span>
+              </summary>
+              <details-menu class="select-menu-modal position-absolute right-0" style="z-index: 99;">
+                <div class="select-menu-header text-left">
+                  <span class="select-menu-title">Select language</span>
+                </div>
+                <div class="select-menu-list">
+                  <label class="select-menu-item" role="menuitemradio" aria-checked="true" tabindex="0">
+                    <input type="radio" name="language" id="language_" value="" data-autosubmit="true" checked="checked" />
+                    <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                    <span class="text-normal select-menu-item-text" data-menu-button-text>All</span>
+                  </label>
+                    <label class="select-menu-item" role="menuitemradio" aria-checked="false" tabindex="0">
+                      <input type="radio" name="language" id="language_c" value="c" data-autosubmit="true" />
+                      <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                      <span class="text-normal select-menu-item-text" data-menu-button-text>C</span>
+                    </label>
+                    <label class="select-menu-item" role="menuitemradio" aria-checked="false" tabindex="0">
+                      <input type="radio" name="language" id="language_c_" value="c#" data-autosubmit="true" />
+                      <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                      <span class="text-normal select-menu-item-text" data-menu-button-text>C#</span>
+                    </label>
+                    <label class="select-menu-item" role="menuitemradio" aria-checked="false" tabindex="0">
+                      <input type="radio" name="language" id="language_c__" value="c++" data-autosubmit="true" />
+                      <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                      <span class="text-normal select-menu-item-text" data-menu-button-text>C++</span>
+                    </label>
+                    <label class="select-menu-item" role="menuitemradio" aria-checked="false" tabindex="0">
+                      <input type="radio" name="language" id="language_html" value="html" data-autosubmit="true" />
+                      <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                      <span class="text-normal select-menu-item-text" data-menu-button-text>HTML</span>
+                    </label>
+                    <label class="select-menu-item" role="menuitemradio" aria-checked="false" tabindex="0">
+                      <input type="radio" name="language" id="language_javascript" value="javascript" data-autosubmit="true" />
+                      <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                      <span class="text-normal select-menu-item-text" data-menu-button-text>JavaScript</span>
+                    </label>
+                    <label class="select-menu-item" role="menuitemradio" aria-checked="false" tabindex="0">
+                      <input type="radio" name="language" id="language_php" value="php" data-autosubmit="true" />
+                      <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                      <span class="text-normal select-menu-item-text" data-menu-button-text>PHP</span>
+                    </label>
+                    <label class="select-menu-item" role="menuitemradio" aria-checked="false" tabindex="0">
+                      <input type="radio" name="language" id="language_powershell" value="powershell" data-autosubmit="true" />
+                      <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                      <span class="text-normal select-menu-item-text" data-menu-button-text>PowerShell</span>
+                    </label>
+                    <label class="select-menu-item" role="menuitemradio" aria-checked="false" tabindex="0">
+                      <input type="radio" name="language" id="language_python" value="python" data-autosubmit="true" />
+                      <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                      <span class="text-normal select-menu-item-text" data-menu-button-text>Python</span>
+                    </label>
+                </div>
+              </details-menu>
+            </details>
+        </div>
+      </div>
+</form>
+
+    <div class="TableObject-item text-right">
+    </div>
+  </div>
+</div>
+
+
+    <div id="org-repositories" data-pjax-container>
+      <div class="col-8 d-inline-block">
+  <div class="org-repos repo-list">
+
+    
+  <ul>
+      
+
+
+  <li class="col-12 d-block width-full py-4 border-bottom public fork" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a itemprop="name codeRepository" data-hovercard-type="repository" data-hovercard-url="/duality-solutions/libbdaptorrent/hovercard" href="/duality-solutions/libbdaptorrent">
+          libbdaptorrent
+</a>      </h3>
+
+        <span class="f6 text-gray mb-1">
+          Forked from <a class="muted-link" href="/arvidn/libtorrent">arvidn/libtorrent</a>
+        </span>
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          an efficient feature complete C++ bittorrent implementation
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+  <span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+    <svg width="155" height="30">
+      <defs>
+        <linearGradient id="gradient-148540667" x1="0" x2="0" y1="1" y2="0">
+            <stop offset="10%" stop-color="#c6e48b"></stop>
+            <stop offset="33%" stop-color="#7bc96f"></stop>
+            <stop offset="66%" stop-color="#239a3b"></stop>
+            <stop offset="90%" stop-color="#196127"></stop>
+        </linearGradient>
+        <mask id="sparkline-148540667" x="0" y="0" width="155" height="28" >
+          <polyline transform="translate(0, 28) scale(1,-1)"
+                    points="0,8.2 3,12.2 6,12.2 9,29.0 12,14.6 15,12.2 18,8.2 21,23.4 24,11.4 27,5.0 30,13.0 33,7.4 36,9.8 39,10.6 42,8.2 45,16.2 48,10.6 51,12.2 54,10.6 57,9.8 60,17.8 63,8.2 66,20.2 69,10.6 72,13.8 75,12.2 78,11.4 81,9.0 84,13.8 87,5.0 90,15.4 93,15.4 96,17.0 99,12.2 102,9.8 105,12.2 108,9.8 111,4.2 114,4.2 117,5.0 120,4.2 123,3.4 126,1.0 129,1.0 132,1.0 135,1.8 138,1.0 141,1.0 144,1.0 147,1.0 150,1.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+        </mask>
+      </defs>
+
+      <g transform="translate(0, 2.0)">
+        <rect x="0" y="-2" width="155" height="30"
+              style="stroke: none; fill: url(#gradient-148540667); mask: url(#sparkline-148540667)"></rect>
+      </g>
+    </svg>
+  </span>
+      </div>
+    </div>
+
+
+      <div class="topics-row-container col-9 d-inline-flex flex-wrap flex-items-center f6 my-1">
+          <a href="/search?q=topic%3Ac-plus-plus+fork%3Atrue+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:c-plus-plus,repository_id:148540667,repository_nwo:duality-solutions/libbdaptorrent,repository_public:true,repository_is_fork:true">
+            c-plus-plus
+          </a>
+          <a href="/search?q=topic%3Alibrary+fork%3Atrue+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:library,repository_id:148540667,repository_nwo:duality-solutions/libbdaptorrent,repository_public:true,repository_is_fork:true">
+            library
+          </a>
+          <a href="/search?q=topic%3Abittorrent+fork%3Atrue+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:bittorrent,repository_id:148540667,repository_nwo:duality-solutions/libbdaptorrent,repository_public:true,repository_is_fork:true">
+            bittorrent
+          </a>
+          <a href="/search?q=topic%3Afilesystem+fork%3Atrue+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:filesystem,repository_id:148540667,repository_nwo:duality-solutions/libbdaptorrent,repository_public:true,repository_is_fork:true">
+            filesystem
+          </a>
+          <a href="/search?q=topic%3Apeer-to-peer+fork%3Atrue+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:peer-to-peer,repository_id:148540667,repository_nwo:duality-solutions/libbdaptorrent,repository_public:true,repository_is_fork:true">
+            peer-to-peer
+          </a>
+          <a href="/search?q=topic%3Aed25519+fork%3Atrue+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:ed25519,repository_id:148540667,repository_nwo:duality-solutions/libbdaptorrent,repository_public:true,repository_is_fork:true">
+            ed25519
+          </a>
+          <a href="/search?q=topic%3Akademlia-dht+fork%3Atrue+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:kademlia-dht,repository_id:148540667,repository_nwo:duality-solutions/libbdaptorrent,repository_public:true,repository_is_fork:true">
+            kademlia-dht
+          </a>
+      </div>
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#f34b7d;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          C++
+        </span>
+        <a class="muted-link mr-3" href="/duality-solutions/libbdaptorrent/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+          426
+        </a>
+
+
+
+        Updated <relative-time datetime="2018-12-04T18:05:35Z">Dec 4, 2018</relative-time>
+    </div>
+  </li>
+
+      
+
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a itemprop="name codeRepository" data-hovercard-type="repository" data-hovercard-url="/duality-solutions/Dynamic/hovercard" href="/duality-solutions/Dynamic">
+          Dynamic
+</a>      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          Dynamic(DYN)
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+  <span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+    <svg width="155" height="30">
+      <defs>
+        <linearGradient id="gradient-108872749" x1="0" x2="0" y1="1" y2="0">
+            <stop offset="10%" stop-color="#c6e48b"></stop>
+            <stop offset="33%" stop-color="#7bc96f"></stop>
+            <stop offset="66%" stop-color="#239a3b"></stop>
+            <stop offset="90%" stop-color="#196127"></stop>
+        </linearGradient>
+        <mask id="sparkline-108872749" x="0" y="0" width="155" height="28" >
+          <polyline transform="translate(0, 28) scale(1,-1)"
+                    points="0,29.0 3,16.759999999999998 6,3.35 9,16.09 12,8.71 15,1.8399999999999999 18,1.0 21,1.17 24,1.0 27,1.0 30,1.17 33,1.0 36,1.0 39,1.0 42,1.0 45,1.0 48,1.8399999999999999 51,1.67 54,27.49 57,7.2 60,2.51 63,1.5 66,1.0 69,1.17 72,1.17 75,1.8399999999999999 78,6.37 81,9.22 84,3.51 87,1.34 90,1.5 93,1.0 96,3.01 99,1.17 102,1.0 105,1.0 108,1.67 111,1.0 114,2.34 117,1.67 120,1.0 123,2.6799999999999997 126,1.34 129,1.0 132,1.0 135,1.0 138,1.0 141,1.0 144,1.34 147,1.0 150,1.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+        </mask>
+      </defs>
+
+      <g transform="translate(0, 2.0)">
+        <rect x="0" y="-2" width="155" height="30"
+              style="stroke: none; fill: url(#gradient-108872749); mask: url(#sparkline-108872749)"></rect>
+      </g>
+    </svg>
+  </span>
+      </div>
+    </div>
+
+
+      <div class="topics-row-container col-9 d-inline-flex flex-wrap flex-items-center f6 my-1">
+          <a href="/search?q=topic%3Adynamic+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:dynamic,repository_id:108872749,repository_nwo:duality-solutions/Dynamic,repository_public:true,repository_is_fork:false">
+            dynamic
+          </a>
+          <a href="/search?q=topic%3Acurrency+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:currency,repository_id:108872749,repository_nwo:duality-solutions/Dynamic,repository_public:true,repository_is_fork:false">
+            currency
+          </a>
+          <a href="/search?q=topic%3Ablockchain+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:blockchain,repository_id:108872749,repository_nwo:duality-solutions/Dynamic,repository_public:true,repository_is_fork:false">
+            blockchain
+          </a>
+          <a href="/search?q=topic%3Aanonymity+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:anonymity,repository_id:108872749,repository_nwo:duality-solutions/Dynamic,repository_public:true,repository_is_fork:false">
+            anonymity
+          </a>
+          <a href="/search?q=topic%3Aduality+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:duality,repository_id:108872749,repository_nwo:duality-solutions/Dynamic,repository_public:true,repository_is_fork:false">
+            duality
+          </a>
+          <a href="/search?q=topic%3Anoid+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:noid,repository_id:108872749,repository_nwo:duality-solutions/Dynamic,repository_public:true,repository_is_fork:false">
+            noid
+          </a>
+      </div>
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#f34b7d;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          C++
+        </span>
+        <a class="muted-link mr-3" href="/duality-solutions/Dynamic/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+          19
+        </a>
+        <a class="muted-link mr-3" href="/duality-solutions/Dynamic/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+          13
+        </a>
+
+
+
+        Updated <relative-time datetime="2018-12-03T12:15:34Z">Dec 3, 2018</relative-time>
+    </div>
+  </li>
+
+      
+
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a itemprop="name codeRepository" data-hovercard-type="repository" data-hovercard-url="/duality-solutions/Documentation-and-Guides/hovercard" href="/duality-solutions/Documentation-and-Guides">
+          Documentation-and-Guides
+</a>      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          All documentation and guides for software provided by Duality Blockchain Solutions
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+  <span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+    <svg width="155" height="30">
+      <defs>
+        <linearGradient id="gradient-86382256" x1="0" x2="0" y1="1" y2="0">
+            <stop offset="10%" stop-color="#c6e48b"></stop>
+            <stop offset="33%" stop-color="#7bc96f"></stop>
+            <stop offset="66%" stop-color="#239a3b"></stop>
+            <stop offset="90%" stop-color="#196127"></stop>
+        </linearGradient>
+        <mask id="sparkline-86382256" x="0" y="0" width="155" height="28" >
+          <polyline transform="translate(0, 28) scale(1,-1)"
+                    points="0,1 3,1 6,1 9,1 12,2 15,1 18,2 21,1 24,1 27,1 30,2 33,1 36,1 39,1 42,1 45,1 48,1 51,1 54,1 57,1 60,1 63,1 66,1 69,1 72,1 75,1 78,1 81,1 84,3 87,1 90,1 93,1 96,1 99,1 102,1 105,1 108,4 111,5 114,1 117,1 120,1 123,1 126,3 129,1 132,1 135,1 138,1 141,1 144,1 147,3 150,1 153,2 " fill="transparent" stroke="#8cc665" stroke-width="2">
+        </mask>
+      </defs>
+
+      <g transform="translate(0, -10)">
+        <rect x="0" y="-2" width="155" height="30"
+              style="stroke: none; fill: url(#gradient-86382256); mask: url(#sparkline-86382256)"></rect>
+      </g>
+    </svg>
+  </span>
+      </div>
+    </div>
+
+
+      <div class="topics-row-container col-9 d-inline-flex flex-wrap flex-items-center f6 my-1">
+          <a href="/search?q=topic%3Aprivacy+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:privacy,repository_id:86382256,repository_nwo:duality-solutions/Documentation-and-Guides,repository_public:true,repository_is_fork:false">
+            privacy
+          </a>
+          <a href="/search?q=topic%3Aassets+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:assets,repository_id:86382256,repository_nwo:duality-solutions/Documentation-and-Guides,repository_public:true,repository_is_fork:false">
+            assets
+          </a>
+          <a href="/search?q=topic%3Adynamic+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:dynamic,repository_id:86382256,repository_nwo:duality-solutions/Documentation-and-Guides,repository_public:true,repository_is_fork:false">
+            dynamic
+          </a>
+          <a href="/search?q=topic%3Acurrency+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:currency,repository_id:86382256,repository_nwo:duality-solutions/Documentation-and-Guides,repository_public:true,repository_is_fork:false">
+            currency
+          </a>
+          <a href="/search?q=topic%3Aanonymity+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:anonymity,repository_id:86382256,repository_nwo:duality-solutions/Documentation-and-Guides,repository_public:true,repository_is_fork:false">
+            anonymity
+          </a>
+          <a href="/search?q=topic%3Aduality+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:duality,repository_id:86382256,repository_nwo:duality-solutions/Documentation-and-Guides,repository_public:true,repository_is_fork:false">
+            duality
+          </a>
+          <a href="/search?q=topic%3Asequence+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:sequence,repository_id:86382256,repository_nwo:duality-solutions/Documentation-and-Guides,repository_public:true,repository_is_fork:false">
+            sequence
+          </a>
+      </div>
+
+    <div class="f6 text-gray mt-2">
+
+        <a class="muted-link mr-3" href="/duality-solutions/Documentation-and-Guides/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+          6
+        </a>
+        <a class="muted-link mr-3" href="/duality-solutions/Documentation-and-Guides/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+          4
+        </a>
+
+
+
+        Updated <relative-time datetime="2018-11-30T16:05:27Z">Nov 30, 2018</relative-time>
+    </div>
+  </li>
+
+      
+
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a itemprop="name codeRepository" data-hovercard-type="repository" data-hovercard-url="/duality-solutions/Sequence/hovercard" href="/duality-solutions/Sequence">
+          Sequence
+</a>      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          Sequence(SEQ)
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+  <span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+    <svg width="155" height="30">
+      <defs>
+        <linearGradient id="gradient-74405315" x1="0" x2="0" y1="1" y2="0">
+            <stop offset="10%" stop-color="#c6e48b"></stop>
+            <stop offset="33%" stop-color="#7bc96f"></stop>
+            <stop offset="66%" stop-color="#239a3b"></stop>
+            <stop offset="90%" stop-color="#196127"></stop>
+        </linearGradient>
+        <mask id="sparkline-74405315" x="0" y="0" width="155" height="28" >
+          <polyline transform="translate(0, 28) scale(1,-1)"
+                    points="0,1 3,2 6,1 9,1 12,18 15,1 18,1 21,1 24,1 27,2 30,1 33,1 36,2 39,1 42,1 45,1 48,6 51,1 54,2 57,1 60,12 63,19 66,1 69,1 72,1 75,1 78,1 81,1 84,1 87,1 90,1 93,3 96,1 99,3 102,1 105,1 108,1 111,1 114,2 117,1 120,1 123,1 126,1 129,1 132,1 135,1 138,1 141,1 144,1 147,1 150,1 153,1 " fill="transparent" stroke="#8cc665" stroke-width="2">
+        </mask>
+      </defs>
+
+      <g transform="translate(0, -3)">
+        <rect x="0" y="-2" width="155" height="30"
+              style="stroke: none; fill: url(#gradient-74405315); mask: url(#sparkline-74405315)"></rect>
+      </g>
+    </svg>
+  </span>
+      </div>
+    </div>
+
+
+      <div class="topics-row-container col-9 d-inline-flex flex-wrap flex-items-center f6 my-1">
+          <a href="/search?q=topic%3Ablockchain+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:blockchain,repository_id:74405315,repository_nwo:duality-solutions/Sequence,repository_public:true,repository_is_fork:false">
+            blockchain
+          </a>
+          <a href="/search?q=topic%3Aanonymity+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:anonymity,repository_id:74405315,repository_nwo:duality-solutions/Sequence,repository_public:true,repository_is_fork:false">
+            anonymity
+          </a>
+          <a href="/search?q=topic%3Aduality+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:duality,repository_id:74405315,repository_nwo:duality-solutions/Sequence,repository_public:true,repository_is_fork:false">
+            duality
+          </a>
+          <a href="/search?q=topic%3Asequence+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:sequence,repository_id:74405315,repository_nwo:duality-solutions/Sequence,repository_public:true,repository_is_fork:false">
+            sequence
+          </a>
+          <a href="/search?q=topic%3Aasset+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:asset,repository_id:74405315,repository_nwo:duality-solutions/Sequence,repository_public:true,repository_is_fork:false">
+            asset
+          </a>
+          <a href="/search?q=topic%3Anoid+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:noid,repository_id:74405315,repository_nwo:duality-solutions/Sequence,repository_public:true,repository_is_fork:false">
+            noid
+          </a>
+      </div>
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#f34b7d;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          C++
+        </span>
+        <a class="muted-link mr-3" href="/duality-solutions/Sequence/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+          13
+        </a>
+        <a class="muted-link mr-3" href="/duality-solutions/Sequence/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+          6
+        </a>
+
+        <span class="mr-3">
+          <svg class="octicon octicon-law mr-1" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"/></svg>MIT
+        </span>
+
+
+        Updated <relative-time datetime="2018-11-24T11:35:40Z">Nov 24, 2018</relative-time>
+    </div>
+  </li>
+
+      
+
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a itemprop="name codeRepository" data-hovercard-type="repository" data-hovercard-url="/duality-solutions/Lykke.Service.Dynamic.Api/hovercard" href="/duality-solutions/Lykke.Service.Dynamic.Api">
+          Lykke.Service.Dynamic.Api
+</a>      </h3>
+
+
+    </div>
+
+    <div>
+
+      <div class="col-3 float-right text-right">
+        
+  <span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+    <svg width="155" height="30">
+      <defs>
+        <linearGradient id="gradient-138591266" x1="0" x2="0" y1="1" y2="0">
+            <stop offset="10%" stop-color="#c6e48b"></stop>
+            <stop offset="33%" stop-color="#7bc96f"></stop>
+            <stop offset="66%" stop-color="#239a3b"></stop>
+            <stop offset="90%" stop-color="#196127"></stop>
+        </linearGradient>
+        <mask id="sparkline-138591266" x="0" y="0" width="155" height="28" >
+          <polyline transform="translate(0, 28) scale(1,-1)"
+                    points="0,1 3,1 6,1 9,1 12,1 15,2 18,16 21,5 24,1 27,6 30,6 33,2 36,1 39,3 42,13 45,1 48,1 51,1 54,1 57,1 60,7 63,4 66,1 69,1 72,1 75,1 78,1 81,1 84,1 87,2 90,1 93,1 96,1 99,1 102,1 105,1 108,3 111,1 114,1 117,9 120,1 123,2 126,3 129,2 132,3 135,4 138,1 141,1 144,3 147,2 150,1 153,1 " fill="transparent" stroke="#8cc665" stroke-width="2">
+        </mask>
+      </defs>
+
+      <g transform="translate(0, -5)">
+        <rect x="0" y="-2" width="155" height="30"
+              style="stroke: none; fill: url(#gradient-138591266); mask: url(#sparkline-138591266)"></rect>
+      </g>
+    </svg>
+  </span>
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#178600;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          C#
+        </span>
+        <a class="muted-link mr-3" href="/duality-solutions/Lykke.Service.Dynamic.Api/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+          1
+        </a>
+
+
+
+        Updated <relative-time datetime="2018-11-13T23:58:09Z">Nov 13, 2018</relative-time>
+    </div>
+  </li>
+
+      
+
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a itemprop="name codeRepository" data-hovercard-type="repository" data-hovercard-url="/duality-solutions/Lykke.Service.Dynamic.Sign/hovercard" href="/duality-solutions/Lykke.Service.Dynamic.Sign">
+          Lykke.Service.Dynamic.Sign
+</a>      </h3>
+
+
+    </div>
+
+    <div>
+
+      <div class="col-3 float-right text-right">
+        
+  <span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+    <svg width="155" height="30">
+      <defs>
+        <linearGradient id="gradient-138590917" x1="0" x2="0" y1="1" y2="0">
+            <stop offset="10%" stop-color="#c6e48b"></stop>
+            <stop offset="33%" stop-color="#7bc96f"></stop>
+            <stop offset="66%" stop-color="#239a3b"></stop>
+            <stop offset="90%" stop-color="#196127"></stop>
+        </linearGradient>
+        <mask id="sparkline-138590917" x="0" y="0" width="155" height="28" >
+          <polyline transform="translate(0, 28) scale(1,-1)"
+                    points="0,1 3,1 6,1 9,5 12,1 15,2 18,2 21,1 24,1 27,1 30,1 33,1 36,1 39,1 42,7 45,1 48,1 51,1 54,1 57,1 60,1 63,1 66,1 69,1 72,1 75,1 78,1 81,1 84,1 87,3 90,1 93,1 96,1 99,1 102,1 105,1 108,1 111,1 114,3 117,3 120,1 123,1 126,1 129,1 132,1 135,1 138,1 141,1 144,1 147,1 150,1 153,1 " fill="transparent" stroke="#8cc665" stroke-width="2">
+        </mask>
+      </defs>
+
+      <g transform="translate(0, -9)">
+        <rect x="0" y="-2" width="155" height="30"
+              style="stroke: none; fill: url(#gradient-138590917); mask: url(#sparkline-138590917)"></rect>
+      </g>
+    </svg>
+  </span>
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#178600;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          C#
+        </span>
+
+
+
+        Updated <relative-time datetime="2018-10-15T04:59:04Z">Oct 15, 2018</relative-time>
+    </div>
+  </li>
+
+      
+
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a itemprop="name codeRepository" data-hovercard-type="repository" data-hovercard-url="/duality-solutions/NBitcoin.Dynamic/hovercard" href="/duality-solutions/NBitcoin.Dynamic">
+          NBitcoin.Dynamic
+</a>      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          NBitcoin Library Extension For The Dynamic Blockchain Network.
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+  <span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+    <svg width="155" height="30">
+      <defs>
+        <linearGradient id="gradient-140198156" x1="0" x2="0" y1="1" y2="0">
+            <stop offset="10%" stop-color="#c6e48b"></stop>
+            <stop offset="33%" stop-color="#7bc96f"></stop>
+            <stop offset="66%" stop-color="#239a3b"></stop>
+            <stop offset="90%" stop-color="#196127"></stop>
+        </linearGradient>
+        <mask id="sparkline-140198156" x="0" y="0" width="155" height="28" >
+          <polyline transform="translate(0, 28) scale(1,-1)"
+                    points="0,1 3,1 6,1 9,1 12,1 15,1 18,1 21,1 24,1 27,1 30,1 33,1 36,1 39,1 42,1 45,1 48,1 51,1 54,1 57,1 60,1 63,1 66,1 69,1 72,1 75,1 78,1 81,1 84,1 87,1 90,4 93,4 96,5 99,1 102,1 105,1 108,1 111,1 114,1 117,7 120,1 123,1 126,1 129,1 132,1 135,1 138,1 141,1 144,1 147,1 150,1 153,1 " fill="transparent" stroke="#8cc665" stroke-width="2">
+        </mask>
+      </defs>
+
+      <g transform="translate(0, -9)">
+        <rect x="0" y="-2" width="155" height="30"
+              style="stroke: none; fill: url(#gradient-140198156); mask: url(#sparkline-140198156)"></rect>
+      </g>
+    </svg>
+  </span>
+      </div>
+    </div>
+
+
+      <div class="topics-row-container col-9 d-inline-flex flex-wrap flex-items-center f6 my-1">
+          <a href="/search?q=topic%3Adynamic+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:dynamic,repository_id:140198156,repository_nwo:duality-solutions/NBitcoin.Dynamic,repository_public:true,repository_is_fork:false">
+            dynamic
+          </a>
+          <a href="/search?q=topic%3Ablockchain+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:blockchain,repository_id:140198156,repository_nwo:duality-solutions/NBitcoin.Dynamic,repository_public:true,repository_is_fork:false">
+            blockchain
+          </a>
+          <a href="/search?q=topic%3Anbitcoin+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:nbitcoin,repository_id:140198156,repository_nwo:duality-solutions/NBitcoin.Dynamic,repository_public:true,repository_is_fork:false">
+            nbitcoin
+          </a>
+          <a href="/search?q=topic%3Anuget-package+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:nuget-package,repository_id:140198156,repository_nwo:duality-solutions/NBitcoin.Dynamic,repository_public:true,repository_is_fork:false">
+            nuget-package
+          </a>
+      </div>
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#178600;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          C#
+        </span>
+
+
+
+        Updated <relative-time datetime="2018-09-06T02:59:27Z">Sep 6, 2018</relative-time>
+    </div>
+  </li>
+
+      
+
+
+  <li class="col-12 d-block width-full py-4 border-bottom public fork" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a itemprop="name codeRepository" data-hovercard-type="repository" data-hovercard-url="/duality-solutions/yiimp/hovercard" href="/duality-solutions/yiimp">
+          yiimp
+</a>      </h3>
+
+        <span class="f6 text-gray mb-1">
+          Forked from <a class="muted-link" href="/tpruvot/yiimp">tpruvot/yiimp</a>
+        </span>
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          Test Dynamic mining pool
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+  <span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+    <svg width="155" height="30">
+      <defs>
+        <linearGradient id="gradient-141667184" x1="0" x2="0" y1="1" y2="0">
+            <stop offset="10%" stop-color="#c6e48b"></stop>
+            <stop offset="33%" stop-color="#7bc96f"></stop>
+            <stop offset="66%" stop-color="#239a3b"></stop>
+            <stop offset="90%" stop-color="#196127"></stop>
+        </linearGradient>
+        <mask id="sparkline-141667184" x="0" y="0" width="155" height="28" >
+          <polyline transform="translate(0, 28) scale(1,-1)"
+                    points="0,6 3,8 6,2 9,1 12,10 15,13 18,5 21,9 24,5 27,4 30,6 33,4 36,10 39,6 42,11 45,5 48,7 51,2 54,6 57,5 60,3 63,13 66,8 69,5 72,6 75,7 78,6 81,5 84,9 87,3 90,4 93,4 96,2 99,1 102,2 105,4 108,1 111,4 114,4 117,1 120,1 123,1 126,1 129,1 132,1 135,1 138,1 141,1 144,1 147,1 150,1 153,1 " fill="transparent" stroke="#8cc665" stroke-width="2">
+        </mask>
+      </defs>
+
+      <g transform="translate(0, -6)">
+        <rect x="0" y="-2" width="155" height="30"
+              style="stroke: none; fill: url(#gradient-141667184); mask: url(#sparkline-141667184)"></rect>
+      </g>
+    </svg>
+  </span>
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#4F5D95;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          PHP
+        </span>
+        <a class="muted-link mr-3" href="/duality-solutions/yiimp/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+          639
+        </a>
+
+
+
+        Updated <relative-time datetime="2018-08-29T17:31:33Z">Aug 29, 2018</relative-time>
+    </div>
+  </li>
+
+      
+
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a itemprop="name codeRepository" data-hovercard-type="repository" data-hovercard-url="/duality-solutions/dynamiccore-p2p/hovercard" href="/duality-solutions/dynamiccore-p2p">
+          dynamiccore-p2p
+</a>      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          Interface to the dynamic P2P network for Bitcore-Dynamic 
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+  <span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+    <svg width="155" height="30">
+      <defs>
+        <linearGradient id="gradient-146405316" x1="0" x2="0" y1="1" y2="0">
+            <stop offset="10%" stop-color="#c6e48b"></stop>
+            <stop offset="33%" stop-color="#7bc96f"></stop>
+            <stop offset="66%" stop-color="#239a3b"></stop>
+            <stop offset="90%" stop-color="#196127"></stop>
+        </linearGradient>
+        <mask id="sparkline-146405316" x="0" y="0" width="155" height="28" >
+          <polyline transform="translate(0, 28) scale(1,-1)"
+                    points="0,1 3,1 6,3 9,1 12,1 15,1 18,1 21,1 24,1 27,1 30,1 33,1 36,1 39,1 42,1 45,1 48,1 51,1 54,3 57,1 60,1 63,1 66,1 69,1 72,1 75,1 78,1 81,1 84,2 87,1 90,1 93,1 96,1 99,1 102,1 105,1 108,1 111,1 114,2 117,1 120,1 123,1 126,1 129,1 132,1 135,1 138,1 141,1 144,1 147,1 150,1 153,1 " fill="transparent" stroke="#8cc665" stroke-width="2">
+        </mask>
+      </defs>
+
+      <g transform="translate(0, -11)">
+        <rect x="0" y="-2" width="155" height="30"
+              style="stroke: none; fill: url(#gradient-146405316); mask: url(#sparkline-146405316)"></rect>
+      </g>
+    </svg>
+  </span>
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#f1e05a;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          JavaScript
+        </span>
+
+        <span class="mr-3">
+          <svg class="octicon octicon-law mr-1" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"/></svg>MIT
+        </span>
+
+
+        Updated <relative-time datetime="2018-08-28T07:10:47Z">Aug 28, 2018</relative-time>
+    </div>
+  </li>
+
+      
+
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a itemprop="name codeRepository" data-hovercard-type="repository" data-hovercard-url="/duality-solutions/dynamiccore-node/hovercard" href="/duality-solutions/dynamiccore-node">
+          dynamiccore-node
+</a>      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          Extensible full node using dynamic v2.x: <a href="https://bitcore.io/" rel="nofollow">https://bitcore.io/</a>
+
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+  <span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+    <svg width="155" height="30">
+      <defs>
+        <linearGradient id="gradient-146398628" x1="0" x2="0" y1="1" y2="0">
+            <stop offset="10%" stop-color="#c6e48b"></stop>
+            <stop offset="33%" stop-color="#7bc96f"></stop>
+            <stop offset="66%" stop-color="#239a3b"></stop>
+            <stop offset="90%" stop-color="#196127"></stop>
+        </linearGradient>
+        <mask id="sparkline-146398628" x="0" y="0" width="155" height="28" >
+          <polyline transform="translate(0, 28) scale(1,-1)"
+                    points="0,4 3,10 6,7 9,1 12,1 15,1 18,1 21,1 24,1 27,1 30,1 33,1 36,1 39,1 42,1 45,1 48,1 51,2 54,5 57,1 60,1 63,1 66,1 69,1 72,1 75,2 78,1 81,1 84,1 87,1 90,1 93,1 96,1 99,1 102,1 105,1 108,1 111,1 114,2 117,1 120,1 123,1 126,1 129,1 132,1 135,1 138,1 141,1 144,1 147,1 150,1 153,1 " fill="transparent" stroke="#8cc665" stroke-width="2">
+        </mask>
+      </defs>
+
+      <g transform="translate(0, -8)">
+        <rect x="0" y="-2" width="155" height="30"
+              style="stroke: none; fill: url(#gradient-146398628); mask: url(#sparkline-146398628)"></rect>
+      </g>
+    </svg>
+  </span>
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#f1e05a;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          JavaScript
+        </span>
+
+
+
+        Updated <relative-time datetime="2018-08-28T06:48:49Z">Aug 28, 2018</relative-time>
+    </div>
+  </li>
+
+      
+
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a itemprop="name codeRepository" data-hovercard-type="repository" data-hovercard-url="/duality-solutions/dualitysolutions.github.io/hovercard" href="/duality-solutions/dualitysolutions.github.io">
+          dualitysolutions.github.io
+</a>      </h3>
+
+
+    </div>
+
+    <div>
+
+      <div class="col-3 float-right text-right">
+        
+  <span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+    <svg width="155" height="30">
+      <defs>
+        <linearGradient id="gradient-144610613" x1="0" x2="0" y1="1" y2="0">
+            <stop offset="10%" stop-color="#c6e48b"></stop>
+            <stop offset="33%" stop-color="#7bc96f"></stop>
+            <stop offset="66%" stop-color="#239a3b"></stop>
+            <stop offset="90%" stop-color="#196127"></stop>
+        </linearGradient>
+        <mask id="sparkline-144610613" x="0" y="0" width="155" height="28" >
+          <polyline transform="translate(0, 28) scale(1,-1)"
+                    points="0,1 3,1 6,1 9,1 12,1 15,1 18,1 21,1 24,1 27,1 30,1 33,1 36,1 39,1 42,1 45,1 48,1 51,1 54,1 57,1 60,1 63,1 66,1 69,1 72,1 75,1 78,1 81,1 84,1 87,1 90,1 93,1 96,1 99,1 102,1 105,1 108,2 111,6 114,1 117,1 120,1 123,1 126,1 129,1 132,1 135,1 138,1 141,1 144,1 147,1 150,1 153,1 " fill="transparent" stroke="#8cc665" stroke-width="2">
+        </mask>
+      </defs>
+
+      <g transform="translate(0, -10)">
+        <rect x="0" y="-2" width="155" height="30"
+              style="stroke: none; fill: url(#gradient-144610613); mask: url(#sparkline-144610613)"></rect>
+      </g>
+    </svg>
+  </span>
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#e34c26;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          HTML
+        </span>
+
+
+
+        Updated <relative-time datetime="2018-08-24T16:48:42Z">Aug 24, 2018</relative-time>
+    </div>
+  </li>
+
+      
+
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a itemprop="name codeRepository" data-hovercard-type="repository" data-hovercard-url="/duality-solutions/Graphics/hovercard" href="/duality-solutions/Graphics">
+          Graphics
+</a>      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          Varied Graphics of Duality
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+  <span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+    <svg width="155" height="30">
+      <defs>
+        <linearGradient id="gradient-144735699" x1="0" x2="0" y1="1" y2="0">
+            <stop offset="10%" stop-color="#c6e48b"></stop>
+            <stop offset="33%" stop-color="#7bc96f"></stop>
+            <stop offset="66%" stop-color="#239a3b"></stop>
+            <stop offset="90%" stop-color="#196127"></stop>
+        </linearGradient>
+        <mask id="sparkline-144735699" x="0" y="0" width="155" height="28" >
+          <polyline transform="translate(0, 28) scale(1,-1)"
+                    points="0,1 3,1 6,1 9,1 12,1 15,1 18,1 21,1 24,1 27,1 30,1 33,1 36,1 39,1 42,1 45,1 48,1 51,1 54,1 57,1 60,1 63,1 66,1 69,1 72,1 75,1 78,1 81,1 84,1 87,1 90,1 93,1 96,1 99,1 102,1 105,1 108,3 111,1 114,1 117,1 120,1 123,1 126,1 129,1 132,1 135,1 138,1 141,1 144,1 147,1 150,1 153,1 " fill="transparent" stroke="#8cc665" stroke-width="2">
+        </mask>
+      </defs>
+
+      <g transform="translate(0, -11)">
+        <rect x="0" y="-2" width="155" height="30"
+              style="stroke: none; fill: url(#gradient-144735699); mask: url(#sparkline-144735699)"></rect>
+      </g>
+    </svg>
+  </span>
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+
+
+
+        Updated <relative-time datetime="2018-08-14T15:03:30Z">Aug 14, 2018</relative-time>
+    </div>
+  </li>
+
+      
+
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a itemprop="name codeRepository" data-hovercard-type="repository" data-hovercard-url="/duality-solutions/NBitcoin.Sequence/hovercard" href="/duality-solutions/NBitcoin.Sequence">
+          NBitcoin.Sequence
+</a>      </h3>
+
+
+    </div>
+
+    <div>
+
+      <div class="col-3 float-right text-right">
+        <poll-include-fragment src="/duality-solutions/NBitcoin.Sequence/graphs/participation?h=28&amp;type=sparkline&amp;w=155">
+</poll-include-fragment>      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+
+
+
+        Updated <relative-time datetime="2018-07-08T19:53:11Z">Jul 8, 2018</relative-time>
+    </div>
+  </li>
+
+      
+
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a itemprop="name codeRepository" data-hovercard-type="repository" data-hovercard-url="/duality-solutions/Lykke.Service.Sequence.Sign/hovercard" href="/duality-solutions/Lykke.Service.Sequence.Sign">
+          Lykke.Service.Sequence.Sign
+</a>      </h3>
+
+
+    </div>
+
+    <div>
+
+      <div class="col-3 float-right text-right">
+        
+  <span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+    <svg width="155" height="30">
+      <defs>
+        <linearGradient id="gradient-138592463" x1="0" x2="0" y1="1" y2="0">
+            <stop offset="10%" stop-color="#c6e48b"></stop>
+            <stop offset="33%" stop-color="#7bc96f"></stop>
+            <stop offset="66%" stop-color="#239a3b"></stop>
+            <stop offset="90%" stop-color="#196127"></stop>
+        </linearGradient>
+        <mask id="sparkline-138592463" x="0" y="0" width="155" height="28" >
+          <polyline transform="translate(0, 28) scale(1,-1)"
+                    points="0,1 3,1 6,1 9,5 12,1 15,2 18,2 21,1 24,1 27,1 30,1 33,1 36,1 39,1 42,7 45,1 48,1 51,1 54,1 57,1 60,1 63,1 66,1 69,1 72,1 75,1 78,1 81,1 84,1 87,3 90,1 93,1 96,1 99,1 102,1 105,1 108,1 111,1 114,1 117,1 120,1 123,1 126,1 129,1 132,1 135,1 138,1 141,1 144,1 147,1 150,1 153,1 " fill="transparent" stroke="#8cc665" stroke-width="2">
+        </mask>
+      </defs>
+
+      <g transform="translate(0, -9)">
+        <rect x="0" y="-2" width="155" height="30"
+              style="stroke: none; fill: url(#gradient-138592463); mask: url(#sparkline-138592463)"></rect>
+      </g>
+    </svg>
+  </span>
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#178600;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          C#
+        </span>
+
+
+
+        Updated <relative-time datetime="2018-06-25T12:32:52Z">Jun 25, 2018</relative-time>
+    </div>
+  </li>
+
+      
+
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a itemprop="name codeRepository" data-hovercard-type="repository" data-hovercard-url="/duality-solutions/Lykke.Service.Sequence.Api/hovercard" href="/duality-solutions/Lykke.Service.Sequence.Api">
+          Lykke.Service.Sequence.Api
+</a>      </h3>
+
+
+    </div>
+
+    <div>
+
+      <div class="col-3 float-right text-right">
+        
+  <span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+    <svg width="155" height="30">
+      <defs>
+        <linearGradient id="gradient-138592310" x1="0" x2="0" y1="1" y2="0">
+            <stop offset="10%" stop-color="#c6e48b"></stop>
+            <stop offset="33%" stop-color="#7bc96f"></stop>
+            <stop offset="66%" stop-color="#239a3b"></stop>
+            <stop offset="90%" stop-color="#196127"></stop>
+        </linearGradient>
+        <mask id="sparkline-138592310" x="0" y="0" width="155" height="28" >
+          <polyline transform="translate(0, 28) scale(1,-1)"
+                    points="0,1 3,1 6,1 9,1 12,1 15,2 18,16 21,5 24,1 27,6 30,6 33,2 36,1 39,3 42,13 45,1 48,1 51,1 54,1 57,1 60,7 63,4 66,1 69,1 72,1 75,1 78,1 81,1 84,1 87,3 90,1 93,1 96,1 99,1 102,1 105,1 108,1 111,1 114,1 117,1 120,1 123,1 126,1 129,1 132,1 135,1 138,1 141,1 144,1 147,1 150,1 153,1 " fill="transparent" stroke="#8cc665" stroke-width="2">
+        </mask>
+      </defs>
+
+      <g transform="translate(0, -5)">
+        <rect x="0" y="-2" width="155" height="30"
+              style="stroke: none; fill: url(#gradient-138592310); mask: url(#sparkline-138592310)"></rect>
+      </g>
+    </svg>
+  </span>
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#178600;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          C#
+        </span>
+
+
+
+        Updated <relative-time datetime="2018-06-25T12:31:20Z">Jun 25, 2018</relative-time>
+    </div>
+  </li>
+
+      
+
+
+  <li class="col-12 d-block width-full py-4 border-bottom public fork" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a itemprop="name codeRepository" data-hovercard-type="repository" data-hovercard-url="/duality-solutions/azure-quickstart-templates/hovercard" href="/duality-solutions/azure-quickstart-templates">
+          azure-quickstart-templates
+</a>      </h3>
+
+        <span class="f6 text-gray mb-1">
+          Forked from <a class="muted-link" href="/Azure/azure-quickstart-templates">Azure/azure-quickstart-templates</a>
+        </span>
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          Azure Quickstart Templates
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+  <span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+    <svg width="155" height="30">
+      <defs>
+        <linearGradient id="gradient-115042130" x1="0" x2="0" y1="1" y2="0">
+            <stop offset="10%" stop-color="#c6e48b"></stop>
+            <stop offset="33%" stop-color="#7bc96f"></stop>
+            <stop offset="66%" stop-color="#239a3b"></stop>
+            <stop offset="90%" stop-color="#196127"></stop>
+        </linearGradient>
+        <mask id="sparkline-115042130" x="0" y="0" width="155" height="28" >
+          <polyline transform="translate(0, 28) scale(1,-1)"
+                    points="0,29.0 3,9.11 6,9.84 9,1.0 12,1.0 15,1.0 18,1.0 21,1.0 24,1.0 27,1.0 30,1.0 33,1.0 36,1.0 39,1.0 42,1.0 45,1.0 48,1.0 51,1.0 54,1.0 57,1.0 60,1.0 63,1.0 66,1.0 69,1.0 72,1.0 75,1.0 78,1.0 81,1.0 84,1.0 87,1.0 90,1.0 93,1.0 96,1.0 99,1.0 102,1.0 105,1.0 108,1.0 111,1.0 114,1.0 117,1.0 120,1.0 123,1.0 126,1.0 129,1.0 132,1.0 135,1.0 138,1.0 141,1.0 144,1.0 147,1.0 150,1.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+        </mask>
+      </defs>
+
+      <g transform="translate(0, 2.0)">
+        <rect x="0" y="-2" width="155" height="30"
+              style="stroke: none; fill: url(#gradient-115042130); mask: url(#sparkline-115042130)"></rect>
+      </g>
+    </svg>
+  </span>
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#012456;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          PowerShell
+        </span>
+        <a class="muted-link mr-3" href="/duality-solutions/azure-quickstart-templates/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+          6,347
+        </a>
+
+        <span class="mr-3">
+          <svg class="octicon octicon-law mr-1" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"/></svg>MIT
+        </span>
+
+
+        Updated <relative-time datetime="2017-12-21T19:21:26Z">Dec 21, 2017</relative-time>
+    </div>
+  </li>
+
+      
+
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a itemprop="name codeRepository" data-hovercard-type="repository" data-hovercard-url="/duality-solutions/WIP-Dynamic-CPU-Miner/hovercard" href="/duality-solutions/WIP-Dynamic-CPU-Miner">
+          WIP-Dynamic-CPU-Miner
+</a>      </h3>
+
+
+    </div>
+
+    <div>
+
+      <div class="col-3 float-right text-right">
+        
+  <span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+    <svg width="155" height="30">
+      <defs>
+        <linearGradient id="gradient-114715298" x1="0" x2="0" y1="1" y2="0">
+            <stop offset="10%" stop-color="#c6e48b"></stop>
+            <stop offset="33%" stop-color="#7bc96f"></stop>
+            <stop offset="66%" stop-color="#239a3b"></stop>
+            <stop offset="90%" stop-color="#196127"></stop>
+        </linearGradient>
+        <mask id="sparkline-114715298" x="0" y="0" width="155" height="28" >
+          <polyline transform="translate(0, 28) scale(1,-1)"
+                    points="0,1 3,1 6,3 9,1 12,1 15,1 18,1 21,1 24,1 27,1 30,1 33,1 36,1 39,1 42,1 45,1 48,1 51,1 54,1 57,1 60,1 63,1 66,1 69,1 72,1 75,1 78,1 81,1 84,1 87,1 90,1 93,1 96,1 99,1 102,1 105,1 108,1 111,1 114,1 117,1 120,1 123,1 126,1 129,1 132,1 135,1 138,1 141,1 144,1 147,1 150,1 153,1 " fill="transparent" stroke="#8cc665" stroke-width="2">
+        </mask>
+      </defs>
+
+      <g transform="translate(0, -11)">
+        <rect x="0" y="-2" width="155" height="30"
+              style="stroke: none; fill: url(#gradient-114715298); mask: url(#sparkline-114715298)"></rect>
+      </g>
+    </svg>
+  </span>
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#555555;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          C
+        </span>
+        <a class="muted-link mr-3" href="/duality-solutions/WIP-Dynamic-CPU-Miner/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+          1
+        </a>
+
+
+
+        Updated <relative-time datetime="2017-12-19T03:49:38Z">Dec 19, 2017</relative-time>
+    </div>
+  </li>
+
+      
+
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a itemprop="name codeRepository" data-hovercard-type="repository" data-hovercard-url="/duality-solutions/OLD-Dynamic-OLD/hovercard" href="/duality-solutions/OLD-Dynamic-OLD">
+          OLD-Dynamic-OLD
+</a>      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          Dynamic(DYN)
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+  <span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+    <svg width="155" height="30">
+      <defs>
+        <linearGradient id="gradient-74410625" x1="0" x2="0" y1="1" y2="0">
+            <stop offset="10%" stop-color="#c6e48b"></stop>
+            <stop offset="33%" stop-color="#7bc96f"></stop>
+            <stop offset="66%" stop-color="#239a3b"></stop>
+            <stop offset="90%" stop-color="#196127"></stop>
+        </linearGradient>
+        <mask id="sparkline-74410625" x="0" y="0" width="155" height="28" >
+          <polyline transform="translate(0, 28) scale(1,-1)"
+                    points="0,1 3,1 6,1 9,1 12,1 15,1 18,1 21,1 24,1 27,1 30,1 33,1 36,1 39,1 42,1 45,1 48,1 51,1 54,1 57,1 60,1 63,1 66,1 69,1 72,1 75,1 78,1 81,1 84,1 87,1 90,1 93,1 96,1 99,1 102,1 105,1 108,1 111,1 114,1 117,1 120,1 123,1 126,1 129,1 132,1 135,1 138,1 141,1 144,1 147,1 150,1 153,1 " fill="transparent" stroke="#8cc665" stroke-width="2">
+        </mask>
+      </defs>
+
+      <g transform="translate(0, -12)">
+        <rect x="0" y="-2" width="155" height="30"
+              style="stroke: none; fill: url(#gradient-74410625); mask: url(#sparkline-74410625)"></rect>
+      </g>
+    </svg>
+  </span>
+      </div>
+    </div>
+
+
+      <div class="topics-row-container col-9 d-inline-flex flex-wrap flex-items-center f6 my-1">
+          <a href="/search?q=topic%3Aprivacy+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:privacy,repository_id:74410625,repository_nwo:duality-solutions/OLD-Dynamic-OLD,repository_public:true,repository_is_fork:false">
+            privacy
+          </a>
+          <a href="/search?q=topic%3Adynamic+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:dynamic,repository_id:74410625,repository_nwo:duality-solutions/OLD-Dynamic-OLD,repository_public:true,repository_is_fork:false">
+            dynamic
+          </a>
+          <a href="/search?q=topic%3Acurrency+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:currency,repository_id:74410625,repository_nwo:duality-solutions/OLD-Dynamic-OLD,repository_public:true,repository_is_fork:false">
+            currency
+          </a>
+          <a href="/search?q=topic%3Ablockchain+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:blockchain,repository_id:74410625,repository_nwo:duality-solutions/OLD-Dynamic-OLD,repository_public:true,repository_is_fork:false">
+            blockchain
+          </a>
+          <a href="/search?q=topic%3Aanonymity+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:anonymity,repository_id:74410625,repository_nwo:duality-solutions/OLD-Dynamic-OLD,repository_public:true,repository_is_fork:false">
+            anonymity
+          </a>
+          <a href="/search?q=topic%3Aduality+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:duality,repository_id:74410625,repository_nwo:duality-solutions/OLD-Dynamic-OLD,repository_public:true,repository_is_fork:false">
+            duality
+          </a>
+          <a href="/search?q=topic%3Anoid+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:noid,repository_id:74410625,repository_nwo:duality-solutions/OLD-Dynamic-OLD,repository_public:true,repository_is_fork:false">
+            noid
+          </a>
+      </div>
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#f34b7d;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          C++
+        </span>
+        <a class="muted-link mr-3" href="/duality-solutions/OLD-Dynamic-OLD/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+          7
+        </a>
+        <a class="muted-link mr-3" href="/duality-solutions/OLD-Dynamic-OLD/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+          13
+        </a>
+
+
+
+        Updated <relative-time datetime="2017-10-28T16:51:32Z">Oct 28, 2017</relative-time>
+    </div>
+  </li>
+
+      
+
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a itemprop="name codeRepository" data-hovercard-type="repository" data-hovercard-url="/duality-solutions/Release-Informations/hovercard" href="/duality-solutions/Release-Informations">
+          Release-Informations
+</a>      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          LogFiles of the Binaries Tests
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+  <span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+    <svg width="155" height="30">
+      <defs>
+        <linearGradient id="gradient-93296182" x1="0" x2="0" y1="1" y2="0">
+            <stop offset="10%" stop-color="#c6e48b"></stop>
+            <stop offset="33%" stop-color="#7bc96f"></stop>
+            <stop offset="66%" stop-color="#239a3b"></stop>
+            <stop offset="90%" stop-color="#196127"></stop>
+        </linearGradient>
+        <mask id="sparkline-93296182" x="0" y="0" width="155" height="28" >
+          <polyline transform="translate(0, 28) scale(1,-1)"
+                    points="0,1 3,1 6,1 9,1 12,1 15,1 18,1 21,1 24,1 27,1 30,1 33,1 36,1 39,1 42,1 45,1 48,1 51,1 54,1 57,1 60,1 63,1 66,1 69,1 72,1 75,1 78,1 81,1 84,1 87,1 90,1 93,1 96,1 99,1 102,1 105,1 108,1 111,1 114,1 117,1 120,1 123,1 126,1 129,1 132,1 135,1 138,1 141,1 144,1 147,1 150,1 153,1 " fill="transparent" stroke="#8cc665" stroke-width="2">
+        </mask>
+      </defs>
+
+      <g transform="translate(0, -12)">
+        <rect x="0" y="-2" width="155" height="30"
+              style="stroke: none; fill: url(#gradient-93296182); mask: url(#sparkline-93296182)"></rect>
+      </g>
+    </svg>
+  </span>
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+        <a class="muted-link mr-3" href="/duality-solutions/Release-Informations/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+          1
+        </a>
+
+
+
+        Updated <relative-time datetime="2017-06-04T20:01:07Z">Jun 4, 2017</relative-time>
+    </div>
+  </li>
+
+      
+
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a itemprop="name codeRepository" data-hovercard-type="repository" data-hovercard-url="/duality-solutions/Logos/hovercard" href="/duality-solutions/Logos">
+          Logos
+</a>      </h3>
+
+
+    </div>
+
+    <div>
+
+      <div class="col-3 float-right text-right">
+        
+  <span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+    <svg width="155" height="30">
+      <defs>
+        <linearGradient id="gradient-91438970" x1="0" x2="0" y1="1" y2="0">
+            <stop offset="10%" stop-color="#c6e48b"></stop>
+            <stop offset="33%" stop-color="#7bc96f"></stop>
+            <stop offset="66%" stop-color="#239a3b"></stop>
+            <stop offset="90%" stop-color="#196127"></stop>
+        </linearGradient>
+        <mask id="sparkline-91438970" x="0" y="0" width="155" height="28" >
+          <polyline transform="translate(0, 28) scale(1,-1)"
+                    points="0,1 3,1 6,1 9,1 12,1 15,1 18,1 21,1 24,1 27,1 30,1 33,1 36,1 39,1 42,1 45,1 48,1 51,1 54,1 57,1 60,1 63,1 66,1 69,1 72,1 75,1 78,1 81,1 84,1 87,1 90,1 93,1 96,1 99,1 102,1 105,1 108,1 111,1 114,1 117,1 120,1 123,1 126,1 129,1 132,1 135,1 138,1 141,1 144,1 147,1 150,1 153,1 " fill="transparent" stroke="#8cc665" stroke-width="2">
+        </mask>
+      </defs>
+
+      <g transform="translate(0, -12)">
+        <rect x="0" y="-2" width="155" height="30"
+              style="stroke: none; fill: url(#gradient-91438970); mask: url(#sparkline-91438970)"></rect>
+      </g>
+    </svg>
+  </span>
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+        <a class="muted-link mr-3" href="/duality-solutions/Logos/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+          2
+        </a>
+        <a class="muted-link mr-3" href="/duality-solutions/Logos/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+          1
+        </a>
+
+
+
+        Updated <relative-time datetime="2017-05-16T09:15:07Z">May 16, 2017</relative-time>
+    </div>
+  </li>
+
+      
+
+
+  <li class="col-12 d-block width-full py-4 border-bottom public fork" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a itemprop="name codeRepository" data-hovercard-type="repository" data-hovercard-url="/duality-solutions/Dynamic-Sentinel/hovercard" href="/duality-solutions/Dynamic-Sentinel">
+          Dynamic-Sentinel
+</a>      </h3>
+
+        <span class="f6 text-gray mb-1">
+          Forked from <a class="muted-link" href="/tgflynn/sentinel">tgflynn/sentinel</a>
+        </span>
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          Dynamic Sentinel Engine
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+  <span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+    <svg width="155" height="30">
+      <defs>
+        <linearGradient id="gradient-78308605" x1="0" x2="0" y1="1" y2="0">
+            <stop offset="10%" stop-color="#c6e48b"></stop>
+            <stop offset="33%" stop-color="#7bc96f"></stop>
+            <stop offset="66%" stop-color="#239a3b"></stop>
+            <stop offset="90%" stop-color="#196127"></stop>
+        </linearGradient>
+        <mask id="sparkline-78308605" x="0" y="0" width="155" height="28" >
+          <polyline transform="translate(0, 28) scale(1,-1)"
+                    points="0,1 3,1 6,1 9,1 12,1 15,1 18,1 21,1 24,1 27,1 30,1 33,1 36,1 39,1 42,1 45,1 48,1 51,1 54,1 57,1 60,1 63,1 66,1 69,1 72,1 75,1 78,1 81,1 84,1 87,1 90,1 93,1 96,1 99,1 102,1 105,1 108,1 111,1 114,1 117,1 120,1 123,1 126,1 129,1 132,1 135,1 138,1 141,1 144,1 147,1 150,1 153,1 " fill="transparent" stroke="#8cc665" stroke-width="2">
+        </mask>
+      </defs>
+
+      <g transform="translate(0, -12)">
+        <rect x="0" y="-2" width="155" height="30"
+              style="stroke: none; fill: url(#gradient-78308605); mask: url(#sparkline-78308605)"></rect>
+      </g>
+    </svg>
+  </span>
+      </div>
+    </div>
+
+
+      <div class="topics-row-container col-9 d-inline-flex flex-wrap flex-items-center f6 my-1">
+          <a href="/search?q=topic%3Adynamic+fork%3Atrue+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:dynamic,repository_id:78308605,repository_nwo:duality-solutions/Dynamic-Sentinel,repository_public:true,repository_is_fork:true">
+            dynamic
+          </a>
+          <a href="/search?q=topic%3Ablockchain+fork%3Atrue+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:blockchain,repository_id:78308605,repository_nwo:duality-solutions/Dynamic-Sentinel,repository_public:true,repository_is_fork:true">
+            blockchain
+          </a>
+          <a href="/search?q=topic%3Adao+fork%3Atrue+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:dao,repository_id:78308605,repository_nwo:duality-solutions/Dynamic-Sentinel,repository_public:true,repository_is_fork:true">
+            dao
+          </a>
+          <a href="/search?q=topic%3Aautonomous+fork%3Atrue+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:autonomous,repository_id:78308605,repository_nwo:duality-solutions/Dynamic-Sentinel,repository_public:true,repository_is_fork:true">
+            autonomous
+          </a>
+          <a href="/search?q=topic%3Aduality+fork%3Atrue+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:duality,repository_id:78308605,repository_nwo:duality-solutions/Dynamic-Sentinel,repository_public:true,repository_is_fork:true">
+            duality
+          </a>
+          <a href="/search?q=topic%3Anoid+fork%3Atrue+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:noid,repository_id:78308605,repository_nwo:duality-solutions/Dynamic-Sentinel,repository_public:true,repository_is_fork:true">
+            noid
+          </a>
+          <a href="/search?q=topic%3Adynodes+fork%3Atrue+org%3Aduality-solutions&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:dynodes,repository_id:78308605,repository_nwo:duality-solutions/Dynamic-Sentinel,repository_public:true,repository_is_fork:true">
+            dynodes
+          </a>
+      </div>
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#3572A5;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          Python
+        </span>
+        <a class="muted-link mr-3" href="/duality-solutions/Dynamic-Sentinel/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+          1
+        </a>
+        <a class="muted-link mr-3" href="/duality-solutions/Dynamic-Sentinel/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+          12
+        </a>
+
+        <span class="mr-3">
+          <svg class="octicon octicon-law mr-1" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"/></svg>MIT
+        </span>
+
+
+        Updated <relative-time datetime="2017-05-05T20:30:07Z">May 5, 2017</relative-time>
+    </div>
+  </li>
+
+      
+
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a itemprop="name codeRepository" data-hovercard-type="repository" data-hovercard-url="/duality-solutions/Dynode-External-IP-CRON/hovercard" href="/duality-solutions/Dynode-External-IP-CRON">
+          Dynode-External-IP-CRON
+</a>      </h3>
+
+
+    </div>
+
+    <div>
+
+      <div class="col-3 float-right text-right">
+        
+  <span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+    <svg width="155" height="30">
+      <defs>
+        <linearGradient id="gradient-86043566" x1="0" x2="0" y1="1" y2="0">
+            <stop offset="10%" stop-color="#c6e48b"></stop>
+            <stop offset="33%" stop-color="#7bc96f"></stop>
+            <stop offset="66%" stop-color="#239a3b"></stop>
+            <stop offset="90%" stop-color="#196127"></stop>
+        </linearGradient>
+        <mask id="sparkline-86043566" x="0" y="0" width="155" height="28" >
+          <polyline transform="translate(0, 28) scale(1,-1)"
+                    points="0,1 3,1 6,1 9,1 12,1 15,1 18,1 21,1 24,1 27,1 30,1 33,1 36,1 39,1 42,1 45,1 48,1 51,1 54,1 57,1 60,1 63,1 66,1 69,1 72,1 75,1 78,1 81,1 84,1 87,1 90,1 93,1 96,1 99,1 102,1 105,1 108,1 111,1 114,1 117,1 120,1 123,1 126,1 129,1 132,1 135,1 138,1 141,1 144,1 147,1 150,1 153,1 " fill="transparent" stroke="#8cc665" stroke-width="2">
+        </mask>
+      </defs>
+
+      <g transform="translate(0, -12)">
+        <rect x="0" y="-2" width="155" height="30"
+              style="stroke: none; fill: url(#gradient-86043566); mask: url(#sparkline-86043566)"></rect>
+      </g>
+    </svg>
+  </span>
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+        <a class="muted-link mr-3" href="/duality-solutions/Dynode-External-IP-CRON/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+          2
+        </a>
+
+
+
+        Updated <relative-time datetime="2017-03-24T12:26:36Z">Mar 24, 2017</relative-time>
+    </div>
+  </li>
+
+  </ul>
+
+<div class="paginate-container" data-pjax>
+  
+</div>
+
+  </div>
+</div>
+
+<div class="col-4 float-right pl-4">
+  
+    <div class="Box mb-3">
+      <div class="Box-body">
+        <h4 class="f4 mb-2 text-normal">Top languages</h4>
+          <a class="no-wrap text-gray d-inline-block muted-link mt-2"
+             href="/duality-solutions?language=c%23">
+              <span class="repo-language-color ml-0" style="background-color:#178600;"></span>
+            <span class="mr-2">C#</span>
+          </a>
+          <a class="no-wrap text-gray d-inline-block muted-link mt-2"
+             href="/duality-solutions?language=c%2B%2B">
+              <span class="repo-language-color ml-0" style="background-color:#f34b7d;"></span>
+            <span class="mr-2">C++</span>
+          </a>
+          <a class="no-wrap text-gray d-inline-block muted-link mt-2"
+             href="/duality-solutions?language=javascript">
+              <span class="repo-language-color ml-0" style="background-color:#f1e05a;"></span>
+            <span class="mr-2">JavaScript</span>
+          </a>
+          <a class="no-wrap text-gray d-inline-block muted-link mt-2"
+             href="/duality-solutions?language=powershell">
+              <span class="repo-language-color ml-0" style="background-color:#012456;"></span>
+            <span class="mr-2">PowerShell</span>
+          </a>
+          <a class="no-wrap text-gray d-inline-block muted-link mt-2"
+             href="/duality-solutions?language=html">
+              <span class="repo-language-color ml-0" style="background-color:#e34c26;"></span>
+            <span class="mr-2">HTML</span>
+          </a>
+      </div>
+    </div>
+
+  
+    <div class="Box mb-3">
+      <div class="Box-body">
+        <div class="d-inline-flex flex-justify-between flex-items-baseline width-full mb-2">
+          <h4 class="f4 text-normal">Most used topics</h4>
+        </div>
+        <div class="d-inline-flex flex-wrap">
+            <a href="/search?q=topic%3Ablockchain+org%3Aduality-solutions+fork%3Atrue" class="topic-tag topic-tag-link" data-ga-click="Topic, org profile" data-octo-click="topic_click" data-octo-dimensions="topic:blockchain,org:duality-solutions">
+              blockchain
+            </a>
+            <a href="/search?q=topic%3Aduality+org%3Aduality-solutions+fork%3Atrue" class="topic-tag topic-tag-link" data-ga-click="Topic, org profile" data-octo-click="topic_click" data-octo-dimensions="topic:duality,org:duality-solutions">
+              duality
+            </a>
+            <a href="/search?q=topic%3Adynamic+org%3Aduality-solutions+fork%3Atrue" class="topic-tag topic-tag-link" data-ga-click="Topic, org profile" data-octo-click="topic_click" data-octo-dimensions="topic:dynamic,org:duality-solutions">
+              dynamic
+            </a>
+            <a href="/search?q=topic%3Anoid+org%3Aduality-solutions+fork%3Atrue" class="topic-tag topic-tag-link" data-ga-click="Topic, org profile" data-octo-click="topic_click" data-octo-dimensions="topic:noid,org:duality-solutions">
+              noid
+            </a>
+            <a href="/search?q=topic%3Aanonymity+org%3Aduality-solutions+fork%3Atrue" class="topic-tag topic-tag-link" data-ga-click="Topic, org profile" data-octo-click="topic_click" data-octo-dimensions="topic:anonymity,org:duality-solutions">
+              anonymity
+            </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="Box mb-3">
+      <div class="Box-body">
+        <a class="d-block text-gray-dark" href="/orgs/duality-solutions/people" data-ga-click="Orgs, go to people, location:profile people module; text:People">
+          <span class="float-right f5 text-gray">
+            3
+            <svg class="octicon octicon-chevron-right" viewBox="0 0 8 16" version="1.1" width="8" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.5 8l-5 5L1 11.5 4.75 8 1 4.5 2.5 3l5 5z"/></svg>
+          </span>
+          <h4 class="f4 text-normal mb-3">People</h4>
+        </a>
+        <div class="member-avatar-group d-flex flex-wrap">
+              <div class="member-row">
+                <span class="float-left">
+                  <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=7564876" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/AmirAbrams"><img class="avatar" src="https://avatars3.githubusercontent.com/u/7564876?s=80&amp;v=4" width="40" height="40" alt="@AmirAbrams" /></a>
+                </span>
+
+                <a data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=7564876" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/AmirAbrams">
+                  <strong class="member-name">AmirAbrams</strong>
+                  <span class="member-fullname">Amir Abrams</span>
+</a>              </div>
+              <div class="member-row">
+                <span class="float-left">
+                  <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=9684063" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/spencerlievens"><img class="avatar" src="https://avatars3.githubusercontent.com/u/9684063?s=80&amp;v=4" width="40" height="40" alt="@spencerlievens" /></a>
+                </span>
+
+                <a data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=9684063" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/spencerlievens">
+                  <strong class="member-name">spencerlievens</strong>
+                  <span class="member-fullname">Spencer Lievens</span>
+</a>              </div>
+              <div class="member-row">
+                <span class="float-left">
+                  <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=24934984" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/SvenKercher"><img class="avatar" src="https://avatars2.githubusercontent.com/u/24934984?s=80&amp;v=4" width="40" height="40" alt="@SvenKercher" /></a>
+                </span>
+
+                <a data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=24934984" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/SvenKercher">
+                  <strong class="member-name">SvenKercher</strong>
+                  <span class="member-fullname">Sven Kercher</span>
+</a>              </div>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+    </div>
+  </div>
+</div>
+
+      </div>
+      <div class="modal-backdrop js-touch-events"></div>
+  </div>
+
+        
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.30838s from unicorn-6fd6976f86-vv9fj">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon mr-lg-4" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+        <li class="mr-3"><a href="https://github.com/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" integrity="sha512-WnyO4VoIUwWWQOmFLjYf4UGg/c1z9VlaLN8IMuiI3uMhhl6rejyThRdLPDyePeUPW6N+38OoBMs6AkqcvWALtA==" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-b66b5d97b4442a01f057c74b091c4368.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-092+yG9tBLtacCexwGKGjTtkuRfZo0YUa8VrsiKW+Zh/nyA2j7MvftFLeoIor9CGQ9uDFYNIcbFDbbTPw7tV3Q==" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-176ef037f2b2ddbb94c6810c7bce4ec9.js"></script>
+    
+    <script crossorigin="anonymous" async="async" integrity="sha512-/IIqCpmAgdVmzF8Uu80MllAz5uW6rwCnxNYt4kDKdKKiTiaSog2fPavP4S+fjp4W/j1eAqnuFRDblRaSf6OZhA==" type="application/javascript" src="https://assets-cdn.github.com/assets/github-710afc3a0a59c4e7ec1e796f976dcb83.js"></script>
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <template id="site-details-dialog">
+  <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark" open>
+    <summary aria-haspopup="dialog" aria-label="Close dialog"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast">
+      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+      </button>
+      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
+    </details-dialog>
+  </details>
+</template>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>

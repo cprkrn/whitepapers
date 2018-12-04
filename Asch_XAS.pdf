@@ -1,0 +1,45 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Brave New Coin</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/default/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/default/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="150x150" href="assets/images/default/mstile-150x150.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/images/android-chrome/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="384x384" href="assets/images/android-chrome/android-chrome-384x384.png">
+
+  <!--iOS icons-->
+  <link rel="apple-touch-icon-precomposed" sizes="29x29" href="/assets/images/apple-touch-icon/apple-touch-icon.png">
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MBZ9C6X');</script>
+  <!-- End Google Tag Manager -->
+<link rel="stylesheet" href="styles.28e27f1a1fca9382d9bd.css"></head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBZ9C6X"
+                  height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<app-root>Loading...</app-root>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-zlpViBViQ6dLGL0k-BT2wb3WGzJM4z8&libraries=places"></script>
+
+<script type="text/javascript" src="runtime.ec2944dd8b20ec099bf3.js"></script><script type="text/javascript" src="polyfills.c48d0d4cfd692e40da3d.js"></script><script type="text/javascript" src="main.0871f6f2a81adad16dfc.js"></script></body>
+</html>

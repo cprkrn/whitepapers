@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Groestlcoin - Guide to Cryptocurrencies and Blockchain - WikiCryptoCoins</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Groestlcoin","wgTitle":"Groestlcoin","wgCurRevisionId":7494,"wgRevisionId":7494,"wgArticleId":311,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Groestlcoin","wgRelevantArticleId":311,"wgRequestId":"83066896775042623333fd36","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"preview":true,"publish":false}});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.embedVideo.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","skins.cryptocoins.styles":"ready"});mw.loader.implement("user.options@0bhc5ha",function($,jQuery,require,module){mw.user.options.set([]);});mw.loader.implement("user.tokens@0ajh6pb",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/
+
+});mw.loader.load(["ext.embedVideo","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","skins.cryptocoins.js"]);});</script>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=ext.embedVideo.styles%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cskins.cryptocoins.styles&amp;only=styles&amp;skin=cryptocoins"/>
+<script async="" src="/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=cryptocoins"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<meta name="generator" content="MediaWiki 1.30.0"/>
+<meta name="description" content="Groestlcoin cryptocurrency guide advises where to buy and how to buy Groestlcoin. This guide also contains the markets, value, trading, investing, buying, selling, transactions, blockchain, mining, technology, advantages, risks, history, legislation, regulation, security, payment, networks and many other interesting facts about Groestlcoin as well its status in the world of cryptocurrency"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="google-site-verification" content="31_j-vR0-oVzYIpxVHudk1pfi5Npo8EhCSVrqKvhfgk"/>
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400|IBM+Plex+Sans+Condensed:100,200,300|IBM+Plex+Serif:400,400i,600,600i|IBM+Plex+Mono:400,700" rel="stylesheet"/>
+<link rel="manifest" href="/manifest.webmanifest"/>
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="WikiCryptoCoins (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://wikicryptocoins.com/api.php?action=rsd"/>
+<!--[if lt IE 9]><script src="/resources/lib/html5shiv/html5shiv.min.js?40bd4"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Groestlcoin rootpage-Groestlcoin skin-cryptocoins action-view">		<div id="mw-page-base" class="noprint"></div>
+        <div id="mw-head-base" class="noprint"></div>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand mw-wiki-logo" href="/currency/Main_Page" title="WikiCryptoCoins">
+        <img class="navbar-brand-img" src="/logo.svg" width="48" height="28" alt="Logo" />
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/currency/Bitcoin">Bitcoin</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/currency/Ethereum">Ethereum</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/currency/Ripple">Ripple</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/currency/Litecoin">Litecoin</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/currency/Dash">Dash</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/currency/Monero">Monero</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    More
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/currency/NEO">NEO</a>
+                    <a class="dropdown-item" href="/currency/NEM">NEM</a>
+                    <a class="dropdown-item" href="/currency/IOTA">IOTA</a>
+                    <a class="dropdown-item" href="/currency/Qtum">Qtum</a>
+                    <a class="dropdown-item" href="/currency/OmiseGO">OmiseGO</a>
+                    <a class="dropdown-item" href="/currency/Cardano">Cardano</a>
+                    <a class="dropdown-item" href="/currency/Lisk">Lisk</a>
+                    <a class="dropdown-item" href="/currency/Zcash">Zcash</a>
+                    <a class="dropdown-item" href="/currency/Tether">Tether</a>
+                    <a class="dropdown-item" href="/currency/EOS">EOS</a>
+                    <a class="dropdown-item" href="/currency/Stellar">Stellar</a>
+                </div>
+            </li>
+        </ul>
+
+        <form class="form-inline my-2 my-lg-0" action="/index.php" id="searchform">
+            <input type="search" name="search" placeholder="Search" title="Search WikiCryptoCoins [f]" accesskey="f" id="searchInput" class="form-control"/>        </form>
+
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    Log in                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                    <a href="/index.php?title=Special:CreateAccount&amp;returnto=Groestlcoin" title="You are encouraged to create an account and log in; however, it is not mandatory" class="dropdown-item">Create account</a><a href="/index.php?title=Special:UserLogin&amp;returnto=Groestlcoin" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o" class="dropdown-item">Log in</a>                </div>
+            </li>
+        </ul>
+
+    </div><!-- /#navbarSupportedContent -->
+</nav>
+
+        <div id="page-actions">
+    <div class="container-fluid d-block d-md-flex justify-content-between align-items-center">
+
+        <ul id="breadcrumb" class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
+        </ul>
+
+        <div class="btn-group btn-group-sm mb-3" role="group">
+                            <a class="btn btn-secondary" href="/currency/Groestlcoin" >View</a>
+                            <a class="btn btn-secondary" href="/index.php?title=Groestlcoin&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a>
+                            <a class="btn btn-secondary" href="/index.php?title=Groestlcoin&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">History</a>
+                                </div>
+
+    </div><!-- /.container -->
+</div>
+
+        <div id="content-wrapper" class="content-wrapper">
+    <div class="spacer"></div>
+    <main id="content" class="mw-body" role="main">
+        <a id="top"></a>
+
+                <div class="mw-indicators mw-body-content">
+</div>
+
+        <h1 id="firstHeading" class="firstHeading display-1" lang="en">
+            Groestlcoin        </h1>
+
+        
+                <div id="bodyContent" class="mw-body-content mb-5">
+                            <p id="siteSub" class="text-muted">From WikiCryptoCoins</p>
+                        <div id="contentSub"></div>
+                                    <div id="jump-to-nav" class="mw-jump">
+                Jump to:                <a href="#mw-head">navigation</a>,                 <a href="#p-search">search</a>
+            </div>
+            <div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p><b>Groestlcoin cryptocurrency guide</b> advises where to buy and how to buy Groestlcoin. This guide also contains the markets, value, trading, investing, buying, selling, transactions, blockchain, mining, technology, advantages, risks, history, legislation, regulation, security, payment, networks and many other interesting facts about <b>Groestlcoin</b> as well its status in the world of cryptocurrency 
+</p>
+<div class="thumb tright"><div class="thumbinner" style="width:352px;"><a href="/currency/File:Groestlcoin-GRS-logo.png" class="image"><img alt="" src="/images/thumb/a/ac/Groestlcoin-GRS-logo.png/350px-Groestlcoin-GRS-logo.png" width="350" height="350" class="thumbimage" srcset="/images/thumb/a/ac/Groestlcoin-GRS-logo.png/525px-Groestlcoin-GRS-logo.png 1.5x, /images/thumb/a/ac/Groestlcoin-GRS-logo.png/700px-Groestlcoin-GRS-logo.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/currency/File:Groestlcoin-GRS-logo.png" class="internal" title="Enlarge"></a></div>Groestlcoin (GRS)</div></div></div>
+<div id="toc" class="toc"><div class="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#What_Is_Groestlcoin.3F"><span class="tocnumber">1</span> <span class="toctext">What Is Groestlcoin?</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#What_Is_Groestlcoin_Backed_By.3F"><span class="tocnumber">2</span> <span class="toctext">What Is Groestlcoin Backed By?</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Where_and_How_to_Buy_Groestlcoin.3F"><span class="tocnumber">3</span> <span class="toctext">Where and How to Buy Groestlcoin?</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Groestlcoin_Wallets"><span class="tocnumber">3.1</span> <span class="toctext">Groestlcoin Wallets</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Where_to_Buy_Groestlcoin_with_Credit_Card.3F"><span class="tocnumber">3.2</span> <span class="toctext">Where to Buy Groestlcoin with Credit Card?</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Where_to_Sell_and_Trade_Groestlcoin.3F"><span class="tocnumber">3.3</span> <span class="toctext">Where to Sell and Trade Groestlcoin?</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#How_Much_Are_the_Transaction_Fees_of_Groestlcoin.3F"><span class="tocnumber">3.4</span> <span class="toctext">How Much Are the Transaction Fees of Groestlcoin?</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Value_of_Groestlcoin"><span class="tocnumber">3.5</span> <span class="toctext">Value of Groestlcoin</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#Is_It_Profitable_to_Invest_in_Groestlcoin.3F"><span class="tocnumber">4</span> <span class="toctext">Is It Profitable to Invest in Groestlcoin?</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Where_to_Spend_or_Use_Groestlcoin.3F"><span class="tocnumber">5</span> <span class="toctext">Where to Spend or Use Groestlcoin?</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Can_Groestlcoin_Grow_to_Become_a_Major_Payment_Network.3F"><span class="tocnumber">6</span> <span class="toctext">Can Groestlcoin Grow to Become a Major Payment Network?</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#How_Does_Groestlcoin_Work.3F"><span class="tocnumber">7</span> <span class="toctext">How Does Groestlcoin Work?</span></a>
+<ul>
+<li class="toclevel-2 tocsection-13"><a href="#Does_Groestlcoin_Use_Blockchain_Technology.3F"><span class="tocnumber">7.1</span> <span class="toctext">Does Groestlcoin Use Blockchain Technology?</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Mining_Groestlcoin"><span class="tocnumber">7.2</span> <span class="toctext">Mining Groestlcoin</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#What_Are_the_Advantages_of_Groestlcoin.3F"><span class="tocnumber">7.3</span> <span class="toctext">What Are the Advantages of Groestlcoin?</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#What_Are_the_Risks_of_Groestlcoin.3F"><span class="tocnumber">7.4</span> <span class="toctext">What Are the Risks of Groestlcoin?</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#What_Happens_if_Groestlcoin_Gets_Lost.3F"><span class="tocnumber">7.5</span> <span class="toctext">What Happens if Groestlcoin Gets Lost?</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-18"><a href="#Groestlcoin_Regulation"><span class="tocnumber">8</span> <span class="toctext">Groestlcoin Regulation</span></a>
+<ul>
+<li class="toclevel-2 tocsection-19"><a href="#Is_Groestlcoin_Legal.3F"><span class="tocnumber">8.1</span> <span class="toctext">Is Groestlcoin Legal?</span></a></li>
+<li class="toclevel-2 tocsection-20"><a href="#Groestlcoin_and_Taxes"><span class="tocnumber">8.2</span> <span class="toctext">Groestlcoin and Taxes</span></a></li>
+<li class="toclevel-2 tocsection-21"><a href="#Illegal_Activities_with_Groestlcoin"><span class="tocnumber">8.3</span> <span class="toctext">Illegal Activities with Groestlcoin</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-22"><a href="#Is_Groestlcoin_Secure.3F"><span class="tocnumber">9</span> <span class="toctext">Is Groestlcoin Secure?</span></a>
+<ul>
+<li class="toclevel-2 tocsection-23"><a href="#Is_Groestlcoin_Anonymous.3F"><span class="tocnumber">9.1</span> <span class="toctext">Is Groestlcoin Anonymous?</span></a></li>
+<li class="toclevel-2 tocsection-24"><a href="#Has_Groestlcoin_Ever_Been_Hacked.3F"><span class="tocnumber">9.2</span> <span class="toctext">Has Groestlcoin Ever Been Hacked?</span></a></li>
+<li class="toclevel-2 tocsection-25"><a href="#How_Can_I_Restore_Groestlcoin.3F"><span class="tocnumber">9.3</span> <span class="toctext">How Can I Restore Groestlcoin?</span></a></li>
+<li class="toclevel-2 tocsection-26"><a href="#Why_Do_People_Trust_Groestlcoin.3F"><span class="tocnumber">9.4</span> <span class="toctext">Why Do People Trust Groestlcoin?</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-27"><a href="#History_of_Groestlcoin"><span class="tocnumber">10</span> <span class="toctext">History of Groestlcoin</span></a>
+<ul>
+<li class="toclevel-2 tocsection-28"><a href="#Who_Created_Groestlcoin.3F"><span class="tocnumber">10.1</span> <span class="toctext">Who Created Groestlcoin?</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-29"><a href="#Groestlcoin_Videos_and_Tutorials"><span class="tocnumber">11</span> <span class="toctext">Groestlcoin Videos and Tutorials</span></a>
+<ul>
+<li class="toclevel-2 tocsection-30"><a href="#EasyMiner_Guide"><span class="tocnumber">11.1</span> <span class="toctext">EasyMiner Guide</span></a></li>
+<li class="toclevel-2 tocsection-31"><a href="#What_Is_Groestlcoin"><span class="tocnumber">11.2</span> <span class="toctext">What Is Groestlcoin</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-32"><a href="#See_Also"><span class="tocnumber">12</span> <span class="toctext">See Also</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="What_Is_Groestlcoin.3F">What Is Groestlcoin?</span></h2>
+<p><b>Groestlcoin (GRS)</b>, launched on 22nd of March 2014 with a focus on technological advancement, is SEGWIT and Lightning Network ready.
+</p><p>Groestlcoin is a fast and secure coin with almost ZERO fees, that is privacy oriented. Major development release every 3 months. Groestlcoin was the first coin that activated SEGWIT and is Lightning Network ready.
+</p><p>The cryptocurrency operates as open source software on a peer-to-peer model (transactions take place directly between the payer and payee). This means that no trusted intermediary such a banks or PayPal is required to verify the details of the sender and receiver. Rather, the transactions are verified by nodes (the network of computers/users spread globally) and recorded in an <b>open ledger</b> referred as <b>blockchain.</b> 
+</p><p>The main idea of creating Groestlcoin was to establish an electronic payment model that was purely based on mathematical proof. This is a system that is independent of influence from centralized authorities, a currency transferable electronically, and instantly at a very small fee. 
+</p><p>Groestlcoins are created by <b>miners</b> on its network as a reward for confirming transactions. The founder pointed that only <b>105 million Groestlcoins (GRS)</b> will ever exist when all the coins are mined.
+</p><p>1. Private Transactions – you can send GRS anonymously. The Samourai wallet, boasts its anonymity and security, as it allows for private stealth addresses with both TOR and VPN support, as well as onboard AES-256 encryption. 
+</p><p>2. Multipool Resistant – basically makes it far less likely for a fork to be stuck in the coin creating all sorts of anomalies and problems. Taking out the multipool problem levels out even more fair distribution through proof of work among smaller pools and miners. 
+</p><p>3. Extremely interested and growing community that is backing the coin for its proven innovation and contributions to the Technological Advancement of Crypto Currency. 
+</p><p>4. Active DEVELOPMENT Team – Hardworking to ensure the smooth running of the Coin. There are major development releases every 3 months.
+</p>
+<h2><span class="mw-headline" id="What_Is_Groestlcoin_Backed_By.3F">What Is Groestlcoin Backed By?</span></h2>
+<p>Here are some of the features that make Groestlcoin special:
+</p>
+<ul><li> First coin with SegWit. </li>
+<li> Groestlcoin is a blockchain pioneer by being the first coin that activated SEGWIT in January 2017.</li>
+<li> Enabling Lightning Network, Groestlcoin gets almost ZERO fee transactions, instant payments, scalability and Atomic Swaps.</li>
+<li> Extremely low fees. </li>
+<li> The only coin capable of being sent over SMS.</li>
+<li> Continuous development! Every 3 months the developer's team releases new features and updates.</li>
+<li> The only coin that has succesfully ported <a href="/currency/Bitcoin" title="Bitcoin">Bitcoin</a> Armory.</li>
+<li> The only coin that has over 120 Electrum servers.</li>
+<li> One of the few coins that has an Ubuntu PPA available.</li>
+<li> One of the few coins that is officially maintained by the Bitcoin Debian packaging team.</li>
+<li> The only coin that has succesfully ported Multibit HD.</li>
+<li> 11 different Android wallets. Most struggle to have just 1.</li>
+<li> 10 different Blackberry wallets. Most don't have any.</li>
+<li> 3 different iOS wallets.</li>
+<li> Over 10 different desktop wallets.</li>
+<li> The only coin that has ported Samourai and thus succesfully implemented BIP147. </li>
+<li> You can work with payment channels with Groestlcoin.</li>
+<li> One of the few coins where you can play with OP_HOLD, RBF and other new features.</li>
+<li> The only coin that has ported Electrum client to Java.</li>
+<li> One of the few coins that has ported Rushwallet.com.</li>
+<li> The only coin with over 170 repositories of developed work.</li>
+<li> The only coin that has wallets which can use NFC tags as encryption key.</li>
+<li> The only coin that has ported Msigna. The only coin that has ported Sentinel.</li>
+<li> The only coin that is still being compiled with Visual Studio (like Satoshi himself did).</li>
+<li> One of the few altcoins that have a working testnet.</li>
+<li> One of the few altcoins that are hosting their own block explorer.</li>
+<li> One of the few altcoins that even have wallets for testnet.</li>
+<li> The only altcoin that has ported Libbitcoin to Groestlcoin.</li>
+<li> One of the few altcoins that are keeping their Core wallet up to date.</li>
+<li> Multipool resistant. Basically makes it far less likely for a fork to be stuck in the coin creating all sorts of anomalies and problems.</li></ul>
+<div class='embedvideo ev_center autoResize' style=' width: 646px;'><div class='embedvideowrap' style='width: 640px;'><iframe src="//www.youtube.com/embed/cik8IpbJjM4?" width="640" height="360" frameborder="0" allowfullscreen="true"></iframe></div></div>
+<h2><span class="mw-headline" id="Where_and_How_to_Buy_Groestlcoin.3F">Where and How to Buy Groestlcoin?</span></h2>
+<p>You can purchase Groestlcoin via the following exchanges.
+</p>
+<ul><li> <a rel="nofollow" class="external autonumber" href="https://www.groestlcoin.org/#exchanges">[1]</a></li></ul>
+<h3><span class="mw-headline" id="Groestlcoin_Wallets">Groestlcoin Wallets</span></h3>
+<p><b>The desktop wallets</b>
+</p>
+<ul><li> <a rel="nofollow" class="external text" href="https://www.groestlcoin.org/groestlcoin-core-wallet">Groestlcoin Core</a>  </li>
+<li> <a rel="nofollow" class="external text" href="https://www.groestlcoin.org/groestlpay">wallet Groestlpay</a>  </li>
+<li> <a rel="nofollow" class="external text" href="https://www.groestlcoin.org/groestlcoin-electrum-wallet">Electrum GRS</a> </li></ul>
+<p><b>Mobile wallets</b> 
+</p>
+<ul><li> <a rel="nofollow" class="external text" href="https://www.groestlcoin.org/GROESTLPAY-WALLET">Groestlpay</a> </li>
+<li> <a rel="nofollow" class="external text" href="https://www.groestlcoin.org/groestlcoin-samourai-wallet">Groestlcoin Samourai</a> </li>
+<li> <a rel="nofollow" class="external text" href="https://www.groestlcoin.org/groestlcoin-sentinel-wallet">Groestlcoin Sentinel</a> </li>
+<li> <a rel="nofollow" class="external text" href="https://www.groestlcoin.org/simple-groestlcoin-wallet">Simple Groestlcoin</a> </li>
+<li> <a rel="nofollow" class="external text" href="https://www.groestlcoin.org/groestlcoin-mobile-wallet">Groestlcoin</a> </li>
+<li> <a rel="nofollow" class="external text" href="https://www.groestlcoin.org/groestlwallet">Groestlwallet</a> </li></ul>
+<p><b>Online web wallets</b> 
+</p>
+<ul><li> <a rel="nofollow" class="external text" href="https://www.groestlcoin.org/groestlcoin-web-wallet">Groestlcoin Web</a>  </li>
+<li> <a rel="nofollow" class="external text" href="https://www.groestlcoin.org/groestlpay-wallet">Groestlpay</a> </li></ul>
+<p><b>Paper wallets</b>
+</p>
+<ul><li> <a rel="nofollow" class="external text" href="https://www.groestlcoin.org/paperwallet">Groestlcoin Paper Wallet</a> </li></ul>
+<p><b>The hardware wallets</b>
+</p>
+<ul><li> Ledger and <a href="/currency/Trezor" class="mw-redirect" title="Trezor">Trezor</a> are coming in 2018.</li></ul>
+<h3><span class="mw-headline" id="Where_to_Buy_Groestlcoin_with_Credit_Card.3F">Where to Buy Groestlcoin with Credit Card?</span></h3>
+<p>At the moment, there's only one exchange that supports purchasing Groestlcoin via credit card.
+</p>
+<ul><li> <a rel="nofollow" class="external text" href="https://bittylicious.com/coin/GRS">bittylicious.com</a> - GBP, EUR &amp; USD pairs</li></ul>
+<h3><span class="mw-headline" id="Where_to_Sell_and_Trade_Groestlcoin.3F">Where to Sell and Trade Groestlcoin?</span></h3>
+<ul><li> <a rel="nofollow" class="external autonumber" href="https://www.groestlcoin.org/#exchanges">[2]</a></li></ul>
+<h3><span class="mw-headline" id="How_Much_Are_the_Transaction_Fees_of_Groestlcoin.3F">How Much Are the Transaction Fees of Groestlcoin?</span></h3>
+<p>Enabling Lightning Network, Groestlcoin gets almost ZERO fee transactions, instant payments, scalability and Atomic Swaps. The fee for transferring 10,000 GRS equates 0.000045 GRS.
+</p>
+<h3><span class="mw-headline" id="Value_of_Groestlcoin">Value of Groestlcoin</span></h3>
+<p>You can see the real time value of Groestlcoin from the top of this article.
+</p>
+<h2><span class="mw-headline" id="Is_It_Profitable_to_Invest_in_Groestlcoin.3F">Is It Profitable to Invest in Groestlcoin?</span></h2>
+<p>Groestlcoin is already a profitable mining coin and with Groestlcoin still attracting more and more investors it is definitely a good investment as its expected to rise far beyond the current value.
+</p>
+<h2><span class="mw-headline" id="Where_to_Spend_or_Use_Groestlcoin.3F">Where to Spend or Use Groestlcoin?</span></h2>
+<p>There is a comprehensive list of stores and services that accept Groestlcoin available on the website <a rel="nofollow" class="external text" href="https://www.groestlcoin.org/accepted-here">Here</a>
+</p>
+<h2><span class="mw-headline" id="Can_Groestlcoin_Grow_to_Become_a_Major_Payment_Network.3F">Can Groestlcoin Grow to Become a Major Payment Network?</span></h2>
+<p>Yes, Groestlcoin can handle 10 times as many transactions per second compared to <a href="/currency/Bitcoin" title="Bitcoin">Bitcoin</a>. Also with the developers vowing to increase block size if the 80 transactions per second becomes too low to handle the volume.
+</p><p>With increased adoption in stores and online Groestlcoins adoption is increasing everyday. Community projects providing use case in specific sectors will hp stimulate this adoption rate and make the coin grow.
+</p>
+<h2><span class="mw-headline" id="How_Does_Groestlcoin_Work.3F">How Does Groestlcoin Work?</span></h2>
+<p>As one of the latest types of currencies, Groestlcoin is seen as a solution to myriads of issues that characterize the fiat currencies. The currency is very easy to store, transfer, and designate for a specific purpose. But the question of how Groestlcoin works never fades away especially from new enthusiasts.
+</p><p>Groestlcoin functions in the same way <a href="/currency/Bitcoin" title="Bitcoin">Bitcoin</a>, and other cryptocurrencies work.
+</p><p><b>The Groestlcoin Public ledger</b>
+</p><p>To use Groestlcoin, the first step is installing or using a Groestlcoin wallet on your computer/smartphone. The wallet is the pouch that holds your digital crypto coins. The wallet will allow you to receive, and send Groestlcoins.
+</p><p>The Groestlcoin network operates as a shared public ledger/blockchain. A blockchain is made of a single chain of distinct blocks or information arranged chronologically. Though other blockchains can be made of different components based on what the network deals with, the Groestlcoin network only consists of transactions.
+</p><p>All the transactions that have been confirmed in the network are stored in the ledger that communicates with every Groestlcoin wallet to determine how many spendable coins are there. The integrity and chronology of the blockchains are implemented with cryptography.
+</p><p><b>How a transaction works</b>
+</p><p>A transaction on the Groestlcoin network means the transfer of value between two users (two wallets). Though Groestlcoin wallets are commonly known as a means of storage for your coins, the reference is actually a misnomer. In reality, the wallet only stores private keys (seed) and public keys used for signing transactions to generate mathematical proof that you are the owner of the wallet. The signature also ascertains whether there are enough coins and guards the wallet against being altered. Once a user initiates a transaction, it takes about 1 minute for it to be confirmed and a new block added to the network every 1 minute through a process referred as mining.
+</p><p><b>Groestlcoin mining</b>
+</p><p>Mining in Groestlcoin is a distributed consensus system applied to confirm transactions and adding them to the public ledger/ blockchain (just like <a href="/currency/Bitcoin" title="Bitcoin">Bitcoin</a>). It helps to arrange the transactions in chronological order, protecting the network’s neutrality, and ensuring the nodes agree about the status of the system.
+</p><p>The agreement helps to prevent a scenario where previous transactions are confirmed again. Such a situation would invalidate all the previous transactions. The process of Groestlcoin mining also prevents one entity adding consecutive blocks such that no one party can replace a section of the blocks already added to the system.
+</p><p>Remember that miners are rewarded in Groestlcoin for helping to confirm the transactions. This is the main method that most cryptocurrency blockchains use to release more coins into circulation. Therefore, if you want to get some coin, one of the popular methods is mining.
+</p>
+<h3><span class="mw-headline" id="Does_Groestlcoin_Use_Blockchain_Technology.3F">Does Groestlcoin Use Blockchain Technology?</span></h3>
+<p>YES, Groestlcoin is a fork from the original <a href="/currency/Bitcoin" title="Bitcoin">Bitcoin</a> blockchain.
+</p>
+<h3><span class="mw-headline" id="Mining_Groestlcoin">Mining Groestlcoin</span></h3>
+<p>One thing that many people with interest in Groestlcoin always want to know in detail is where the Groestlcoins come from. With <b>fiat currencies,</b> the governments print the notes and coins and distribute them. However, Groestlcoin does not have a central authority and Groestlcoins are not printed currencies. Take it this way, Groestlcoin is simply data and only exists in its networks.
+</p><p><b>Groestlcoin mining</b> is the process of confirming transactions in the Groestlcoin network for a reward. The reward is what Groestlcoin network uses to release the targeted 105 million coins. From a bigger picture, groestlcoin mining is used to secure transactions and create new blocks that form part of the distributed open ledger. 
+</p><p><b>How to mine Groestlcoin</b>
+</p><p>Groestlcoin has a miner called the 'Easyminer' which does exactly as it says. It's very easy to use and allows beginners to start mining very quickly. 
+</p><p><a rel="nofollow" class="external text" href="https://github.com/Groestlcoin/Groestlcoin-Easyminer/releases">Miner Download Link</a>
+</p>
+<div class='embedvideo ev_center autoResize' style=' width: 646px;'><div class='embedvideowrap' style='width: 640px;'><iframe src="//www.youtube.com/embed/JERGNv1jpkU?" width="640" height="360" frameborder="0" allowfullscreen="true"></iframe></div></div>
+<h3><span class="mw-headline" id="What_Are_the_Advantages_of_Groestlcoin.3F">What Are the Advantages of Groestlcoin?</span></h3>
+<p>The <b>blockchain technology</b> has continued to grow and manifest itself in every aspect of the modern lifestyle. From a controversial alternative currency to the most valuable digital cryptocurrency, Groestlcoin has now become an irresistible investment. Here are the most notable advantages that come with Groestlcoin. 
+</p>
+<ul><li><b>It is anonymous and private</b> </li></ul>
+<dl><dd>The underlying factor for most blockchain technologies is the ability to maintain their transactions fully anonymous. Unlike other payment models through banks where the sender and receiver’s details must be revealed, it is totally different in Groestlcoin. The much that you can know is the address of the Groestlcoins to be spent. </dd>
+<dd>Notably, even the address is still encrypted so that miners in the network can only confirm whether the address has ample coins to make the anticipated transaction. This means you can make payments, receive payments, and grow your investment portfolio without being noticed by anyone. Now, you do not need to look for a tax haven to keep personal cash safe, simply buy Groestlcoins. </dd></dl>
+<ul><li><b>Freedom of payment across the globe</b> </li></ul>
+<dl><dd>Unlike making payments through fiat currencies where a lot of verifications must be made by central authorities such as banks, the transactions in the Groestlcoin network are peer-to-peer. This means that it is only the sender and receiver are involved. The miners who confirm the transactions cannot know the personal details of the sender or recipient. </dd>
+<dd>The <b>peer2peer model</b> breaks all the disruptions and bottlenecks that come with standard organizations such as weekends, holidays, strikes, and boundary limitations. No matter the time of the day or night, you can still make direct payments. </dd>
+<dd>Because no third parties are involved when making payment, the charges for maintaining the network are very low. The charges do not go to paying staff, paying banking space, and calculating profit margins the way banks operate. The cash helps engineers to maintain and improve the network. </dd></dl>
+<ul><li><b>Groestlcoin is the best way to control your money</b></li></ul>
+<dl><dd>With Groestlcoin, it is only you (the wallet/private key holder) that can make a transaction. It is not like a credit card where third parties can access the card, and siphon all cash. Only you who can make or receive payment. Besides, you can follow the details of your wallet to check on personal spending. </dd></dl>
+<ul><li><b>Ability to pick transaction fees</b></li></ul>
+<dl><dd>The amount of money charged for receiving or sending Groestlcoin s is very small. In fact, it depends on the wallet you are using to receive cryptocurrencies. In most of the cases, the cost of sending 10000GRS is the same as sending 1GRS. </dd></dl>
+<ul><li><b>The risks for merchants are fewer</b></li></ul>
+<dl><dd>The transactions on Groestlcoin are secure, irreversible and do not capture details of the respective parties. This means that you will not suffer from chargebacks because clients follow the nature of the business. For example, if you have a product that the client likes, there is no way to check on related transactions and decline payment because he does not ascribe to your principles.</dd></dl>
+<ul><li><b>Groestlcoin transactions are very fast</b> </li></ul>
+<dl><dd>When you decide to make payment using Groestlcoin, the transactions complete within seconds. You only need to have enough Groestlcoins in your wallet and address of the payee. In less than 10 seconds, the payment will be completed no matter the difference in time zone. It is because of this that many stores are preferring Crypto Currencies because payments can be cleared fast and are completely irreversible. </dd></dl>
+<ul><li><b>No third party seizures</b></li></ul>
+<dl><dd>Recently, many people have developed some fear that central authorities could easily target their cash stored in banks through legislation. This can happen through legislation that imposes taxes on deposits or other related deductions. Your cash in the bank account could also be targeted through lawsuits. However, Groestlcoin is immune to these seizures because no single authority owns the network. This means that the parties that know about your investment or funds are only you and the <b>cryptocurrency wallet.</b> </dd>
+<dd>In the event of a lawsuit, it will be impossible for the court to freeze your account because nothing is known about it. Therefore, this is the best way to stay protected from political interference and other parties that can easily threaten your hard earned cash. </dd></dl>
+<ul><li><b>Groestlcoin is non-inflationary</b> </li></ul>
+<dl><dd>The main reason why Groestlcoin is being referred to as the <b>Future of Money</b> is that it is non-inflationary. When central governments want to add more currency to the market, they simply print it. This has been one of the main causes of inflation and lowering of the price of commodities. However, Groestlcoin only created 105 million GRS that will ever exist in its network. Because the number of Groestlcoins is known, it will not be possible to add new coins and, therefore, inflation will not be an issue once all the coins mature. Coin owners can, therefore, be sure that the value of the coins will keep growing progressively.</dd></dl>
+<h3><span class="mw-headline" id="What_Are_the_Risks_of_Groestlcoin.3F">What Are the Risks of Groestlcoin?</span></h3>
+<ul><li><b>Risk of losing the private keys</b></li></ul>
+<dl><dd>Groestlcoin, just like other cryptocurrencies, strongly relies on the digital wallets that store private keys. But the <b>digital wallets</b> are not immune to getting lost. People could end up losing their Groestlcoins if the hard drive where the digital wallet is stored is formatted. In other cases, the computer with the digital wallet or smartphone could get lost together with the wallet. </dd>
+<dd>In the case when people use hardware wallets such as <b><a href="/currency/Ledger_Nano_S" title="Ledger Nano S">Ledger Nano S</a></b> and <b><a href="/currency/Trezor" class="mw-redirect" title="Trezor">Trezor</a></b> among others, the risk of losing the wallet still looms. The hardware wallets are finger-sized devices that can easily get misplaced. </dd>
+<dd>To avoid the risk of losing the wallet and stored Groestlcoins, it is very important to ensure that a backup is maintained all the time. For example, you could acquire several hardware wallets and keep one under lock and key at home or in a bank. You should also maintain the computer in top condition all the time. In some instances, people who handle a lot of Grs usually designate a high-performance computer to deal with Groestlcoin only.</dd></dl>
+<ul><li><b>The danger of cyber attacks</b></li></ul>
+<dl><dd>While the Groestlcoin Network designers might have thought carefully about the blockchain application and enhanced the security with peer-2-peer model, third parties are still involved in transactions. For example, a lot of users prefer using third-party wallets so that they can also deal with multiple cryptocurrencies. This is where security lapses that threaten to siphon your GRS arise. </dd>
+<dd>In August 2016, Bitfinex Exchange in Hong Kong was attacked and 120 million Bitcoins stolen. The impact was a drop by about 23% of BTC pricing on the exchange. Approximately one year earlier, BitPay was also hit and lost $1.8 million worth of Bitcoins in a Phishing attack. Besides, the formation of specialized mining pools with advanced mining equipment could easily result in a small group controlling the entire network. </dd></dl>
+<ul><li><b>The danger of being drawn to scam</b></li></ul>
+<dl><dd>In addition to operational risks, the danger of scams still abound. Today, cryptocurrencies are only emerging. Even with the current publicity, many are the people who do not understand how the cryptocurrencies work. For example, some people are being lured to cloud mining while others are buying faulty video cards and mining equipment. Many people who invested in <a href="/currency/Bitcoin" title="Bitcoin">Bitcoin</a> never realized about the infamous <b>Silk-road Scandal</b> and the <b>Bankruptcy of Mt. Gox</b> until everything had gone too far to be rectified. </dd>
+<dd>Since cryptocurrencies are meant to operate in the highest possible anonymity, most Ponzi schemes are very difficult to detect. The scams risk tarnishing the name of Bitcoin, waning interest in the network, and pulling down its value. </dd></dl>
+<ul><li><b>The looming regulations could restrict digital currencies</b></li></ul>
+<dl><dd>Many governments see digital currencies as threats. Notably, the main focus of governments is enhancing industrial and enterprise growth so that revenue generation can grow. But Bitcoin and other networks are siphoning this capability completely from governments. For example, if you send several Bitcoins, the charges are very low because there are no intermediaries. The bank gets nothing, no employment is enhanced, and the government equally gets nothing. However, sending with using a bank would have multiple ripple effects through bank growth, employment, and tax to the government. </dd>
+<dd>The looming legislation is, therefore, expected to alter how cryptocurrencies operate. The chances are that Bitcoin operations could be limited to a very great extent. This means that the current fast appreciation of BTC and other cryptocurrencies is likely to take a downward trend immediately such laws are installed. </dd>
+<dd>Already, the federal government has indicated that it could declare BTC a tax asset. Just like the <b>FATCA</b> had far-reaching implications after the 2008/2009 global recession, the chances are that Bitcoin will ultimately get regulated. This has made experts to advice people not to place all their resources on the Bitcoin network alone. Instead, they should put some significant focus on crypto assets without cutting links with the fiat currencies. </dd></dl>
+<ul><li><b>Very high volatility</b></li></ul>
+<dl><dd>When <a href="/currency/Bitcoin" title="Bitcoin">Bitcoin</a> was launched in 2009, its value was $0. The value of the cryptocurrency has had a very bumpy ride to-date because of <b>high volatility.</b> Issues on and outside the network easily cause serious fluctuations in the Bitcoin value. For example, when China outlawed <b>Bitcoin ICO,</b> the price seriously shot down. This should be used as a caution to investors who are rushing to get BTC because of the rapid growth. Just like the price has shot up very fast in 2 months, it can also drop sharply because of issues such as a new legislation and cybercrime.</dd></dl>
+<h3><span class="mw-headline" id="What_Happens_if_Groestlcoin_Gets_Lost.3F">What Happens if Groestlcoin Gets Lost?</span></h3>
+<p>Groestlcion is digital money that you can only hold in a crypto wallet. Because you already own the coins after mining, getting paid, or buying from an exchange, losing them means they remain in the network but in a dormant state. For example, if you lose the crypto wallet that holds the coins, they will forever remain there since only your private keys can unlock them.
+</p><p>The impact of losing Groestlcoin can cause a ripple effect on the demand and supply of Groestlecoins. Since fewer Groestlcoins are left, the implication is that the demand will go higher as supply slumps. This could sharply raise the value of the remaining coins.
+</p><p><b>Four common ways that people lose Groestlcoin</b>
+</p>
+<ul><li> Formatting the computer hard drive with the installed Groestlcoin wallet.</li>
+<li> Losing the mobile phone with the mobile Bitcoin wallet.</li>
+<li> A cyber attack on your computer because the operating system is not updated.</li>
+<li> Your computer getting stolen or damaged.</li></ul>
+<h2><span class="mw-headline" id="Groestlcoin_Regulation">Groestlcoin Regulation</span></h2>
+<p>Since <a href="/currency/Bitcoin" title="Bitcoin">Bitcoin</a> was established, a lot of concerns have been raised about its operations and legality. In particular, governments have seen Bitcoin as a threat. This comes from the fact that most of them are seeing their main sources of taxes slipping away. The main sources of revenue for governments are taxes. These are paid by institutions such as banks and individuals when making transactions. 
+</p><p>Now, enters Bitcoin. The anonymous nature of Bitcoin network makes it difficult to trace the involved users, their transactions, and amount. Besides, the main objective of Bitcoin to lower the transaction cost in a <b>peer2peer</b> model means that no bank is involved and no taxes are paid to the government. This opens a theater for confrontations between cryptocurrencies and governments. 
+</p><p>As a new form of cryptocurrency, many governments have had different views about Bitcoin and its regulation. Here are some of them and what to expect. 
+</p>
+<ul><li><b>The United States</b></li></ul>
+<dl><dd>Bitcoin is legal in the US. Most of the cryptocurrencies including Bitcoin have their roots in the US. This is because of the tech advancement in areas such as the Silicon Valley and New York. In 2013, the US Treasury classified Bitcoins as convertible decentralized virtual currencies. Also, Bitcoin was classified as a commodity by the <b>Commodity Futures Trading Commission.</b> This means that Bitcoin is subject to tax as a property. Recently in 2016, a federal judge ruled that Bitcoins are funds. This means that they have to be treated as currency. </dd>
+<dd>While there are no clear regulations to guide cryptocurrencies in the US, signs are that legislation could hit them hard by indicating they are taxable. </dd>
+<dd>One example that is making investors from the US tread carefully when dealing with Bitcoin is the radical approach taken by <b>FATCA.</b> While many people had thought that they could simply stash cash abroad, FATCA was passed after the 2008-2009 financial recession, making it a must for Americans to reveal their cash in foreign banks.</dd>
+<dd>Today, offshore banks even fear opening bank accounts for Americans because of FATCA compliance. It is feared the looming legislation could force people to reveal their status in Bitcoin network for tax compliance. The network could also be forced to reveal all Americans and their related transactions. </dd></dl>
+<ul><li><b>The European Union</b></li></ul>
+<dl><dd>Bitcoin is legal in the EU. There is no specific legislation concerning the status or operation of Bitcoin in EU. The only mention in the EU is that VAT/VGS still apply to any transactions that relate to Bitcoin use for purchase of services and goods. </dd>
+<dd>In one of the rulings in the <b>European Union Court of Justice,</b> Bitcoin was ruled to be a means of payment and not a legal tender. This means that as a virtual currency, it should not be taxed. <b>The European Central Bank,</b> in its input, pointed that Bitcoin is a convertible virtual currency. Earlier in 2014, the Banking Authority had advised banks to avoid dealing with Bitcoins. </dd>
+<dd>In 2016, the EU has set a task force to monitor Bitcoin and other cryptocurrencies intending to establish clear legislation. One of the requirements is that <b>Cryptocurrency wallets</b> will be required to identify and notify authorities about suspicious activities. The EU appears focused and willing to go to any lengths to anchor the blockchain technology growth by tapping the positive aspects. </dd></dl>
+<ul><li><b>Russia</b></li></ul>
+<dl><dd>Russia has ruled that Bitcoins are not illegal at the moment. The Russia Central Bank has indicated it is not willing to regulate cryptocurrencies as money. However, the Deputy Finance Minister has pointed that though people are free to trade in Bitcoins, they could be criminalized in future. The country could base its arguments on the numerous cases of drugs users and Ponzi schemes that are hiding behind Bitcoin networks. </dd></dl>
+<ul><li><b>United Kingdom</b></li></ul>
+<dl><dd>In the UK, Bitcoin is legal and considered as private money. The government has indicated it is following Bitcoin and other digital currencies closely with a target of drawing clear legislation. The administration has indicated that when Bitcoin is exchanged for other cryptocurrencies, no taxes are supposed to be charged. However, profits that accrue from cryptocurrencies are subject to capital gains taxes. </dd>
+<dd>A closer look at the state of legislation in most countries indicates that Bitcoin is legal. Most countries including Netherlands, France, Ireland, Spain, Italy, Malta, Portugal, Sweden, and Iceland do not have legislation on Bitcoins. Therefore, using Bitcoins or trading them remains legal. </dd></dl>
+<p>It is important to point that while legislations are looming in most countries, the way to go about them remains very tricky. The technology is disruptive and highly encrypted. This presents a headache because some cryptocurrencies such as Bitcoin do not have formal organizations. They are owned by people in the network across the globe. Therefore, legislating them in one country could fail to have a significant impact because operations will continue in other countries. 
+</p><p>It will be very interesting to see how different nations go about Bitcoin and general digital <b>cryptocurrencies regulation.</b> 
+</p>
+<h3><span class="mw-headline" id="Is_Groestlcoin_Legal.3F">Is Groestlcoin Legal?</span></h3>
+<p>Yes, Groestlcoin is legal. Most countries do not have clear legislation on Groestlcoin and other digital cryptocurrencies. But some people have been asking; why a full decade has lapsed without passing appropriate legislation since <a href="/currency/Bitcoin" title="Bitcoin">Bitcoin</a> was launched? Why is the status of cryptocurrencies still unclear even after more than 1000 cryptocurrencies entering the market? 
+</p><p>Groestlcoin and other crypto currencies remain legal in most countries including the US, EU, Morocco, Russia, Netherlands, South Africa and others because the administrations are playing catch up with technology. While Bitcoin technology could, perhaps, have been easier to comprehend if it was alone, entry of others has complicated the equation. Now, over 1100 cryptos have entered the market using different technologies. Therefore, governments are caught between a rock and a hard place to legislate crypto currencies. 
+</p><p>Dealing with anonymous currencies is very tricky. First, most cryptocurrencies are anonymous with founders being completely mysterious. For example, <b><a href="/currency/Satoshi_Nakamoto" class="mw-redirect" title="Satoshi Nakamoto">Satoshi Nakamoto</a></b> who founded Bitcoin is a mystery. Bitcoin network itself is a mystery. Therefore, how do you even legislate an almost virtual organization with no admin but owned by all the people using it? Experts have pointed that the intent to legalize or illegalize Bitcoin and other networks is more complicated than it appears. 
+</p><p>Bitcoin and other <b>blockchain technologies</b> indicate that we are in a new technological era. The current fiat currencies have demonstrated numerous flaws such as direct interference and inflation. Therefore, the administrations are looking at the positive side of blockchains to avoid lagging behind. 
+</p><p>Notably, Bitcoin is not just a currency. It presents people with a new line of work through mining. This means that just like the fiat currencies, people can expect to invest and reap handsomely. Therefore, many countries are not willing to shut down Bitcoin because it will also harm the emerging opportunities. 
+</p><p>Though crypto currencies are legal today, there is no doubt that the looming legislation could make their future bumpy and unpredictable. It could even slow down the current fast growing value.
+</p>
+<h3><span class="mw-headline" id="Groestlcoin_and_Taxes">Groestlcoin and Taxes</span></h3>
+<p>One of the key attractions to crypto is that it is fully anonymous. Therefore, if all transactions and wealth growth is invisible, the expectation is that one is insulated from taxes. The subject has become very slippery because of lack of legislation. But this does not mean you are completely off the hook when it comes to taxes. We are going to look at the case of the US to shed more light on <a href="/currency/Bitcoin" title="Bitcoin">Bitcoin</a> and taxes. Note that other countries are mainly looking at the US model to implement similar systems and ensure that Bitcoin users in their jurisdictions pay taxes. 
+</p><p>The US federal system spares no effort in ensuring that everyone pays taxes. Just like with other cases of personal finances, the secret is ensuring that you have the right records of transactions on the Bitcoin network. This is crucial in ensuring that when the time comes, computing tax to be paid to IRS is easy and direct. 
+</p>
+<ul><li><b>A closer look at taxes from the viewpoint of Bitcoin</b></li></ul>
+<dl><dd>After the US declared Bitcoin and virtual currencies as properties in 2012, it means that holders are subject to capital gains when disposing off the currency. It is pretty the same way as having a real estate for sale. The income you make for trading or other activity on Bitcoin is, therefore, taxable. Note that sending the cryptocurrencies can be in two ways; disposing the Bitcoin and spending dollars-equivalent amounts. </dd>
+<dd>All business transactions that are done using Bitcoin should follow the normal rules of taxation and information reporting. By keeping the records of transactions on the virtual currencies, it means that the income can be evaluated clearly and the relevant taxes remitted to IRS. This is the best way to avoid getting caught up in the emerging cryptos and existing tax rules. </dd></dl>
+<ul><li><b>The reference of <a href="/currency/Bitcoin" title="Bitcoin">Bitcoin</a> by IRS</b></li></ul>
+<dl><dd>IRS took a bold measure to define Bitcoin and ensure that users and businesses remain on the right side of tax laws. It pointed that Bitcoin and other digital currencies are digital representations of value that operates as a medium of exchange or for storing value. </dd>
+<dd>IRS pointed that Bitcoin can be traded between two users or even purchased and exchanged for Euro and Dollars among other currencies. This has been interpreted to mean some legitimacy for the Bitcoin. </dd>
+<dd>For federal tax purposes, Bitcoin must be treated as a property. This means that whoever receives Bitcoins as payment for services and goods must capture it in his tax returns details as per the equivalent value at that moment in US dollars. </dd>
+<dd>The entry and emphasis that <b>Bitcoin is a commodity</b> have created a new way to look at cryptocurrencies. As a user, one is expected to closely follow the transactions and ensure that gains are reported and appropriate taxes remitted. It is expected that the virtual currency legislation being worked on will follow the IRS model of argument. </dd></dl>
+<p><b>Tax tips for Bitcoin users and traders</b>
+</p>
+<ul><li>Ensure to create a good model of record keeping. </li></ul>
+<ul><li>Follow your tracks when the Bitcoins are acquired and their value in US dollars at every point. </li></ul>
+<ul><li>Make sure that every purchase in Bitcoin is captured in two mode transactions; expense and implied disposition. </li></ul>
+<ul><li>Consider using a single exchange and use it consistently. </li></ul>
+<ul><li>Make sure to include sales tax when clients buy products from your shop. </li></ul>
+<ul><li>If making payment to staff in Bitcoins, ensure to start by withholding the applicable payroll taxes. The net pay can be implemented in Bitcoins. </li></ul>
+<ul><li>Make sure to pay taxes in dollars and not in Bitcoins. </li></ul>
+<p>To ensure that you do not fail to capture a transaction and attract tax-related penalties, consider using appropriate <b>BTC tracking software</b> such as Libra Tax and Bitcoin Taxes. 
+</p><p>It is important to note that though cryptocurrencies are unregulated at the moment, they will at some point. Therefore, you had better take advantage of the fast-rising value while keeping an eye on how you meet all tax obligations. The bottom line is getting the books done appropriately and seeking expert help when unsure of where the tax line passes.
+</p>
+<h3><span class="mw-headline" id="Illegal_Activities_with_Groestlcoin">Illegal Activities with Groestlcoin</span></h3>
+<p>As a crypto currency Groestlcoin shares the same stigma as Bitcoin as being a currency for illegal activity and no cases of Groestlcoin being used for illegal activities has been discovered this is the activities Bitcoin have been involved in. 
+</p><p>As an anonymous network, one side effect of Bitcoin is that fraudsters are likely to find it a haven. This is one of the fears that FBI has held since Bitcoin was launched. Here are specific illegal activities related to Bitcoin. 
+</p><p>In May 2017, there was a spread of cyber attacks on institutions and companies across Europe. A <b>Ransomware strain</b> called <b>WannaCry</b> hit the institutions and companies, encrypted all the data, and the criminals demanded being paid in Bitcoin. They knew that once the money found itself in the network, there was no way authorities could track them. Though the malware was finally stopped, millions had finally been sent to the criminals. 
+</p><p>In Maryland, a scammer defrauded a car buyer thousands of dollars after placing an ad and asked to be paid in Bitcoins. An unsuspecting buyer went to a <b>Bitcoin ATM</b> and faithfully made the payment expecting to get a cool ride back home. When the buyer realized it was a scam, it was too late because the Bitcoins were already sent and transactions on the network are irreversible. Lucky enough for the man, <b>Bitexpress</b> (the exchange that runs the Bitcoin ATM) refunded the buyer all his cash. Because the transactions are anonymous and irreversible, scammers find it very easy to defraud clients. 
+</p><p>As the popularity of Bitcoins continues to grow, more people are easily falling prey to anything that barely mentions cryptocurrency. With about 1100 cryptos in the market today, scammers are releasing fake <b>ICOs</b> with a target of defrauding the target clients. If you send Bitcoins without verifying that the ICO is real, the chances of getting defrauded are very high.
+</p><p>Seven South Koreans were arrested recently for running a $38 million scam that targeted new cryptocurrency investors. The scammers promised investors 180% profit on a regular basis if they invested in Bitcoin. In about 2 years, the group was able to rake nearly $38 million because they targeted those with little knowledge about Bitcoins. 
+</p><p>As Bitcoin investment becomes even more lucrative, everyone is running to get a piece of it. This has opened opportunities for scammers to target unsuspecting individuals. If you are targeting to invest, it is crucial to learn how Bitcoin operates and use the right exchange to buy the coins. The best method is targeting well-established markets with years of operations as opposed to using third parties.
+</p>
+<h2><span class="mw-headline" id="Is_Groestlcoin_Secure.3F">Is Groestlcoin Secure?</span></h2>
+<p>The <b>Groestlcoin protocol</b> and cryptography makes the blockchain one of the most secure in the cryptocurrency industry today. Since inception, the Groestlcoin team has ensured they follow the occurrences closely to redefine the blockchain technology against the emerging threats. 
+</p><p>The fact that every transaction strongly requires a consensus mechanism before getting confirmed and added to the public ledger has made it impossible for people with malware to attack, damage, or steal Groestlcoins directly. It is this strict model that has prevented the Groestlcoin network from getting hacked to date. Besides, the Groestlcoin team also remain very active even if it never comes out to share info about its work. 
+</p><p>The main point of weakness in the Groestlcoin is the wallets. Note that the wallets are just like the physical cash because each user has absolute control. For example, if you have a <b>mobile wallet</b> or <b>hardware wallet,</b> the responsibility of keeping it safe is solely personal. If the wallet gets lost, you cannot say that the Groestlcoin  network is insecure. 
+</p><p>However, a lot of support is provided by wallet providers to help their clients understand the wallets and keep them safe. For example, you are encouraged to keep the operating system on the computer with the wallet updated always. Besides, you should always use the same computer to access the Groestlcoin  network as opposed to multiple devices. 
+</p>
+<h3><span class="mw-headline" id="Is_Groestlcoin_Anonymous.3F">Is Groestlcoin Anonymous?</span></h3>
+<p>Your standard Grostlcoin transaction is anonymous in the same way a Bitcoin transaction is. Only the sender and receiver know of the transaction details(amount, timestamp, etc). It's important to note that there are no names or identifying numbers associated with a transaction, aside from the sender and receivers wallet addresses. If you are using a wallet held within an exchange, they could assume that your wallet address belongs to your registered name. However, aside from exchanges and 3rd parties, sending and receiving GRS is completely anonymous.
+</p><p><b>Additional Details Pertaining To 3rd Party Anonymity</b>
+</p><p>If you are using a 3rd party, like an exchange for example your identity may not be anonymous, as surely they have your country's standard of identification.
+</p><p>If you're holding your assets in a wallet away from 3rd party exchanges, you're safe.
+</p><p>For those that wish to play it safe, Groestlcoin has developed many wallets that allow you to spoof inputs and outputs to multiple addresses, fooling any attempt to track what funds went to which address(since it spreads it across multiple transactions).
+</p><p>If you're afraid of your ISP tracking you, the Samourai wallet also has TOR, and VPN support.
+</p><p>Check out the <a rel="nofollow" class="external text" href="https://www.groestlcoin.org/groestlcoin-samourai-wallet/">Samourai wallet</a> for more information.
+</p>
+<h3><span class="mw-headline" id="Has_Groestlcoin_Ever_Been_Hacked.3F">Has Groestlcoin Ever Been Hacked?</span></h3>
+<p>Grostlcoin and it's use of the <b>Grostl protocol</b> are still working effectively close to 3 years after creation. The main reason for this efficiency is a highly responsive team that promptly picks on every flaw and fixes it with speed. The Grostl network has been implementing updates and redesign for its protocol both when needed, and when optimization is discovered. 
+</p><p>In many cases, there have been a lot of misconceptions around exchanges as well as businesses that have been hacked. While these security issues are indeed unfortunate and distressing, none of them have ever involved Grostlcoin itself getting hacked. Think of it this way... If someone steals your ATM and password and goes ahead to withdraw cash, it's not the banks fault.
+</p><p>The Grostlcoin wallet developers have come up with multiple security options for your assets, including <b>BIP wallet encryption,</b> hardware wallets, and even <b>offline/paper wallets</b> that add layers of protection to your coinage.
+</p>
+<h3><span class="mw-headline" id="How_Can_I_Restore_Groestlcoin.3F">How Can I Restore Groestlcoin?</span></h3>
+<p>The problem of lost Groestlcoins is perhaps the most worrying to investors. At this point, it is important to understand that your Groestlcoins are stored in the Cryptocurrency wallet and not in the <b>Groestlcoin network.</b> Therefore, what gets lost is the wallet or the private keys. 
+</p><p>Sometimes back, getting your wallet lost was the end of it. In fact, it is even today unless you take some precautions. To restore the Groestlcoins, you need to remember the keys explicitly and have a backup wallet. This is very important. It is because of this that users are advised to ensure they have multiple backups of their keys. 
+</p><p>Though some tools and companies can help to recover data about the wallet if a computer crashes or hard drive breaks down, the best option is maintaining a good offline backup. You could even generate the key codes and store them under lock and key. In such a case, ensure that no third party gets access to them. If you have the private and public keys, the process of restoring the Groestlcoins is pretty direct. 
+</p>
+<ul><li>Locate the wallet's private keys.</li></ul>
+<ul><li>Locate the backup copy of the Groestlcoin wallet.</li></ul>
+<ul><li>Input the private keys and restart the process. </li></ul>
+<p>Note that the outlined process is the most familiar model with most wallets. Some of them might have a different model of restoring Groestlcoins. Therefore, make sure to get familiar with the restoration process provided by your respective wallet company.
+</p>
+<h3><span class="mw-headline" id="Why_Do_People_Trust_Groestlcoin.3F">Why Do People Trust Groestlcoin?</span></h3>
+<p>Bulk of the trust that people have in Groestlcoin comes from the reality that it needs no trust at all. <b>Groestlcoin network</b> is an open-source and fully decentralized network. What this means is that anybody can access the whole source code at any place and anytime. A developer can easily demonstrate how Groestlcoin operates easily. 
+</p><p>People joining the Groestlcoin system own and control the network. As a system based on consensus operations, everyone on the network is entitled to a section of it. Whether you are sending money or works as a miner, the network cannot be complete without you. This feeling of identity has made more people to associate, protect, and commit to taking Groestlcoin ahead. 
+</p><p>To make payments, there is no third party required. As a <b>peer2peer network,</b> people are assured of making prompt payments at very low costs. This means that you can stay away from expensive institutions such as banks. By slashing away the bureaucracies, more people have come to trust the system. Why go to a bank that charges over $10 to send cash and takes about 2 days while there is an option of paying less than $1 to make payment instantly? 
+</p><p>Over the years, heavy taxation has driven people into the endless path of searching for alternatives. In some cases, people are forced to open bank accounts abroad in jurisdictions with subtle tax rates. Now, Groestlcoin  has presented a new destination for investing hard earned cash. The trust comes from the fact that your Groestlcoins are anonymous and, therefore, cannot be easily reached for heavy taxation or frozen by courts.
+</p>
+<h2><span class="mw-headline" id="History_of_Groestlcoin">History of Groestlcoin</span></h2>
+<p><b>Groestlcoin’s Original Vision</b>
+</p><p>Groestlcoin was launched in March of 2014. Jackielove4u (Lead Developer), saw a need for a blockchain that was fast, secure, and working mobile wallets. Among similar blockchains, users are either constricted to one wallet, or the wallet options are too difficult for the average user to comprehend. In many cases, mobile wallets were not maintained, meaning they would stop functioning after time. Jackie believes in giving the user many options, and representing the options with the same official GRS branding, to both simplify the selection process for the user, and present them multiple options at the same time. He and the GRS team had also pledged to users of the blockchain, that all of the wallets would be kept up to date.
+</p><p><b>Tech Highlights</b>
+</p>
+<ul><li> March 22, 2014 - Groestlcoin Launch</li>
+<li> December 25, 2014 - First Mobile Wallet</li>
+<li> June 29, 2015 - Easyminer Release</li>
+<li> September 10, 2015 - BIP66 Soft Fork</li>
+<li> September 22, 2015 - Blackberry Wallet</li>
+<li> March 22, 2016 - 12 Wallet Releases</li>
+<li> January 21st, 2017 - Segwit Softfork</li>
+<li> Read more via the <a rel="nofollow" class="external text" href="https://www.groestlcoin.org/roadmap/">roadmap</a></li></ul>
+<h3><span class="mw-headline" id="Who_Created_Groestlcoin.3F">Who Created Groestlcoin?</span></h3>
+<p>Groestlcoin wasn't created by a single person. It's the works of a large team of dedicated and motivated cryptography enthusiasts. From developers, to social media managers, the maintenance of both the community and blockchain itself are (or were) assisted by:
+</p><p><b>Founder, developer, groestlcoin.org/net/info website, groestlcointalk.org website and advisor:</b>
+</p>
+<ul><li> Gruve_P – Igor from the Netherlands</li></ul>
+<p><b>Development Team Lead:</b>
+</p>
+<ul><li> jackielove4u – Jackie from the Netherlands</li></ul>
+<p><b>Android, BlackBerry, Multigroestl Classic, Multigroestl HD and Groestlcoin Lite developer:</b>
+</p>
+<ul><li> Hashengineering – Eric from the USA</li></ul>
+<p><b>Groestlcoin Core, Groestlcoin-WPF, Groestlcoin coin-util, Groestlcoin address utilty, Groestlcoin Armory and Groestlcoin Multisig developer:</b>
+</p>
+<ul><li> Ufasoft – Sergey from Russia</li></ul>
+<p><b>Electrum-GRS developer:</b>
+</p>
+<ul><li> Kefkius – Tyler from the USA</li></ul>
+<p><b>iOS developer:</b>
+</p>
+<ul><li> QuantumExplorer – Samuel from the USA</li></ul>
+<p><b>Vanity Generator:</b>
+</p>
+<ul><li> ExploitAgency – Corey Harding</li></ul>
+<p><b>IRC Groestlbot developer:</b>
+</p>
+<ul><li> Xawksow – Kevin from Germany</li></ul>
+<p><b>Paperwallet and forum creator:</b>
+</p>
+<ul><li> Srcxxx – Dmitiri from Russia</li></ul>
+<p><b>Promo pics:</b>
+</p>
+<ul><li> hterw – from Belarus</li></ul>
+<p><b>IRC and forum moderator:</b>
+</p>
+<ul><li> Psychoticboy – from the Netherlands</li></ul>
+<p><b>Community Manager Bitcointalk:</b>
+</p>
+<ul><li> IMZ – Mark Blair from Australia</li></ul>
+<p><b>Web Designer, Facebook and Twitter manager:</b>
+</p>
+<ul><li> utopian</li></ul>
+<p><b>Facebook Fan admin:</b>
+</p>
+<ul><li> Guidosuller – Luiginho from Brasil</li></ul>
+<p><b>QQ group admin:</b>
+</p>
+<ul><li> Enetac from China</li></ul>
+<p><b>Discord Administrator:</b>
+</p>
+<ul><li> Yokomoko – Adam C. from the UK</li></ul>
+<h2><span class="mw-headline" id="Groestlcoin_Videos_and_Tutorials">Groestlcoin Videos and Tutorials</span></h2>
+<h3><span class="mw-headline" id="EasyMiner_Guide">EasyMiner Guide</span></h3>
+<div class='embedvideo autoResize' style=''><div class='embedvideowrap' style='width: 640px;'><iframe src="//www.youtube.com/embed/JERGNv1jpkU?" width="640" height="360" frameborder="0" allowfullscreen="true"></iframe></div></div>
+<h3><span class="mw-headline" id="What_Is_Groestlcoin">What Is Groestlcoin</span></h3>
+<div class='embedvideo autoResize' style=''><div class='embedvideowrap' style='width: 640px;'><iframe src="//www.youtube.com/embed/cik8IpbJjM4?" width="640" height="360" frameborder="0" allowfullscreen="true"></iframe></div></div>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<ul><li> <a href="/currency/Bitcoin" title="Bitcoin">Bitcoin</a> | <a href="/currency/Ethereum" title="Ethereum">Ethereum</a> | <a href="/currency/Ripple" title="Ripple">Ripple</a> | <a href="/currency/Bitcoin_Cash" title="Bitcoin Cash">Bitcoin Cash</a> | <a href="/currency/Litecoin" title="Litecoin">Litecoin</a></li>
+<li> <a href="/currency/Cardano" title="Cardano">Cardano</a> | <a href="/currency/NEO" title="NEO">NEO</a> | <a href="/currency/Stellar" title="Stellar">Stellar</a> | <a href="/currency/EOS" title="EOS">EOS</a> | <a href="/currency/NEM" title="NEM">NEM</a> | <a href="/currency/VeChain_Thor" title="VeChain Thor">VeChain Thor</a></li>
+<li> <a href="/currency/Monero" title="Monero">Monero</a> | <a href="/currency/Dash" title="Dash">Dash</a> | <a href="/currency/IOTA" title="IOTA">IOTA</a> | <a href="/currency/TRON" title="TRON">TRON</a> | <a href="/currency/Tether" title="Tether">Tether</a> | <a href="/currency/OmiseGO" title="OmiseGO">OmiseGO</a></li>
+<li> <a href="/currency/Bitcoin_Gold" title="Bitcoin Gold">Bitcoin Gold</a> | <a href="/currency/Ethereum_Classic" title="Ethereum Classic">Ethereum Classic</a> | <a href="/currency/Nano" title="Nano">Nano</a> | <a href="/currency/Lisk" title="Lisk">Lisk</a> | <a href="/currency/ICON" title="ICON">ICON</a></li>
+<li> <a href="/currency/Qtum" title="Qtum">Qtum</a> | <a href="/currency/Zcash" title="Zcash">Zcash</a> | <a href="/currency/Populous" title="Populous">Populous</a> | <a href="/currency/Steem" title="Steem">Steem</a> | <a href="/currency/Ontology" title="Ontology">Ontology</a> | <a href="/currency/Waves" title="Waves">Waves</a></li>
+<li> <a href="/currency/DigixDAO" title="DigixDAO">DigixDAO</a> | <a href="/currency/Bytecoin" title="Bytecoin">Bytecoin</a> | <a href="/currency/Bitcoin_Diamond" title="Bitcoin Diamond">Bitcoin Diamond</a> | <a href="/currency/Binance_Coin" title="Binance Coin">Binance Coin</a></li>
+<li> <a href="/currency/Bytom" title="Bytom">Bytom</a> | <a href="/currency/Verge" title="Verge">Verge</a> | <a href="/currency/Funny_Moments_in_The_World_of_Cryptocurrencies" title="Funny Moments in The World of Cryptocurrencies">Crypto Humor</a></li>
+<li> <a href="/currency/Cryptocurrency_Dictionary" title="Cryptocurrency Dictionary">Cryptocurrency Dictionary</a> | <a href="/currency/List_of_Cryptocurrencies" title="List of Cryptocurrencies">List of Cryptocurrencies</a> | <a href="/currency/CEX.io" title="CEX.io">CEX.io</a></li>
+<li> <a href="/currency/Binance" title="Binance">Binance</a> | <a href="/currency/Coinbase" title="Coinbase">Coinbase</a> | <a href="/currency/Changelly" title="Changelly">Changelly</a> | <a href="/currency/Coinmama" title="Coinmama">Coinmama</a> | <a href="/currency/Bitpanda" title="Bitpanda">Bitpanda</a></li>
+<li> <a href="/currency/LocalBitcoins" title="LocalBitcoins">LocalBitcoins</a> | <a href="/currency/Kraken" title="Kraken">Kraken</a> | <a href="/currency/Paxful" title="Paxful">Paxful</a> | <a href="/currency/Ledger_Nano_S" title="Ledger Nano S">Ledger Nano S</a> | <a href="/currency/TREZOR" title="TREZOR">TREZOR</a></li></ul>
+
+<!-- 
+NewPP limit report
+Cached time: 20181029085512
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.020 seconds
+Real time usage: 0.029 seconds
+Preprocessor visited node count: 193/1000000
+Preprocessor generated node count: 496/1000000
+Post‐expand include size: 404/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 3/40
+Expensive parser function count: 0/100
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 -total
+-->
+</div>
+<!-- Saved in parser cache with key wikicryptocoins:pcache:idhash:311-0!canonical and timestamp 20181029085512 and revision id 7494
+ -->
+</div>                <div class="printfooter">
+                    Retrieved from "<a dir="ltr" href="https://wikicryptocoins.com/index.php?title=Groestlcoin&amp;oldid=7494">https://wikicryptocoins.com/index.php?title=Groestlcoin&amp;oldid=7494</a>"                </div>
+            <div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>            <div class="visualClear"></div>
+                    </div>
+    </main>
+
+    <!-- Table of Content -->
+    <aside>
+        <div id="side-toc"></div>
+    </aside>
+
+</div>
+
+        
+<footer>
+    <div class="container">
+        <!-- <ul class="list-inline">
+                    </ul> -->
+        <ul id="footer-follow" class="list-inline">
+
+                                                <li id="footer-info-lastmod" class="list-inline-item mr-3"> This page was last edited on 29 October 2018, at 08:55.</li>
+                                                                <li id="footer-places-privacy" class="list-inline-item mr-3"><a href="/currency/WikiCryptoCoins:Privacy_policy" title="WikiCryptoCoins:Privacy policy">Privacy policy</a></li>
+                                    <li id="footer-places-about" class="list-inline-item mr-3"><a href="/currency/WikiCryptoCoins:About" title="WikiCryptoCoins:About">About WikiCryptoCoins</a></li>
+                                    <li id="footer-places-disclaimer" class="list-inline-item mr-3"><a href="/currency/WikiCryptoCoins:General_disclaimer" title="WikiCryptoCoins:General disclaimer">Disclaimers</a></li>
+                            
+                                                <li class="list-inline-item mr-3"><a href="/sitemap.xml">Sitemap</a></li>
+                                    <li class="list-inline-item mr-3"><a href="https://facebook.com/wikicryptocoins">Facebook</a></li>
+                                    <li class="list-inline-item mr-3"><a href="https://twitter.com/wikicryptocoins">Twitter</a></li>
+                            
+        </ul>
+
+        <p>&copy; 2017&ndash;2018 WikiCryptoCoins. All rights reserved.</p>
+
+                    <ul id="footer-icons" class="noprint list-inline">
+                                    <li id="footer-poweredbyico" class="list-inline-item">
+                        <a href="//www.mediawiki.org/"><img src="/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>                    </li>
+                            </ul>
+        
+    </div>
+</footer>
+
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.020","walltime":"0.029","ppvisitednodes":{"value":193,"limit":1000000},"ppgeneratednodes":{"value":496,"limit":1000000},"postexpandincludesize":{"value":404,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":3,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"timingprofile":["100.00%    0.000      1 -total"]},"cachereport":{"timestamp":"20181029085512","ttl":86400,"transientcontent":false}}});});</script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-107954544-1', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+
+</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":112});});</script>
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5aa66fa7a4231d0c"></script> 
+<!-- https://us19.admin.mailchimp.com/lists/signup-forms/popup/editor?site=true&id=6577# -->
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us19.list-manage.com","uuid":"e73ea28b6cd5a68234a65f074","lid":"4e2029cfa9"}) })</script>	</body>
+<!-- Cached 20181029085512 -->
+</html>

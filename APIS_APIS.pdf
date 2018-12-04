@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 	<meta charset="UTF-8">
+ 	<title>APIS | Masternode Platform</title>
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 	<meta name="description" content="The APIS is a masternode platform that enables all spectrum of users to have easy access to the “Masternode Network”. Masternodes refer to nodes in the cryptocurrency market that fulfill a specific function beyond simply relaying transactions. A masternode’s most distinctive feature is that any investor investing in a masternode can acquire stable and almost guaranteed profit just by locking up his/her money in the masternode for a fixed amount of time. However, despite its attractive characteristic, hosting a masternode is quite out of reach for most individual investors since most masternodes require substantial amount of capital and intricate software engineering to set one up. By aiding these individuals come together to form a whole masternode, we will be able to encourage more people to participate in masternode investments as well as to provide them with much safer way of investing money rather than investing in the exchange market without adequate knowledge. ">
+ 	<meta name="og:title" content="APIS | Masternode Platform">
+ 	<meta name="og:description" content="The APIS is a masternode platform that enables all spectrum of users to have easy access to the “Masternode Network”. Masternodes refer to nodes in the cryptocurrency market that fulfill a specific function beyond simply relaying transactions. A masternode’s most distinctive feature is that any investor investing in a masternode can acquire stable and almost guaranteed profit just by locking up his/her money in the masternode for a fixed amount of time. However, despite its attractive characteristic, hosting a masternode is quite out of reach for most individual investors since most masternodes require substantial amount of capital and intricate software engineering to set one up. By aiding these individuals come together to form a whole masternode, we will be able to encourage more people to participate in masternode investments as well as to provide them with much safer way of investing money rather than investing in the exchange market without adequate knowledge. ">
+ 	<meta name="og:image" content="/img/coin.png">
+ 	<!--<meta name="naver-site-verification" content="7c9d54966ca6104f43beb596ae959647f28e6334" />-->
+ 	<meta name="google-site-verification" content="ceYkcb6QKuoSVb-Qs-xXSMaQ5l2JAEJ6wa2aSQWNxCk" />
+ 	<meta name="naver-site-verification" content="8c8c1ff626e0198c1fec0d2371dd25dad2ac7c14"/>
+
+ 	<link href="https://fonts.googleapis.com/css?family=Heebo:100" rel="stylesheet">
+ 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
+ 	<link rel="stylesheet" href="/indexNew/index.css">
+ 	<link rel="stylesheet" href="/indexNew/lightbox.css">
+ 	<link rel="icon" href="/img/coin.png" type="image/x-icon">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114371203-1"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+  		gtag('config', 'UA-114371203-1');
+  		gtag('set', {'user_id': 'USER_ID'});
+  		gtag('config', 'AW-815339578');
+	</script>
+
+	<script
+	  src="https://code.jquery.com/jquery-3.3.1.min.js"
+	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	  crossorigin="anonymous"></script>
+
+	<!-- Include jQuery Popup Overlay -->
+  	<script src="https://cdn.rawgit.com/vast-engineering/jquery-popup-overlay/1.7.13/jquery.popupoverlay.js"></script>
+
+	<script src="/indexNew/lightbox.js"></script>
+	<script src="/indexNew/index.js"></script>
+
+</head>
+<body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N48KM3M"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+
+	<header id="header">
+	 	<div class="container full">
+	  		<div id="brand">
+	   			<a href="/#"><img id="logo" src="/indexNew/img/logo_apis.png" alt="APIS"></a>
+	  		</div>
+	  		<div id="menus">
+	  			<table id="header-menu">
+	  				<tr>
+	  					<td valign="middle">
+	  						<a class="header-menu" href="#noticeArticles">Notice</a>
+	  					</td>
+	  					<td class="menu-space"></td>
+	  					<td valign="middle">
+	  						<a class="header-menu" href="#sectionWhitePaper">Whitepaper</a>
+	  					</td>
+	  					<td class="menu-space"></td>
+	  					<td valign="middle">
+	  						<a class="header-menu" href="#sectionAbout">APIS</a>
+	  					</td>
+	  					<td class="menu-space"></td>
+	  					<td valign="middle">
+	  						<a class="header-menu" href="#sectionRoadmap">Roadmap</a>
+	  					</td>
+	  					<td class="menu-space"></td>
+	  					<td valign="middle">
+	  						<a class="header-menu" href="#sectionFaq">FAQ</a>
+	  					</td>
+	  					<td class="menu-space"></td>
+	  					<td valign="middle">
+	  						<a class="header-menu" href="#sectionTeam">Member</a>
+	  					</td>
+
+	  					
+	  					<td class="menu-space"></td>
+	  					<td valign="middle">
+	  						<a class="header-menu" href="/login">Login</a>
+	  					</td>
+	  					<td class="menu-space"></td>
+	  					<td valign="middle">
+	  						<a class="header-menu" href="/register">Register</a>
+	  					</td>
+
+	  					
+
+	  					<td class="menu-space"></td>
+
+	  					<td valign="middle">
+	  						<a href="https://twitter.com/Apis11Official" target="_blank" rel="noopener noreferrer" class="header-sns" >
+								<img src="/indexNew/img/top_social_twitter.png" height="14" alt="twitter">
+							</a>
+						</td>
+						<td class="menu-space-social"></td>
+				   		<td valign="middle">
+				   			<a href="https://medium.com/apisplatform" target="_blank" rel="noopener noreferrer" class="header-sns" >
+				    		<img src="/indexNew/img/top_social_medium.png" height="14" alt="medium"></a></td>
+				    	<td class="menu-space-social"></td>
+				   		<td valign="middle">
+				   			<a class="header-sns" href="https://t.me/TheApisplatform" target="_blank" rel="noopener noreferrer" >
+				    		<img src="/indexNew/img/top_social_telegram.png" height="14" alt="telegram"></a></td>
+	  				</tr>
+	  			</table>
+			  	<div id="header-mobile-btn" class="menu btn2" data-menu="2">
+			   		<div class="icon"></div>
+			  	</div>
+		  	</div>
+	 	</div>
+	</header>
+
+
+	<main>
+    <!-- 2018.10.01 Close Beta Section 제거
+  	 <section id="sectionSurvey">
+        <div id="mobileLink" onclick="window.open('https://www.youtube.com/watch?v=5fx7QY6RcnA')">
+        </div>
+        <div class="container" style="width: 80%; text-align: center;">
+          <img id="designResultImg" src="/indexNew/img/masternode_front2.png" width="60%" />
+          <div id="videoLink" onclick="window.open('https://www.youtube.com/watch?v=5fx7QY6RcnA')">
+          </div>
+        </div>
+      </section>
+    -->
+
+		<section id="sectionSlide">
+			<div id="containerSlider" class="container">
+				<div class="column-5">
+					<div class="centerY">
+						<div><img class="sliderTitleImg" src="/indexNew/img/slider_masternode4.png"/></div>
+            <div id="topSectionExchangeLink">
+              <a href="https://www.bit-z.com/exchange/apis_btc" target="_blank"><span class="btnExchange">Bit-z Exchange</span></a>
+              <a href="https://www.idax.mn/#/exchange?pairname=APIS_BTC" target="_blank"><span class="btnExchange idax">IDAX Exchange</span></a>
+              <a href="https://www.coinbit.co.kr/trade/order/krw-apis" target="_blank"><span class="btnExchange">Coinbit Exchange</span></a>
+            </div>
+					</div>
+				</div>
+				<div class="column-5 slideZoomer">
+					<img src="/indexNew/img/zoomer.png" style="max-width: 500px;" class="center" />
+				</div>
+			</div>
+		</section>
+
+		<section id="sectionNotice">
+			<div class="container">
+				<div id="wrapNotice">
+					<div id="containerNotice">
+						<div class="column-5">
+							<div id="noticeArticles">
+								<h2><a href="https://medium.com/apisplatform" target="_blank">Notice</a></h2>
+
+								<table id="noticeThumbM">
+									<tr>
+										<td class="noticeLeft"><img src="/indexNew/img/notice_left.png" /></td>
+										<td style="padding : 0 20px;">
+											<a href="#" class="noticeLink" target="_blank"><img class="noticeThumbImg" src="/indexNew/img/notice_thumb_12.png" width="100%"/></a>
+										</td>
+										<td class="noticeRight"><img src="/indexNew/img/notice_right.png" /></td>
+									</tr>
+								</table>
+
+								<a href="#" target="_blank" class="noticeLink"><h2 class="mainColor" id="noticeTitle">King of APIS Trading</h2></a>
+								<div class="articleMsg" ><span id="noticeDesc">Bit-Z is one of the world leading digital asset trading exchanges, providing professional digital asset trading an OTC (Over The Counter) services. </span> <a class="noticeLink" target="_blank" href="#" style="color : #8b1219;">more</a></div>
+								<br/>
+								<h3><a id="noticeSubLink1" href="#" target="_blank"><span id="noticeSubTitle1">Steemit Bounty event</span> <span id="noticeSubDate1">18.09.13</span></a></h3>
+								<h3><a id="noticeSubLink2" href="#" target="_blank"><span id="noticeSubTitle2">Steemit Bounty event</span> <span id="noticeSubDate2">18.09.13</span></a></h3>
+							</div>
+						</div>
+						<div class="column-5 centerY">
+							<div id="noticeThumb">
+								<table>
+									<tr>
+										<td class="noticeLeft"><img src="/indexNew/img/notice_left.png" /></td>
+										<td style="padding : 0 20px;">
+											<a href="#" class="noticeLink" target="_blank"><img class="noticeThumbImg" src="/indexNew/img/notice_thumb_2.png"/></a>
+										</td>
+										<td class="noticeRight"><img src="/indexNew/img/notice_right.png" /></td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section id="sectionWhitePaper">
+			<div class="container">
+				<h2>WhitePaper</h2>
+        <!-- <div style="font-size : 15px; color : #393939;">APIS is a whole new paradigm of investing money.<br/>All users of APIS will be able to enjoy various masternodes with ease.</div> -->
+        <div style="font-size : 15px; color : #393939;">APIS is a whole new paradigm of blockchain.<br/>All users of APIS will be able to enjoy various masternodes with ease.</div>
+
+				<a href="/whitepaper.en.pdf" target="_blank" class="btnWhitePaper">
+					<img src="/indexNew/img/btnWhitePaperEng.png">
+				</a>
+				<a href="/whitepaper.jp.pdf" target="_blank" class="btnWhitePaper">
+					<img src="/indexNew/img/btnWhitePaperJpn.png">
+				</a>
+				<a href="/whitepaper.ko.pdf" target="_blank" class="btnWhitePaper" id="wpDownload">
+					<img src="/indexNew/img/btnWhitePaperKor.png">
+				</a>
+				<a href="/whitepaper.cn.pdf" target="_blank" class="btnWhitePaper" id="wpDownload">
+					<img src="/indexNew/img/btnWhitePaperCn.png">
+				</a>
+			</div>
+		</section>
+
+
+
+		<section id="sectionAbout">
+			<div class="container">
+				<div class="aboutRow">
+					<div class="column-5 aboutContent mobile">
+						<h2>About APIS</h2>
+            <div class="textDesc">APIS, as a masternode platform,<br/>is expected to fulfill the need to easy,<br/>innovative masternoding either you're<br/>familiar with 'masternode' or not.<br/>With APIS, every participants will be able to<br/>enjoy masternoding.</div>
+					</div>
+
+					<div class="column-25">
+						<div class="aboutCell about1">
+							<div class="aboutCellInside">
+								<div class="aboutLink">
+									<span><a href="https://medium.com/apisplatform/what-is-pos-pow-masternode-e489c6c5a463?source=false---------0" target="_blank">ENG</a></span>
+									<span><a href="https://medium.com/apisplatform/pow-pos-masternode-%E3%81%A8%E3%81%AF-ca0940a0c195?source=false---------2" target="_blank">JPN</a></span>
+									<span><a href="https://medium.com/apisplatform/pow-pos-masternode-%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B8%B0%EB%B3%B8%EC%A0%81%EC%9D%B8-%EC%84%A4%EB%AA%85-79f99421a484?source=false---------1" target="_blank">KOR</a></span>
+								</div>
+								<div class="aboutTitle">About APIS #1</div>
+								<div class="aboutDesc">POW/POS & Masternode</div>
+							</div>
+						</div>
+					</div>
+					<div class="column-25">
+						<div class="aboutCell about2">
+							<div class="aboutCellInside">
+								<div class="aboutLink">
+									<span><a href="https://medium.com/apisplatform/apis-masternode-platform-1-ed8615a7457?source=collection_home---4------1----------------" target="_blank">ENG</a></span>
+									<span><a href="https://medium.com/apisplatform/apis-%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%8E%E3%83%BC%E3%83%89%E3%83%97%E3%83%A9%E3%83%83%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0-1-7499a381eb01?source=collection_home---4------0----------------" target="_blank">JPN</a></span>
+									<span><a href="https://medium.com/apisplatform/apis-%EB%A7%88%EC%8A%A4%ED%84%B0%EB%85%B8%EB%93%9C-%ED%94%8C%EB%9E%AB%ED%8F%BC-1-ec978dcd51f6?source=collection_home---4------2----------------" target="_blank">KOR</a></span>
+								</div>
+								<div class="aboutTitle">About APIS #2</div>
+								<div class="aboutDesc">APIS Masternode</div>
+							</div>
+						</div>
+					</div>
+					<div class="column-5 aboutContent">
+						<h2>About APIS</h2>
+            <div class="textDesc">APIS, as a masternode platform,<br/>is expected to fulfill the need to easy,<br/>innovative masternoding either you're<br/>familiar with 'masternode' or not.<br/>With APIS, every participants will be able to<br/>enjoy masternoding.</div>
+          </div>
+				</div>
+				<div class="aboutRow">
+					<div class="column-25">
+						<div class="aboutCell about3">
+							<div class="aboutCellInside">
+								<div class="aboutLink">
+									<span><a href="https://medium.com/apisplatform/apis-masternode-platform-2-8cca42537c26?source=collection_home---4------4----------------" target="_blank">ENG</a></span>
+									<span><a href="https://medium.com/apisplatform/apis-%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%8E%E3%83%BC%E3%83%89%E3%83%97%E3%83%A9%E3%83%83%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0-2-cb11edb83f8d?source=collection_home---4------3----------------" target="_blank">JPN</a></span>
+									<span><a href="https://medium.com/apisplatform/apis-%EB%A7%88%EC%8A%A4%ED%84%B0%EB%85%B8%EB%93%9C-%ED%94%8C%EB%9E%AB%ED%8F%BC-2-af3393708906?source=collection_home---4------5----------------" target="_blank">KOR</a></span>
+								</div>
+								<div class="aboutTitle">About APIS #3</div>
+								<div class="aboutDesc">APIS Masternode ROI</div>
+							</div>
+						</div>
+					</div>
+					<div class="column-25">
+						<div class="aboutCell about4">
+							<div class="aboutCellInside">
+								<div class="aboutLink">
+									<span><a href="https://medium.com/apisplatform/apis-expanded-1-mineral-system-re-explained-f09c444f35af?source=collection_home---4------10----------------" target="_blank">ENG</a></span>
+									<span><a href="https://medium.com/apisplatform/apis%E3%81%AE%E6%8B%A1%E5%BC%B5%E6%80%A7%E3%81%AE1%E7%95%AA%E3%81%A7%E3%81%82%E3%82%8Bmineral-system-f444ac8d78fe?source=collection_home---4------9----------------" target="_blank">JPN</a></span>
+									<span><a href="https://medium.com/apisplatform/apis-%EC%9D%98-%ED%99%95%EC%9E%A5%EC%84%B1-1-minral-system-c482cf23f541?source=collection_home---4------11----------------" target="_blank">KOR</a></span>
+								</div>
+								<div class="aboutTitle">Expendability #1</div>
+								<div class="aboutDesc">Mineral</div>
+							</div>
+						</div>
+					</div>
+					<div class="column-25">
+						<div class="aboutCell about5">
+							<div class="aboutCellInside">
+								<div class="aboutLink">
+									<span><a href="https://medium.com/apisplatform/apis-expanded-2-smart-contract-on-canvas-re-explained-28c136c5bb9f?source=collection_home---4------4----------------" target="_blank">ENG</a></span>
+									<span><a href="https://medium.com/apisplatform/apis%E6%8B%A1%E5%BC%B5%E6%80%A7%E3%81%AE2%E7%95%AA%E3%81%A7%E3%81%82%E3%82%8Bsmart-contract-on-canvas-bf4f9022f3fb?source=collection_home---4------3----------------" target="_blank">JPN</a></span>
+									<span><a href="https://medium.com/apisplatform/apis-%EC%9D%98-%ED%99%95%EC%9E%A5%EC%84%B1-2-smart-contract-on-canvas-1ce8eaa64310?source=collection_home---4------5----------------" target="_blank">KOR</a></span>
+								</div>
+								<div class="aboutTitle">Expendability #2</div>
+								<div class="aboutDesc">Smart Contract on Canvas</div>
+							</div>
+						</div>
+					</div>
+					<div class="column-25">
+						<div class="aboutCell about6">
+							<div class="aboutCellInside">
+								<div class="aboutLink">
+									<span><a href="https://medium.com/apisplatform/apis-expanded-3-address-masking-re-explained-ab2bbe8f860?source=collection_home---4------1----------------" target="_blank">ENG</a></span>
+									<span><a href="https://medium.com/apisplatform/apis%E6%8B%A1%E5%BC%B5%E6%80%A7%E3%81%AE3%E7%95%AA%E3%81%A7%E3%81%82%E3%82%8B-address-masking-66c10b68e597?source=collection_home---4------0----------------" target="_blank">JPN</a></span>
+									<span><a href="https://medium.com/apisplatform/apis-%EC%9D%98-%ED%99%95%EC%9E%A5%EC%84%B1-3-address-masking-431d03b262de?source=collection_home---4------2----------------" target="_blank">KOR</a></span>
+								</div>
+								<div class="aboutTitle">Expendability #3</div>
+								<div class="aboutDesc">Address Masking</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="sectionRoadmap">
+			<div class="container">
+				<h2>Roadmap</h2>
+				<div class="wrapRoadmap"><img src="/indexNew/img/roadmap.png" width="100%"/></div>
+			</div>
+		</section>
+
+
+		<section id="sectionFaq">
+			<div class="container">
+				<h2>FAQ</h2>
+				<div class="wrapFaq">
+					<div class="faqCell">
+						<table width="100%" class="colorRed"> <tr>
+								<td width="50" align="center" valign="top"><img src="/indexNew/img/faq_bullet_red.png" /></td>
+								<td class="textQ">
+									<span>What’s the difference between APIS and other existing agencies?</span>
+                  <div class="faqAnswer">
+                    APIS is different from existing agencies in the sense that:<br/>
+                    1. APIS users can commence their masternoding without delay
+                     <br />&nbsp;&nbsp;&nbsp;(Other agencies require users to wait until the masternode is fully filled). <br/>
+										2. APIS asks for zero or only a small fee, if required.<br/>
+										3. APIS does not require large amount of cryptocurrency nor intricate software engineering.<br/>
+									</div>
+								</td>
+								<td width="30" align="right"><img class="iconArrow" src="/indexNew/img/faq_arrow_down.png"/></td>
+						</tr> </table>
+					</div>
+					<div class="faqCell">
+						<table width="100%" class="colorBlack"> <tr>
+								<td width="50" align="center" valign="top"><img src="/indexNew/img/faq_bullet_black.png" /></td>
+								<td class="textQ">
+									<span>You are selling 55% of the tokens on the ICO. How are the remaining 45% distributed?<br/>Are there any restrictions on the free market for some time or in relation to the execution of roadmap items?</span>
+									<div class="faqAnswer">
+										The remaining 45% will be a budget for platform operation & management. 35% of the budget will be locked up for a year and 10% will be reserved.<br/>
+<br/>
+After the lock-up, the 35% will be used to provide liquidity for APIS platform. Remaining 10% will be allocated to bounty programs or airdrop, which would help utilizing APIS platform.<br/>
+<br/>
+Providing liquidity to platform is quite critical because it lowers the boundary and attracts users to purchase APIS through platform, rather than buying on market. With this method, we will keep different masternode coins flow through APIS platform and consequently, prevent masternodes from destruction.<br/>
+									</div>
+								</td>
+								<td width="30" align="right"><img class="iconArrow" src="/indexNew/img/faq_arrow_down.png"/></td>
+						</tr> </table>
+					</div>
+
+
+					<div class="faqCell">
+						<table width="100%" class="colorRed"> <tr>
+								<td width="50" align="center" valign="top"><img src="/indexNew/img/faq_bullet_red.png" /></td>
+								<td class="textQ">
+									<span>How is the development going?</span>
+									<div class="faqAnswer">
+										The development is on course as stated on roadmap.
+									</div>
+								</td>
+								<td width="30" align="right"><img class="iconArrow" src="/indexNew/img/faq_arrow_down.png"/></td>
+						</tr> </table>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="sectionVideo">
+			<div class="container">
+				<div id="sectionVideoHalf"></div>
+				<h2>Latest videos</h2>
+
+
+				<div class="wrapVideos">
+					<div class="videoCell">
+						<div class="videoOuter">
+							<div class="videoInner">
+								<iframe src="https://www.youtube.com/embed/HckYBAKKMLU" width="100%" height="100%" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen" frameborder="0"></iframe>
+							</div>
+						</div>
+					</div>
+
+          <div class="videoCell">
+						<div class="videoOuter">
+							<div class="videoInner">
+								<iframe src="https://www.youtube.com/embed/kNdetp5LpWA" width="100%" height="100%" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen" frameborder="0"></iframe>
+							</div>
+						</div>
+					</div>
+
+					<div class="videoCell">
+						<div class="videoOuter">
+							<div class="videoInner">
+								<iframe src="https://www.youtube.com/embed/DE9Gz2rtHVg" width="100%" height="100%" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen" frameborder="0"></iframe>
+							</div>
+						</div>
+					</div>
+
+          <div class="videoCell">
+            <div class="videoOuter">
+              <div class="videoInner">
+                <iframe src="https://www.youtube.com/embed/5fx7QY6RcnA" width="100%" height="100%" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen" frameborder="0"></iframe>
+              </div>
+            </div>
+          </div>
+
+          <div class="videoCell">
+						<div class="videoOuter">
+							<div class="videoInner">
+								<iframe src="https://youtube.com/embed/IN6JpgetmdM" width="100%" height="100%" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen" frameborder="0"></iframe>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+
+
+
+
+		<section id="sectionTeam">
+			<div class="container">
+				<h2>APIS TEAM</h2>
+
+				<div class="wrapHire">
+					<div>
+						<img class="hireIcon" src="/indexNew/img/hire_icon.png" height="200"/>
+						<div class="hireContent">
+							<span class="This-Could-be-you">This Could be you</span>
+							<ul class="listHireType">
+								<li>&bull; Developer</li>
+								<li>&bull; Marketer</li>
+							</ul>
+							<ul class="listHireType" style="padding-top : 10px;">
+								<li>&bull; Business Development</li>
+								<li>&bull; Staff</li>
+							</ul>
+							<a href="https://goo.gl/forms/7vzQk4AbPbuIE9w92" target="_blank"><span class="btnApplyNow">Apply now</span></a>
+						</div>
+					</div>
+					<div>
+						<img id="hirePlus" src="/indexNew/img/hire_plus.png" width="64" />
+					</div>
+				</div>
+
+				<div class="column-5">
+					<div class="wrapMember">
+						<div class="wrapMemberPhoto">
+							<img src="/indexNew/img/ronny.png"/>
+							<a href="https://www.linkedin.com/in/ronny-jooyoung-yoo-015a60109/" target="_blank"><img class="btnLinkedIn" src="/indexNew/img/btnLinkedIn.png"/></a>
+						</div>
+						<div class="memberName">Ronny Jooyoung Yoo</div>
+						<div class="memberPosition">CEO</div>
+						<div class="memberDesc">
+							<ul>
+	                            <li>The OXCHILD
+	                                <br>- CEO of The Oxchild Corp. (Co-founder)
+	                            </li>
+	                            <li>Co-Developer of FX Financial Engineering</li>
+	                            <li>Chain Team(Global Blockchain Partners)
+	                                <br>- Advisor of Blockchain Industry Finance Sector
+	                            </li>
+	                            <li>J&J partners
+	                                <br>- FICC Operation Division
+	                            </li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="column-5">
+					<div class="wrapMember">
+						<div class="wrapMemberPhoto">
+							<img src="/indexNew/img/daniel.png"/>
+							<a href="https://www.linkedin.com/in/daniel-lee-b9008a158" target="_blank"><img class="btnLinkedIn" src="/indexNew/img/btnLinkedIn.png"/></a>
+						</div>
+						<div class="memberName">Daniel Jungmin Lee</div>
+						<div class="memberPosition">CTO</div>
+						<div class="memberDesc">
+							<ul>
+	                            <li>The OXCHILD
+	                                <br>- CTO of The Oxchild Corp. (Co-founder)
+	                            </li>
+	                            <li>Smardi / Founder
+	                                <br/>- 2 Outstanding Papers in JMST<br/>&nbsp;&nbsp;(Journal of Mechanical Science and Technology)
+	                                <br/>- 9 Patents including Input Device with Movable Touch-Points on Capacitive Touch Panel
+	                                <br/>- Developer of GUI System interlocked with National Project of Radiation and Environmental Protection System
+	                            </li>
+	                        </ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="column-3">
+					<div class="wrapMember">
+						<div class="wrapMemberPhoto">
+							<img src="/indexNew/img/mizusima.png"/>
+							<a href="https://www.linkedin.com/in/ryota-mizusima-92741a153" target="_blank"><img class="btnLinkedIn" src="/indexNew/img/btnLinkedIn.png"/></a>
+						</div>
+						<div class="memberName">Mizusima Ryota</div>
+						<div class="memberPosition">COO</div>
+						<div class="memberDesc">
+							<ul>
+	                            <li>The OXCHILD
+	                                <br>- COO of The Oxchild Corp.
+	                            </li>
+	                            <li>Nomura Research Institute / RA
+	                                <br>- RA of Nomura Research Institute based in Tokyo.
+	                            </li>
+	                            <li>Chain Team(Global Blockchain Partners)
+	                                <br>- Director of R&D Part
+	                            </li>
+	                        </ul>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="column-3">
+					<div class="wrapMember">
+						<div class="wrapMemberPhoto">
+							<img src="/indexNew/img/iwen.png"/>
+							<a href="https://www.linkedin.com/in/iwen-hanbyeol-jang-12235b103" target="_blank"><img class="btnLinkedIn" src="/indexNew/img/btnLinkedIn.png"/></a>
+						</div>
+						<div class="memberName">Iwen Hanbyeol Jang</div>
+						<div class="memberPosition">CIO</div>
+						<div class="memberDesc">
+							<ul>
+	                            <li>The OXCHILD
+	                                <br>- CIO of The Oxchild Corp.
+	                            </li>
+	                            <li>JHB Partners
+	                                <br>- Financial Analyst
+	                            </li>
+	                            <li>Kasenna
+	                                <br>- CIO of The kasenna
+	                            </li>
+	                            <li>Lotte capital
+	                                <br>- Financial Analyst, Coporate Finance
+	                            </li>
+	                        </ul>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="column-3">
+					<div class="wrapMember">
+						<div class="wrapMemberPhoto">
+							<img src="/indexNew/img/luke.png"/>
+							<a href="https://www.linkedin.com/in/luke-oh-02294815a" target="_blank"><img class="btnLinkedIn" src="/indexNew/img/btnLinkedIn.png"/></a>
+						</div>
+						<div class="memberName">Luke Kyungshik Oh</div>
+						<div class="memberPosition">CSO</div>
+						<div class="memberDesc">
+							<ul>
+	                            <li>The OXCHILD
+	                                <br>- Manager of Block Chain Development af The Oxchild Corp. (Co-founder)
+	                            </li>
+	                            <li>The Small and Medium Business Administration
+	                                <br>- Evaluation Committee of Business Administration
+	                            </li>
+	                            <li>Korea Evaluation Institute of Industrial Technology
+	                                <br>- Evaluation Committee of Korea Evaluation Institute of Industrial Technology
+	                            </li>
+	                            <li>Smart Product Design&Research Institute
+	                                <br>- R&D team researcher
+	                                <br>- 2 Patents, Smartphone Operating Device using Ultrasonice Wave and more
+	                            </li>
+	                        </ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+
+		<section id="sectionAdvisor">
+			<div class="container">
+				<div class="cardAdvisor">
+					<h2>ADVISOR</h2>
+					<div id="advisor1" class="wrapAdvisor">
+						<div class="column-3">
+							<div class="wrapMember">
+								<div class="wrapMemberPhoto">
+									<img src="/indexNew/img/adv_1.png"/>
+									<a href="https://www.linkedin.com/in/ldjcapital" target="_blank"><img class="btnLinkedIn" src="/indexNew/img/btnLinkedIn_g.png"/></a>
+								</div>
+								<div class="memberName">David Drake</div>
+								<div class="memberDesc">
+									<ul>
+			                            <li>Chairman at LDJ Cayman Fund Ltd.</li>
+			                            <li>Financial Advisor of Tesla Foundation Group</li>
+			                            <li>Blockchain Board Advisor of Global Crypto Offering Exchange (GCOX)</li>
+			                            <li>Advisor of Vaultbank</li>
+			                            <li>Investment & ICO Advisor of Genie ICO</li>
+			                            <li>Board Advisor of The Naga ICO</li>
+			                            <li>Board Advisor of Ambrosus</li>
+			                            <li>Founding Board Advisor of FP Angels</li>
+			                        </ul>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="column-3">
+							<div class="wrapMember">
+								<div class="wrapMemberPhoto">
+									<img src="/indexNew/img/adv_2.png"/>
+									<a href="https://www.linkedin.com/in/alvin-ang-a217a55a/" target="_blank"><img class="btnLinkedIn" src="/indexNew/img/btnLinkedIn_g.png"/></a>
+								</div>
+								<div class="memberName">Alvin Ang</div>
+								<div class="memberDesc">
+									<ul>
+			                            <li>Co-Founder of fidentiaX</li>
+			                            <li>Senior Position of Standard Chartered Private Bank</li>
+			                            <li>Senior Position of OCBC Bank</li>
+			                            <li>Multi-disciplined entrepreneur, Technology, Engineering, Banking and Insurance</li>
+			                        </ul>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="column-3">
+							<div class="wrapMember">
+								<div class="wrapMemberPhoto">
+									<img src="/indexNew/img/adv_3.png"/>
+									<a href="https://www.linkedin.com/in/ingemarsvensson2/" target="_blank"><img class="btnLinkedIn" src="/indexNew/img/btnLinkedIn_g.png"/></a>
+								</div>
+								<div class="memberName">Ingemar Svensson</div>
+								<div class="memberDesc">
+									<ul>
+			                            <li>Founder and CEO of iXledger Technologies</li>
+			                            <li>CTO of Risk and Valuation at SunGard Asset Management</li>
+			                            <li>Head of Structured Credit Technology EMEA at Bank of America Merrill Lynch</li>
+			                            <li>Development Manager, Equity Derivatives Technology at Barclays Investment Bank</li>
+			                            <li>Technical Team Lead, Capital Markets at Lehman Brothers</li>
+			                            <li>Senior Developer at Mitsui Sumitomo Insurance Co.</li>
+			                        </ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div id="advisor2" class="wrapAdvisor">
+						<div class="column-3">
+							<div class="wrapMember">
+								<div class="wrapMemberPhoto">
+									<img src="/indexNew/img/adv_4.png"/>
+									<a href="https://www.linkedin.com/in/abhinav-ramesh-2400b322" target="_blank"><img class="btnLinkedIn" src="/indexNew/img/btnLinkedIn_g.png"/></a>
+								</div>
+								<div class="memberName">Abhinav Ramesh</div>
+								<div class="memberDesc">
+									<ul>
+			                            <li>Founder and CEO at WandX</li>
+			                            <li>Independent Consultant of EY</li>
+			                            <li>Co-Founder of Dtalk<br/>(A wellness support platform)</li>
+			                            <li>Consultant of EY</li>
+			                            <li>Junior Research Fellow of National Centre for Biological Sciences</li>
+			                        </ul>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="column-3">
+							<div class="wrapMember">
+								<div class="wrapMemberPhoto">
+									<img src="/indexNew/img/adv_5.png"/>
+									<a href="https://www.linkedin.com/in/franciscodiazm" target="_blank"><img class="btnLinkedIn" src="/indexNew/img/btnLinkedIn_g.png"/></a>
+								</div>
+								<div class="memberName">Francisco Diaz</div>
+								<div class="memberDesc">
+									<ul>
+			                            <li>Bowhead Health
+			                                <br/>- Cofounder and Head of Product
+			                            </li>
+			                            <li>BelugaPay
+			                                <br/>- Advisor
+			                            </li>
+			                            <li>REVENUE.COM
+			                                <br/>- CEO
+			                            </li>
+			                            <li>Playsino
+			                                <br/>- Founder
+			                            </li>
+			                            <li>Xfire
+			                                <br/>-Chief Software Architect
+			                            </li>
+			                            <li>Titan Gaming Inc.
+			                                <br/>-Founder & CEO
+			                            </li>
+			                        </ul>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="column-3">
+							<div class="wrapMember">
+								<div class="wrapMemberPhoto">
+									<img src="/indexNew/img/adv_6.png"/>
+									<a href="https://www.linkedin.com/in/alexavilab" target="_blank"><img class="btnLinkedIn" src="/indexNew/img/btnLinkedIn_g.png"/></a>
+								</div>
+								<div class="memberName">Alejandro Avila Borrego</div>
+								<div class="memberDesc">
+									<ul>
+			                            <li>BelugaPay
+			                                <br/>- CEO<br/><br/>
+			                            </li>
+			                            <li>Citibanamex
+			                                <br/>- Information Technology Consultant<br/><br/>
+			                            </li>
+			                            <li>ESPIRAL TECHNOLOGIES DE MÉXICO
+			                                <br/>- CoFounder
+			                            </li>
+			                        </ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+					<div id="advisor3" class="wrapAdvisor">
+						<div class="column-3">
+							<div class="wrapMember">
+								<div class="wrapMemberPhoto">
+									<img src="/indexNew/img/adv_7.png"/>
+								</div>
+								<div class="memberName">Jae Sun Yoon</div>
+								<div class="memberDesc">
+									<ul>
+			                            <li>Attorney at law (Blockchain Specialist)</li>
+			                            <li>Corporate Advisory at Coinone, <br/>Bithumb,Coinoneguide</li>
+			                            <li>Lawyer at Chang Chun law firm</li>
+			                            <li>Worked at Yulchon law firm</li>
+			                        </ul>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="column-3">
+							<div class="wrapMember">
+								<div class="wrapMemberPhoto">
+									<img src="/indexNew/img/adv_8.png"/>
+								</div>
+								<div class="memberName">Allen Kim</div>
+								<div class="memberDesc">
+									<ul>
+			                            <li>Senior Engineer of Microsoft</li>
+			                            <li>Senior Hardware Engineer Development of Microsoft</li>
+			                            <li>Engineer in Samsung SDI, America</li>
+			                            <li>Front Edge Technology</li>
+			                        </ul>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="column-3">
+							<div class="wrapMember">
+								<div class="wrapMemberPhoto">
+									<img src="/indexNew/img/adv_9.png"/>
+								</div>
+								<div class="memberName">Nobert Seo</div>
+								<div class="memberDesc">
+									<ul>
+			                            <li>Senior Vice President of Bystronic Market Division</li>
+			                            <li>Senior Vice President of Market Division<br/>Asia & Australia, Bystronic</li>
+			                            <li>President of MAG Asia Pacific Ltd. / FFG Asia Pacific Ltd</li>
+			                            <li>Vice President of MAG-IAS MAG Automotive China</li>
+			                            <li>Executive Vice President of Hwacheon<br/>Machinery Works</li>
+			                            <li>President, Managing director of DMG Korea</li>
+			                            <li>Master's degree, Electrical, Electronics and Communications Engineering, Rheinisch-Westfalische Technische Hochschule Aachen</li>
+			                        </ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br/>
+					<div class="wrapAdvisorNav">
+						<div id="btnAdvNav1" class="btnAdvBullet"><img src="/indexNew/img/nav_r.png" /></div>
+						<div id="btnAdvNav2" class="btnAdvBullet"><img src="/indexNew/img/nav_g.png" /></div>
+						<div id="btnAdvNav3" class="btnAdvBullet"><img src="/indexNew/img/nav_g.png" /></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+
+
+		<section id="sectionExchange">
+			<div class="container">
+				<h2>EXCHANGES</h2>
+				<div class="wrapExchange">
+          <div class="column-5">
+            <!--
+            <div>APIS is now being listed on Bit-Z.<br/>
+Deposit open : 21st of May 2018, 15:00 (UTC/GMT + 08:00) <br/>
+Transaction open : 22nd of May 2018, 15:00 (UTC/GMT + 08:00)<br/><br/>
+Bit-Z is one of the top 10 biggest exchanges and now growing rapidly.<br/>
+Leaving no doubt Bit-Z will be the great parter to cooperate and <br/>
+help positioning APIS as a key currency as well, <br/>
+we’ve chosen Bit-Z as our first exchange to be listed.<br/>
+Also, please wait for the upcoming event for listing.
+            </div> -->
+            <img id="exchangePreview" src="/indexNew/img/exchange_bitz.png" width="90%"/>
+						<a href="https://www.bit-z.com/exchange/apis_btc" target="_blank">
+              <div id="btnExchange">Go to Bit-Z Exchange</div>
+            </a>
+					</div>
+        	<div class="column-5">
+            <img id="exchangePreview" src="/indexNew/img/exchange_idax.png" width="90%"/>
+						<a href="https://www.idax.mn/#/exchange?pairname=APIS_BTC" target="_blank">
+              <div id="btnExchange" style="background-color: #2f2f2f;">Go to IDAX Exchange</div>
+            </a>
+					</div>
+          <div class="column-5">
+            <img id="exchangePreview" src="/indexNew/img/exchange_coinbit.png" width="90%"/>
+						<a href="https://www.coinbit.co.kr/trade/order/krw-apis/" target="_blank">
+              <div id="btnExchange">Go to Coinbit Exchange</div>
+            </a>
+					</div>
+					<div class="exchangeR"></div>
+				</div>
+    	</div>
+		</section>
+
+
+
+
+
+		<section id="sectionFooter">
+			<div class="container">
+				<div id="wrapFooterSocial">
+					<a href="https://twitter.com/Apis11Official"><img src="/indexNew/img/footer_twitter.png" /></a>
+					<a href="https://medium.com/apisplatform"><img src="/indexNew/img/footer_medium.png" /></a>
+					<a href="https://github.com/Oxchild/crowdsale"><img src="/indexNew/img/footer_git.png" /></a>
+					<!--<a href="https://join.slack.com/t/apis-project/shared_invite/enQtMzA2Njk2NTAyMDU0LWY5NDI1ZTgwNTg0ZjJlMDVhNzRkNTFlZjg4Y2UwYzQyNjE4ZWFiMDJhMmNlMmQwYzJlM2MzZWRlZmYwZGU3M2Y"><img src="/indexNew/img/footer_slack.png" /></a>-->
+					<a href="https://t.me/TheApisplatform"><img src="/indexNew/img/footer_tele_eng.png" /></a>
+					<a href="https://t.me/TheApisplatformJapan"><img src="/indexNew/img/footer_tele_jpn.png" /></a>
+					<a href="https://t.me/Apisplatformkor"><img src="/indexNew/img/footer_tele_kor.png" /></a>
+					<a href="https://t.me/APISPlatform"><img src="/indexNew/img/footer_tele_ann.png" /></a>
+				</div>
+
+				<div class="footerEmail">oxchild_official@oxchild.com</div>
+				<div class="footerCopyright">Copyright © The Oxchild Pte Ltd.  All Rights Reserved.</div>
+			</div>
+		</section>
+	</main>
+
+	<div id="popup" style="width:90%; max-width:710px; overflow:hidden; position: relative; display: none;">
+		<div class="popupPc">
+			<img src="/indexNew/img/mainet_banner.png" width="100%" />
+      <a href="https://www.youtube.com/watch?v=IN6JpgetmdM&t=2s" target="_blank" style="width:198px; height:37px; position:absolute; left:60px; bottom:95px; color:white;"></a>
+			<!--<div class="popup_close" style="position: absolute; left: 4.789%; top:71.429%; width:28.873%; height:9.946%; border-radius: 999px; cursor: pointer;"></div>-->
+			<div class="dontShowAgain popup_close" style="position: absolute; right: 0%; bottom:0%; width:24.648%; height:8.137%; cursor: pointer;"></div>
+			<div class="popup_close" style="position: absolute; right: 0; top:0; width:7.89%; height:11.4%; cursor: pointer;"></div>
+		</div>
+	</div>
+</body>
+</html>

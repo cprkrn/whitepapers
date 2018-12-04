@@ -1,0 +1,2271 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-lLo2nlsdl+bHLu6PGvC2j3wfP45RnK4wKQLiPnCDcuXfU38AiD+JCdMywnF3WbJC1jaxe3lAI6AM4uJuMFBLEw==" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-08fc49d3bd2694c870ea23d0906f3610.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-eB5YQL276GYTLnjRSk9GlYg20IwKRa2HBFTNOpo8PTPbQUH479bYZW9IXOC/6edaDS+qWnGmdKfaFpliM4ufAw==" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-94dfbe9ddd7668765d322949275239a7.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" integrity="sha512-PcJMPDRp7jbbEAmTk9kaL2kRQqg69QZ26WsZf07xsPyaipKsi3wVG0805PZNYXxotPDAliKKFvNSQPhD8fp1FQ==" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-50c740d9290419d070dd6213a7cd03b5.css" />
+  
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>POA Network Whitepaper · poanetwork/wiki Wiki · GitHub</title>
+    <meta name="description" content="POA Library:  wiki, how-to, FAQ. Includes instructions how to set-up a new network, to run a full node, connect wallets,  - poanetwork/wiki">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/28943015?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="poanetwork/wiki" /><meta property="og:url" content="https://github.com/poanetwork/wiki" /><meta property="og:description" content="POA Library:  wiki, how-to, FAQ. Includes instructions how to set-up a new network, to run a full node, connect wallets,  - poanetwork/wiki" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="0E84:150A:32E87DC:4CFF28D:5C06E0EC" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_wiki" data-pjax-transient>
+
+      <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+    <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="0E84:150A:32E87DC:4CFF28D:5C06E0EC" /><meta name="octolytics-dimension-region_edge" content="sea" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/wiki/show" data-pjax-transient="true" />
+
+
+
+    <meta name="google-analytics" content="UA-3769691-2">
+
+
+<meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="NWMzZmMxNTQ4MTcwYTYzMDRhMzE0ODA2ODFhOTViNGY2YWE1YzJhMWE0YzFkYWI4MDY0MjU5YTQ3MDVhNWI2YXx7InJlbW90ZV9hZGRyZXNzIjoiMTI4LjE3Ny4xMTMuMTAyIiwicmVxdWVzdF9pZCI6IjBFODQ6MTUwQTozMkU4N0RDOjRDRkYyOEQ6NUMwNkUwRUMiLCJ0aW1lc3RhbXAiOjE1NDM5NTQ2NjksImhvc3QiOiJnaXRodWIuY29tIn0=">
+
+    <meta name="enabled-features" content="DASHBOARD_V2_LAYOUT_OPT_IN,EXPLORE_DISCOVER_REPOSITORIES,UNIVERSE_BANNER,MARKETPLACE_PLAN_RESTRICTION_EDITOR">
+
+  <meta name="html-safe-nonce" content="9aa72a3b3040047f032a1106a36e564cef9c91e1">
+
+  <meta http-equiv="x-pjax-version" content="e8c0c5533f915fb591e3ba08037f7263">
+  
+
+      <link href="https://github.com/poanetwork/wiki/commits/master.atom" rel="alternate" title="Recent Commits to wiki:master" type="application/atom+xml">
+
+  <meta name="go-import" content="github.com/poanetwork/wiki git https://github.com/poanetwork/wiki.git">
+
+  <meta name="octolytics-dimension-user_id" content="28943015" /><meta name="octolytics-dimension-user_login" content="poanetwork" /><meta name="octolytics-dimension-repository_id" content="95226105" /><meta name="octolytics-dimension-repository_nwo" content="poanetwork/wiki" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="95226105" /><meta name="octolytics-dimension-repository_network_root_nwo" content="poanetwork/wiki" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production page-responsive min-width-0">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+        
+<header class="Header header-logged-out js-details-container Details position-relative f4 py-3" role="banner">
+  <div class="container-lg d-lg-flex flex-items-center p-responsive">
+    <div class="d-flex flex-justify-between flex-items-center">
+        <a class="mr-4" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+          <svg height="32" class="octicon octicon-mark-github text-white" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+        </a>
+
+          <div class="d-lg-none css-truncate css-truncate-target width-fit p-2">
+            
+              <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+    <strong><a class="text-white" href="/poanetwork">poanetwork</a></strong>
+    /
+    <strong><a class="text-white" href="/poanetwork/wiki">wiki</a></strong>
+
+
+          </div>
+
+        <div class="d-flex flex-items-center">
+            <a class="d-inline-block d-lg-none f5 text-white no-underline border border-gray-dark rounded-2 px-2 py-1 mr-3 mr-sm-5" href="/join?source=experiment-header-dropdowns-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up; experiment:site_header_dropdowns; group:dropdowns">Sign&nbsp;up</a>
+
+          <button class="btn-link d-lg-none mt-1 js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+            <svg height="24" class="octicon octicon-three-bars text-white" viewBox="0 0 12 16" version="1.1" width="18" aria-hidden="true"><path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"/></svg>
+          </button>
+        </div>
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--logged-out position-fixed top-0 right-0 bottom-0 height-fit position-lg-relative d-lg-flex flex-justify-between flex-items-center flex-auto">
+      <div class="d-flex d-lg-none flex-justify-end border-bottom bg-gray-light p-3">
+        <button class="btn-link js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <svg height="24" class="octicon octicon-x text-gray" viewBox="0 0 12 16" version="1.1" width="18" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+        </button>
+      </div>
+
+        <nav class="mt-0 px-3 px-lg-0 mb-5 mb-lg-0" aria-label="Global">
+          <ul class="d-lg-flex list-style-none">
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Why GitHub?
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <a href="/features" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Features">Features <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
+                    <ul class="list-style-none f5 pb-3">
+                      <li class="edge-item-fix"><a href="/features/code-review/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code review">Code review</a></li>
+                      <li class="edge-item-fix"><a href="/features/project-management/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Project management">Project management</a></li>
+                      <li class="edge-item-fix"><a href="/features/integrations" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Integrations">Integrations</a></li>
+                      <li class="edge-item-fix"><a href="/features#team-management" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Team management">Team management</a></li>
+                      <li class="edge-item-fix"><a href="/features#social-coding" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Social coding">Social coding</a></li>
+                      <li class="edge-item-fix"><a href="/features#documentation" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Documentation">Documentation</a></li>
+                      <li class="edge-item-fix"><a href="/features#code-hosting" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code hosting">Code hosting</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
+                      <li class="edge-item-fix"><a href="/case-studies" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Case studies">Case Studies <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="/security" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Security">Security <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+              <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
+                <a href="/business" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Business">Business</a>
+              </li>
+
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Explore
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/explore" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Features">Explore GitHub <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2 border-lg-top pt-lg-3">Learn &amp; contribute</h4>
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/topics" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Topics">Topics</a></li>
+                      <li class="edge-item-fix"><a href="/collections" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Collections">Collections</a></li>
+                      <li class="edge-item-fix"><a href="/trending" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Trending">Trending</a></li>
+                      <li class="edge-item-fix"><a href="https://lab.github.com/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Learning lab">Learning Lab</a></li>
+                      <li class="edge-item-fix"><a href="https://opensource.guide" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Open source guides">Open source guides</a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2 border-lg-top pt-lg-3">Connect with others</h4>
+                    <ul class="list-style-none mb-0">
+                      <li class="edge-item-fix"><a href="/events" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Events">Events</a></li>
+                      <li class="edge-item-fix"><a href="https://github.community" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Community forum">Community forum</a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Education">GitHub Education</a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+
+              <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
+                <a href="/marketplace" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Marketplace">Marketplace</a>
+              </li>
+
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Pricing
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                       <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-4 mt-0 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <a href="/pricing" class="pb-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Pricing">Plans <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/pricing/developer" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Developers">Developer</a></li>
+                      <li class="edge-item-fix"><a href="/pricing/team" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Team">Team</a></li>
+                      <li class="edge-item-fix"><a href="/pricing/business-cloud" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Business Cloud">Business Cloud</a></li>
+                      <li class="edge-item-fix"><a href="/pricing/enterprise" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Enterprise">Enterprise</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
+                      <li class="edge-item-fix"><a href="/pricing#feature-comparison" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Compare features">Compare plans <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="/nonprofit" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Nonprofits">Nonprofit <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com/discount_requests/new" class="py-2 pb-0 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover"  data-ga-click="(Logged out) Header, go to Education">Education <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+          </ul>
+        </nav>
+
+      <div class="d-lg-flex flex-items-center px-3 px-lg-0 text-center text-lg-left">
+          <div class="d-lg-flex mr-lg-3 mb-3 mb-lg-0">
+            <div class="header-search scoped-search site-scoped-search js-site-search position-relative js-jump-to"
+  role="combobox"
+  aria-owns="jump-to-results"
+  aria-label="Search or jump to"
+  aria-haspopup="listbox"
+  aria-expanded="false"
+>
+  <div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scope-type="Repository" data-scope-id="95226105" data-scoped-search-url="/poanetwork/wiki/search" data-unscoped-search-url="/search" action="/poanetwork/wiki/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+      <label class="form-control header-search-wrapper header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
+        <input type="text"
+          class="form-control header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
+          data-hotkey="s,/"
+          name="q"
+          value=""
+          placeholder="Search"
+          data-unscoped-placeholder="Search GitHub"
+          data-scoped-placeholder="Search"
+          autocapitalize="off"
+          aria-autocomplete="list"
+          aria-controls="jump-to-results"
+          aria-label="Search"
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=OGT7ls5wtb4MYBWlgDb7jd6izUZxPc/eTAKONwkv3GxskLfYxS0Y1sBGILvPCimEB8FAFx+VzcZtFZm2axGAqQ=="
+          spellcheck="false"
+          autocomplete="off"
+          >
+          <input type="hidden" class="js-site-search-type-field" name="type" >
+            <img src="https://assets-cdn.github.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
+
+            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+              
+<ul class="d-none js-jump-to-suggestions-template-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+</ul>
+
+<ul class="d-none js-jump-to-no-results-template-container">
+  <li class="d-flex flex-justify-center flex-items-center f5 d-none js-jump-to-suggestion p-2">
+    <span class="text-gray">No suggested jump to results</span>
+  </li>
+</ul>
+
+<ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+
+</ul>
+
+            </div>
+      </label>
+</form>  </div>
+</div>
+
+          </div>
+
+        <a class="HeaderMenu-link no-underline mr-3" href="/login?return_to=%2Fpoanetwork%2Fwiki%2Fwiki%2FPOA-Network-Whitepaper" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign&nbsp;in</a>
+          <a class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1" href="/join?source=experiment-header-dropdowns-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign&nbsp;up</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+
+</div>
+
+
+
+  <div role="main" class="application-main " data-commit-hovercards-enabled>
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div  >
+      
+
+
+
+  
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav pt-0 pt-lg-3 ">
+    <div class="repohead-details-container clearfix container-lg p-responsive d-none d-lg-block">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Fpoanetwork%2Fwiki"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-s"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/poanetwork/wiki/watchers"
+     aria-label="12 users are watching this repository">
+    12
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fpoanetwork%2Fwiki"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-s"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/poanetwork/wiki/stargazers"
+      aria-label="46 users starred this repository">
+      46
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fpoanetwork%2Fwiki"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-s"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/poanetwork/wiki/network/members" class="social-count"
+       aria-label="27 users forked this repository">
+      27
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" data-hovercard-type="organization" data-hovercard-url="/orgs/poanetwork/hovercard" href="/poanetwork">poanetwork</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/poanetwork/wiki">wiki</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container-lg p-responsive d-none d-lg-block"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+    aria-label="Repository"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /poanetwork/wiki" href="/poanetwork/wiki">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /poanetwork/wiki/issues" href="/poanetwork/wiki/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">6</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /poanetwork/wiki/pulls" href="/poanetwork/wiki/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">1</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /poanetwork/wiki/projects" href="/poanetwork/wiki/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+    <a class="js-selected-navigation-item selected reponav-item" data-hotkey="g w" aria-current="page" data-selected-links="repo_wiki /poanetwork/wiki/wiki" href="/poanetwork/wiki/wiki">
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      Wiki
+</a>
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse alerts security /poanetwork/wiki/pulse" href="/poanetwork/wiki/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+  <div class="reponav-wrapper reponav-small d-lg-none">
+  <nav class="reponav js-reponav text-center no-wrap"
+       itemscope
+       itemtype="http://schema.org/BreadcrumbList">
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a class="js-selected-navigation-item reponav-item" itemprop="url" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /poanetwork/wiki" href="/poanetwork/wiki">
+        <span itemprop="name">Code</span>
+        <meta itemprop="position" content="1">
+</a>    </span>
+
+      <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /poanetwork/wiki/issues" href="/poanetwork/wiki/issues">
+          <span itemprop="name">Issues</span>
+          <span class="Counter">6</span>
+          <meta itemprop="position" content="2">
+</a>      </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /poanetwork/wiki/pulls" href="/poanetwork/wiki/pulls">
+        <span itemprop="name">Pull requests</span>
+        <span class="Counter">1</span>
+        <meta itemprop="position" content="3">
+</a>    </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /poanetwork/wiki/projects" href="/poanetwork/wiki/projects">
+        <span itemprop="name">Projects</span>
+        <span class="Counter">0</span>
+        <meta itemprop="position" content="4">
+</a>    </span>
+
+      <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+        <a itemprop="url" class="js-selected-navigation-item selected reponav-item" aria-current="page" data-selected-links="repo_wiki /poanetwork/wiki/wiki" href="/poanetwork/wiki/wiki">
+          <span itemprop="name">Wiki</span>
+          <meta itemprop="position" content="5">
+</a>      </span>
+
+    <a class="js-selected-navigation-item reponav-item" data-selected-links="pulse /poanetwork/wiki/pulse" href="/poanetwork/wiki/pulse">
+      Pulse
+</a>
+
+  </nav>
+</div>
+
+
+  </div>
+
+<div class="container-lg new-discussion-timeline experiment-repo-nav  p-responsive">
+  <div class="repository-content ">
+
+    
+  <div id="wiki-wrapper" class="page">
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="l8h9hCulLnilN4mVWa7KeMEOfypoN7moXyB7z07hDwzr/RSAZYSXN4hqQaBVmltRjVVq2OOQRILuWxlt9BKbBQ==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 28 million developers working together to host and review code, manage projects, and build software together.</p>
+          <a class="btn btn-primary" href="/join?source=prompt-wiki-show" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="d-flex flex-column flex-md-row gh-header">
+    <h1 class="flex-auto min-width-0 mb-2 mb-md-0 mr-0 mr-md-2 gh-header-title instapaper_title">POA Network Whitepaper</h1>
+
+      <div class="mt-0 mt-lg-1 flex-shrink-0 gh-header-actions">
+        <a href="#wiki-pages-box" class="d-md-none ">Jump to bottom</a>
+
+      </div>
+  </div>
+
+    <div class="mt-2 mt-md-1 pb-3 gh-header-meta">
+      Vadim Arasev edited this page <relative-time datetime="2018-09-28T11:21:57Z">Sep 28, 2018</relative-time>
+      &middot;
+      <a href="/poanetwork/wiki/wiki/POA-Network-Whitepaper/_history" class="muted-link">
+        9 revisions
+      </a>
+    </div>
+
+  <div id="wiki-content" class="d-flex flex-column flex-md-row">
+    <div id="wiki-body" class="mt-4 flex-auto min-width-0 gollum-markdown-content instapaper_body">
+        <div class="markdown-body">
+          <h1>
+<a id="user-content-poa-network" class="anchor" href="#poa-network" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>POA Network</h1>
+<h1>
+<a id="user-content-abstract" class="anchor" href="#abstract" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Abstract</h1>
+<p>In this paper we propose an open permissioned network based on Ethereum protocol with Proof of Authority consensus by independent validators.</p>
+<p>Keywords: Ethereum, Proof of Authority, Consensus, Validators, Public Notary
+Authors: Igor Barinov, Viktor Baranov, Pavel Khahulin</p>
+<h1>
+<a id="user-content-introduction" class="anchor" href="#introduction" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Introduction</h1>
+<p>POA Network is an open, public, permissioned blockchain based on Ethereum[^fn1] protocol. To reach consensus on a global state, it uses a Proof of Authority consensus algorithm. PoA consensus is a straightforward and efficient form of Proof of Stake with known validators and governance-based penalty system. A list of validators is managed by a smart contract with governance by validators. During an initial ceremony, master of ceremony distributes keys to 12 independent validators. They add 12 plus one more to reach initial requirements for the consensus. To be validators on the network, a master of ceremony asks them to have an active notary public license within the United States. A concerned third party can cross-validate validators' identities using open data sources and ensure that each validator is a good actor with no criminal records. In the proposed network, identity of individual validator and trust to independent and non-affiliated participants will secure the consensus.</p>
+<p>The network is fully compatible with Ethereum protocol. The network supports only Parity client version 1.7 and later. The network supports trusted setup, on-chain governance, and a variety of "proof of identity" oracles. We believe that POA Network will close a gap between private and public networks, and will become a model for open networks based on PoA consensus.</p>
+<h1>
+<a id="user-content-proof-of-authority" class="anchor" href="#proof-of-authority" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Proof of Authority</h1>
+<h2>
+<a id="user-content-authorityround-aura" class="anchor" href="#authorityround-aura" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>AuthorityRound (AuRa)</h2>
+<p>Aura is one of the Blockchain consensus algorithms available in Parity. It is capable of tolerating up to 50% of malicious nodes with chain reorganizations possible up to a limited depth, dependent on the number of validators, after which finality is guaranteed. This consensus requires a set of validators to be specified, which determines the list of blockchain addresses which participate in the consensus at each height. Sealing a block is the act of collecting transactions and attaching a header to produce a block.[^fn11]</p>
+<p>At each step the primary node is chosen that is entitled to seal and broadcast a block, specifically <code>step modulo #_of_validators</code>the validator is chosen from the set. Blocks should be always sealed on top of the latest known block in the canonical chain. The block's header includes the step and the primary's signature of the block hash.[^fn11]</p>
+<p>Block can be verified by checking that the signature belongs to the correct primary for the given step. Finality of the chain can be achieved within at most <code>2 x #_of_validator</code> steps, after more than 50% of the nodes are signed on a chain and then they are signed again on those signatures. [^fn11]</p>
+<h2>
+<a id="user-content-history-of-poa" class="anchor" href="#history-of-poa" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>History of POA</h2>
+<p>On March 6, 2017, a group of blockchain companies announced[^fn2] new blockchain based on Ethereum protocol with Proof of Authority consensus [^fn3]. Spam attack on the Ropsten testnet was the reason to create a new public test network[^fn4]. This network was named Kovan, for a metro station in Singapore, where companies who founded the network are located. It is a common name convention for Ethereum test networks, for example, Morden, Ropsten, and Rinkeby are names of metro stations.</p>
+<h2>
+<a id="user-content-adoption-of-kovan-blockchain" class="anchor" href="#adoption-of-kovan-blockchain" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Adoption of Kovan blockchain</h2>
+<p>In the table below we show stats for Main (Homestead) and Test (Kovan) Ethereum networks.</p>
+<table>
+<thead>
+<tr>
+<th>Network</th>
+<th>Type</th>
+<th>Blocks mined</th>
+<th>Tx created</th>
+<th>Contract created</th>
+<th>Accounts created</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kovan</td>
+<td>Testnet</td>
+<td>3,417,527</td>
+<td>2,859,549</td>
+<td>54,384</td>
+<td>18,082</td>
+</tr>
+<tr>
+<td>Homestead</td>
+<td>Mainnet</td>
+<td>4,203,319</td>
+<td>50,374,359</td>
+<td>1,488,072</td>
+<td>4,957,479</td>
+</tr>
+</tbody>
+</table>
+<p>Large numbers of transactions, smart contracts, and accounts on the test network show adoption from the community and proven utility benefit.</p>
+<h1>
+<a id="user-content-poa-network-1" class="anchor" href="#poa-network-1" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>POA Network</h1>
+<h2>
+<a id="user-content-validators" class="anchor" href="#validators" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Validators</h2>
+<p>Independent U.S. public notaries with active commission license will be the first validators in POA Network. For the initial ceremony, 12 initial keys will be created by a master of ceremony. He will distribute those keys to individual validators. Each validator will change a key to a new subset of keys using a client-side DApp. After the initial distribution of licenses, an additional validator can be added through the voting process on the built-in Governance DApp. A majority of votes will be needed from validators to be accepted into the smart contract with a list of validators.</p>
+<h2>
+<a id="user-content-economy" class="anchor" href="#economy" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Economy</h2>
+<p>Crowdsale will take place before the launch of the main network.
+Purchased coins will be included in the genesis block and will create initial liquidity for the network.</p>
+<p>Validators will start to create blocks and generate a reward for the network security. For each generated block, a validator who created it will get one coin and all fees for transactions. Each validator has equal rights to create a block.</p>
+<p>The network will start with 12 validators. With 12 validators active, each validator will create one block every 12 blocks. For each block one coin will be created as a reward for validators and one coin for self sustaining of the network.</p>
+<p>A block will be generated with an average time of 5 seconds. During the first year of the network, validators will create 31,536,000 sec/5 sec per block = 6,307,200 blocks.</p>
+<p>The emission rate for validators is 2.5% for the first year of the network. The network will use disinflation model, and emission will decrease every year. An additional 2.5% will be added to support sustainability of the network.</p>
+<p>Therefore, 2.5% of the network supply will be generated as a reward for validators to secure the network. And 2.5% of total supply will be distributed to support sustainability. Validators will be able to propose areas of spending:</p>
+<ul>
+<li>burn coins</li>
+<li>hold coins</li>
+<li>spend on R&amp;D Foundation</li>
+</ul>
+<p>Sustainability emission will be governed by decentralized apps.</p>
+<p>Emission rate.
+X-axis - %, Y-axis - Years
+<img src="https://github.com/poanetwork/wiki/raw/master/assets/imgs/poa/papers/whitepaper/emission-rate.png" alt=""></p>
+<h2>
+<a id="user-content-use-cases" class="anchor" href="#use-cases" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Use Cases</h2>
+<h3>
+<a id="user-content-inexpensive-network" class="anchor" href="#inexpensive-network" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Inexpensive Network</h3>
+<p>POA Network provides inexpensive consensus to secure the network. Users can run Ethereum programs on POA Network and spend less money on transaction fees. Overall cost of the network's security will  also be cheaper due to lower market cap.</p>
+<h4>
+<a id="user-content-problem" class="anchor" href="#problem" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Problem</h4>
+<p>Though the issuance of ETH is in a fixed amount each year, the rate of growth of the monetary base (monetary inflation) is not constant. This monetary inflation rate decreases every year, making ETH a disinflationary currency (in terms of monetary base). Disinflation is a special case of inflation in which the amount of inflation shrinks over time.[^fn9]</p>
+<p>In 2017 the issuance rate of Ether is 14.75%.[^fn10] Roughly five Ethers per block are issued. Because Ethereum rewards Uncles it means that there may be more or less than five Ethers.[^fn10]</p>
+<p>By 9/7/2017 miners generated 21,335,541.72 ETH as Mining Block Reward and 1,181,201.88 Mining Uncle Reward. For securing the network, they received a total of 22,516,743.6 ETH. Using the 9/7/2017 price of $303.86, security of the network costs 22516743.6 ETH * $303.86 = $6,841,937,710.296.</p>
+<p>There are 56,048,767 transactions on the network. Security of a transaction in the main Ethereum network costs are about $122.07 at the current rate.</p>
+<h4>
+<a id="user-content-solution" class="anchor" href="#solution" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Solution</h4>
+<p>In POA Network the issuance rate is 2.5% with future disinflation. There is no Mining Uncle Reward in the network, because consensus is not based on Proof of Work.</p>
+<h3>
+<a id="user-content-validators-with-known-identity" class="anchor" href="#validators-with-known-identity" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Validators with known identity</h3>
+<p>Each validator of the network will prove his/her identity using "proof of identity" DApps. Each block will be attributed with the identity of a validator. If a miner breaks the rules of the open network, e.g. will not accept a transaction to a specific address, participants of the network will have legal instruments to resolve that problem.</p>
+<h3>
+<a id="user-content-fast-network" class="anchor" href="#fast-network" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Fast network</h3>
+<p>Validators in POA Network create blocks every five seconds. This rate is tested on Kovan testnet and usable in the long-term. A faster network allows for building new types of applications where response rate from the distributed consensus is important.</p>
+<h3>
+<a id="user-content-legally-recognizable-hard-forks" class="anchor" href="#legally-recognizable-hard-forks" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Legally recognizable hard forks</h3>
+<p>Hard fork is a change of the software. After applying this software, old clients will not be able to work on the new network.
+All validators on the network are residents of the U.S. Therefore, they are all located in the same legal system. Hard fork decisions will be signed as legal documents and will be recognizable in a court system. This will bring protections to participants of the network and will open new possibilities to decide how to deal with ongoing changes.</p>
+<h3>
+<a id="user-content-model-for-experiments" class="anchor" href="#model-for-experiments" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Model for experiments</h3>
+<p>The network is built to iterate fast. In the future many open and independent networks based on Ethereum protocol will operate and have interface for interoperability.</p>
+<h2>
+<a id="user-content-security-risks" class="anchor" href="#security-risks" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Security Risks</h2>
+<h3>
+<a id="user-content-key-compromise" class="anchor" href="#key-compromise" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Key compromise</h3>
+<p>During the initial ceremony, validators will be required to replace their initial keys with a set of three keys. Mining keys are located on a mining node. If a node is compromised, validators will create a ballot using Governance DApp and propose replacement of the mining key. If a voting key is compromised, a validator will ask another validator to create a ballot to replace his/her voting key. If a payout key is compromised, a validator will create a ballot to replace his/her payout key. Because payout is not required, a validator can specify a new payout key on a mining node without proposing ballots.</p>
+<h3>
+<a id="user-content-censoring-signer" class="anchor" href="#censoring-signer" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Censoring signer</h3>
+<p>Censoring signing is an attack vector in which a signer or a group of signers attempts to censor out blocks that vote on removing them from the validators list. To work around this, we restrict the allowed minting frequency of signers to 1 out of N. This ensures that malicious signers need to control at least 51% of signing accounts, at which case it's game over anyway.</p>
+<h3>
+<a id="user-content-regulatory-risks" class="anchor" href="#regulatory-risks" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Regulatory risks</h3>
+<p>All validators are required to have an active notary commission. Doing block validation under the name of a notary public may be considered as false advertising and a regulator may revoke the notary commission from the validator. The network will mitigate the risk by providing additional identity checks for a validator. Eventually, those unbiased checks will replace the need for a validator to have an active notary commission.</p>
+<h3>
+<a id="user-content-collusion-of-validators" class="anchor" href="#collusion-of-validators" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Collusion of validators</h3>
+<p>Validators may become an affiliated group even though we require them to be independent. Before distribution of initial keys, the master of ceremony will require validators to sign a non-affiliation agreement between them and the network. All validators are in the same jurisdiction, where the general public may enforce that agreement.</p>
+<h2>
+<a id="user-content-deployment" class="anchor" href="#deployment" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Deployment</h2>
+<p>We provide a deployment script for cloud installation of mining, boot, and general purpose nodes.
+For a validator, setting up a node is a one-button solution. For a mining node, a validator will provide</p>
+<ul>
+<li>Mining Address. The address of the mining key received at the initial ceremony.</li>
+<li>Mining Keyfile. File with the private key of the mining key.</li>
+<li>Mining Keypass. The password to unlock the private key of the mining key.</li>
+<li>Admin Username. Username of admin user of the virtual machine, e.g. <code>root</code>.</li>
+<li>Admin SSH public key. Content of admin's SSH public key. We do not allow use of passwords for the VMs.</li>
+<li>Netstats Server. Network statistics, e.g. number of Active Nodes, Last Block, Avg Block Time, Best Block, Gas Spending, Gas Limit, List of validators with parameters.</li>
+<li>Netstats Secret. Password to the netstat server.</li>
+</ul>
+<h1>
+<a id="user-content-decentralized-apps" class="anchor" href="#decentralized-apps" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Decentralized apps</h1>
+<p>The term decentralized app or DApp stands for an application which works with a smart contract and can be deployed on any host and redeployed in case of attack or censorship without any harm to its functions. POA Network provides sets of supported DApps for identity verification, governance, and network administration.</p>
+<h2>
+<a id="user-content-initial-ceremony-dapp" class="anchor" href="#initial-ceremony-dapp" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Initial ceremony DApp</h2>
+<p>During the initial ceremony a master of ceremony creates a set of keys for each validator. He/She distributes them to validators one by one. Before each distribution of keys, he/she sends a transaction to a smart contract with a list of validators. That smart contract is used by consensus algorithm to determine if a validator has rights to participate in consensus and create blocks. The validator's smart contracts are used by other DApps, e.g. Governance DApp and Payout DApp.</p>
+<p>A validator generates three keys in the Initial Ceremony DApp:</p>
+<ul>
+<li>mining key, required to participate in consensus and create blocks.</li>
+<li>voting key, required to create ballots and vote on ballots.</li>
+<li>payout key, not required. Used in Payout DApp to send daily mined coins from the mining key to the payout key. If a mining node should be compromised, an attacker will get daily earnings or less.</li>
+</ul>
+<p>All keys are generated on the client side and not transmitted over the Internet without a validator's permission and willingness. When keys are generated, the validator stores them on secure local storage, e.g. saves them to a hardware wallet and the password to a password manager. The validator signs a transaction to the validator's contract with the initial key, provided by the master of ceremony.</p>
+<p>Initial ceremony is a required procedure to start a new network based on POA Network's ideas of independent validators.</p>
+<p><img src="https://github.com/poanetwork/wiki/raw/master/assets/imgs/poa/papers/whitepaper/initial-ceremony.png" alt=""></p>
+<p><a href="http://sequencediagram.org/index.html?initialData=FAQwxgLg9gTgBAWRAZwgU3lAZnAwhtAWygDsBPUSWOANRABsBLAExGnmFYhACMU04AGUao42WgxZtYyYBEYR6AgJIkFjBnDAFi5YMCSoMYnPhhFSZALQA+Q+kymdlgFwBxNCQxsBAdwZKEHAgzMzmyMhoyAA0ADokAA4wjABuPnAA1mhkMSAkzHAJKMi+sMzIcFiw8QCMAExwaUxcMgYoDiZ4zuS2wqLidM3SMMguAMqeBRAAHnC+CgAWcwFoQSFhURXiII2SLTCU8mnoQiJBA3vDsiRQJ8kA5gvnOH3PEkPso7gLaGAZcBAFmw4CQAK6EHjGcTxJpST5wAA8cHqbSMji65l0ZARVlenUGcJkLlwpCwjBghABQKCsP2ywq6zQzE4aHAR3SeIuH1a9ihTkxllsBP240mhWSxwEWTIwXyhWKpRgzOYrMgqQ5Z3xl0+wGFwyF2tg7k83hO-nogWi4vVJ2lVqKEUVzHiVXghEYahI93tIDIUFBECtKVuHvumWyyAAdLrDTBepquYSRqK5TM4MhGPcvAV5oC4B71JppQCoHBzAl6OA0PEC-Ii9k5os4PcTTAfAVpRVDjaBJycHqdX33knkAbuTAXHhSeTKYDgZ25gRgqEmSy2T3Tv1+7HkEA" rel="nofollow"></a></p>
+<h2>
+<a id="user-content-proof-of-identity-dapps" class="anchor" href="#proof-of-identity-dapps" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Proof of Identity DApps</h2>
+<p>In POA Network, identity of individual validators plays a major role for selected consensus. We propose a requirement for the initial validators to have an active notary commission within one of the states of the United States, although notary commission is not an object a validator can control solely. A regulator, e.g. a Secretary of State, may revoke notarial license from a validator, and we propose additional checks of identity, performed in a decentralized way.</p>
+<p>Proof of Identity DApps is a series of decentralized applications focused on connecting a user's identity to his/her wallet. Applications can be run on any Ethereum-compatible network.</p>
+<h3>
+<a id="user-content-proof-of-physical-address-popa-dapp" class="anchor" href="#proof-of-physical-address-popa-dapp" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Proof of Physical Address (PoPA) DApp</h3>
+<p>Using Proof of Physical Address, a user can confirm his/her physical address. It can be used to prove residency.</p>
+<h4>
+<a id="user-content-typical-workflow-for-identity-dapps-on-popa-example" class="anchor" href="#typical-workflow-for-identity-dapps-on-popa-example" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Typical workflow for Identity DApps on PoPA example</h4>
+<p><img src="https://github.com/poanetwork/wiki/raw/master/assets/imgs/poa/papers/whitepaper/proof-of-address.png" alt=""></p>
+<p><a href="http://sequencediagram.org/index.html#initialData=C4S2BsFMAIAUCcD2iBm1VwBYE8DOIBjAQ3GgEEATC+SXXAKHqIOEXmgFVdJ56AHIvFAEQAgHbBoAETJ8+0AO6QARv0HDRRCdNnzu8AG496FIsCLKi3aAGUeR9lIBCaoYU3aAwognxmkslgASRMzCysYb19-W1Y-AHNIVw1xSVhEXEl9A0Ik+mVEAA90B059AC5oILFMknBcaABZSHNGqwBrei4eaABaAD4ZOUUVcvoh+SVlAYnobJ5KmwBXZQBbMGgiKho6aBQ2VYAaAB0xFsxN7doGAuLEUtn5+HKANRIQU2AYADJoMQP3gAvGAgMR8JbAfJFEo9R72BbQADikDOfi+0AIPhQIHgqzMIB8GMQFBgAAoCAQAJTjXRzeHwAZ2QywpyVbh0AliaDtSDYaCk3DtSmnADUGIIoug50u1GuTBYIAMZhgTIeLluMMctKeixA8S5Aj8qxaPAYcOZDMGtKmiwAEmQAMzkqmSwWuvViMxLGiS-64oGQCjQUHgyH+RXKnTDKY06MqAZRYB+FjkYKVAAqAA1Kp46tAaPEQJkeAB9Layuik8s7XDUjX3HqJ5MBNPQN7gD6R-D6r00KF3UpNmKBII5zCQAjtGU1qWFIvABhDlMjhM+JMxGxxIiJRZEIzT66Smz2p0U4ViMXS6uHi-QZTgRCTv5LVbKYzhpXopeSTdsbdJb9UyCGZrVGaBgEKEsPljSZ4ytYYdXAyCPldToSQ-SNZhjc0HEZelpFZOZOlVFkQIQ+lKgpSUryuOh+01KM9Ao6BPHHSdTgggA6FAkFWaAAF5+KlYALmvOgOMKTjWAEoTMWiFNEAUVEYLpC1V3kltR2gAAxUEgzEhoC3nHhA1OAABJDOPvR92gAORfN9eEAld4KYi1KkoCsGk+IgVKeAZ0kyVScgISBKJoZUSz4DJgGIeAgyrWjcEOcVqXQhVPxVfDnHoQKsnsXIBm6Z5pEgDtSmizI4ooLp9DI2DlDGLC4JwhZ6IbLVyPc2wPWgQ0iGNL54DNbV6XqkZGrmD1eySZrpn6ZzWyzHM8yVDtPkgEs5Oxf1QB8LbiUgZ0Uu7T1gG9SA62hDqWLXZsgMqXSxH0pLTgUMALjxWLMFBeJxXoRbgIWu6Ny3HdbrEHiQFWRh6CAA" rel="nofollow"></a></p>
+<p>User fills out a form in DApp and submits it to the server.</p>
+<p>Server consists of a web app and a parity node connected to the blockchain. The node is run under the ethereum account that was used to deploy the PoPA contract (contract's <code>owner</code>), and this account needs to be unlocked. It shouldn't have any ether on it though, as it doesn't send any more transactions.</p>
+<p>Server validates and normalizes the user's input: removes trailing spaces, converts letters to lower case.
+Then it generates a random confirmation code (alphanumeric sequence) and computes its SHA-3 (strictly speaking, keccak256[^fn6]) hash. Also, it generates a random session code (see below), that it stores in memory/database along with the user's eth address and plain text confirmation code.
+Then the server combines input data, namely <code>str2sign = (user's eth address + user's name + all parts of physical address + confirmation code's hash</code>) into a string that is hashed and signed with the <code>owner</code>'s private key. (This is why the <code>owner</code>'s account needs to be unlocked. In the next release of web3js it will probably become possible to sign using a private key without unlocking.)</p>
+<p>Signature, the confirmation code's hash, the user's normalized input, and the session code are sent back to the client. User then confirms the transaction in MetaMask and invokes the contract's method. The contract combines input data in the same order as the server did, hashes it, and then uses the built-in function <code>ecrecover</code> to validate that the signature belongs to the <code>owner</code>. If it doesn't, the contract rejects the transaction, otherwise it adds some metadata, most importantly the current block's number, and saves it in the blockchain.</p>
+<p>When the transaction is mined, <code>tx_id</code> is returned to the client and then via the client to the server, along with the session code. Server queries memory by the session code and validates the user's eth address. Then it fetches the transaction from the blockchain by <code>tx_id</code>. It verifies that <code>tx.to</code> is equal to <code>owner</code> and <code>tx.from</code> is equal to the user's eth address. Then, using <code>tx.blockNumber</code> the server uses the contract's method to find the physical address added at that blockNumber. User should be limited to registering at most one address per eth block. Since block generation time is less than a minute, it shouldn't be too restrictive on the user.</p>
+<p>Having fetched the address from the contract, the server calls postoffice's api (lob.com) to create a postcard. Server uses the session code to get plain text confirmation code from memory and print it on the postcard. Then the server removes this session code from memory to prevent reuse.</p>
+<p>When the postcard arrives, the user enters the confirmation code in DApp, DApps gets signature from the server and invokes the contract's method. Contract verifies signature, computes the confirmation code's hash and loops over the user's addresses to find the matching one.</p>
+<p>Possible cheating:</p>
+<ol>
+<li>
+<em>user can generate his/her own confirmation code, compute all hashes and submit it to the contract, and then confirm it</em>
+This can't be done because the user doesn't know the <code>owner</code>'s private key and therefore can't compute a valid signature.</li>
+<li>
+<em>user can reuse someone else's confirmation code, or his/her own confirmation code from one of the previously confirmed addresses</em>
+This is prevented by hashing all essential pieces of data together before signing (user's eth address, full physical address, confirmation code) and by checking the address for duplicates in the contract.</li>
+<li>
+<em>user can submit the form, but doesn't sign the transaction</em>
+For this reason the postcard is sent after the address is added to the blockchain and <code>tx_id</code> is presented to the server.</li>
+<li>
+<em>user can submit the form and sign the transaction, but sends another address to the server to send postcard to</em>
+After the first transaction is mined, the server sees for itself what address was added and fetches it from the contract instead of trusting the client. Session code is then used to retrieve the corresponding confirmation code. To simpify things, we can limit the user to only submitting a single address per block. In this case, the contract just needs to find the first record with matching <code>creation_block</code>.</li>
+<li>
+<em>user can resubmit the same tx_id to the server multiple times</em>
+This is prevented by removing the session code from memory after the first postcard is sent.</li>
+</ol>
+<h3>
+<a id="user-content-proof-of-bank-account-dapp" class="anchor" href="#proof-of-bank-account-dapp" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Proof of Bank Account DApp</h3>
+<p><img src="https://github.com/poanetwork/wiki/raw/master/assets/imgs/poa/papers/whitepaper/proof-of-bank.png" alt="">
+<a href="http://sequencediagram.org/index.html?initialData=C4S2BsFMAIAUCcD2iBm1XQEIEMB2BraAQQGMTEBXXYAKBuxOEXmgFUBnSeGgB23lAkQfatAAiRHj2gB3SACNe-QcLzBxk6Z3gA3LjQAm2YNnnZO0AMpc9LMZiUCQQkeoDCiavAbqisAJKGxqbmMB5ePlZM3gDmkI4qrlh4hH6BNPKIAB7otmzaAFzQ-rjsJuDg7NAAspAm1eb4NBxc0AC0AHwSUrIKRSTwkAaQ1CDYlTTd0nLynTgExAFF2BTAABYjgsYwFNo086kBnVO98stkkOxVTPgjk5qnxw-atuckl9eIt7gAOrgA1NAGOQqOpcBQALbyLh-QF1NZAgwGQZXDLZXKtE4vLhFABq4xARmAMAAZNBcMwIQSAF4wEC4Hire49bHwOYpRb+IoAMTqJARwMoonBUK4VXkAE8gRcrtAbncDpyniybDjiGQhWDIdD4Ow0TlEHksar4EU3BsSIRgR85YhpSDhdr9JkDUbniaigiALxWAASRAAzAAKeGI5EfWHQMwLEU6yOC0Hkp3wACU+oxdndujVlhAMVw0ARzK0JvaHQ0PRmRXYedwxgog3jGsTsZhAKjHLrEPiJxmZeg4WA3kYnKKABUABpm8bgaCDGIgMpcAD6Ceoy9b3BdGYHniHkTSeIJRJgNfz9cG6cNrUHw98SwHFqtzcdopYkCyi9ot4PRw6P5HSxomwOJq2wPRoFDbAkRRdhI2jQgu0gJsHS1N8aCAA" rel="nofollow"></a></p>
+<p>In contrast to other identity DApps, PoBA is (from the contract's point of view) a one-step verification process.</p>
+<p>DApp client and server are integrated with bank accounting API service (plaid.com).</p>
+<p>Client side uses the service's widget (Plaid Link) to authenticate the user, and as a result of successful authentication, access_token is returned from Plaid to the client. User then fills out a form with his/her bank account number and submits it to the server alongside Plaid's access token.</p>
+<p>Server consists of a web app and a parity node connected to the blockchain. The node is run under the ethereum account that was used to deploy the PoP contract (contract's <code>owner</code>). This account needs to be unlocked.</p>
+<p>Server validates and normalizes the user's account number by removing trailing spaces. Then the server fetches the bank account numbers from Plaid using access_token. It checks that the account number submitted by the user is present in the list returned by Plaid.</p>
+<p>Server then combines <code>user's eth address + bank's name + account number</code> into a single string and hashes it with SHA-3 function. The hash is then signed with <code>owner</code>'s private key (this is why <code>owner</code> account needs to be unlocked).</p>
+<p>Signature, normalized account number, and bank name are returned to the client. User then signs the transaction in MetaMask and invokes the contract's method.</p>
+<p>Contract checks that the account number for this bank for this eth address doesn't already exist. If it does, the contract rejects the transaction. Otherwise, it combines parameters in the same order as the server did and computes <code>sha3</code> hash of them. Then it uses the built-in <code>ecrecover</code> function to validate that the signature belongs to the <code>owner</code>. If it doesn't, the contract rejects the transaction, otherwise, it saves the information to the blockchain.</p>
+<p>Possible cheating:</p>
+<ol>
+<li>
+<em>user can generate his/her own confirmation code, compute all hashes, and submit it to the contract, and then confirm it</em>
+This can't be done because the user doesn't know the <code>owner</code>'s private key and hence can't compute a valid signature.</li>
+<li>
+<em>user can use someone else's access_token returned by Plaid and thus verify the account he/she has no real access to</em>
+This is equivalent to either hacking someone else's computer or the account's owner deliberately providing the user with his/her access_token. Since all communications with Plaid are via HTTPS protocol, there is no way for the user to intercept access_token sent to someone else.</li>
+</ol>
+<h3>
+<a id="user-content-proof-of-social-network-dapp" class="anchor" href="#proof-of-social-network-dapp" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Proof of Social Network DApp</h3>
+<p><img src="https://github.com/poanetwork/wiki/raw/master/assets/imgs/poa/papers/whitepaper/proof-of-social.png" alt=""></p>
+<p><a href="http://sequencediagram.org/index.html?initialData=C4S2BsFMAIAUCcD2iBm1XQMqIMYgIbjQBykwA7ovANYBQt+OwV0AqgM6Ty0AO+8oPHwB2waABEAgjx7RykAEa9+gkCLFSZ0TvABuXWgBN8wfAvycsXffAkAhZQJBD8o6AGFEo+IzGTYAJJGJmYWMJ7evljMPgDmkI6q6li4BETCZJQ09AqIAB7oNmw6AFzQAcLspuDg7NAAsmT49RZ0HFzQALQAfJqy8gpltH1yij0jOjZlmACuCgC2YNqphNAZFFTU0DxIKCBQ0AAU7MI8AJTQ4CDCdLkFiEUT1lxlAGqEIMbAMABka1TzD4ALxg1x4M2AtDuhQ6Tz0L2gAHFIBkfN9oDgvHt4IDQF4MYhDDBDjgcGdhtJZJMuD1MM9bOI7GVOOx2CB8dRIABPI7sahnAA6wgA1BicELRWQABbQfCGQzwSCshhMEC6EwwOnwhkOaEPWGU7T06YgWLCbb8fDzMhcdgUrTU+DjQ0DaYACUkAGYSWSJdpqH62WaTDNFX7hADgZBDNAwRCVaB1eiRgN7f0xt0IsAfExoP4AmUACoADTK7kIREVsRAVS4AH0dqh9pBjqdyXqilmc35Am8Pl8YEHhCHFVD8jDbF2ovmy1LIDgtidZJA8jXgHap7n8z1N2JMDF8PFpvh9NpTn7MB7vaTBSLoNLZfLFay-QpwLgtsIZvMFAZfGqNQ8LxsyifcqEPBJdzzQJnS0V1oGAPI60+NNRgUWCqWNBCkM+QM6CJf8kxgFNFFQx1aXpexmToLVHjsDCjW1MpST9B85QVJU7QI1UiKsbV7DHe5HkNR1Z3nANRDyAA6FAkHmaAAF4FPvYAZXY592CFRCpOYRTlMxSJc0QchUTI+kd2A7toILaAADFrhjJdoCrNcuGjIUAAFsKkt8P2Ib9f24KDt16ESsMwYhYGgL58EEicJDCpjoAAdR8WRSVjUREAJYRsVxdlzR4KUfEsElzjM7UGPgnAeFQgYenaeAhka2kVnSTJNjKFpOW2OYrhwbZECqOQwBlGraBa0K4MUMoEAeT4YCuG4EOy1SYB4IaxHIUaMVqkj0KmzCktmBYljWy5rlucd9QZRKpiwHA0pgc6luoAAaaB1SuAc1g6mhoD+Uk4puhKHXC01zSBuEbCqmbtAhkdID9KGXQzYLe2gEsywrT7+w1OsDLykwCoJwkWxvYHO0s6cMfeb7AKHRHKY6dGbPs4RHPPYRttU6BcRwKVrliMVaFZizDL3A8jyA3L4BAeZ6FoIA" rel="nofollow"></a></p>
+<p>User fills out a form in DApp providing the link to his/her social network profile and submits it to the server.</p>
+<p>Server consists of a web app and a parity node connected to the blockchain. The node is run under the ethereum account that was used to deploy the PoSN contract (contract's <code>owner</code>). This account needs to be unlocked.</p>
+<p>Server validates and normalizes the user's profile link: removes trailing spaces, converts protocol to HTTPS if applicable, domain name to lowercase, and removes extra URL parameters.</p>
+<p>Then it generates a random confirmation code (alphanumeric sequence) and computes its SHA-3 (strictly speaking, keccak256[^fn6]) hash. Also, it generates a random session code (see below), that it stores in memory/database along with the user's eth address and plain text confirmation code.
+Then server combines input data, namely <code>str2sign = (user's eth address + user's profile link + confirmation code's hash</code>) into a string that is hashed and signed with <code>owner</code>'s private key (this is why <code>owner</code>'s account needs to be unlocked).</p>
+<p>Signature, the confirmation code's hash, the user's normalized profile link, and the session code are sent back to the client. User then confirms the transaction in MetaMask and invokes the contract's method. The contract combines input data in the same order as the server did, hashes it, and then uses the built-in function <code>ecrecover</code> to validate that the signature belongs to the <code>owner</code>. If it doesn't, the contract rejects the transaction, otherwise it adds some metadata, most importantly the current block's number, and saves it in the blockchain.</p>
+<p>When the transaction is mined, <code>tx_id</code> is returned to the client and then via the client to the server along with the session code. Server queries memory by the session code and validates the user's eth address. Then it fetches the transaction from the blockchain by <code>tx_id</code>. It verifies that <code>tx.to</code> is equal to <code>owner</code> and <code>tx.from</code> is equal to the user's eth address. Then, using <code>tx.blockNumber</code> the server uses the contract's method to find the profile link added at that blockNumber. User should be limited to registering at most one profile link per eth block.</p>
+<p>Then the server uses the session code to get plain text confirmation code from memory and enclose it into a predefined meaningful text, e.g.:</p>
+<pre><code>My POA identity confirmation code is &lt;confirmation code&gt;
+</code></pre>
+<p>(As a side note, it'd be funny if the confirmation code was a random quote from a random book.) Then the server sends this confirmation phrase back to the client and removes the session code from memory to prevent reuse.</p>
+<p>User must create a publicly available post where the confirmation phrase would appear alone, on a separate line (there may be other text in this post, on other lines).</p>
+<p>Then the user returns to the DApp and submits the link to his/her post. Server needs to scrape this post, find a line starting with the predefined text and extract the confirmation code from it. Server then calculates SHA-3 of the confirmation code and signs it with the <code>owner</code>'s private key. Hash of the confirmation code and signature is returned to the client.</p>
+<p>User then confirms the transaction in MetaMask, which invokes the contract's method. Contract first of all uses <code>ecrecover</code> to verify that the signature belongs to the <code>owner</code>. If it doesn't, the contract rejects the transaction, otherwise it computes the confirmation code's hash and loops through the user's profile links to find a matching one. Server must also double-check that post is on the same network that is in the profile link in the contract's data.</p>
+<p>Possible cheating:</p>
+<ol>
+<li>
+<em>user can generate his/her own confirmation code, compute all hashes, and submit it to the contract, and then confirm it</em>
+This can't be done because the user doesn't know the <code>owner</code>'s private key and therefore can't compute a valid signature.</li>
+<li>
+<em>user can reuse someone else's confirmation code, or his/her own confirmation code from one of the previously confirmed profile links</em>
+This is prevented by hashing all essential pieces of data together before signing (user's eth address, profile link, confirmation code) and by checking the profile link for duplicates in the contract.</li>
+<li>
+<em>user can submit the form, but doesn't sign the transaction</em>
+For this reason confirmation phrase is sent to the client after the profile link is added to the blockchain and <code>tx_id</code> presented to the server.</li>
+<li>
+<em>since user knows confirmation code right from the start (cf. PoPA DApp), he/she can avoid posting the confirmation phrase and just call the contract's method directly</em>
+Link to the post should be presented to the server, which scrapes it, extracts the confirmation code, and then signs it with the <code>owner</code>'s private key.</li>
+<li>
+<em>user can post the confirmation phrase on some other social network or website</em>
+Server should double-check that the post is on the same network as the profile link from the contract's data.</li>
+<li>
+<em>user can resubmit the same tx_id to the server multiple times</em>
+This is prevented by removing the session code from memory after the first postcard is sent.</li>
+</ol>
+<h3>
+<a id="user-content-proof-of-phone-number-dapp" class="anchor" href="#proof-of-phone-number-dapp" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Proof of Phone Number DApp</h3>
+<p><img src="https://github.com/poanetwork/wiki/raw/master/assets/imgs/poa/papers/whitepaper/proof-of-phone.png" alt=""></p>
+<p><a href="http://sequencediagram.org/index.html?initialData=C4S2BsFMAIAUCcD2iBm1XQLKIEYinABaIB2kAUOQIYDGwi80AqgM6TzkAOV8oNI3EsGgARAIKdO0AO6QcXHnwFUhoiVLbwAbu3IATKsCo4qbaAGV2OxiIBCC3iH6DhAYVLB4tYWNgBJfUNjUxh3IS86C3ovAHMKbkdnFWFzTHNoXwDyHEQAD3RrZk0ALmg-EhYjcHAWLEgjTFMAa3JWdmgAWgA+cUkZOWLyXqlZHG7h6E1rUvMAVxwAWzBoTmIyaBJZhZx2ABoAHTJgQmgqPT14SBYWbLyC9omp9mKANSpwEANgGAAyDYYFu8QAAvGAgEicWbAW75RCFR5WZ7QADikDIXm+0BopBQIHggNApCxiD0MAAFDQaABKIbqSaI+DdSzaB62Upsa4gIlNSAAT2gZJYTSphwA1FiaGLoPUTmcLlcbt4QFpDDBmfD7DlYfC6U94DMQDESCseFQFvV2DcESzGT06aMZgAJMQAZgp1KlQs9hpIhlmlylJABQNBemg4Mh0KVKsxE1GtL6o26YU83gy-lKABUABqlVzvcDQS4xECVdgAfVWpEgZKrZBpWvujBTER8Gegbw+XxgLB9fsuMKb0BbacyecIkBoTRWaxgkFypeANxHkUyyY8raiDCocRmVB0M+rUvMzrdlJFJHFMtO50u1ylOHAiCnGy2Ow40dVw43afM0R3FArm2fjjPaAzQMAuTlp8CYjHIoF9HqpSQdBeiei0pKfrGYHyNa1hMgyohspMLTqqyCEaAypSUlK15yneNyNnCDy6lRw4TlOhyQQAdCgSALNAAC8gnSscN7yveQi5Nx9BCSJ2LhGmiDSOisH0ja66Kau7YAGLgmGdYwMWi7sJAaEkAAAhB0mPs+TQAHJvroQHpiBdqIWxYi3gq0BfFQal6kyaSueyaJ6OWLALLUtazrsEo0phdDKl+ZE2PYqTpGuXRtPqoiQB8hQZa0mgUf0OCDHG8FdC5Y7QDmeYFtAKpdqq5YKbi+KGFyJBtSSNbnoOzHNj+2l+KUekkAZs6HNIYAnASNCEOCMQSuQNX+JpqaRH+267t+JB8SACzkEAA" rel="nofollow"></a></p>
+<p>User fills out a form in DApp providing his/her phone number and submits it to the server.</p>
+<p>Server consists of a web app and a parity node connected to the blockchain. The node is run under the ethereum account that was used to deploy the PoP contract (contract's <code>owner</code>). This account needs to be unlocked.</p>
+<p>Server validates and normalizes the user's phone number: removes trailing spaces, converts it to international format.</p>
+<p>Then it generates a random confirmation code (alphanumeric sequence) and computes its SHA-3 (strictly speaking, keccak256[^fn6]) hash. Also, it generates a random session code (see below) that it stores in memory/database along with the user's eth address and plain text confirmation code.
+Then the server combines input data, namely <code>str2sign = (user's eth address + user's phone number + confirmation code's hash</code>) into a string that is hashed and signed with the <code>owner</code>'s private key (this is why <code>owner</code>'s account needs to be unlocked).</p>
+<p>Signature, the confirmation code's hash, the user's normalized phone number, and the session code are sent back to the client. User then confirms the transaction in MetaMask and invokes the contract's method. The contract combines input data in the same order as the server did, hashes it, and then uses the built-in function <code>ecrecover</code> to validate that the signature belongs to the <code>owner</code>. If it doesn't, the contract rejects the transaction, otherwise it adds some metadata, most importantly the current block's number, and saves it in the blockchain.</p>
+<p>When the transaction is mined, <code>tx_id</code> is returned to the client and then via the client to the server along with session code. Server queries memory by the session code and validates the user's eth address. Then it fetches the transaction from the blockchain by <code>tx_id</code>. It verifies that <code>tx.to</code> is equal to <code>owner</code> and <code>tx.from</code> is equal to the user's eth address. Then, using <code>tx.blockNumber</code> the server uses the contract's method to find the phone number added at that blockNumber. User should be limited to registering at most one phone number per eth block.</p>
+<p>Then the server uses the session code to get plain text confirmation code from memory and send it via SMS service (twilio.com) to the user's phone number. Then the server removes the session code from memory to prevent reuse.</p>
+<p>Having received SMS with verification code, the user returns to the DApp and confirms the transaction in MetaMask, which sends confirmation code to the contract's method directly, without calling the server. There doesn't seem to be any need for signing this transaction with the <code>owner</code>'s private key. Contract computes the confirmation code's hash and loops over the user's phone numbers to find a matching one.</p>
+<p>Possible cheating:</p>
+<ol>
+<li>
+<em>user can generate his/her own confirmation code, compute all hashes and submit it to the contract, and then confirm it</em>
+This can't be done because the user doesn't know the <code>owner</code>'s private key and therefore can't compute a valid signature.</li>
+<li>
+<em>user can reuse someone else's confirmation code, or his/her own confirmation code from one of the previously confirmed phone numbers</em>
+This is prevented by hashing all essential pieces of data together before signing (user's eth address, phone number, confirmation code) and by checking the phone number for duplicates in the contract.</li>
+<li>
+<em>user can submit the form, but doesn't sign the transaction</em>
+For this reason, SMS is sent after the phone number is added to the blockchain and <code>tx_id</code> is presented to the server.</li>
+<li>
+<em>user can submit the form and sign the transaction, but sends another phone number to the server to send SMS to</em>
+After the first transaction is mined, the server sees for itself what phone number was added and fetches it from the contract instead of trusting the client. Session code is then used to retrieve the corresponding confirmation code. To simpify things, we can limit the user to only submitting a single phone number per block. In this case the contract just needs to find the first record with matching <code>creation_block</code>.</li>
+<li>
+<em>user can resubmit the same tx_id to the server multiple times</em>
+This is prevented by removing the session code from memory after the first postcard was sent.</li>
+</ol>
+<h2>
+<a id="user-content-governance-dapp" class="anchor" href="#governance-dapp" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Governance DApp</h2>
+<p>This client-side DApp provides the list of existing ballots with the ability of filtering by active, unanswered, and expired ballots, and gives the opportunity to create new ballots and to vote for or against notaries.</p>
+<p>The governance is available only with a valid voting key that should be selected in the MetaMask Google Chrome plugin.</p>
+<h3>
+<a id="user-content-creating-a-new-ballot" class="anchor" href="#creating-a-new-ballot" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Creating a new ballot</h3>
+<p><a href="https://raw.githubusercontent.com/poanetwork/wiki/master/assets/imgs/poa/papers/whitepaper/new-ballot.png" rel="nofollow"><img src="https://raw.githubusercontent.com/poanetwork/wiki/master/assets/imgs/poa/papers/whitepaper/new-ballot.png" alt=""></a></p>
+<p><a href="http://sequencediagram.org/index.html#initialData=C4S2BsFMAIHEHsBukBOA7AhmgxpAXNAEYbjjzDTYqQajxoBQDG2w8K0AqgM6oMAOGFKGwhBaCgBEAgv37QA7pEIChIsVgoBhesBQsK0gAoBJBgBNaGYr2g6J+1tG5t9Ac0hMUheAA9oSKhcvCgEIGguJODc0ACykMAYsRjcANYMPEEAtAB80DJyisoE8PyQEURR5JTUtCD00IIezKwgiLQwBfJKKpkcADxZWfmy3cWVpOQA5DFUNHRo0ABm7AC20CAx5pv84BgAnpDmGSHQuSOFPQRLIKQxxJPAMxtoKwA0lOAg2KkxgDgEACoAfZQGgAK6QIGAXAIGGhyDAUCA3AALCjwJYXMaEMIYsAbGJwxIofbPVbhcJuaCpSD7fHQDBLJaQVhHD4AHVea2W7GWty+aEphKEJJiZRQ3HoJGglkSdIwcho1GOfWgg2GXSK2OgQuJzzFEsw4GlVm5KHWKw4N1IFLp224uwORxO2TyGquvLu2vIwr1qANUplGAYbuUZxyIMchlMBGwUVmukj0FWCWR8HM0DY9PM6Y5aEgCgmZAo4Uz2ATBmcrgwzQMbQ6dnLTmMZhVaojFebBHiiWSaXpUGEtp2e0O6YUYGRGf0EVrDXCK2dHFy7ab0co9BuZpiwGRMD0WG4s8YhIRSNRAQxK6jJhju5+3A+IAx7S+6cQ5Bt1P2DCv0GbYYbBwKxcdhq3wQtqk2ZwMGQdNwkA-dWBaUB2mAGBfxA9xPBIYsMQZJkWXTL98TQQBMAgoHURSTckBSpGlg1GTVVSGDCqw8AgtFqND0weIs5QVIQjheDNd2gL4XAYSBok8ENCDDVjQPYyg43XICnGTHc0wzeAs3MAB6MF+BlGBc29YlSNFP1JSNQMXlLRsKEwsDF2YrJf07OIEiSFJUn7VBiy2YdHTHCcpwPI8XgXFVlwcv81zLV4QC3ES92nQ9WnoH9Yv-c4FKwghKIsxorMNY1ZSgw9YOEq8GMuUM21ipylM4+YhN4yCYnlMpBLgxYdxgcTgEktBjnMGhWlQzpGJ6CxxpQ+t3NMWba0mhDEyazwGCAA" rel="nofollow"></a>
+Valid notary of the POA Network fills out a form in DApp providing:</p>
+<ul>
+<li>
+<em>mining key</em> - mining key of a new or existing notary, which will be voted on</li>
+<li>
+<em>affected key type</em> - key type (mining, payout, or voting key) of a new or existing notary, which will be voted on</li>
+<li>
+<em>memo</em> - brief information about notary, which will be voted on</li>
+<li>
+<em>action</em> - add affected key to the network or remove it from the network</li>
+</ul>
+<p>If the affected key type is mining key, the user will be asked to provide personal data of the notary (owner of this mining key) such as full name, physical address, U.S. state name, zip code, notary license ID, and notary license expiration date.</p>
+<p>At the final step, one transaction to create a new ballot in POA contract will be pushed to the blockchain to add a new ballot after the user presses "Continue" button. It should be noted, that in case of a mining key, it will be two consistent transactions: to add personal data of a notary and a new ballot to contract. User will see MetaMask popups equal to the number of transactions. After the confirmation and successful mining of the transaction by existing validators, the user will see the created ballot in the list and be able to vote on it.</p>
+<h3>
+<a id="user-content-voting-on-a-ballot" class="anchor" href="#voting-on-a-ballot" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Voting on a ballot</h3>
+<p><a href="https://raw.githubusercontent.com/poanetwork/wiki/master/assets/imgs/poa/papers/whitepaper/ballot-voting.png" rel="nofollow"><img src="https://raw.githubusercontent.com/poanetwork/wiki/master/assets/imgs/poa/papers/whitepaper/ballot-voting.png" alt=""></a></p>
+<p><a href="http://sequencediagram.org/index.html#initialData=C4S2BsFMAIHEHsBukBOA7AhmgxpAXNIvKGgOYBQ5G2w8K0AqgM6rkAOGKo2IHaw0ACIBBNm2gB3SACN2nbrywCAwvH4pqA4QAUAkuQAmGYBmkYW0Ves3QmtDaUiUU0+AA9oSVIxYoCINDsMcHAmaABZSBNw8wBrcmZvAFoAPiFRcSlpAmxwEGxYsIAqIoBXTECpFEgDEugAMxBwYFZNEERjGBExSRkE32gAHiSk9J6sggAVAAsYPLtPeuhyrCYqmugzEOIwkDCDPbZwDABPGv7ktO7MmRy8grCAIhKANWIYNHgJEsfN0uBaGhPECtuBiAByMLYTgGaABaDAWbQebAC70Yaja69bKbYJg4CQ6AcRxwsLwNiQNDnRL0VJjG443L5QrQZ5FN4tBp0H6eehsjkwDCkDABOw86T-QHkLFZaCpKzADQ0aA6XQ5PFQtSKmwAWyi03gsIAOvx4NBqNh4OUBKVfIBMAjCRHyTjaHU5CqVWj0aKGIw9NlVBEi0Ti5qgXFJ0AOTCOpw2EjA0wRGkCbTUcLQ9XgPvlWs9Kr0OTUjRQOrCiJg2tTNBAanIn05KBApGmAngS39ysD0GwsweABo4UsOnlYUQSKRoLFICd6+9oE2W22O3mA4We33CoOQEtQcRI66nJ2vbo5Wlj7Z7EL8LjtsAHYRiAFJ0FQHZ8mETXtlmwjC1YfCx5UDWbowBedh0Ne0oZNivpJOBV6OAQABCeL7t+0YYGIkCcBs9QoPAOrLBUayoHhTQtCgg7js+l7GHs3C7GEpS-p0sJZvQYCGDhIGdPS2Lca6fEXqqgm8e6q7KhBDiQEAA" rel="nofollow"></a>
+The user can see all his/her unanswered ballots by clicking on the self-titled button on the filtering panel.
+The list of unanswered ballots will be displayed after filtering, and the "Vote now" button will be enabled for any item in the list. After clicking on this button, a preview of the ballot will be opened with the notary's personal data, statistics of voting, and time to ballot's ending. Two buttons will be enabled here: "Vote for" and "Vote against". After clicking on any of them, the transaction to account the user's voice will be generated, and a MetaMask popup will be shown with the transaction information. After the confirmation and successful mining of the transaction by existing validators, the user will see the updated statistics with his/her voice, and the ballot will disappear from the unanswered ballots filter.</p>
+<p>Possible cheating:</p>
+<ol>
+<li>
+<em>user can create ballot or vote with his/her own dummy key</em>
+It is impossible, because only a valid payout key can govern. It is checked on the contract side.</li>
+<li>
+<em>same user can vote for or against a notary twice</em>
+It is restricted at the contract side.</li>
+<li>
+<em>user can vote after ballot's time has ended</em>
+It is restricted at the contract side.</li>
+<li>
+<em>notary with counterfeit license can become a member of the network</em>
+It is impossible in practice, because any of the voters can check public information about every notary before voting.</li>
+<li>
+<em>user can govern other notaries alone</em>
+It is impossible, because the minimal amount of voices for a ballot is equal to 3.</li>
+<li>
+<em>user can manage the time of a ballot</em>
+Duration of a ballot is constant and equal to 48 hours. It is set in the contract.</li>
+</ol>
+<h1>
+<a id="user-content-summary" class="anchor" href="#summary" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Summary</h1>
+<p>We believe that such networks with Proof of Authority consensus algorithms will be a trend in public blockchains in the coming years. On-demand systems with trusted validators will play a major role in creating specialized open networks based on Ethereum's protocol. Our goal is to be a model for the generation of networks connected by inter-ledger protocols, such as Polkadot[^fn5] and Cosmos.</p>
+<h1>
+<a id="user-content-acknowledgments" class="anchor" href="#acknowledgments" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Acknowledgments</h1>
+<p>We would like to express our gratitude to our mentors, advisors and to the many people in the Ethereum community that have been so welcoming and generous with their knowledge.</p>
+<p>We would also like to thank the organizers and community members that we’ve met at the Silicon Valley and SF Ethereum Meetups including Roman Storm, Joseph Chow, Martin Koppelmann, Grant Hummer, Tom Ding, Chris Peel, Jeff Flowers, and many others.</p>
+<h1>
+<a id="user-content-appendix-a-code-samples" class="anchor" href="#appendix-a-code-samples" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Appendix A. Code samples.</h1>
+<h2>
+<a id="user-content-ballots-manager" class="anchor" href="#ballots-manager" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ballots manager</h2>
+<pre><code>pragma solidity ^0.4.14;
+
+import "./Utility.sol";
+import "./ValidatorsManager.sol";
+
+contract BallotsManager is ValidatorsManager {
+    /**
+    @notice Adds new Ballot
+    @param ballotID Ballot unique ID
+    @param owner Voting key of notary, who creates ballot
+    @param miningKey Mining key of notary, which is proposed to add or remove
+    @param affectedKey Mining/payout/voting key of notary, which is proposed to add or remove
+    @param affectedKeyType Type of affectedKey: 0 = mining key, 1 = voting key, 2 = payout key
+    @param addAction Flag: adding is true, removing is false
+    @param memo Ballot's memo
+    */
+    function addBallot(
+        uint ballotID,
+        address owner,
+        address miningKey,
+        address affectedKey,
+        uint affectedKeyType,
+        bool addAction,
+        string memo
+    ) {
+        assert(checkVotingKeyValidity(msg.sender));
+        assert(!(licensesIssued == licensesLimit &amp;&amp; addAction));
+        assert(ballotsMapping[ballotID].createdAt &lt;= 0);
+        if (affectedKeyType == 0) {//mining key
+            bool validatorIsAdded = false;
+            for (uint i = 0; i &lt; validators.length; i++) {
+                assert(!(validators[i] == affectedKey &amp;&amp; addAction)); //validator is already added before
+                if (validators[i] == affectedKey) {
+                    validatorIsAdded = true;
+                    break;
+                }
+            }
+            for (uint j = 0; j &lt; disabledValidators.length; j++) {
+                assert(disabledValidators[j] != affectedKey); //validator is already removed before
+            }
+            assert(!(!validatorIsAdded &amp;&amp; !addAction)); // no such validator in validators array to remove it
+        } else if (affectedKeyType == 1) {//voting key
+            assert(!(checkVotingKeyValidity(affectedKey) &amp;&amp; addAction)); //voting key is already added before
+            assert(!(!checkVotingKeyValidity(affectedKey) &amp;&amp; !addAction)); //no such voting key to remove it
+        } else if (affectedKeyType == 2) {//payout key
+            assert(!(checkPayoutKeyValidity(affectedKey) &amp;&amp; addAction)); //payout key is already added before
+            assert(!(!checkPayoutKeyValidity(affectedKey) &amp;&amp; !addAction)); //no such payout key to remove it
+        }
+        uint votingStart = now;
+        ballotsMapping[ballotID] = Ballot({
+            owner: owner,
+            miningKey: miningKey,
+            affectedKey: affectedKey,
+            memo: memo, 
+            affectedKeyType: affectedKeyType,
+            createdAt: now,
+            votingStart: votingStart,
+            votingDeadline: votingStart + 48 * 60 minutes,
+            votesAmmount: 0,
+            result: 0,
+            addAction: addAction,
+            active: true
+        });
+        ballots.push(ballotID);
+        checkBallotsActivity();
+    }
+    
+    /**
+    @notice Gets active ballots' ids
+    @return { "value" : "Array of active ballots ids" }
+    */
+    function getBallots() constant returns (uint[] value) {
+        return ballots;
+    }
+    
+    /**
+    @notice Gets ballot's memo
+    @param ballotID Ballot unique ID
+    @return { "value" : "Ballot's memo" }
+    */
+    function getBallotMemo(uint ballotID) constant returns (string value) {
+        return ballotsMapping[ballotID].memo;
+    }
+    
+    /**
+    @notice Gets ballot's action
+    @param ballotID Ballot unique ID
+    @return { "value" : "Ballot's action: adding is true, removing is false" }
+    */
+    function getBallotAction(uint ballotID) constant returns (bool value) {
+        return ballotsMapping[ballotID].addAction;
+    }
+    
+    /**
+    @notice Gets mining key of notary
+    @param ballotID Ballot unique ID
+    @return { "value" : "Notary's mining key" }
+    */
+    function getBallotMiningKey(uint ballotID) constant returns (address value) {
+        return ballotsMapping[ballotID].miningKey;
+    }
+
+    /**
+    @notice Gets affected key of ballot
+    @param ballotID Ballot unique ID
+    @return { "value" : "Ballot's affected key" }
+    */
+    function getBallotAffectedKey(uint ballotID) constant returns (address value) {
+        return ballotsMapping[ballotID].affectedKey;
+    }
+
+    /**
+    @notice Gets affected key type of ballot
+    @param ballotID Ballot unique ID
+    @return { "value" : "Ballot's affected key type" }
+    */
+    function getBallotAffectedKeyType(uint ballotID) constant returns (uint value) {
+        return ballotsMapping[ballotID].affectedKeyType;
+    }
+
+    function toString(address x) internal returns (string) {
+        bytes memory b = new bytes(20);
+        for (uint i = 0; i &lt; 20; i++)
+            b[i] = byte(uint8(uint(x) / (2**(8*(19 - i)))));
+        return string(b);
+    }
+
+    /**
+    @notice Gets ballot's owner full name
+    @param ballotID Ballot unique ID
+    @return { "value" : "Ballot's owner full name" }
+    */
+    function getBallotOwner(uint ballotID) constant returns (string value) {
+        address ballotOwnerVotingKey = ballotsMapping[ballotID].owner;
+        address ballotOwnerMiningKey = votingMiningKeysPair[ballotOwnerVotingKey];
+        string storage validatorFullName = validator[ballotOwnerMiningKey].fullName;
+        bytes memory ownerName = bytes(validatorFullName);
+        if (ownerName.length == 0)
+            return toString(ballotOwnerMiningKey);
+        else
+            return validatorFullName;
+    }
+    
+    /**
+    @notice Gets ballot's creation time
+    @param ballotID Ballot unique ID
+    @return { "value" : "Ballot's creation time" }
+    */
+    function ballotCreatedAt(uint ballotID) constant returns (uint value) {
+        return ballotsMapping[ballotID].createdAt;
+    }
+    
+    /**
+    @notice Gets ballot's voting start date
+    @param ballotID Ballot unique ID
+    @return { "value" : "Ballot's voting start date" }
+    */
+    function getBallotVotingStart(uint ballotID) constant returns (uint value) {
+        return ballotsMapping[ballotID].votingStart;
+    }
+    
+    /**
+    @notice Gets ballot's voting end date
+    @param ballotID Ballot unique ID
+    @return { "value" : "Ballot's voting end date" }
+    */
+    function getBallotVotingEnd(uint ballotID) constant returns (uint value) {
+        return ballotsMapping[ballotID].votingDeadline;
+    }
+    
+    /**
+    @notice Gets ballot's amount of votes for
+    @param ballotID Ballot unique ID
+    @return { "value" : "Ballot's amount of votes for" }
+    */
+    function getVotesFor(uint ballotID) constant returns (int value) {
+        return (ballotsMapping[ballotID].votesAmmount + ballotsMapping[ballotID].result)/2;
+    }
+    
+    /**
+    @notice Gets ballot's amount of votes against
+    @param ballotID Ballot unique ID
+    @return { "value" : "Ballot's amount of votes against" }
+    */
+    function getVotesAgainst(uint ballotID) constant returns (int value) {
+        return (ballotsMapping[ballotID].votesAmmount - ballotsMapping[ballotID].result)/2;
+    }
+    
+    /**
+    @notice Checks, if ballot is active
+    @param ballotID Ballot unique ID
+    @return { "value" : "Ballot's activity: active or not" }
+    */
+    function ballotIsActive(uint ballotID) constant returns (bool value) {
+        return ballotsMapping[ballotID].active;
+    }
+
+    /**
+    @notice Checks, if ballot is already voted by signer of current transaction
+    @param ballotID Ballot unique ID
+    @return { "value" : "Ballot is already voted by signer of current transaction: yes or no" }
+    */
+    function ballotIsVoted(uint ballotID) constant returns (bool value) {
+        return ballotsMapping[ballotID].voted[msg.sender];
+    }
+    
+    /**
+    @notice Votes
+    @param ballotID Ballot unique ID
+    @param accept Vote for is true, vote against is false
+    */
+    function vote(uint ballotID, bool accept) {
+        assert(checkVotingKeyValidity(msg.sender));
+        Ballot storage v =  ballotsMapping[ballotID];
+        assert(v.votingDeadline &gt;= now);
+        assert(!v.voted[msg.sender]);
+        v.voted[msg.sender] = true;
+        v.votesAmmount++;
+        if (accept) v.result++;
+        else v.result--;
+        checkBallotsActivity();
+    }
+
+    /**
+    @notice Removes element by index from validators array and shift elements in array
+    @param index Element's index to remove
+    @return { "value" : "Updated validators array with removed element at index" }
+    */
+    function removeValidator(uint index) internal returns(address[]) {
+        if (index &gt;= validators.length) return;
+
+        for (uint i = index; i&lt;validators.length-1; i++){
+            validators[i] = validators[i+1];
+        }
+        delete validators[validators.length-1];
+        validators.length--;
+    }
+    
+    /**
+    @notice Checks ballots' activity
+    @dev Deactivate ballots, if ballot's time is finished and implement action: add or remove notary, if votes for are greater votes against, and total votes are greater than 3
+    */
+    function checkBallotsActivity() internal {
+        for (uint ijk = 0; ijk &lt; ballots.length; ijk++) {
+            Ballot storage b = ballotsMapping[ballots[ijk]];
+            if (b.votingDeadline &lt; now &amp;&amp; b.active) {
+                if ((int(b.votesAmmount) &gt;= int(votingLowerLimit)) &amp;&amp; b.result &gt; 0) {
+                    if (b.addAction) { //add key
+                        if (b.affectedKeyType == 0) {//mining key
+                            if (licensesIssued &lt; licensesLimit) {
+                                licensesIssued++;
+                                validators.push(b.affectedKey);
+                                InitiateChange(Utility.getLastBlockHash(), validators);
+                            }
+                        } else if (b.affectedKeyType == 1) {//voting key
+                            votingKeys[b.affectedKey] = VotingKey({isActive: true});
+                            votingMiningKeysPair[b.affectedKey] = b.miningKey;
+                        } else if (b.affectedKeyType == 2) {//payout key
+                            payoutKeys[b.affectedKey] = PayoutKey({isActive: true});
+                            miningPayoutKeysPair[b.miningKey] = b.affectedKey;
+                        }
+                    } else { //invalidate key
+                        if (b.affectedKeyType == 0) {//mining key
+                            for (uint jj = 0; jj &lt; validators.length; jj++) {
+                                if (validators[jj] == b.affectedKey) {
+                                    removeValidator(jj); 
+                                    return;
+                                }
+                            }
+                            disabledValidators.push(b.affectedKey);
+                            validator[b.affectedKey].disablingDate = now;
+                        } else if (b.affectedKeyType == 1) {//voting key
+                            votingKeys[b.affectedKey] = VotingKey({isActive: false});
+                        } else if (b.affectedKeyType == 2) {//payout key
+                            payoutKeys[b.affectedKey] = PayoutKey({isActive: false});
+                        }
+                    }
+                }
+                b.active = false;
+            }
+        }
+    }
+}
+</code></pre>
+<h2>
+<a id="user-content-validators-manager" class="anchor" href="#validators-manager" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Validators manager</h2>
+<pre><code>pragma solidity ^0.4.14;
+
+import "oracles-contract-validator/ValidatorClass.sol";
+import "./KeysManager.sol";
+
+contract ValidatorsManager is ValidatorClass, KeysManager {
+    
+    /**
+    @notice Adds new notary
+    @param miningKey Notary's mining key
+    @param zip Notary's zip code
+    @param licenseID Notary's license ID
+    @param licenseExpiredAt Notary's expiration date
+    @param fullName Notary's full name
+    @param streetName Notary's address
+    @param state Notary's US state full name
+    */
+    function addValidator(
+        address miningKey,
+        uint zip,
+        uint licenseID,
+        uint licenseExpiredAt,
+        string fullName,
+        string streetName,
+        string state
+    ) {
+        assert(!(!checkVotingKeyValidity(msg.sender) &amp;&amp; !checkInitialKey(msg.sender)));
+        assert(licensesIssued &lt; licensesLimit);
+        validator[miningKey] = Validator({
+            fullName: fullName, 
+            streetName: streetName, 
+            state: state, 
+            zip: zip, 
+            licenseID: licenseID, 
+            licenseExpiredAt: licenseExpiredAt, 
+            disablingDate: 0, 
+            disablingTX: ""
+        });
+    }
+    
+    /**
+    @notice Gets active notaries mining keys
+    @return { "value" : "Array of active notaries mining keys" }
+    */
+    function getValidators() constant returns (address[] value) {
+        return validators;
+    }
+    
+    /**
+    @notice Gets disabled notaries mining keys
+    @return { "value" : "Array of disabled notaries mining keys" }
+    */
+    function getDisabledValidators() constant returns (address[] value) {
+        return disabledValidators;
+    }
+    
+    /**
+    @notice Gets notary's full name
+    @param addr Notary's mining key
+    @return { "value" : "Notary's full name" }
+    */
+    function getValidatorFullName(address addr) constant returns (string value) {
+        return validator[addr].fullName;
+    }
+    
+    /**
+    @notice Gets notary's address
+    @param addr Notary's mining key
+    @return { "value" : "Notary's address" }
+    */
+    function getValidatorStreetName(address addr) constant returns (string value) {
+        return validator[addr].streetName;
+    }
+    
+    /**
+    @notice Gets notary's state full name
+    @param addr Notary's mining key
+    @return { "value" : "Notary's state full name" }
+    */
+    function getValidatorState(address addr) constant returns (string value) {
+        return validator[addr].state;
+    }
+    
+    /**
+    @notice Gets notary's zip code
+    @param addr Notary's mining key
+    @return { "value" : "Notary's zip code" }
+    */
+    function getValidatorZip(address addr) constant returns (uint value) {
+        return validator[addr].zip;
+    }
+    
+    /**
+    @notice Gets notary's license ID
+    @param addr Notary's mining key
+    @return { "value" : "Notary's license ID" }
+    */
+    function getValidatorLicenseID(address addr) constant returns (uint value) {
+        return validator[addr].licenseID;
+    }
+    
+    /**
+    @notice Gets notary's license expiration date
+    @param addr Notary's mining key
+    @return { "value" : "Notary's license expiration date" }
+    */
+    function getValidatorLicenseExpiredAt(address addr) constant returns (uint value) {
+        return validator[addr].licenseExpiredAt;
+    }
+
+    /**
+    @notice Gets notary's disabling date
+    @param addr Notary's mining key
+    @return { "value" : "Notary's disabling date" }
+    */
+    function getValidatorDisablingDate(address addr) constant returns (uint value) {
+        return validator[addr].disablingDate;
+    }
+}
+
+</code></pre>
+<h2>
+<a id="user-content-deployment-scripts-for-the-mining-node" class="anchor" href="#deployment-scripts-for-the-mining-node" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Deployment scripts for the mining node</h2>
+<pre><code>#!/bin/bash
+set -e
+set -u
+set -x
+
+EXT_IP="$(curl ifconfig.co)"
+
+# Install logentries daemon /*
+start_logentries() {
+    echo "=====&gt; start_logentries"
+    sudo bash -c "echo 'deb http://rep.logentries.com/ trusty main' &gt; /etc/apt/sources.list.d/logentries.list"
+    sudo bash -c "gpg --keyserver pgp.mit.edu --recv-keys C43C79AD &amp;&amp; gpg -a --export C43C79AD | apt-key add -"
+    sudo apt-get update
+    sudo apt-get install -y logentries
+    sudo le reinit --user-key=0665901a-e843-41c5-82c1-2cc4b39f0b21 --pull-server-side-config=False
+
+    mkdir -p /home/${ADMIN_USERNAME}/logs
+    touch /home/${ADMIN_USERNAME}/logs/netstats_daemon.err
+    touch /home/${ADMIN_USERNAME}/logs/netstats_daemon.out
+    touch /home/${ADMIN_USERNAME}/logs/parity.err
+    touch /home/${ADMIN_USERNAME}/logs/parity.out
+    touch /home/${ADMIN_USERNAME}/logs/parity.log
+    touch /home/${ADMIN_USERNAME}/logs/transferRewardToPayoutKey.out
+    touch /home/${ADMIN_USERNAME}/logs/transferRewardToPayoutKey.err
+
+    sudo bash -c "cat &gt;&gt; /etc/le/config &lt;&lt; EOF
+[install_err]
+path = /var/lib/waagent/custom-script/download/0/stderr
+destination = AlphaTestTestNet/${EXT_IP}
+[install_out]
+path = /var/lib/waagent/custom-script/download/0/stdout
+destination = AlphaTestTestNet/${EXT_IP}
+[netstats_daemon_err]
+path = /home/${ADMIN_USERNAME}/logs/netstats_daemon.err
+destination = AlphaTestTestNet/${EXT_IP}
+[netstats_daemon_out]
+path = /home/${ADMIN_USERNAME}/logs/netstats_daemon.out
+destination = AlphaTestTestNet/${EXT_IP}
+[parity_err]
+path = /home/${ADMIN_USERNAME}/logs/parity.err
+destination = AlphaTestTestNet/${EXT_IP}
+[parity_out]
+path = /home/${ADMIN_USERNAME}/logs/parity.out
+destination = AlphaTestTestNet/${EXT_IP}
+[parity_log]
+path = /home/${ADMIN_USERNAME}/logs/parity.log
+destination = AlphaTestTestNet/${EXT_IP}
+[transferReward_out]
+path = /home/${ADMIN_USERNAME}/logs/transferRewardToPayoutKey.out
+destination = AlphaTestTestNet/${EXT_IP}
+[transferReward_err]
+path = /home/${ADMIN_USERNAME}/logs/transferRewardToPayoutKey.err
+destination = AlphaTestTestNet/${EXT_IP}
+EOF"
+    sudo apt-get install -y logentries-daemon
+    sudo service logentries start
+    echo "&lt;===== start_logentries"
+}
+
+start_logentries
+
+# */
+
+echo "========== AlphaTestTestNet/mining-node/install.sh starting =========="
+echo "===== current time: $(date)"
+echo "===== username: $(whoami)"
+echo "===== working directory: $(pwd)"
+echo "===== operating system info:"
+lsb_release -a
+echo "===== memory usage info:"
+free -m
+echo "===== external ip: ${EXT_IP}"
+echo "===== environmental variables:"
+printenv
+
+# script parameters
+#INSTALL_DOCKER_VERSION="17.03.1~ce-0~ubuntu-xenial"
+#INSTALL_DOCKER_IMAGE="parity/parity:v1.6.8"
+INSTALL_CONFIG_REPO="https://raw.githubusercontent.com/poanetwork/test-templates/AlphaTestTestNet/TestTestNet/mining-node"
+GENESIS_REPO_LOC="https://raw.githubusercontent.com/poanetwork/oracles-scripts/alphadevtestnet/spec.json"
+GENESIS_JSON="spec.json"
+NODE_TOML="node.toml"
+NODE_PWD="node.pwd"
+
+export HOME="${HOME:-/home/${ADMIN_USERNAME}}"
+
+#echo "===== will use docker version: ${INSTALL_DOCKER_VERSION}"
+#echo "===== will use parity docker image: ${INSTALL_DOCKER_IMAGE}"
+echo "===== repo base path: ${INSTALL_CONFIG_REPO}"
+
+# this should be provided through env by azure template
+NETSTATS_SERVER="${NETSTATS_SERVER}"
+NETSTATS_SECRET="${NETSTATS_SECRET}"
+MINING_KEYFILE="${MINING_KEYFILE}"
+MINING_ADDRESS="${MINING_ADDRESS}"
+MINING_KEYPASS="${MINING_KEYPASS}"
+NODE_FULLNAME="${NODE_FULLNAME:-Anonymous}"
+NODE_ADMIN_EMAIL="${NODE_ADMIN_EMAIL:-somebody@somehere}"
+ADMIN_USERNAME="${ADMIN_USERNAME}"
+
+prepare_homedir() {
+    echo "=====&gt; prepare_homedir"
+    #ln -s "$(pwd)" "/home/${ADMIN_USERNAME}/script-dir"
+    cd "/home/${ADMIN_USERNAME}"
+    mkdir -p logs
+    mkdir -p logs/old
+    echo "&lt;===== prepare_homedir"
+}
+
+add_user_to_docker_group() {
+    # based on https://askubuntu.com/questions/477551/how-can-i-use-docker-without-sudo
+    echo "=====&gt; add_user_to_docker_group"
+    sudo groupadd docker
+    sudo gpasswd -a "${ADMIN_USERNAME}" docker
+    newgrp docker
+    echo "===== Groups: "
+    groups
+    echo "&lt;===== add_user_to_docker_group"
+}
+
+install_ntpd() {
+    echo "=====&gt; install_ntpd"
+    sudo timedatectl set-ntp no
+    sudo apt-get -y install ntp
+
+    sudo bash -c "cat &gt; /etc/cron.hourly/ntpdate &lt;&lt; EOF
+#!/bin/sh
+sudo service ntp stop
+sudo ntpdate -s ntp.ubuntu.com
+sudo service ntp start
+EOF"
+    sudo chmod 755 /etc/cron.hourly/ntpdate
+    echo "&lt;===== install_ntpd"
+}
+
+install_haveged() {
+    echo "=====&gt; install_haveged"
+    sudo apt-get -y install haveged
+    sudo update-rc.d haveged defaults
+    echo "&lt;===== install_haveged"
+}
+
+allocate_swap() {
+    echo "=====&gt; allocate_swap"
+    sudo apt-get -y install bc
+    #sudo fallocate -l $(echo "$(free -b | awk '/Mem/{ print $2 }')*2"  | bc -l) /swapfile
+    sudo fallocate -l 1G /swapfile
+    sudo chmod 600 /swapfile
+    sudo mkswap /swapfile
+    sudo swapon /swapfile
+    sudo sh -c "printf '/swapfile   none    swap    sw    0   0\n' &gt;&gt; /etc/fstab"
+    sudo sh -c "printf 'vm.swappiness=10\n' &gt;&gt; /etc/sysctl.conf"
+    sudo sysctl vm.vfs_cache_pressure=50
+    sudo sh -c "printf 'vm.vfs_cache_pressure = 50\n' &gt;&gt; /etc/sysctl.conf"
+    echo "&lt;===== allocate_swap"
+}
+
+install_nodejs() {
+    echo "=====&gt; install_nodejs"
+    # curl -sL https://deb.nodesource.com/setup_0.12 | bash -
+    curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+    sudo apt-get update
+    sudo apt-get install -y build-essential git unzip wget nodejs ntp cloud-utils
+
+    # add symlink if it doesn't exist
+    [[ ! -f /usr/bin/node ]] &amp;&amp; sudo ln -s /usr/bin/nodejs /usr/bin/node
+    echo "&lt;===== install_nodejs"
+}
+
+install_docker_ce() {
+    echo "=====&gt; install_docker_ce"
+    sudo apt-get -y install apt-transport-https ca-certificates curl software-properties-common
+    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+    sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+    sudo apt-get update
+    sudo apt-get -y install docker-ce=${INSTALL_DOCKER_VERSION}
+    sudo docker pull ${INSTALL_DOCKER_IMAGE}
+    echo "&lt;===== install_docker_ce"
+}
+
+pull_image_and_configs() {
+    echo "=====&gt; pull_image_and_configs"
+
+    # curl -s -O "${INSTALL_CONFIG_REPO}/../${GENESIS_JSON}"
+    curl -s -o "${GENESIS_JSON}" "${GENESIS_REPO_LOC}"
+    curl -s -O "${INSTALL_CONFIG_REPO}/${NODE_TOML}"
+    sed -i "/\[network\]/a nat=\"extip:${EXT_IP}\"" ${NODE_TOML}
+    cat &gt;&gt; ${NODE_TOML} &lt;&lt;EOF
+[misc]
+logging="engine=trace,network=trace,discovery=trace"
+log_file = "/home/${ADMIN_USERNAME}/logs/parity.log"
+[account]
+password = ["${NODE_PWD}"]
+unlock = ["${MINING_ADDRESS}"]
+[mining]
+force_sealing = true
+engine_signer = "${MINING_ADDRESS}"
+reseal_on_txs = "none"
+EOF
+    echo "${MINING_KEYPASS}" &gt; "${NODE_PWD}"
+    mkdir -p parity/keys/OraclesPoA
+    echo ${MINING_KEYFILE} | base64 -d &gt; parity/keys/OraclesPoA/mining.key.${MINING_ADDRESS}
+    echo "&lt;===== pull_image_and_configs"
+}
+
+# based on https://get.parity.io
+install_netstats() {
+    echo "=====&gt; install_netstats"
+    git clone https://github.com/poanetwork/eth-net-intelligence-api
+    cd eth-net-intelligence-api
+    #sed -i '/"web3"/c "web3": "0.19.x",' package.json
+    npm install
+    sudo npm install pm2 -g
+
+    cat &gt; app.json &lt;&lt; EOL
+[
+    {
+        "name"                 : "netstats_daemon",
+        "script"               : "app.js",
+        "log_date_format"      : "YYYY-MM-DD HH:mm:SS Z",
+        "error_file"           : "/home/${ADMIN_USERNAME}/logs/netstats_daemon.err",
+        "out_file"             : "/home/${ADMIN_USERNAME}/logs/netstats_daemon.out",
+        "merge_logs"           : false,
+        "watch"                : false,
+        "max_restarts"         : 100,
+        "exec_interpreter"     : "node",
+        "exec_mode"            : "fork_mode",
+        "env":
+        {
+            "NODE_ENV"         : "production",
+            "RPC_HOST"         : "localhost",
+            "RPC_PORT"         : "8545",
+            "LISTENING_PORT"   : "30300",
+            "INSTANCE_NAME"    : "${NODE_FULLNAME}",
+            "CONTACT_DETAILS"  : "${NODE_ADMIN_EMAIL}",
+            "WS_SERVER"        : "http://${NETSTATS_SERVER}:3000",
+            "WS_SECRET"        : "${NETSTATS_SECRET}",
+            "VERBOSITY"        : 2
+        }
+    }
+]
+EOL
+    cd ..
+    cat &gt; netstats.start &lt;&lt;EOF
+cd eth-net-intelligence-api
+pm2 startOrRestart app.json
+cd ..
+EOF
+    chmod +x netstats.start
+    sudo -u root -E -H ./netstats.start
+    echo "&lt;===== install_netstats"
+}
+
+install_netstats_via_systemd() {
+    echo "=====&gt; install_netstats_via_systemd"
+    git clone https://github.com/poanetwork/eth-net-intelligence-api
+    cd eth-net-intelligence-api
+    #sed -i '/"web3"/c "web3": "0.19.x",' package.json
+    npm install
+    sudo npm install pm2 -g
+
+    cat &gt; app.json &lt;&lt; EOL
+[
+    {
+        "name"                 : "netstats_daemon",
+        "script"               : "app.js",
+        "log_date_format"      : "YYYY-MM-DD HH:mm:SS Z",
+        "error_file"           : "/home/${ADMIN_USERNAME}/logs/netstats_daemon.err",
+        "out_file"             : "/home/${ADMIN_USERNAME}/logs/netstats_daemon.out",
+        "merge_logs"           : false,
+        "watch"                : false,
+        "max_restarts"         : 100,
+        "exec_interpreter"     : "node",
+        "exec_mode"            : "fork_mode",
+        "env":
+        {
+            "NODE_ENV"         : "production",
+            "RPC_HOST"         : "localhost",
+            "RPC_PORT"         : "8545",
+            "LISTENING_PORT"   : "30300",
+            "INSTANCE_NAME"    : "${NODE_FULLNAME}",
+            "CONTACT_DETAILS"  : "${NODE_ADMIN_EMAIL}",
+            "WS_SERVER"        : "http://${NETSTATS_SERVER}:3000",
+            "WS_SECRET"        : "${NETSTATS_SECRET}",
+            "VERBOSITY"        : 2
+        }
+    }
+]
+EOL
+    cd ..
+    sudo bash -c "cat &gt; /etc/systemd/system/oracles-netstats.service &lt;&lt;EOF
+[Unit]
+Description=oracles netstats service
+After=network.target
+[Service]
+Type=oneshot
+RemainAfterExit=true
+User=${ADMIN_USERNAME}
+Group=${ADMIN_USERNAME}
+Environment=MYVAR=myval
+WorkingDirectory=/home/${ADMIN_USERNAME}/eth-net-intelligence-api
+ExecStart=/usr/bin/pm2 startOrRestart app.json
+[Install]
+WantedBy=multi-user.target
+EOF"
+    sudo systemctl enable oracles-netstats
+    sudo systemctl start oracles-netstats
+    echo "&lt;===== install_netstats_via_systemd"
+}
+
+start_docker() {
+    echo "=====&gt; start_docker"
+    cat &gt; docker.start &lt;&lt;EOF
+sudo docker run -d \\
+    --name oracles-poa \\
+    -p 30300:30300 \\
+    -p 30300:30300/udp \\
+    -p 8080:8080 \\
+    -p 8180:8180 \\
+    -p 8545:8545 \\
+    -v "$(pwd)/${NODE_PWD}:/build/${NODE_PWD}" \\
+    -v "$(pwd)/parity:/build/parity" \\
+    -v "$(pwd)/${GENESIS_JSON}:/build/${GENESIS_JSON}" \\
+    -v "$(pwd)/${NODE_TOML}:/build/${NODE_TOML}" \\
+    ${INSTALL_DOCKER_IMAGE} --config "${NODE_TOML}" &gt; logs/docker.out 2&gt; logs/docker.err
+container_id="\$(cat logs/docker.out)"
+sudo ln -sf "/var/lib/docker/containers/\${container_id}/\${container_id}-json.log" logs/parity.log
+EOF
+    chmod +x docker.start
+    ./docker.start
+    echo "&lt;===== start_docker"
+}
+
+use_deb() {
+    echo "=====&gt; use_deb"
+    curl -LO 'http://parity-downloads-mirror.parity.io/v1.7.0/x86_64-unknown-linux-gnu/parity_1.7.0_amd64.deb'
+    sudo dpkg -i parity_1.7.0_amd64.deb
+    sudo apt-get install dtach
+    
+    cat &gt; parity.start &lt;&lt; EOF
+dtach -n parity.dtach bash -c "parity -l engine=trace,discovery=trace,network=trace --config ${NODE_TOML} &gt;&gt; logs/parity.out 2&gt;&gt; logs/parity.err"
+EOF
+    chmod +x parity.start
+    ./parity.start
+    echo "&lt;===== use_deb"
+}
+
+use_deb_via_systemd() {
+    echo "=====&gt; use_deb_via_systemd"
+    curl -LO 'http://parity-downloads-mirror.parity.io/v1.7.0/x86_64-unknown-linux-gnu/parity_1.7.0_amd64.deb'
+    sudo dpkg -i parity_1.7.0_amd64.deb
+
+    sudo bash -c "cat &gt; /etc/systemd/system/oracles-parity.service &lt;&lt;EOF
+[Unit]
+Description=oracles parity service
+After=network.target
+[Service]
+User=${ADMIN_USERNAME}
+Group=${ADMIN_USERNAME}
+WorkingDirectory=/home/${ADMIN_USERNAME}
+ExecStart=/usr/bin/parity --config=node.toml
+Restart=always
+[Install]
+WantedBy=multi-user.target
+EOF"
+    sudo systemctl enable oracles-parity
+    sudo systemctl start oracles-parity
+    echo "&lt;===== use_deb_via_systemd"
+}
+
+use_bin() {
+    echo "=====&gt; use_bin"
+    sudo apt-get install -y dtach unzip
+    curl -L -o parity-bin-v1.7.0.zip 'https://gitlab.parity.io/parity/parity/-/jobs/61863/artifacts/download'
+    unzip parity-bin-v1.7.0.zip -d parity-bin-v1.7.0
+    ln -s parity-bin-v1.7.0/target/release/parity parity-v1.7.0
+    
+    cat &gt; parity.start &lt;&lt; EOF
+dtach -n parity.dtach bash -c "./parity-v1.7.0 -l discovery=trace,network=trace --config ${NODE_TOML} &gt;&gt; logs/parity.out 2&gt;&gt; logs/parity.err"
+EOF
+    chmod +x parity.start
+    ./parity.start 
+    echo "&lt;===== use_bin"
+}
+
+compile_source() {
+    echo "=====&gt; compile_source"
+    sudo apt-get -y install gcc g++ libssl-dev libudev-dev pkg-config
+    curl https://sh.rustup.rs -sSf | sh -s -- -y
+    source "/home/${ADMIN_USERNAME}/.cargo/env"
+    rustc --version
+    cargo --version
+
+    git clone -b "v1.7.0" https://github.com/paritytech/parity parity-src-v1.7.0
+    cd parity-src-v1.7.0
+    cargo build --release
+    cd ..
+    ln -s parity-src-v1.7.0/target/release/parity parity-v1.7.0
+    
+    cat &gt; parity.start &lt;&lt; EOF
+./parity-v1.7.0 -l discovery=trace,network=trace --config "${NODE_TOML}" &gt;&gt; logs/parity.out 2&gt;&gt; logs/parity.err
+EOF
+    chmod +x parity.start
+    dtach -n parity.dtach "./parity.start"
+    echo "&lt;===== compile_source"
+}
+
+install_scripts() {
+    echo "=====&gt; install_scripts"
+    git clone -b alphadevtestnet --single-branch https://github.com/poanetwork/oracles-scripts
+    ln -s ../node.toml oracles-scripts/node.toml
+    cd oracles-scripts/scripts
+    npm install
+    sudo bash -c "cat &gt; /etc/cron.daily/transferRewardToPayoutKey &lt;&lt;EOF
+
+#!/bin/bash
+cd "$(pwd)"
+echo \"Starting at \\\$(date)\" &gt;&gt; \"/home/${ADMIN_USERNAME}/logs/transferRewardToPayoutKey.out\"
+echo \"Starting at \\\$(date)\" &gt;&gt; \"/home/${ADMIN_USERNAME}/logs/transferRewardToPayoutKey.err\"
+node transferRewardToPayoutKey.js &gt;&gt; \"/home/${ADMIN_USERNAME}/logs/transferRewardToPayoutKey.out\" 2&gt;&gt; \"/home/${ADMIN_USERNAME}/logs/transferRewardToPayoutKey.err\"
+echo \"\" &gt;&gt; \"/home/${ADMIN_USERNAME}/logs/transferRewardToPayoutKey.out\"
+echo \"\" &gt;&gt; \"/home/${ADMIN_USERNAME}/logs/transferRewardToPayoutKey.err\"
+EOF"
+    sudo chmod 755 /etc/cron.daily/transferRewardToPayoutKey
+    cd ../..
+    echo "&lt;===== install_scripts"
+}
+
+setup_autoupdate() {
+    echo "=====&gt; setup_autoupdate"
+    sudo docker pull poanetwork/docker-run
+    sudo bash -c "cat &gt; /etc/cron.daily/docker-autoupdate &lt;&lt; EOF
+#!/bin/sh
+outlog='/home/${ADMIN_USERNAME}/logs/docker-autoupdate.out'
+errlog='/home/${ADMIN_USERNAME}/logs/docker-autoupdate.err'
+echo \"Starting: \\\$(date)\" &gt;&gt; \"\\\${outlog}\"
+echo \"Starting: \\\$(date)\" &gt;&gt; \"\\\${errlog}\"
+sudo docker run --rm -v /var/run/docker.sock:/tmp/docker.sock poanetwork/docker-run update &gt;&gt; \"\\\${outlog}\" 2&gt;&gt; \"\\\${errlog}\"
+echo \"\" &gt;&gt; \"\\\${outlog}\"
+echo \"\" &gt;&gt; \"\\\${errlog}\"
+EOF"
+    sudo chmod 755 /etc/cron.daily/docker-autoupdate
+    echo "&lt;===== setup_autoupdate"
+}
+
+configure_logrotate() {
+    echo "=====&gt; configure_logrotate"
+    
+    sudo bash -c "cat &gt; /etc/logrotate.d/oracles.conf &lt;&lt; EOF
+/home/${ADMIN_USERNAME}/logs/*.log {
+    rotate 10
+    size 200M
+    missingok
+    compress
+    copytruncate
+    dateext
+    dateformat %Y-%m-%d-%s
+    olddir old
+}
+/home/${ADMIN_USERNAME}/.pm2/pm2.log {
+    su ${ADMIN_USERNAME} ${ADMIN_USERNAME}
+    rotate 10
+    size 200M
+    missingok
+    compress
+    copytruncate
+    dateext
+    dateformat %Y-%m-%d-%s
+}"
+    echo "&lt;===== configure_logrotate"
+}
+
+# MAIN
+main () {
+    sudo apt-get update
+
+    prepare_homedir
+    #add_user_to_docker_group
+    
+    install_ntpd
+    install_haveged
+    allocate_swap
+
+    install_nodejs
+    #install_docker_ce
+    pull_image_and_configs
+
+    #start_docker
+    #use_deb
+    use_deb_via_systemd
+    #use_bin
+    
+    #setup_autoupdate
+
+    #install_netstats
+    install_netstats_via_systemd
+    install_scripts
+    configure_logrotate
+}
+
+main
+echo "========== AlphaTestTestNet/mining-node/install.sh finished =========="
+</code></pre>
+<h1>
+<a id="user-content-references" class="anchor" href="#references" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>References</h1>
+<pre><code>[^fn1]: Ethereum, A Next-Generation Smart Contract and Decentralized Application Platform https://github.com/ethereum/wiki/wiki/White-Paper    
+[^fn2]: Announcing Kovan — A Stable Ethereum Public Testnet https://medium.com/@Digix/announcing-kovan-a-stable-ethereum-public-testnet-10ac7cb6c85f    
+[^fn3]: Kovan proposal https://github.com/kovan-testnet/proposal    
+[^fn4]: Parity pushes new Ethereum testnet 'Kovan' after spam attacks http://www.ibtimes.co.uk/parity-pushes-new-ethereum-testnet-kovan-after-spam-attacks-1609901    
+[^fn5]: Polkadot, a blockchain technology, a heterogeneous multi-chain. https://github.com/w3f/polkadot-white-paper/raw/master/PolkaDotPaper.pdf     
+[^fn6]: The Keccak sponge function family https://keccak.team/keccak.noekeon.org/    
+[^fn7]: Satoshi Nakamoto (2008). Bitcoin: A peer-to-peer electronic cash system https://bitcoin.org/bitcoin.pdf    
+[^fn8]: Public versus Private Blockchains Part 2: Permissionless Blockchains
+http://bitfury.com/content/5-white-papers-research/public-vs-private-pt2-1.pdf    
+[^fn9]: The Issuance Model in Ethereum https://blog.ethereum.org/2014/04/10/the-issuance-model-in-ethereum/    
+[^fn10]: What is Ethereum's inflation rate? (how quickly will new ether be created) https://ethereum.stackexchange.com/questions/12501/what-is-ethereums-inflation-rate-how-quickly-will-new-ether-be-created    
+[^fn11]: https://github.com/paritytech/parity/wiki/Aura    
+</code></pre>
+
+        </div>
+
+    </div>
+
+    <div id="wiki-rightbar" class="mt-4 ml-md-6 flex-shrink-0 width-full wiki-rightbar">
+      <div id="wiki-pages-box" class="mb-4 wiki-pages-box js-wiki-pages-box" role="navigation">
+        
+<div class="Box Box--condensed box-shadow">
+  <div class="Box-header js-wiki-toggle-collapse" style="cursor: pointer">
+    <h3 class="Box-title">
+      <svg class="octicon octicon-triangle-down js-wiki-sidebar-toggle-display d-none" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 5l6 6 6-6H0z"/></svg>
+      <svg class="octicon octicon-triangle-right js-wiki-sidebar-toggle-display" viewBox="0 0 6 16" version="1.1" width="6" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 14l6-6-6-6v12z"/></svg>
+      Pages <span class="Counter Counter--gray">48</span>
+    </h3>
+  </div>
+  <div class="d-none js-wiki-sidebar-toggle-display">
+    <div class="filter-bar">
+      <input type="text" id="wiki-pages-filter" class="form-control input-sm input-block js-filterable-field" placeholder="Find a Page…" aria-label="Find a Page…">
+    </div>
+
+    <ul class="m-0 p-0 list-style-none" data-filterable-for="wiki-pages-filter" data-filterable-type="substring">
+        <li class="Box-row">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki">Home</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/Aura-Consensus-Protocol-Audit">Aura Consensus Protocol Audit</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/Ballots-Overview.-Life-cycle-and-limits">Ballots Overview. Life cycle and limits</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/Bootnode-Setup-AWS">Bootnode Setup AWS</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/Bootnode-Setup-Non-AWS">Bootnode Setup Non AWS</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/Deleting-a-Node">Deleting a Node</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/Frequently-Asked-Questions">Frequently Asked Questions</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/Governance-Overview">Governance Overview</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/Governance-Process">Governance Process</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/Hard-Fork-Guideline">Hard Fork Guideline</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/HFs-Core-2018-01-29">HFs Core 2018 01 29</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/HFs-Core-2018-10-22">HFs Core 2018 10 22</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/HFs-Sokol-2018-01-08">HFs Sokol 2018 01 08</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/HFs-Sokol-2018-01-18">HFs Sokol 2018 01 18</a></strong>
+        </li>
+        <li class="Box-row">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/HFs-Sokol-2018-09-19">HFs Sokol 2018 09 19</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/How-to-launch-POA-Network-bridged-to-stable-ERC20-coin">How to launch POA Network bridged to stable ERC20 coin</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/Manage-Emission-Funds">Manage Emission Funds</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/Manage-Validator-Ballots">Manage Validator Ballots</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/Master-of-Ceremony-Setup">Master of Ceremony Setup</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/Non-AWS-Node-Setup">Non AWS Node Setup</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/POA-Installation">POA Installation</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/POA-Network-Audits">POA Network Audits</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/POA-Network-Commentary">POA Network Commentary</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/POA-Network-Consensus-Contracts-Audit">POA Network Consensus Contracts Audit</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/POA-Network-Contract-Audit">POA Network Contract Audit</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/POA-Network-on-Citowise">POA Network on Citowise</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/POA-Network-on-Ledger">POA Network on Ledger</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/POA-Network-on-MetaMask">POA Network on MetaMask</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/POA-Network-on-MEW">POA Network on MEW</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/POA-Network-on-Nifty-Wallet">POA Network on Nifty Wallet</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/POA-Network-on-Trezor">POA Network on Trezor</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/POA-Network-on-Trust-Wallet">POA Network on Trust Wallet</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/POA-Network-Papers">POA Network Papers</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/POA-Network-Resources">POA Network Resources</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/POA-Network-Whitepaper">POA Network Whitepaper</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/POA-on-Exchanges">POA on Exchanges</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/POA-Token-Sale-Info">POA Token Sale Info</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/POA-Token-Supply">POA Token Supply</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/Role-of-Validator">Role of Validator</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/Setting-up-Bootnode-Non-AWS">Setting up Bootnode Non AWS</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/Social-media-and-Telegram-rules">Social media and Telegram rules</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/Threshold-Crypto-Audit">Threshold Crypto Audit</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/Validator-Keys-and-Passwords">Validator Keys and Passwords</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/Validator-Node-Non-AWS">Validator Node Non AWS</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/Validator-Node-on-AWS">Validator Node on AWS</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/Validator-Set-Metadata">Validator Set Metadata</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/Wallets">Wallets</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages">
+          <strong><a class="d-block" href="/poanetwork/wiki/wiki/What-is-POA">What is POA</a></strong>
+        </li>
+        <li class="Box-row wiki-more-pages-link">
+          <button type="button" class="f6 mx-auto btn-link muted-link js-wiki-more-pages-link">
+            Show 33 more pages…
+          </button>
+        </li>
+    </ul>
+  </div>
+</div>
+
+      </div>
+
+        <div class="gollum-markdown-content">
+          <div class="Box Box--condensed mb-4">
+            <div class="Box-body wiki-custom-sidebar  markdown-body">
+              <ul>
+<li>Getting Started
+<ul>
+<li><a href="POA-Installation">Installation</a></li>
+<li>
+<a href="Wallets">Wallets</a>
+<ul>
+<li><a href="POA-Network-on-Nifty-Wallet">Nifty Wallet</a></li>
+<li><a href="POA-Network-on-MetaMask">MetaMask</a></li>
+<li><a href="POA-Network-on-MEW">MEW</a></li>
+<li><a href="POA-Network-on-Ledger">Ledger</a></li>
+<li><a href="POA-Network-on-Trezor">Trezor</a></li>
+<li><a href="POA-Network-on-Trust-Wallet">Trust Mobile Wallet</a></li>
+<li><a href="POA-Network-on-CitoWise">CitoWise Mobile Wallet</a></li>
+</ul>
+</li>
+<li><a href="POA-on-Exchanges">Exchanges</a></li>
+<li><a href="Frequently-Asked-Questions">FAQ</a></li>
+</ul>
+</li>
+<li>Roles
+<ul>
+<li><a href="Master-of-Ceremony-Setup">Master of Ceremony</a></li>
+<li>Validator
+<ul>
+<li><a href="Validator-Node-on-AWS">AWS</a></li>
+<li><a href="Validator-Node-Non-AWS">Non-AWS</a></li>
+</ul>
+</li>
+<li>Full Node Operator
+<ul>
+<li><a href="Bootnode-Setup-AWS">AWS</a></li>
+<li><a href="Bootnode-Setup-Non-AWS">Non-AWS</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Hard Forks
+<ul>
+<li><a href="Hard-Fork-Guideline">Hard Fork Guideline</a></li>
+<li>Sokol
+<ul>
+<li><a href="HFs-Sokol-2018-01-08">2018-01-08</a></li>
+<li><a href="HFs-Sokol-2018-01-18">2018-01-18</a></li>
+<li><a href="HFs-Sokol-2018-09-19">2018-09-19</a></li>
+</ul>
+</li>
+<li>Core
+<ul>
+<li><a href="HFs-Core-2018-01-29">2018-01-29</a></li>
+<li><a href="HFs-Core-2018-10-22">2018-10-22</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>POA
+<ul>
+<li><a href="What-is-POA">About POA</a></li>
+<li><a href="POA-Network-Whitepaper">White Paper</a></li>
+<li><a href="POA-Token-Sale-Info">Token Sale Info</a></li>
+<li><a href="POA-Token-Supply">Token Supply</a></li>
+<li><a href="POA-Network-Audits">Security Audits</a></li>
+<li>Governance
+<ul>
+<li><a href="Governance-Overview">Governance Overview</a></li>
+<li><a href="Ballots-Overview.-Life-cycle-and-limits">Ballots -- Overview, Life cycle &amp; Limits</a></li>
+<li><a href="Manage-Validator-Ballots">Manage Validator Ballots</a></li>
+<li><a href="Validator-Set-Metadata">Set Validator Metadata</a></li>
+<li><a href="Manage-Emission-Funds">Manage Emission Funds</a></li>
+</ul>
+</li>
+<li>Role of Validator
+<ul>
+<li><a href="Role-of-Validator">Overview</a></li>
+<li><a href="Validator-Keys-and-Passwords">Validator Keys and Passwords</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>POA Network Bridged to Stable ERC20 coin
+<ul>
+<li><a href="How-to-launch-POA-Network-bridged-to-stable-ERC20-coin">How to launch</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+          </div>
+        </div>
+
+      <h5 class="mt-0 mb-2">Clone this wiki locally</h5>
+      <div class="width-full input-group">
+        <input
+            id="wiki-clone-url"
+            type="text"
+            data-autoselect
+            class="form-control input-sm text-small text-gray input-monospace"
+            aria-label="Clone URL for this wiki"
+            value="https://github.com/poanetwork/wiki.wiki.git"
+            readonly="readonly">
+        <span class="input-group-button">
+          <clipboard-copy for="wiki-clone-url" aria-label="Copy to clipboard" class="btn btn-sm zeroclipboard-button">
+            <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+          </clipboard-copy>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+
+    </div>
+  </div>
+
+  </div>
+
+        
+<div class="footer container-lg p-responsive" role="contentinfo">
+  <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap col-12 col-lg-6 flex-justify-center flex-lg-justify-start mb-2 mb-lg-0">
+      <li class="mr-3">&copy; 2018 <span title="0.23729s from unicorn-658fb55864-jrqzp">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon mr-lg-4" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap col-12 col-lg-6 flex-justify-center flex-lg-justify-end mb-2 mb-lg-0">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+        <li class="mr-3"><a href="https://github.com/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" integrity="sha512-WnyO4VoIUwWWQOmFLjYf4UGg/c1z9VlaLN8IMuiI3uMhhl6rejyThRdLPDyePeUPW6N+38OoBMs6AkqcvWALtA==" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-b66b5d97b4442a01f057c74b091c4368.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-092+yG9tBLtacCexwGKGjTtkuRfZo0YUa8VrsiKW+Zh/nyA2j7MvftFLeoIor9CGQ9uDFYNIcbFDbbTPw7tV3Q==" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-176ef037f2b2ddbb94c6810c7bce4ec9.js"></script>
+    
+    <script crossorigin="anonymous" async="async" integrity="sha512-/IIqCpmAgdVmzF8Uu80MllAz5uW6rwCnxNYt4kDKdKKiTiaSog2fPavP4S+fjp4W/j1eAqnuFRDblRaSf6OZhA==" type="application/javascript" src="https://assets-cdn.github.com/assets/github-710afc3a0a59c4e7ec1e796f976dcb83.js"></script>
+    
+      <script crossorigin="anonymous" integrity="sha512-Sbh6IBBheIyLGxM01XCHt9e+gxJYNopkvwAfMqPt58UaiGYfQPfaWe3kYAoCbJtbrXUTfLg2cWmZ1XuedFjZ1A==" type="application/javascript" src="https://assets-cdn.github.com/assets/wiki-afeeb054a0010fbe05e1039a2049ea2c.js"></script>
+
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <template id="site-details-dialog">
+  <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark" open>
+    <summary aria-haspopup="dialog" aria-label="Close dialog"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast">
+      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+      </button>
+      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
+    </details-dialog>
+  </details>
+</template>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

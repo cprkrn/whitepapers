@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>Whitepaper:Nxt - Nxt Wiki</title>
+<meta name="generator" content="MediaWiki 1.25.2" />
+<link rel="shortcut icon" href="/mediawiki/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mediawiki/opensearch_desc.php" title="Nxt Wiki (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="https://nxtwiki.org/mediawiki/api.php?action=rsd" />
+<link rel="alternate" hreflang="x-default" href="/wiki/Whitepaper:Nxt" />
+<link rel="copyright" href="https://www.gnu.org/copyleft/fdl.html" />
+<link rel="alternate" type="application/atom+xml" title="Nxt Wiki Atom feed" href="/mediawiki/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="https://nxtwiki.org/mediawiki/load.php?debug=false&amp;lang=en&amp;modules=ext.math.styles%7Cext.rtlcite%2Ctranslate%7Cext.uls.nojs%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cmediawiki.ui.button%7Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="https://nxtwiki.org/mediawiki/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: nxtwiki-war_:resourceloader:filter:minify-css:7:459045fa5f291471e1f726bfd2d0038c */</style>
+<script src="https://nxtwiki.org/mediawiki/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Whitepaper:Nxt","wgTitle":"Whitepaper:Nxt","wgCurRevisionId":53481,"wgRevisionId":53481,"wgArticleId":1410,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Whitepaper:Nxt","wgRelevantArticleId":1410,"wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":false,"dialogs":false,"hidesig":true,"preview":false,"publish":false},"wgULSAcceptLanguageList":[],"wgULSCurrentAutonym":"English","wgTranslatePageTranslation":"source"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});});
+/* cache key: nxtwiki-war_:resourceloader:filter:minify-js:7:a5c52c063dc436c1ca7c9f456936a5e9 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.uls.init","ext.uls.interface","skins.vector.js"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/mediawiki/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Whitepaper_Nxt skin-vector action-view">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Whitepaper:Nxt</h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From Nxt Wiki</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-pt-translate-header noprint nomobile" dir="ltr" lang="en">This page contains <span class="plainlinks"><a rel="nofollow" class="external text" href="https://nxtwiki.org/mediawiki/index.php?title=Whitepaper:Nxt&amp;diff=53481">changes</a></span> which are not marked for translation.</div><hr /><p><i>This document was built by the Nxt community.  Contributors include the following members from <a rel="nofollow" class="external free" href="http://nxtforum.org/">http://nxtforum.org/</a>: Alias, anon136, bluemeanie, Brangdon, ChuckOne, Come-from-Beyond, Daedelus, Damelon, devphp, doctorevil, Eadeqa, EMoneyru, Forkedchain, Fry, GBeirn, gs02xzz, Jean-Luc, jl777, joefox, kushti, l8orre, mczarnek, msin, mthcl, NCtrl, Pandaisftw, pouncer, QBTC, Rickyjames, salsacz, Sebastien256, ThomasVeil, VanBreuk, Wesleyh, and Zahlen. Sources were compiled, organized, and edited by joefox.</i>
+</p>
+<div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Abstract"><span class="tocnumber">1</span> <span class="toctext">Abstract</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Introduction_and_Overview"><span class="tocnumber">2</span> <span class="toctext">Introduction and Overview</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Core_technologies"><span class="tocnumber">3</span> <span class="toctext">Core technologies</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Proof_of_Stake"><span class="tocnumber">3.1</span> <span class="toctext">Proof of Stake</span></a>
+<ul>
+<li class="toclevel-3 tocsection-5"><a href="#Nxt.E2.80.99s_Proof_of_Stake_Model"><span class="tocnumber">3.1.1</span> <span class="toctext">Nxt’s Proof of Stake Model</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#Contrast_with_Peercoin_Proof_of_Stake"><span class="tocnumber">3.1.2</span> <span class="toctext">Contrast with Peercoin Proof of Stake</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-7"><a href="#Tokens"><span class="tocnumber">3.2</span> <span class="toctext">Tokens</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Network_Nodes"><span class="tocnumber">3.3</span> <span class="toctext">Network Nodes</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Blocks"><span class="tocnumber">3.4</span> <span class="toctext">Blocks</span></a>
+<ul>
+<li class="toclevel-3 tocsection-10"><a href="#Block_Creation_.28Forging.29"><span class="tocnumber">3.4.1</span> <span class="toctext">Block Creation (Forging)</span></a>
+<ul>
+<li class="toclevel-4 tocsection-11"><a href="#Base_Target_Value"><span class="tocnumber">3.4.1.1</span> <span class="toctext">Base Target Value</span></a></li>
+<li class="toclevel-4 tocsection-12"><a href="#Target_Value"><span class="tocnumber">3.4.1.2</span> <span class="toctext">Target Value</span></a></li>
+<li class="toclevel-4 tocsection-13"><a href="#Cumulative_Difficulty"><span class="tocnumber">3.4.1.3</span> <span class="toctext">Cumulative Difficulty</span></a></li>
+<li class="toclevel-4 tocsection-14"><a href="#The_Forging_Algorithm"><span class="tocnumber">3.4.1.4</span> <span class="toctext">The Forging Algorithm</span></a></li>
+<li class="toclevel-4 tocsection-15"><a href="#Balance_leasing"><span class="tocnumber">3.4.1.5</span> <span class="toctext">Balance leasing</span></a></li>
+</ul>
+</li>
+<li class="toclevel-3 tocsection-16"><a href="#Accounts"><span class="tocnumber">3.4.2</span> <span class="toctext">Accounts</span></a>
+<ul>
+<li class="toclevel-4 tocsection-17"><a href="#Account_Balance_Properties"><span class="tocnumber">3.4.2.1</span> <span class="toctext">Account Balance Properties</span></a></li>
+</ul>
+</li>
+<li class="toclevel-3 tocsection-18"><a href="#Transactions"><span class="tocnumber">3.4.3</span> <span class="toctext">Transactions</span></a>
+<ul>
+<li class="toclevel-4 tocsection-19"><a href="#Transaction_Fees"><span class="tocnumber">3.4.3.1</span> <span class="toctext">Transaction Fees</span></a></li>
+<li class="toclevel-4 tocsection-20"><a href="#Transaction_Confirmations"><span class="tocnumber">3.4.3.2</span> <span class="toctext">Transaction Confirmations</span></a></li>
+<li class="toclevel-4 tocsection-21"><a href="#Transaction_Deadlines"><span class="tocnumber">3.4.3.3</span> <span class="toctext">Transaction Deadlines</span></a></li>
+<li class="toclevel-4 tocsection-22"><a href="#Transaction_Types"><span class="tocnumber">3.4.3.4</span> <span class="toctext">Transaction Types</span></a></li>
+<li class="toclevel-4 tocsection-23"><a href="#Transaction_Creation_and_Processing"><span class="tocnumber">3.4.3.5</span> <span class="toctext">Transaction Creation and Processing</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-24"><a href="#Cryptographic_Foundations"><span class="tocnumber">3.5</span> <span class="toctext">Cryptographic Foundations</span></a>
+<ul>
+<li class="toclevel-3 tocsection-25"><a href="#Encryption_Algorithm"><span class="tocnumber">3.5.1</span> <span class="toctext">Encryption Algorithm</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-26"><a href="#Core_Features"><span class="tocnumber">4</span> <span class="toctext">Core Features</span></a>
+<ul>
+<li class="toclevel-2 tocsection-27"><a href="#Advanced_JavaScript_client"><span class="tocnumber">4.1</span> <span class="toctext">Advanced JavaScript client</span></a></li>
+<li class="toclevel-2 tocsection-28"><a href="#Agile_architecture"><span class="tocnumber">4.2</span> <span class="toctext">Agile architecture</span></a></li>
+<li class="toclevel-2 tocsection-29"><a href="#Basic_Payments"><span class="tocnumber">4.3</span> <span class="toctext">Basic Payments</span></a></li>
+<li class="toclevel-2 tocsection-30"><a href="#Alias_System"><span class="tocnumber">4.4</span> <span class="toctext">Alias System</span></a></li>
+<li class="toclevel-2 tocsection-31"><a href="#Arbitrary_Messages"><span class="tocnumber">4.5</span> <span class="toctext">Arbitrary Messages</span></a></li>
+<li class="toclevel-2 tocsection-32"><a href="#Asset_Exchange"><span class="tocnumber">4.6</span> <span class="toctext">Asset Exchange</span></a></li>
+<li class="toclevel-2 tocsection-33"><a href="#Digital_Goods_Store"><span class="tocnumber">4.7</span> <span class="toctext">Digital Goods Store</span></a></li>
+<li class="toclevel-2 tocsection-34"><a href="#Device_Portability"><span class="tocnumber">4.8</span> <span class="toctext">Device Portability</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-35"><a href="#Concerns"><span class="tocnumber">5</span> <span class="toctext">Concerns</span></a>
+<ul>
+<li class="toclevel-2 tocsection-36"><a href="#Proof_of_Stake_Attacks"><span class="tocnumber">5.1</span> <span class="toctext">Proof of Stake Attacks</span></a>
+<ul>
+<li class="toclevel-3 tocsection-37"><a href="#Nothing_at_Stake"><span class="tocnumber">5.1.1</span> <span class="toctext">Nothing at Stake</span></a></li>
+<li class="toclevel-3 tocsection-38"><a href="#History_Attack"><span class="tocnumber">5.1.2</span> <span class="toctext">History Attack</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-39"><a href="#Distribution"><span class="tocnumber">5.2</span> <span class="toctext">Distribution</span></a></li>
+<li class="toclevel-2 tocsection-40"><a href="#Transaction_Fees_2"><span class="tocnumber">5.3</span> <span class="toctext">Transaction Fees</span></a></li>
+<li class="toclevel-2 tocsection-41"><a href="#Whitepaper_Timing"><span class="tocnumber">5.4</span> <span class="toctext">Whitepaper Timing</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-42"><a href="#Additional_Nxt-related_Papers_and_Resources"><span class="tocnumber">6</span> <span class="toctext">Additional Nxt-related Papers and Resources</span></a></li>
+<li class="toclevel-1 tocsection-43"><a href="#Bibliography"><span class="tocnumber">7</span> <span class="toctext">Bibliography</span></a></li>
+<li class="toclevel-1 tocsection-44"><a href="#Appendix:_Bitcoin_Problems_Addressed_by_Nxt"><span class="tocnumber">8</span> <span class="toctext">Appendix: Bitcoin Problems Addressed by Nxt</span></a>
+<ul>
+<li class="toclevel-2 tocsection-45"><a href="#Blockchain_Size"><span class="tocnumber">8.1</span> <span class="toctext">Blockchain Size</span></a>
+<ul>
+<li class="toclevel-3 tocsection-46"><a href="#Nxt_Solutions"><span class="tocnumber">8.1.1</span> <span class="toctext">Nxt Solutions</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-47"><a href="#Transactions_per_Day"><span class="tocnumber">8.2</span> <span class="toctext">Transactions per Day</span></a>
+<ul>
+<li class="toclevel-3 tocsection-48"><a href="#Nxt_Solutions_2"><span class="tocnumber">8.2.1</span> <span class="toctext">Nxt Solutions</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-49"><a href="#Transaction_Confirmation_Time"><span class="tocnumber">8.3</span> <span class="toctext">Transaction Confirmation Time</span></a>
+<ul>
+<li class="toclevel-3 tocsection-50"><a href="#Nxt_Solutions_3"><span class="tocnumber">8.3.1</span> <span class="toctext">Nxt Solutions</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-51"><a href="#Centralization_Concerns"><span class="tocnumber">8.4</span> <span class="toctext">Centralization Concerns</span></a>
+<ul>
+<li class="toclevel-3 tocsection-52"><a href="#Nxt_Solutions_4"><span class="tocnumber">8.4.1</span> <span class="toctext">Nxt Solutions</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-53"><a href="#Proof_of_Work.E2.80.99s_Resource_Costs"><span class="tocnumber">8.5</span> <span class="toctext">Proof of Work’s Resource Costs</span></a>
+<ul>
+<li class="toclevel-3 tocsection-54"><a href="#Nxt_Solutions_5"><span class="tocnumber">8.5.1</span> <span class="toctext">Nxt Solutions</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-55"><a href="#Proof_of_Work.E2.80.99s_Resource_Costs_Pertaining_to_Coinholders"><span class="tocnumber">8.6</span> <span class="toctext">Proof of Work’s Resource Costs Pertaining to Coinholders</span></a>
+<ul>
+<li class="toclevel-3 tocsection-56"><a href="#Nxt_Solution"><span class="tocnumber">8.6.1</span> <span class="toctext">Nxt Solution</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-57"><a href="#Footnotes"><span class="tocnumber">9</span> <span class="toctext">Footnotes</span></a></li>
+</ul>
+</div>
+
+<h1><span class="mw-headline" id="Abstract"><span class="mw-headline-number">1</span> Abstract</span></h1>
+<p>--<a href="/mediawiki/index.php?title=User:Riker&amp;action=edit&amp;redlink=1" class="new" title="User:Riker (page does not exist)">Riker</a> (<a href="/mediawiki/index.php?title=User_talk:Riker&amp;action=edit&amp;redlink=1" class="new" title="User talk:Riker (page does not exist)">talk</a>) 08:42, 7 February 2016 (CET)
+This document is currently undergoing some updates.
+</p><p>Bitcoin has proven that a peer-to-peer electronic cash system can indeed work and fulfill payments processing without requiring trust or a central mint. However, for an entire <i>electronic economy</i> to be based on a fully decentralized, peer-to-peer solution, it must be able to do the following: process transactions securely, quickly and efficiently, at the rate of thousands per hour or more; provide incentives for people to participate in securing the network; scale globally with a minimal resource footprint; offer a range of basic transaction types that launch cryptocurrencies past the core feature of a payment system alone; provide an agile architecture that facilitates the addition of new core features, and allows for the creation and deployment of advanced applications; and be able to run on a broad range of devices, including mobile ones. Nxt (pronounced next) satisfies all these requirements.
+</p>
+<h1><span class="mw-headline" id="Introduction_and_Overview"><span class="mw-headline-number">2</span> Introduction and Overview</span></h1>
+<p>Nxt is a 100% proof-of-stake cryptocurrency, constructed from scratch in open-source Java<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup>. Nxts unique proof-of-stake algorithm does not depend on any implementation of the coin age concept used by other proof-of-stake cryptocurrencies, and is resistant to so-called nothing at stake attacks. A total quantity of 1 billion available tokens were distributed in the genesis block. Curve25519 cryptography is used to provide a balance of security and required processing power, along with more commonly-used SHA256 hashing algorithms.
+</p><p>Blocks are generated every 60 seconds, on average, by accounts that are <i>unlocked</i> on network nodes. Since the full token supply already exists, Nxt is redistributed through the inclusion of transaction fees which are awarded to an account when it successfully creates a block. This process is known as <i>forging</i>, and is akin to the mining concept employed by other cryptocurrencies. Transactions are deemed safe after 10 block confirmations, and Nxts current architecture and block size cap allows for the processing of up to 367,200 transactions per day.
+</p><p>Nxt transactions are based on a series of core <i>transaction types</i> that do not require any script processing or transaction input/output processing on the part of network nodes. These transaction primitives allow core support for:
+</p>
+<ul><li> asset exchange</li>
+<li> alias registration</li>
+<li> encrypted messages</li>
+<li> digital goods store</li>
+<li> monetary system</li>
+<li> voting system</li>
+<li> phased transactions</li>
+<li> account control</li>
+<li> shuffling</li>
+<li> account properties</li>
+<li> cloud data</li></ul>
+<p>By leveraging these primitive transaction types, Nxts core can be seen as an agile, base-layer protocol upon which a limitless range of services, applications, and other currencies can be built.
+This version of the whitepaper documents features and algorithms that are implemented in Nxt as of version 1.7.5. Future revisions will be made to reflect additional planned features and algorithm changes.
+</p>
+<h1><span class="mw-headline" id="Core_technologies"><span class="mw-headline-number">3</span> Core technologies</span></h1>
+<h2><span class="mw-headline" id="Proof_of_Stake"><span class="mw-headline-number">3.1</span> Proof of Stake</span></h2>
+<p>In the traditional Proof of Work model used by most cryptocurrencies, network security is provided by peers doing work. They deploy their resources (computation/processing time) to reconcile double-spending transactions, and to impose an extraordinary cost on those who would attempt to reverse transactions. Tokens are awarded to peers in exchange for work, with the frequency and amount varying with each cryptocurrency’s operational parameters. This process is known as mining. The frequency of block generation, which determines each cryptocurrency’s available mining reward, is generally intended to stay constant. As a result, the difficulty of the required work for earning a reward must increase as the work capacity of the network increases.
+</p><p>As a Proof of Work network becomes stronger, there is less incentive for an individual peer to support the network, because their potential reward is split among a greater number of peers. In search of profitability, miners keep adding resources in the form of specialized, proprietary hardware that requires significant capital investment and high ongoing energy demands. As time progresses, the network becomes more and more centralized as smaller peers (those who can do less work) drop out or combine their resources into pools.
+</p><p>In the Proof of Stake model used by Nxt, network security is governed by peers having a <i>stake</i> in the network. The incentives provided by this algorithm do not promote centralization in the same way that Proof of Work algorithms do, and data shows that the Nxt network has remained highly decentralized since its inception: a large number of unique accounts are contributing blocks to the network<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup>, and the top five accounts have generated 42% of the total number of blocks.
+</p>
+<h3><span class="mw-headline" id="Nxt.E2.80.99s_Proof_of_Stake_Model"><span class="mw-headline-number">3.1.1</span> Nxt’s Proof of Stake Model</span></h3>
+<p>Nxt uses a system where each coin in an account can be thought of as a tiny mining rig. The more tokens that are held in the account, the greater the chance that account will earn the right to generate a block. The total reward received as a result of block generation is the sum of the transaction fees located within the block. Nxt does not generate any new tokens as a result of block creation. Redistribution of Nxt takes place as a result of block generators receiving transaction fees, so the term forging (meaning in this context to create a relationship or new conditions<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">[3]</a></sup>) is used instead of mining.
+</p><p>Subsequent blocks are generated based on verifiable, unique, and almost-unpredictable information from the preceding block. Blocks are linked by virtue of these connections, creating a chain of blocks (and transactions) that can be traced all the way back to the genesis block.
+</p><p>Block generation time is targeted at 60 seconds.
+</p><p>The security of the blockchain is always of concern in Proof of Stake systems. The following basic principles apply to Nxts Proof of Stake algorithm:
+</p>
+<ul><li> A <i>cumulative difficulty</i> value is stored as a parameter in each block, and each subsequent block derives its new difficulty from the previous blocks value. In case of ambiguity, the network achieves consensus by selecting the block or chain fragment with the highest cumulative difficulty. This is covered in more detail in section 3.4.1</li>
+<li> To prevent account holders from moving their stake from one account to another as a means of manipulating their probability of block generation, tokens must be stationary within an account for 1,440 blocks before they can contribute to the block generation process. Tokens that meet this criterion contribute to an account’s <i>effective balance</i>, and this balance is used to determine forging probability.</li>
+<li> To keep an attacker from generating a new chain all the way from the genesis block, peers allow chain re-organization of no more than 720 blocks behind the current block height. Any block submitted at a height lower than this threshold is rejected.</li>
+<li> Due to the extremely low probability of any account taking control of the blockchain by generating its own chain of blocks, transactions are deemed safe once they are encoded into a block that is 10 blocks behind the current block height.</li></ul>
+<h3><span class="mw-headline" id="Contrast_with_Peercoin_Proof_of_Stake"><span class="mw-headline-number">3.1.2</span> Contrast with Peercoin Proof of Stake</span></h3>
+<p>Peercoin uses a <i>coin age</i> parameter as part of its mining probability algorithm. In that system, the longer your Peercoins have been stationary in your account (to a maximum of 90 days), the more power (coin age) they have to mint a block. The act of minting a block requires the consumption of coin age value, and the network determines consensus by selecting the chain with the largest total consumed coin age.
+</p><p>When Peercoin blocks are orphaned, the consumed coin age is released back to the blocks originating account. As a result, the cost to attack the Peercoin network is low, since attackers can keep attempting to generate blocks (referred to as <i>grinding stake</i>) until they succeed. Peercoin minimizes these and other risks by centrally broadcasting blockchain checkpoints several times a day, to freeze the blockchain and lock in transactions.
+</p><p>Nxt does not use coin age as part of its forging algorithm. An account’s chance to forge a block depends only on its effective balance (which is a property of each account), the time since the last block (which is shared by all forging accounts) and the base target value (which is also shared by all accounts).
+</p>
+<h2><span class="mw-headline" id="Tokens"><span class="mw-headline-number">3.2</span> Tokens</span></h2>
+<p>The total supply of Nxt is 1 billion tokens, divisible to eight decimal places. All tokens were issued with the creation of the <i>genesis block</i> (the first block in the Nxt blockchain), leaving the <i>genesis account</i><sup id="cite_ref-4" class="reference"><a href="#cite_note-4">[4]</a></sup> with an initial negative balance of 1 billion Nxt.
+</p><p>The existence of anti-tokens in the genesis account has a couple of interesting side effects:
+</p>
+<ul><li> the genesis account cannot issue transactions of any kind, since its balance is negative and it cannot pay transaction fees. As a result, the private passphrase for the genesis account is free for anyone to use<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">[5]</a></sup>.</li>
+<li> any tokens sent to the genesis account are effectively destroyed, since that accounts negative balance will cancel them out. Several thousand Nxt tokens have been <i>burned</i> in this manner.</li></ul>
+<p>The choice of the word <i>tokens</i> is intentional due to Nxts intention to be used as a base protocol that provides numerous other functions. Nxts most basic function is one of a traditional payment system, but it was designed to do far more.
+</p>
+<h2><span class="mw-headline" id="Network_Nodes"><span class="mw-headline-number">3.3</span> Network Nodes</span></h2>
+<p>A <i>node</i> on the Nxt network is any device that is contributing transaction or block data to the network. Any device running the Nxt software is seen as a node. Nodes are sometimes referred to as "Peers".
+</p><p>Nodes can be subdivided into two types: <i>hallmarked</i> and <i>normal</i>. A hallmarked node is simply a node that is tagged with an encrypted token derived from an account private key; this token can be decoded to reveal a specific Nxt account address and balance that are associated with a node. The act of placing a hallmark on a node adds a level of accountability and trust, so hallmarked nodes are more trusted than non-hallmarked nodes on the network. The larger the balance of an account tied to a hallmarked node, the more trust is given to that node. While an attacker might wish to hallmark a node in order to gain trustworthiness within the network and then use that trust for malicious purposes; the barrier to entry (cost of Nxt required to build adequate trust) discourages such abuse.
+</p><p>Each node on the Nxt network has the ability to process and broadcast both transactions and block information. Blocks are validated as they are received from other nodes<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">[6]</a></sup>, and in cases where block validation fails, nodes may be blacklisted temporarily to prevent the propagation of invalid block data.
+</p><p>Each node features a built-in DDOS (Distributed Denial of Services) defense mechanism which restricts the number of network requests from any other node to 30 per second.
+</p>
+<h2><span class="mw-headline" id="Blocks"><span class="mw-headline-number">3.4</span> Blocks</span></h2>
+<p>As in other crypto-currencies, the ledger of Nxt transactions is built and stored in a linked series of blocks, known as a blockchain. This ledger provides a permanent record of transactions that have taken place, and also establishes the order in which transactions have occurred. A copy of the blockchain is kept on every node in the Nxt network, and every account that is <i>unlocked</i> on a node (by supplying the account private key) has the ability to generate blocks, as long as at least one incoming transaction to the account has been confirmed 1440 times. Any account that meets these criteria is referred to as an <i>active account</i>.
+</p><p>In Nxt, each block contains up to 255 transactions, all prefaced by a block header that contains identifying parameters. Each transaction in a block is represented by common transaction data, specific transaction types also include transaction attachment, and certain transactions may include one or more additional appendices. The maximum block size is 42KB. 
+All blocks contain the following parameters:
+</p>
+<ul><li> A block version, block height value, and block identifier</li>
+<li> A block timestamp, expressed in seconds since the genesis block</li>
+<li> The ID of the account that generated the block, as well as that accounts public key</li>
+<li> The ID and hash of the previous block The number of transactions stored in the block</li>
+<li> The total amount of Nxt represented by transactions and fees in the block</li>
+<li> Transaction data for all transactions included in the block, including their transaction IDs</li>
+<li> The payload length of the block, and the hash value of the block payload</li>
+<li> The block’s generation signature</li>
+<li> A signature for the entire block</li>
+<li> The base target value and cumulative difficulty for the block</li></ul>
+<h3><span class="mw-headline" id="Block_Creation_.28Forging.29"><span class="mw-headline-number">3.4.1</span> Block Creation (Forging)</span></h3>
+<p>Three values are key to determining which account is eligible to generate a block, which account earns the right to generate a block, and which block is taken to be the authoritative one in times of conflict: <i>base target value</i>, <i>target value</i> and <i>cumulative difficulty</i>.
+</p>
+<h4><span class="mw-headline" id="Base_Target_Value"><span class="mw-headline-number">3.4.1.1</span> Base Target Value</span></h4>
+<p>--<a href="/mediawiki/index.php?title=User:Riker&amp;action=edit&amp;redlink=1" class="new" title="User:Riker (page does not exist)">Riker</a> (<a href="/mediawiki/index.php?title=User_talk:Riker&amp;action=edit&amp;redlink=1" class="new" title="User talk:Riker (page does not exist)">talk</a>) 08:41, 7 February 2016 (CET) please review
+</p><p>In order to win the right to forge (generate) a block, all active Nxt accounts compete by attempting to generate a hash value that is lower than a given <i>base target value</i>. This base target value varies from block to block, and is derived from the previous block base target multiplied by the amount of time that was required to generate that block using a formula that ensures 60 seconds average block time.
+</p><p>The calculation is based on the following constants:
+</p>
+<ul><li> MAXRATIO=67 - max ratio by which the target is decreased when block time is larger than 60 seconds.</li>
+<li> MINRATIO=53 - min ratio by which the target is increased when block time is smaller than 60 seconds.</li>
+<li> GAMMA=0.64  </li></ul>
+<p>And the following variables:
+</p>
+<ul><li> S - average block time for the last 3 blocks </li>
+<li> Tp - previous base target</li>
+<li> Tb - calculated base target</li></ul>
+<p>The base target is calculated as follows:
+</p>
+<ul><li> If S&gt;60 </li></ul>
+<pre>   Tb = (Tp * Min(S, MAXRATIO)) / 60
+</pre>
+<ul><li> Else</li></ul>
+<pre>   Tb = Tp - Tp * GAMMA * (60 - Max(S, MINRATIO)) / 60;
+</pre>
+<p>The rational behind this formula is explained here <a rel="nofollow" class="external free" href="https://nxtforum.org/proof-of-stake-algorithm/basetarget-adjustment-algorithm">https://nxtforum.org/proof-of-stake-algorithm/basetarget-adjustment-algorithm</a> and here <a rel="nofollow" class="external free" href="https://nxtforum.org/nxt-improvement-proposals/fixing-the-blocktimes">https://nxtforum.org/nxt-improvement-proposals/fixing-the-blocktimes</a>
+the idea is to make target adjustments gradual using the MIN and MAX ratio constants and increase the target, thus reducing block times, at a faster rate than decreasing the target, using the GAMMA constant, since the block time is bounded by 0 from below but can be infinitely large.
+</p>
+<h4><span class="mw-headline" id="Target_Value"><span class="mw-headline-number">3.4.1.2</span> Target Value</span></h4>
+<p>Each account calculates its own target value, based on its current effective stake. This value is:
+</p><p><img class="mwe-math-fallback-image-inline tex" alt="T=T_{b}\times S\times B_{e}" src="/mediawiki/images/math/4/0/5/405bdf3226772f3d40b566dfbd8a8c96.png" />
+</p><p>where:
+</p><p>T is the new target value
+</p><p>T<sub>b</sub> is the base target value
+</p><p>S is the time since the last block, in seconds
+</p><p>B<sub>e</sub> is the effective balance of the account
+</p><p>As can be seen from the formula, the target value grows with each second that passes since the timestamp of the previous block. The maximum target value is 1.53722867 x 10<sup>17</sup> and the minimum target value is one half of the previous blocks base target value.
+</p><p>This target value and the base target value are the same for all accounts attempting to forge on top of a specific block. The only account-specific parameter is the effective balance parameter.
+</p>
+<h4><span class="mw-headline" id="Cumulative_Difficulty"><span class="mw-headline-number">3.4.1.3</span> Cumulative Difficulty</span></h4>
+<p>The cumulative difficulty value is derived from the base target value, using the formula:
+</p><p><img class="mwe-math-fallback-image-inline tex" alt="D_{cb}=D_{pb}+\tfrac{2^{64}}{T_{b}}" src="/mediawiki/images/math/2/d/7/2d769a688705d1b99328dfe13858eee3.png" />
+</p><p>where:
+</p><p>D<sub>cb</sub> is the difficulty of the current block
+</p><p>D<sub>pb</sub> is the difficulty of the previous block
+</p><p>T<sub>b</sub> is the base target value for the current block
+</p>
+<h4><span class="mw-headline" id="The_Forging_Algorithm"><span class="mw-headline-number">3.4.1.4</span> The Forging Algorithm</span></h4>
+<p>Each block on the chain has a <i>generation signature</i> parameter. To participate in the block forging process, an active account digitally signs the generation signature of the previous block with its own public key. This creates a 64-byte signature, which is then hashed using SHA256. The first 8 bytes of the resulting hash are converted to a number, referred to as the account <i>hit</i>.
+</p><p>The hit is compared to the current target value. If the computed hit is lower than the target, then the next block can be generated. As noted in the target value formula, the target value increases with each passing second. Even if there are only a few active accounts on the network, one of them will eventually generate a block because the target value will become very large. Therefore, you can calculate the time it will take any account to forge a block by comparing the account hit value to the target value.
+</p><p>The last point is significant. Since any node can query the effective balance for any active account, it is possible to iterate through all active accounts in order to determine their individual hit value. This means it is possible to predict, with reasonable accuracy, which account will next win the right to forge a block. A <i>balance shifting attack</i> cannot be mounted by moving stake to an account that will generate the next block, since Nxt stake must be stationary for 1440 blocks before it can contribute to forging (via the effective balance value). Interestingly, the new base target value for the next block cannot be reasonably predicted, so the nearly-deterministic process of determining who will forge the next block becomes increasingly stochastic as attempts are made to predict future blocks. This feature of the Nxt forging algorithm helps form the basis for the development and implementation of the Transparent Forging algorithm. Since this algorithm has not yet completely been implemented, and because its implications on the Nxt network are significant, it will be outlined in a separate paper.
+</p><p>For an in-depth analysis of the mathematics and probabilities related to Nxt block forging, see mthcls paper, The math of Nxt forging, which is located at <a rel="nofollow" class="external free" href="http://www.docdroid.net/e29h/forging0-5-2.pdf.html">http://www.docdroid.net/e29h/forging0-5-2.pdf.html</a>
+</p><p>When an active account wins the right to generate a block, it bundles up to 255 available, unconfirmed transactions into a new block, and populates the block with all of its required parameters. This block is then broadcast to the network as a candidate for the blockchain.
+</p><p>The payload value, generating account, and all of the signatures on each block can be verified by all network nodes who receive it. In a situation where multiple blocks are generated, nodes will select the block with the highest cumulative difficulty value as the authoritative block. As block data is shared between peers, forks (non-authoritative chain fragments) are detected and dismantled by examining the chains cumulative difficulty values stored in each fork. 
+</p><p>A node which receive a valid block representing a chain with larger cumulative difficulty than it's own, will determine the highest common block between it's own chain and the chain represented by the new block, then remove it's own blocks from the chain down to the common block and undo any side effects of these blocks then build it's own chain based on blocks received from other nodes (--<a href="/mediawiki/index.php?title=User:Riker&amp;action=edit&amp;redlink=1" class="new" title="User:Riker (page does not exist)">Riker</a> (<a href="/mediawiki/index.php?title=User_talk:Riker&amp;action=edit&amp;redlink=1" class="new" title="User talk:Riker (page does not exist)">talk</a>) 08:41, 7 February 2016 (CET): needs review)
+</p>
+<h4><span class="mw-headline" id="Balance_leasing"><span class="mw-headline-number">3.4.1.5</span> Balance leasing</span></h4>
+<p>--<a href="/mediawiki/index.php?title=User:Riker&amp;action=edit&amp;redlink=1" class="new" title="User:Riker (page does not exist)">Riker</a> (<a href="/mediawiki/index.php?title=User_talk:Riker&amp;action=edit&amp;redlink=1" class="new" title="User talk:Riker (page does not exist)">talk</a>) 08:41, 7 February 2016 (CET): paragraph needs review 
+</p><p>Since the ability for an account to forge is based on the effective balance parameter, it is possible to loan forging power from one account to another without giving up control of the tokens associated with the account. Using a leaseBalance transaction, an account owner may temporarily reduce an accounts effective balance to zero, adding it to the effective balance of another account. The targeted account forging power is increased for a certain number of blocks specified by the original account owner, after which the effective balance is returned to the original account.
+</p><p>Leasing is advised for large stake holders since the lessor account, which leased its forging power, does not need to reveal its passphrase in order to participate in forging new blocks. Only the lessee account need to reveal its passphrase and this account can poses much smaller balance so that in case its passphrase is stolen the lose is minimal.
+</p><p>Leasing balance does not affect the functionality of the lessor account except its ability to forge. Balance changes to the lessor account affects the forging power of the lessee account after 1440 blocks.
+</p>
+<h3><span class="mw-headline" id="Accounts"><span class="mw-headline-number">3.4.2</span> Accounts</span></h3>
+<p>Nxt implements a <i>brain wallet</i> as part of its design: all accounts are stored on the network, with <i>private keys</i> for each possible account address directly derived from each accounts <i>passphrase</i> using a combination of SHA256 and Curve25519 operations.
+</p><p>Each account is represented by a 64-bit number, and this number is expressed as an <i>account address</i> using a Reed-Solomon error-correcting notation that allows for <i>detection</i> of up to four errors in an account address, or <i>correction</i> of up to two errors. This practically eliminates the risk that a typo in account address would result in lose of funds. Account addresses are always prefaced by an <i>NXT-</i> prefix, making Nxt account addresses easily recognizable and distinguishable from address formats used by other blockchains.
+</p><p>The Reed-Solomon-encoded account address associated with a secret passphrase is generated as follows:
+</p>
+<ol><li> The secret passphrase is hashed with SHA256 to derive the accounts <i>private key</i>.</li>
+<li> The private key is encrypted with Curve25519 to derive the accounts <i>public key</i>.</li>
+<li> The public key is hashed with SHA256 to derive the <i>account ID</i>.</li>
+<li> The first 64 bits of the account ID are the <i>visible account number</i>.</li>
+<li> Reed-Solomon encoding of the visible account number, prefixed with NXT-, generates the <i>account address</i>.</li></ol>
+<p>When an account is accessed by a secret passphrase for the very first time, it is not secured by a public key. When the first outgoing transaction from an account is made, the 256-bit public key derived from the passphrase is stored on the blockchain, and this secures the account. The address space for public keys (2<sup>256</sup>) is larger than the address space for account numbers (2<sup>64</sup>), so there is no one-to-one mapping of passphrases to account numbers and collisions are possible. These collisions are detected and prevented in the following way: once a specific passphrase is used to access an account, and that account is secured by a 256-bit public key, no other public-private key pair is permitted to access that account number.
+</p>
+<h4><span class="mw-headline" id="Account_Balance_Properties"><span class="mw-headline-number">3.4.2.1</span> Account Balance Properties</span></h4>
+<p>For each Nxt account, several different types of balances are available. Each type serves a different purpose, and many of these values are checked as part of transaction validation and processing.
+</p>
+<ul><li> The <i>effective balance</i> of an account is used as the basis for an account's forging calculations<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">[7]</a></sup>. An account's effective balance consists of all tokens that have been stationary in that account for 1440 blocks. In addition, the Account Leasing feature allows an account's effective balance to be assigned to another account for a temporary period. The account effective balance is calculated from the <i>confirmed balance</i> by reducing all balance additions during the last 1440 blocks.</li>
+<li> The guaranteed balance of an account consists of all tokens that have been stationary in an account for 1440 blocks. Unlike the effective balance, this balance cannot be assigned to any other account.</li>
+<li> The <i>confirmed balance</i> of an account accounts for all transactions that have had at least one confirmation.</li>
+<li> The <i>unconfirmed balance</i> of an account is the one that is displayed in Nxt clients. It represents the confirmed balance of an account, minus the tokens involved in unconfirmed, sent transactions or locked by specific transaction types such as CurrencyReserveIncrease and Shuffling transactions or locked by phased transactions not applied or cancelled yet. --<a href="/mediawiki/index.php?title=User:Riker&amp;action=edit&amp;redlink=1" class="new" title="User:Riker (page does not exist)">Riker</a> (<a href="/mediawiki/index.php?title=User_talk:Riker&amp;action=edit&amp;redlink=1" class="new" title="User talk:Riker (page does not exist)">talk</a>) 09:22, 7 February 2016 (CET) Please verify</li>
+<li> The <i>forged balance</i> of an account shows the total amount of Nxt that have been earned as a result of successfully forging blocks.</li>
+<li> Confirmed and unconfirmed asset quantities and currency units are also tracked by each account holdings.</li></ul>
+<h3><span class="mw-headline" id="Transactions"><span class="mw-headline-number">3.4.3</span> Transactions</span></h3>
+<p>Transactions are the only means Nxt accounts have of altering their state or balance. Each transaction performs only one function, the record of which is permanently stored on the network once that transaction has been included in a block.
+</p>
+<h4><span class="mw-headline" id="Transaction_Fees"><span class="mw-headline-number">3.4.3.1</span> Transaction Fees</span></h4>
+<p>Transaction fees are the primary mechanism through which Nxt are recirculated back into the network. Every transaction requires a minimum fee. When an Nxt account forges a block, all of the transaction fees included in that block are awarded to the forging account as a reward. Unlike with other blockchains, minimum transaction fees are enforced by the blockchain therefore transactions which does not specify a fee larger than the minimal fee for this transaction type won't be accepted by nodes.
+</p>
+<h4><span class="mw-headline" id="Transaction_Confirmations"><span class="mw-headline-number">3.4.3.2</span> Transaction Confirmations</span></h4>
+<p>All Nxt transactions are considered <i>unconfirmed</i> until they are included in a valid network block. Newly-created blocks are distributed to the network by the node (and associated account) that creates them, and a transaction that is included in a block is considered as having received one confirmation. As subsequent blocks are added to the existing blockchain, each additional block adds one more confirmation to the number of confirmations for a transaction.
+</p><p>If a transaction is not included in a block before its deadline, it expires and is removed from the transaction pool.
+</p>
+<h4><span class="mw-headline" id="Transaction_Deadlines"><span class="mw-headline-number">3.4.3.3</span> Transaction Deadlines</span></h4>
+<p>Every transaction contains a deadline parameter, set to a number of minutes from the time the transaction is submitted to the network. The default deadline is 1440 minutes (24 hours). A transaction that has been broadcast to the network but has not been included in a block yet is referred to as an <i>unconfirmed transaction</i>.
+</p><p>If a transaction has not been included in a block before the transaction deadline expires, the transaction is removed from the network.
+</p><p>Transactions may be left unconfirmed until their deadline expire, because they are permanently invalid or malformed, or because they do not meet certain temporary conditions such as sufficient balances, or because blocks are being filled with transactions that have offered to pay higher transaction fees. 
+</p>
+<h4><span class="mw-headline" id="Transaction_Types"><span class="mw-headline-number">3.4.3.4</span> Transaction Types</span></h4>
+<p>Categorizing Nxt transactions into types and subtypes allows for modular growth and development of the Nxt protocol without creating dependencies on other base functions. As features are added to the Nxt core, new transaction types and subtypes can be added to support them.
+</p><p>Multiple transaction types and associated subtypes are supported by Nxt. Each type dictates a given transactions required and optional parameters, as well as its processing method.
+A complete list of all transaction types and sub types is out of the scope of this document.
+</p>
+<h4><span class="mw-headline" id="Transaction_Creation_and_Processing"><span class="mw-headline-number">3.4.3.5</span> Transaction Creation and Processing</span></h4>
+<p>The details of creating and processing an Nxt transaction are as follows:
+</p>
+<ol><li> The sender specifies parameters for the transaction. Types of transactions vary<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">[8]</a></sup>, and the desired type is specified at transaction creation, but several parameters must be specified for all transactions:
+<ul><li> private key for the sending account</li>
+<li> specified fee for the transaction</li>
+<li> deadline for the transaction</li>
+<li> an optional referenced transaction</li></ul></li>
+<li> All values for the transaction inputs are checked. For example, mandatory parameters must be specified; fees cannot be less than the minimum fee for this transaction type; a transaction deadline cannot be less than one minute into the future; if a referenced transaction is specified, then the current transaction cannot be processed until the referenced transaction has been processed.</li>
+<li> If no exceptions are thrown as a result of parameter checking:
+<ol><li> The public key for the generating account is computed using the supplied secret passphrase</li>
+<li> Account information for the generating account is retrieved, and transaction parameters are further validated:
+<ul><li> The sending account’s balance cannot be zero</li>
+<li> The sending account’s <i>unconfirmed balance</i><sup id="cite_ref-9" class="reference"><a href="#cite_note-9">[9]</a></sup> must not be lower than the transaction amount plus the transaction fee</li></ul></li></ol></li>
+<li> If the sending account has sufficient funds for the transaction:
+<ol><li> A new transaction is created, with a type and subtype value set to match the kind of transaction being made. All specified parameters are included. A unique transaction ID is generated with the creation of the object</li>
+<li> The transaction is signed using the sending account’s private key</li>
+<li> The encrypted transaction data is placed within a message instructing network peers to process the transaction</li>
+<li> The transaction is broadcast to all peers on the network</li>
+<li> The server responds with a result code:
+<ul><li> the transaction ID, if the transaction creation was successful</li>
+<li> an error code and error message if any of the parameter checks fail.</li></ul></li></ol></li></ol>
+<h2><span class="mw-headline" id="Cryptographic_Foundations"><span class="mw-headline-number">3.5</span> Cryptographic Foundations</span></h2>
+<p>Key exchange in Nxt is based on the Curve25519 algorithm, which generates a shared secret key using a fast, efficient, high-security elliptic-curve Diffie-Hellman function<sup id="cite_ref-10" class="reference"><a href="#cite_note-10">[10]</a></sup>. The algorithm was first demonstrated by Daniel J. Bernstein in 2006. Nxts Java-based implementations were reviewed by DoctorEvil in March, 2014.
+</p><p>Message signing in Nxt is implemented using the Elliptic-Curve Korean Certificate-based Digital Signature Algorithm (EC-KCDSA), specified as part of IEEE P1363a by the KCDSA Task Force team in 1998.
+</p><p>Both algorithms were chosen for their balance of speed and security for a key size of only 32 bytes.
+</p>
+<h3><span class="mw-headline" id="Encryption_Algorithm"><span class="mw-headline-number">3.5.1</span> Encryption Algorithm</span></h3>
+<p>When Alice sends an encrypted plaintext to Bob, she:
+</p>
+<ol><li> Calculates a shared secret:
+<ul><li> shared_secret = Curve25519(Alice_private_key, Bob_public_key)</li></ul></li>
+<li> Calculates N seeds:
+<ul><li> seed<sub>n</sub> = SHA256(seed<sub>n-1</sub>), where seed<sub>0</sub> = SHA256(shared_secret)</li></ul></li>
+<li> Calculates N keys:
+<ul><li> key<sub>n</sub> = SHA256(Inv(seed<sub>n</sub>)), where Inv(X) is the inversion of all bits of X</li></ul></li>
+<li> Encrypts the plaintext:
+<ul><li> ciphertext<span>[</span>n<span>]</span> = plaintext<span>[</span>n<span>]</span> XOR key<sub>n</sub></li></ul></li></ol>
+<p>Upon receipt Bob decrypts the ciphertext:
+</p>
+<ol><li> Calculates a shared secret:
+<ul><li> shared_secret = Curve25519(Bob_private_key, Alice_public_key)</li></ul></li>
+<li> Calculates N seeds (this is identical to Alices step):
+<ul><li> seed<sub>n</sub> = SHA256(seed<sub>n-1</sub>), where seed<sub>0</sub> = SHA256(shared_secret)</li></ul></li>
+<li> Calculates N keys (this is identical to Alices step):
+<ul><li> key<sub>n</sub> = SHA256(Inv(seed<sub>n</sub>)), where Inv(X) is the inversion of all bits of X</li></ul></li>
+<li> Decrypts the ciphertext:
+<ul><li> plaintext<span>[</span>n<span>]</span> = ciphertext<span>[</span>n<span>]</span> XOR key<sub>n</sub></li></ul></li></ol>
+<p><i>Note</i>: If someone guesses part of the plaintext, he can decode some part of subsequent messages between Alice and Bob if they use the same key pairs. As a result, it’s advised to generate a new pair of private/public keys for each communication.
+</p>
+<h1><span class="mw-headline" id="Core_Features"><span class="mw-headline-number">4</span> Core Features</span></h1>
+<h2><span class="mw-headline" id="Advanced_JavaScript_client"><span class="mw-headline-number">4.1</span> Advanced JavaScript client</span></h2>
+<p>A second-generation, user-friendly client application<sup id="cite_ref-11" class="reference"><a href="#cite_note-11">[11]</a></sup> is built into the Nxt core software distribution, and can be accessed through a local web browser. The client provides full support for all core Nxt features, implemented such that users private keys are never exposed to the network. It also includes an advanced administrative interface<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">[12]</a></sup> and built-in javadoc documentation<sup id="cite_ref-13" class="reference"><a href="#cite_note-13">[13]</a></sup> for Nxts low-level Applications Programming Interface.
+</p>
+<h2><span class="mw-headline" id="Agile_architecture"><span class="mw-headline-number">4.2</span> Agile architecture</span></h2>
+<p>First-generation cryptocurrencies were primarily designed as payment systems. Nxt recognizes that decentralized blockchains can enable a broad range of applications and services, but is not prescriptive about what those services should be or how they should be built. By design, Nxt strips away unnecessary complexity in its core, leaving only the most successful components of its predecessors intact. As a result, Nxt functions like a low-level, foundational protocol: it defines the interfaces and operations required to operate a lightweight blockchain, a decentralized communication system, and a rapid transaction processing framework, allowing higher-order components to build on those features.
+</p><p>Transactions in Nxt make simple adjustments to account balances instead of tracing sets of input or output credits. In addition, the core software does not support any form of scripting language. By providing a set of basic, flexible transaction types that can quickly and easily be processed, Nxt creates a foundation that does not limit the ways in which those transaction types can be used, and does not create significant overhead for using them. This flexibility is further amplified by Nxts low resource and energy requirements, and its highly readable, highly organized object-oriented source code<sup id="cite_ref-14" class="reference"><a href="#cite_note-14">[14]</a></sup>.
+</p>
+<h2><span class="mw-headline" id="Basic_Payments"><span class="mw-headline-number">4.3</span> Basic Payments</span></h2>
+<p>The most fundamental feature of any cryptocurrency is the ability to transmit tokens from one account to another. This is Nxts most fundamental transaction type, and it allows for basic payment functionality.
+</p>
+<h2><span class="mw-headline" id="Alias_System"><span class="mw-headline-number">4.4</span> Alias System</span></h2>
+<p>The Nxt Alias System allows any string of text to be permanently associated with a specific Nxt account. Since its inception, a convention for the format of these strings, using JSON<sup id="cite_ref-15" class="reference"><a href="#cite_note-15">[15]</a></sup> notation, has been formalized. As a result, an alias can currently be human-friendly text alias for an account address or a Uniform Resource Identifier (URI)<sup id="cite_ref-16" class="reference"><a href="#cite_note-16">[16]</a></sup>.
+</p><p>The ability to store any URI on the Nxt blockchain enables the creation of any number of decentralized services that rely on small, persistent strings of text, such as a distributed Domain Name Server (DNS) system. One example of a simple implementation of this concept is the browser extensions developed by wesleyh of <a rel="nofollow" class="external free" href="http://nxtra.org/">http://nxtra.org/</a><sup id="cite_ref-17" class="reference"><a href="#cite_note-17">[17]</a></sup>
+</p>
+<h2><span class="mw-headline" id="Arbitrary_Messages"><span class="mw-headline-number">4.5</span> Arbitrary Messages</span></h2>
+<p>Arbitrary strings of data up to 1000 bytes in length can be stored on the Nxt blockchain using the Arbitrary Messages feature, and these strings may optionally be AES-encrypted<sup id="cite_ref-18" class="reference"><a href="#cite_note-18">[18]</a></sup>. These messages are intended to be removable, in the future, when blockchain size needs to be reduced; nonetheless, they form a critical building block for a number of next-generation features.
+</p><p>At the basic level, the system can be used to transmit human-readable messages between accounts, creating a decentralized chat system. However, advanced applications can use this feature to store structured data, such as JSON objects, that can be used to trigger or facilitate services built on top of Nxt. The most notable current implementation is the Nxt Multigateway (MGW)<sup id="cite_ref-19" class="reference"><a href="#cite_note-19">[19]</a></sup>, part of the NXTServices layer, which employs the Arbitrary Messaging system to drive a nearly-trustless method for automatically transforming Bitcoin, Litecoin, and other cryptocurrencies into Nxt assets (based on the colored coins concept) that can be traded, bought, and sold on the fully-decentralized asset exchange.
+</p>
+<h2><span class="mw-headline" id="Asset_Exchange"><span class="mw-headline-number">4.6</span> Asset Exchange</span></h2>
+<p>An entire class of Nxt transactions is used to implement a fully-decentralized and automated asset exchange that operates on the Nxt blockchain. Using the colored coins concept, Nxt assets may be issued and tracked on the Nxt ecosystem, supported by transactions and processing that allow for asset transfer, bid and ask order placement, and automatic order matching.
+</p><p>Since its inception, the Nxt Asset Exchange has been used for fundraising &amp; IPO offerings, tipping tokens, and the development of advanced services such as the Multigateway (MGW) system.
+</p><p>By combining the features of the Nxt Asset Exchange with other features such as the Arbitrary Messaging System, value-added services can be created. Most notably, another feature of the NXTServices layer is a system for the automated calculation and disbursement of dividends based on the performance of existing Nxt assets<sup id="cite_ref-20" class="reference"><a href="#cite_note-20">[20]</a></sup>.
+</p>
+<h2><span class="mw-headline" id="Digital_Goods_Store"><span class="mw-headline-number">4.7</span> Digital Goods Store</span></h2>
+<p>The Nxt Digital Goods store gives account owners the ability to list assets for sale in an open, decentralized market place. Goods can be purchased, discounted, delivered, refunded, and transferred, using a dedicated class of transaction types that manage and secure store listings on the decentralized blockchain.
+</p>
+<h2><span class="mw-headline" id="Device_Portability"><span class="mw-headline-number">4.8</span> Device Portability</span></h2>
+<p>Due to its cross-platform, Java-based roots, its Proof of Stake hashing and its future ability to reduce the size of the block chain, Nxt is extremely well suited for use on small, low-power, low-resource devices. Android and iPhone applications are currently in development, and the Nxt software has been ported to low-powered ARM devices such as the RaspberryPi<sup id="cite_ref-21" class="reference"><a href="#cite_note-21">[21]</a></sup> and CubieTruck platforms.
+</p><p>The ability to implement Nxt on low-powered, always-connected devices such as smartphones allows us to envision a scenario where the majority of the Nxt network is supported on mobile devices. The low cost and resource consumption of these devices significantly reduce network costs in comparison with traditional Proof of Work cryptocurrencies.
+</p>
+<h1><span class="mw-headline" id="Concerns"><span class="mw-headline-number">5</span> Concerns</span></h1>
+<h2><span class="mw-headline" id="Proof_of_Stake_Attacks"><span class="mw-headline-number">5.1</span> Proof of Stake Attacks</span></h2>
+<h3><span class="mw-headline" id="Nothing_at_Stake"><span class="mw-headline-number">5.1.1</span> Nothing at Stake</span></h3>
+<p>In a nothing at stake attack, forgers attempt to build blocks on top of every fork they see because doing so costs them almost nothing, and because ignoring any fork may mean losing out on the block rewards that would be earned if that fork were to become the chain with the largest cumulative difficulty.
+</p><p>While this attack is theoretically possible, it is currently not practical. The Nxt network does not experience long blockchain forks, and the low block reward does not provide a strong profit incentive; further, compromising network security and trust for the sake of such small gains would make any victory pyrrhic.
+</p><p>As part of Nxts development roadmap<sup id="cite_ref-22" class="reference"><a href="#cite_note-22">[22]</a></sup>, a feature called Economic Clustering will provide further protection against attacks of this nature by forcing transactions to include hashes of previous blocks, and by grouping nodes into clusters that can detect unusual behavior on the network and impose penalties (in the form of temporary loss of the ability to forge).
+</p>
+<h3><span class="mw-headline" id="History_Attack"><span class="mw-headline-number">5.1.2</span> History Attack</span></h3>
+<p>In a history attack, someone acquires a large number of tokens, sells them, and then attempts to create a successful fork from just before the time when their tokens were sold or traded. If the attack fails, the attempt costs nothing because the tokens have already been sold or traded; if the attack succeeds, the attacker gets their tokens back. Extreme forms of this attack involve obtaining the private keys from old accounts and using them to build a successful chain right from the genesis block.
+</p><p>In Nxt, the basic history attack generally fails because all stake must be stationary for 1440 blocks before it can be used for forging; moreover, the effective balance of the account that generates each block is verified as part of block validation. The extreme form of this attack generally fails because the Nxt blockchain cannot be re-organized more than 720 blocks behind the current block height. This limits the time frame in which a bad actor could mount this form of attack.
+</p>
+<h2><span class="mw-headline" id="Distribution"><span class="mw-headline-number">5.2</span> Distribution</span></h2>
+<p>Because blocks may only be generated based on existing stake, at least some of the token supply must be available when a Proof of Stake network is bootstrapped. As a result, Nxt issued and distributed its full supply of tokens with the creation of the genesis block.
+</p><p>The initial supply of Nxt was distributed to 73 original stakeholders, most of whom have been incentivized to further disperse their stake through the use of giveaways, contests, and bounties. Eight months after its creation, Nxts largest single account contains 5% of Nxts total supply. By contrast, Satoshi Nakamoto is thought to hold almost 9% of Bitcoins total supply after more than five years of that networks existence.
+</p><p>It will never be possible for Nxts proponents to dispel the distribution concerns raised by the wider community. Relative to the levels of profit achieved by early investors in IBM, Apple, Google, Facebook, and Bitcoin, the amount of inequality present in the Nxt blockchain is not out of line. 
+</p><p>When asked: How would you solve the problem with scam accusations leveled against the unfair distribution of Nxt to 73 big stakeholders?, BCNext (Nxts creator) answered: This problem can not be solved. Even if we had a million stakeholders the <span>[</span>other<span>]</span> seven billion people would call this unfair. A world with the <span>[</span><i>sic</i><span>]</span> money can not be perfect.<sup id="cite_ref-23" class="reference"><a href="#cite_note-23">[23]</a></sup>
+</p>
+<h2><span class="mw-headline" id="Transaction_Fees_2"><span class="mw-headline-number">5.3</span> Transaction Fees</span></h2>
+<p>As the value of Nxt increases, the cost of minimum transactions fees, expressed in fiat terms, also increases. Plans are underway to reduce the minimum fee, scaled according to transaction byte-size, in order for micro-transactions to be practical. This will be implemented after changes to Nxts internal database are made, and that development is planned for version 1.3.0 of the Nxt software.
+</p>
+<h2><span class="mw-headline" id="Whitepaper_Timing"><span class="mw-headline-number">5.4</span> Whitepaper Timing</span></h2>
+<p>Most cryptocurrency creators issue a whitepaper before their currency is bootstrapped. Nxts first formal whitepaper was created for version 1.2.2 of the Nxt software, almost eight months after the creation of the genesis block.
+</p><p>The core development team has always been of the opinion that Nxts source code is its whitepaper: since Java is human-readable and the full source is available<sup id="cite_ref-24" class="reference"><a href="#cite_note-24">[24]</a></sup>, anyone is welcome to gain an understanding of Nxts mechanics by examining the source. This whitepaper can be seen as a translation of key components of the Java source code into English, and it was created in order to make the design and function of Nxt more accessible to people who do not possess programming skills.
+</p>
+<h1><span class="mw-headline" id="Additional_Nxt-related_Papers_and_Resources"><span class="mw-headline-number">6</span> Additional Nxt-related Papers and Resources</span></h1>
+<ul><li> The math of Nxt forging, by mthcl
+<ul><li> <a rel="nofollow" class="external free" href="http://www.docdroid.net/e29h/forging0-5-2.pdf.html">http://www.docdroid.net/e29h/forging0-5-2.pdf.html</a></li></ul></li>
+<li> What are the economic parameters of Nxt?, by HassenBlasques
+<ul><li> <a rel="nofollow" class="external free" href="https://docs.google.com/file/d/0BwAGADgnQcrtdXE5MkF5S05oaHM">https://docs.google.com/file/d/0BwAGADgnQcrtdXE5MkF5S05oaHM</a></li></ul></li>
+<li> Nxt Network Energy and Cost Efficiency Analysis, by Matthew Czarnek and secondleo
+<ul><li> <a rel="nofollow" class="external free" href="http://www.nxtcommunity.org/nxt/nxt/nxt-network-energy-and-cost-efficiency-analysis">http://www.nxtcommunity.org/nxt/nxt/nxt-network-energy-and-cost-efficiency-analysis</a></li></ul></li>
+<li> Nxt: A cybernetics perspective Proof of X
+<ul><li> <a rel="nofollow" class="external free" href="https://mega.co.nz/#!yYwD2ArL!aaalNHwQ_RveCKM4Z1x9w0hRI4U6y6119PxQg2-RRNA">https://mega.co.nz/#!yYwD2ArL!aaalNHwQ_RveCKM4Z1x9w0hRI4U6y6119PxQg2-RRNA</a></li></ul></li>
+<li> Why Nxt ought to be taken seriously, by anon136
+<ul><li> <a rel="nofollow" class="external free" href="https://docs.google.com/document/d/1E_ToOMG2l1XThx6YnyXEajXaf6H1k2yjq8XkAF0ScB4">https://docs.google.com/document/d/1E_ToOMG2l1XThx6YnyXEajXaf6H1k2yjq8XkAF0ScB4</a></li></ul></li>
+<li> Nxt Myths: What we should know about Nxt generation PoS cryptocurrency, managed by salsacz
+<ul><li> <a rel="nofollow" class="external free" href="https://docs.google.com/file/d/0BwAGADgnQcrtM3g1cU1VSHZtTGM">https://docs.google.com/file/d/0BwAGADgnQcrtM3g1cU1VSHZtTGM</a></li></ul></li></ul>
+<h1><span class="mw-headline" id="Bibliography"><span class="mw-headline-number">7</span> Bibliography</span></h1>
+<p>Bitcoin: a Peer-to-Peer Electronic Cash System. (n.d.). Retrieved July 06, 2014, from <a rel="nofollow" class="external free" href="https://bitcoin.org/bitcoin.pdf">https://bitcoin.org/bitcoin.pdf</a>
+</p><p>Bitcoin Is Broken. (n.d.). Retrieved July 06, 2014, from <a rel="nofollow" class="external free" href="http://hackingdistributed.com/2013/11/04/bitcoin-is-broken/">http://hackingdistributed.com/2013/11/04/bitcoin-is-broken/</a>
+</p><p>Bitcoin Miners Ditch Ghash.io Pool Over Fears of 51% Attack. (n.d.). Retrieved July 06, 2014, from <a rel="nofollow" class="external free" href="http://www.coindesk.com/bitcoin-miners-ditch-ghash-io-pool-51-attack/">http://www.coindesk.com/bitcoin-miners-ditch-ghash-io-pool-51-attack/</a>
+</p><p>Bitcoin needs to scale by a factor of 1000 to compete with Visa. Heres how to do it. (n.d.). Retrieved July 06, 2014, from <a rel="nofollow" class="external free" href="http://www.washingtonpost.com/blogs/the-switch/wp/2013/11/12/bitcoin-needs-to-scale-by-a-factor-of-1000-to-compete-with-visa-heres-how-to-do-it/">http://www.washingtonpost.com/blogs/the-switch/wp/2013/11/12/bitcoin-needs-to-scale-by-a-factor-of-1000-to-compete-with-visa-heres-how-to-do-it/</a>
+</p><p>Bitcoin security guarantee shattered by anonymous miner with 51% network power. (n.d.). Retrieved July 06, 2014, from <a rel="nofollow" class="external free" href="http://arstechnica.com/security/2014/06/bitcoin-security-guarantee-shattered-by-anonymous-miner-with-51-network-power/">http://arstechnica.com/security/2014/06/bitcoin-security-guarantee-shattered-by-anonymous-miner-with-51-network-power/</a>
+</p><p>Cohen, R. (2013, November 28). Global Bitcoin Computing Power Now 256 Times Faster Than Top 500 Supercomputers, Combined! Retrieved July 06, 2014, from <a rel="nofollow" class="external free" href="http://www.forbes.com/sites/reuvencohen/2013/11/28/global-bitcoin-computing-power-now-256-times-faster-than-top-500-supercomputers-combined">http://www.forbes.com/sites/reuvencohen/2013/11/28/global-bitcoin-computing-power-now-256-times-faster-than-top-500-supercomputers-combined</a>
+</p><p>Crypto Review of Curve25519.java &amp; Crypto.java. (n.d.). Retrieved July 06, 2014, from <a rel="nofollow" class="external free" href="https://gist.github.com/doctorevil/9521116">https://gist.github.com/doctorevil/9521116</a>
+</p><p>Eyal, I., &amp; Gun Sirer, E. (2013). Majority is not Enough: Bitcoin Mining is Vulnerable. Unpublished manuscript. Retrieved July 06, 2014, from <a rel="nofollow" class="external free" href="http://arxiv.org/pdf/1311.0243v5.pdf">http://arxiv.org/pdf/1311.0243v5.pdf</a>
+</p><p>Learn Cryptography 51% Attack. (n.d.). Retrieved July 06, 2014, from <a rel="nofollow" class="external free" href="http://learncryptography.com/51-attack/">http://learncryptography.com/51-attack/</a>
+</p><p>Losing to win. (2014, June 23). Retrieved July 03, 2014, from <a rel="nofollow" class="external free" href="http://www.economist.com/blogs/schumpeter/2014/06/bitcoin">http://www.economist.com/blogs/schumpeter/2014/06/bitcoin</a>
+</p><p>Peercoin. (n.d.). Retrieved July 06, 2014, from <a rel="nofollow" class="external free" href="http://www.peercoin.net/whitepaper">http://www.peercoin.net/whitepaper</a>
+</p><p>Qin, W., &amp; Zhou, N. (2010, 12). New concurrent digital signature scheme based on the computational Diffie-Hellman problem. The Journal of China Universities of Posts and Telecommunications, 17(6), 89-100. doi: 10.1016/S1005-8885(09)60530-6
+</p><p>The Well Deserved Fortune of Satoshi Nakamoto, Bitcoin creator, Visionary and Genius. (n.d.). Retrieved July 06, 2014, from <a rel="nofollow" class="external free" href="http://bitslog.wordpress.com/2013/04/17/the-well-deserved-fortune-of-satoshi-nakamoto/">http://bitslog.wordpress.com/2013/04/17/the-well-deserved-fortune-of-satoshi-nakamoto/</a>
+</p><p>Yung, M., Dodis, Y., Kiayias, A., Malkin, T., &amp; Bernstein, D. J. (2006). Curve25519: New Diffie-Hellman Speed Records. Public Key Cryptography, 2006, 207-228. doi: 10.1007/11745853_14
+</p>
+<h1><span class="mw-headline" id="Appendix:_Bitcoin_Problems_Addressed_by_Nxt"><span class="mw-headline-number">8</span> Appendix: Bitcoin Problems Addressed by Nxt</span></h1>
+<p>Nxt was created as a cryptocurrency 2.0 response to Bitcoin. Nxt adopts features that have proved to work well in Bitcoin, and addresses aspects that are cause for concern. This appendix addresses issues with the Bitcoin protocol and network that are mitigated by Nxt technology.
+</p>
+<h2><span class="mw-headline" id="Blockchain_Size"><span class="mw-headline-number">8.1</span> Blockchain Size</span></h2>
+<p>The Bitcoin blockchain is the complete sequential collection of generated data blocks containing the electronic ledger book for all Bitcoin transactions occurring since its launch in January 2009. Four years later in January 2013, the size of the Bitcoin blockchain stood at 4 gigabytes (GB) about the amount of data required to store a two hour movie on a DVD disk. Eighteen months later, in July 2014, the size of the Bitcoin blockchain had swelled by almost a factor of five to 19 gigabytes (GB)<sup id="cite_ref-25" class="reference"><a href="#cite_note-25">[25]</a></sup>. The Bitcoin blockchain is undergoing exponential growth and modifications to the original Bitcoin protocol will be required to deal with it.
+</p>
+<h3><span class="mw-headline" id="Nxt_Solutions"><span class="mw-headline-number">8.1.1</span> Nxt Solutions</span></h3>
+<p>Nxt block size is currently capped at 32KB. Since its inception, almost 181,000 blocks have been generated<sup id="cite_ref-26" class="reference"><a href="#cite_note-26">[26]</a></sup> and the blockchain takes up 390MB of space. In the future, Nxt will implement a Blockchain Pruning feature (still under discussion) that will reduce blockchain size by selectively removing information on permanent blocks, and by deleting other non-persistent data, such as Arbitrary Messages.
+</p>
+<h2><span class="mw-headline" id="Transactions_per_Day"><span class="mw-headline-number">8.2</span> Transactions per Day</span></h2>
+<p>In late 2013, the number of transactions being processed on the Bitcoin network was peaking at 70,000 per day, which is about 0.8 transactions per second (tps). The current Bitcoin standard block size of one megabyte, generated every ten minutes (on average) by full node clients, limits the maximum capacity of the current Bitcoin network to a about 7 tps. Compare this with the VISA network’s capacity to handle 10,000 tps and you will see that Bitcoin cannot compete as it exists today.
+</p><p>Increasing public use of the Bitcoin system will cause Bitcoin to soon hit its transaction-per-day limit and halt further growth. To forestall this, Bitcoin software developers are working on the creation of thin clients<sup id="cite_ref-27" class="reference"><a href="#cite_note-27">[27]</a></sup> that employ simplified payment verification (SPV)<sup id="cite_ref-28" class="reference"><a href="#cite_note-28">[28]</a></sup>. To handle greater throughput in the same 10-minute-average time, SPV thin clients will not perform a full security check on the larger blocks they process. They will instead examine multiple hashed blockchains from competing miners and assume that the blockchain version generated by the majority of miners is correct. In the words of Bitcoins Mike Hearn, Instead of verifying the entire contents, <span>[</span>SPV<span>]</span> just trusts that the majority of miners are honest…. As long as the majority is honest, <span>[</span>SPV<span>]</span> works… <span>[</span>However<span>]</span>,the full node does give you better security. If you’re running an online shop for example, it makes sense to run a full node.
+</p>
+<h3><span class="mw-headline" id="Nxt_Solutions_2"><span class="mw-headline-number">8.2.1</span> Nxt Solutions</span></h3>
+<p>In its current state, the Nxt network can process up to 367,200 transactions per day more than nine times Bitcoins current peak values. The planned implementation of Transparent Forging will allow for near instant transaction processing, drastically increasing this limit.
+</p>
+<h2><span class="mw-headline" id="Transaction_Confirmation_Time"><span class="mw-headline-number">8.3</span> Transaction Confirmation Time</span></h2>
+<p>Transaction confirmation times for Bitcoin ranged from 5 to 10 minutes for most of 2013. After the late 2013 announcement that Chinese banks would not be allowed to process Bitcoins, the average Bitcoin transaction time significantly increased to 8 to 13 minutes, with occasional peaks of 19 minutes<sup id="cite_ref-29" class="reference"><a href="#cite_note-29">[29]</a></sup>. Confirmation times have since resettled in the 8 to 10 minute range. Nonetheless, since multiple verifications are required to finalize a Bitcoin transaction (six confirmations is generally preferred), one hour can easily pass before a sale of assets paid for by Bitcoin is complete.
+</p>
+<h3><span class="mw-headline" id="Nxt_Solutions_3"><span class="mw-headline-number">8.3.1</span> Nxt Solutions</span></h3>
+<p>The average block generation time for Nxt has historically been shown to be about 80 seconds, putting the average transaction processing time at the same value. Transactions are deemed safe after ten confirmations, meaning that transactions are permanent in less than 14 minutes.
+</p><p>The implementation of Transparent Forging will allow for nearly-instant transactions, which will further reduce this time.
+</p>
+<h2><span class="mw-headline" id="Centralization_Concerns"><span class="mw-headline-number">8.4</span> Centralization Concerns</span></h2>
+<p>The increasing difficulty<sup id="cite_ref-30" class="reference"><a href="#cite_note-30">[30]</a></sup> and combined network hashrate<sup id="cite_ref-31" class="reference"><a href="#cite_note-31">[31]</a></sup> for Bitcoin has created a high barrier to entry for newcomers, and diminished returns for existing mining rigs. The block reward incentive employed by Bitcoin has driven the creation of large, single-owner installations of dedicated mining hardware<sup id="cite_ref-32" class="reference"><a href="#cite_note-32">[32]</a></sup>, as well as the reliance on a small set of large mining pools<sup id="cite_ref-33" class="reference"><a href="#cite_note-33">[33]</a></sup>. This has resulted in a centralization effect, where large amounts of mining power are concentrated in the control of a decreasing number of people. Not only does this create the kind of power structure that Bitcoin was designed to circumvent, but it also presents the real possibility that a single mining operation or pool could amass 51% of the network’s total mining power<sup id="cite_ref-34" class="reference"><a href="#cite_note-34">[34]</a></sup> and execute a 51% attack. Attacks requiring as little as 25% of total network hashing power also exist.
+</p><p>In early January, 2014, GHash.io began voluntarily decreasing its own mining power because it was approaching the 51% level. After a few days, the pool’s mining power was reduced to 34% of the total network power, but the rate immediately began to increase again, and once more reached dangerous levels in June 2014.
+</p>
+<h3><span class="mw-headline" id="Nxt_Solutions_4"><span class="mw-headline-number">8.4.1</span> Nxt Solutions</span></h3>
+<p>The incentives provided by Nxts Proof of Stake algorithm provide a low Return on Investment of approximately 0.1%. Since no new coins are generated with each block, there is no additional mining reward that incentivizes combining efforts to generate blocks. Data shows that the Nxt network has remained highly decentralized since its inception: a large (and growing) number of unique accounts are contributing blocks to the network<sup id="cite_ref-35" class="reference"><a href="#cite_note-35">[35]</a></sup>, and the top five accounts have generated 35% of the total number of blocks<sup id="cite_ref-36" class="reference"><a href="#cite_note-36">[36]</a></sup>.
+</p>
+<h2><span class="mw-headline" id="Proof_of_Work.E2.80.99s_Resource_Costs"><span class="mw-headline-number">8.5</span> Proof of Work’s Resource Costs</span></h2>
+<p>Confirming transactions for existing Bitcoins, and creating new Bitcoins to go into circulation, requires enormous background computing power that must operate continuously. This computing power is provided by so-called mining rigs operated by miners. Bitcoin miners compete among themselves to add the next transaction block to the overall Bitcoin blockchain. This is done by hashing - bundling all Bitcoin transactions occurring over the past ten minutes and trying to encrypt them into a block of data that also coincidentally has a certain number of consecutive zeros in it. Most trial blocks generated by a miner’s hashing effort don’t have this target number of zeros, so they make a slight change and try again. A billion attempts to find this winning block is called a gigahash, with a mining rig being rated by how many gigahashes it can perform in a second, denoted by <i>GH/sec</i>. A winning miner who is first to generate the next needle-in-a-haystack, cryptographically-correct Bitcoin block currently receives a reward of 25 newly-mined Bitcoins - a reward worth, at the time of this writing, around $15,750USD<sup id="cite_ref-37" class="reference"><a href="#cite_note-37">[37]</a></sup>. This competition among miners, with its hefty reward, repeats itself over and over and over every ten minutes or so. By early 2014 over 3500 bitcoins per day are generated, worth around $2.2 million US dollars per day.
+</p><p>With so much money at stake, miners have supported a blistering arms race in mining rig technology to better their odds of winning. Originally Bitcoins were mined using the central processing unit (CPU) of a typical desktop computer. Then the specialized graphics processing unit (GPU) chips in high-end video cards were used to increase speeds. Field programmable gate array (FPGA) chips were pressed into service next, followed by mining rigs specialized application specific integrated circuits (ASIC) chips. ASIC technology is the top of the line for Bitcoin miners, but the arms race continues with various generations of ASIC chips now coming into service. The current generation of ASIC chips are the so-called 28nm units, based on the size of their microscopic transistors in nanometers. These are due to be replaced by 20nm ASIC units by late-2014. An example of an upcoming state-of-the-art mining rig would be a Butterfly Labs Monarch 28nm ASIC card, which is to provide 600GH/sec for an electricity consumption of 350 watts and a price of $2200USD<sup id="cite_ref-38" class="reference"><a href="#cite_note-38">[38]</a></sup>.
+</p><p>The mining rig infrastructure currently in place to support ongoing Bitcoin operations is astounding. Bitcoin ASICs are like autistic savants - they are able to do only the Bitcoin block calculation and nothing more, but they can do that one calculation at supercomputer speeds. In November 2013, Forbes magazine ran an article entitled, Global Bitcoin Computing Power Now 256 Times Faster Than Top 500 Supercomputers, Combined!. In mid January 2014, statistics maintained at blockchain.info showed that ongoing support of Bitcoin operations required a continuous hash rate of around 18 million GH/sec. During the course of one day, that much hashing power produced 1.5 trillion trial blocks that were generated and rejected by Bitcoin miners looking for one the magic 144 blocks that would net them $2.2 million USD. Almost all Bitcoin computations do not go towards curing cancer by modeling DNA or to searching for radio signals from E.T.; instead, they are totally wasted computations.
+</p><p>The power and cost involved in this wasteful background mining support of Bitcoin is enormous. If all Bitcoin mining rigs had Monarch levels of capability as described above - which they will not, until they are upgraded - they would represent a pool of 30,000 machines costing over $63 million USD and consuming over 10 megawatts of continuous power while running up an electricity bill of over $3.5 million USD per day<sup id="cite_ref-39" class="reference"><a href="#cite_note-39">[39]</a></sup>. The real numbers are significantly higher for the current, less-efficient mining rig pool of machines actually supporting Bitcoin today. And these numbers are currently headed upward in an exponential growth curve as Bitcoin marches from its current one transaction per second to its current maximum of seven transactions per second.
+</p>
+<h3><span class="mw-headline" id="Nxt_Solutions_5"><span class="mw-headline-number">8.5.1</span> Nxt Solutions</span></h3>
+<p>Analysis of the cost and energy efficiency of the Nxt network shows that the entire Nxt ecosystem can be maintained for about $60,000USD per year, which is currently almost 2,200 times less expensive than the cost of running the Bitcoin network<sup id="cite_ref-40" class="reference"><a href="#cite_note-40">[40]</a></sup>.
+</p>
+<h2><span class="mw-headline" id="Proof_of_Work.E2.80.99s_Resource_Costs_Pertaining_to_Coinholders"><span class="mw-headline-number">8.6</span> Proof of Work’s Resource Costs Pertaining to Coinholders</span></h2>
+<p>In addition to massive electrical costs, there is a hidden fee for simply holding Bitcoins. For each block found, the entity that generates the block receives a stipend. At the time of writing, this stipend is 25 BTC, producing 10% inflation in the total Bitcoin supply this year alone. For each $1000USD worth of Bitcoin someone owns, that person is paying $100USD per Bitcoin this year to pay miners for keeping the network secure.
+</p>
+<h3><span class="mw-headline" id="Nxt_Solution"><span class="mw-headline-number">8.6.1</span> Nxt Solution</span></h3>
+<p>Since the complete supply of Nxts 1 billion coins was created with the genesis block, there is no inflation in Nxt. Deflationary pressures are likely to affect Nxt in the future, and a planned feature called Antideflation (design in progress) will address that problem.
+</p>
+<h1><span class="mw-headline" id="Footnotes"><span class="mw-headline-number">9</span> Footnotes</span></h1>
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text">Source code for Nxt is available at <a rel="nofollow" class="external free" href="https://bitbucket.org/JeanLucPicard/nxt/src">https://bitbucket.org/JeanLucPicard/nxt/src</a></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="https://nxtportal.org/monitor/">https://nxtportal.org/monitor/</a></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><a href="#cite_ref-3">↑</a></span> <span class="reference-text">Oxford English Dictionary. <a rel="nofollow" class="external free" href="http://www.oxforddictionaries.com/us/definition/american_english/forge">http://www.oxforddictionaries.com/us/definition/american_english/forge</a></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><a href="#cite_ref-4">↑</a></span> <span class="reference-text">The genesis account address is NXT-MRCC-2YLS-8M54-3CMAJ</span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><a href="#cite_ref-5">↑</a></span> <span class="reference-text">Access the genesis account by using the passphrase It was a bright cold day in April, and the clocks were striking thirteen.</span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><a href="#cite_ref-6">↑</a></span> <span class="reference-text">All possible block parameters are verified, including the effective balance of the block generators account. This proves that the generating account actually contains the effective balance (stake) that won it the right to generate the block.</span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><a href="#cite_ref-7">↑</a></span> <span class="reference-text">See for more information on how this balance is used.</span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><a href="#cite_ref-8">↑</a></span> <span class="reference-text">See</span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><a href="#cite_ref-9">↑</a></span> <span class="reference-text">This is defined as the accounts current balance, minus amounts related to all unconfirmed, sent transactions. In general, this is the account balance that is displayed in real-time in a Nxt client interface.</span>
+</li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><a href="#cite_ref-10">↑</a></span> <span class="reference-text">For more information: <a rel="nofollow" class="external free" href="http://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange">http://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange</a></span>
+</li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><a href="#cite_ref-11">↑</a></span> <span class="reference-text">Accessible via local web browser at <a rel="nofollow" class="external free" href="http://127.0.0.1:7876/">http://127.0.0.1:7876/</a></span>
+</li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><a href="#cite_ref-12">↑</a></span> <span class="reference-text">Accessible via local web browser at <a rel="nofollow" class="external free" href="http://127.0.0.1:7876/admin.html">http://127.0.0.1:7876/admin.html</a></span>
+</li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><a href="#cite_ref-13">↑</a></span> <span class="reference-text">Accessible via local web browser at <a rel="nofollow" class="external free" href="http://127.0.0.1:7876/doc/">http://127.0.0.1:7876/doc/</a></span>
+</li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><a href="#cite_ref-14">↑</a></span> <span class="reference-text">Source code for Nxt is available at <a rel="nofollow" class="external free" href="https://bitbucket.org/JeanLucPicard/nxt/src">https://bitbucket.org/JeanLucPicard/nxt/src</a></span>
+</li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><a href="#cite_ref-15">↑</a></span> <span class="reference-text">JavaScript Object Notation. See <a rel="nofollow" class="external free" href="http://json.org/">http://json.org/</a></span>
+</li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><a href="#cite_ref-16">↑</a></span> <span class="reference-text">For more information: <a rel="nofollow" class="external free" href="http://en.wikipedia.org/wiki/Uniform_resource_identifier">http://en.wikipedia.org/wiki/Uniform_resource_identifier</a></span>
+</li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><a href="#cite_ref-17">↑</a></span> <span class="reference-text">To download the extensions, go to: <a rel="nofollow" class="external free" href="http://nxtra.org/alias/">http://nxtra.org/alias/</a></span>
+</li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><a href="#cite_ref-18">↑</a></span> <span class="reference-text">For more information: <a rel="nofollow" class="external free" href="http://en.wikipedia.org/wiki/Advanced_Encryption_Standard">http://en.wikipedia.org/wiki/Advanced_Encryption_Standard</a></span>
+</li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><a href="#cite_ref-19">↑</a></span> <span class="reference-text">Development and testing of this feature is being tracked here: <a rel="nofollow" class="external free" href="https://nxtforum.org/nxtservices-releases/">https://nxtforum.org/nxtservices-releases/</a></span>
+</li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><a href="#cite_ref-20">↑</a></span> <span class="reference-text">Development and testing of this feature is being tracked here: <a rel="nofollow" class="external free" href="https://nxtforum.org/nxtservices-releases/nxtservices_div-test-release-for-dividend-calculations-at-any-block/">https://nxtforum.org/nxtservices-releases/nxtservices_div-test-release-for-dividend-calculations-at-any-block/</a></span>
+</li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><a href="#cite_ref-21">↑</a></span> <span class="reference-text">See this guide for help installing Nxt on a Raspberry Pi: <a rel="nofollow" class="external free" href="https://wiki.nxtcrypto.org/wiki/How-To:InstallNRSRaspberryPi">https://wiki.nxtcrypto.org/wiki/How-To:InstallNRSRaspberryPi</a></span>
+</li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><a href="#cite_ref-22">↑</a></span> <span class="reference-text">The July 5, 2014 development update is located here: <a rel="nofollow" class="external free" href="https://nxtforum.org/news-and-announcements/development-roadmap-update-2014-07-05">https://nxtforum.org/news-and-announcements/development-roadmap-update-2014-07-05</a></span>
+</li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><a href="#cite_ref-23">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="https://bitcointalk.org/index.php?topic=345619.msg4383169#msg4383169">https://bitcointalk.org/index.php?topic=345619.msg4383169#msg4383169</a></span>
+</li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><a href="#cite_ref-24">↑</a></span> <span class="reference-text">Source code for Nxt is available at: <a rel="nofollow" class="external free" href="https://bitbucket.org/JeanLucPicard/nxt/src">https://bitbucket.org/JeanLucPicard/nxt/src</a></span>
+</li>
+<li id="cite_note-25"><span class="mw-cite-backlink"><a href="#cite_ref-25">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://blockchain.info/charts">http://blockchain.info/charts</a></span>
+</li>
+<li id="cite_note-26"><span class="mw-cite-backlink"><a href="#cite_ref-26">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="https://nxtblocks.info/#section/blockexplorer_blocks">https://nxtblocks.info/#section/blockexplorer_blocks</a></span>
+</li>
+<li id="cite_note-27"><span class="mw-cite-backlink"><a href="#cite_ref-27">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="https://en.bitcoin.it/wiki/Thin_Client_Security">https://en.bitcoin.it/wiki/Thin_Client_Security</a></span>
+</li>
+<li id="cite_note-28"><span class="mw-cite-backlink"><a href="#cite_ref-28">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="https://en.bitcoin.it/wiki/Scalability#Simplified_payment_verification">https://en.bitcoin.it/wiki/Scalability#Simplified_payment_verification</a></span>
+</li>
+<li id="cite_note-29"><span class="mw-cite-backlink"><a href="#cite_ref-29">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="https://blockchain.info/charts/avg-confirmation-time">https://blockchain.info/charts/avg-confirmation-time</a></span>
+</li>
+<li id="cite_note-30"><span class="mw-cite-backlink"><a href="#cite_ref-30">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="https://blockchain.info/charts/difficulty">https://blockchain.info/charts/difficulty</a></span>
+</li>
+<li id="cite_note-31"><span class="mw-cite-backlink"><a href="#cite_ref-31">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="https://blockchain.info/charts/hash-rate">https://blockchain.info/charts/hash-rate</a></span>
+</li>
+<li id="cite_note-32"><span class="mw-cite-backlink"><a href="#cite_ref-32">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://money.cnn.com/gallery/technology/2013/12/17/bitcoin-mine/index.html">http://money.cnn.com/gallery/technology/2013/12/17/bitcoin-mine/index.html</a></span>
+</li>
+<li id="cite_note-33"><span class="mw-cite-backlink"><a href="#cite_ref-33">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="https://blockchain.info/pools">https://blockchain.info/pools</a></span>
+</li>
+<li id="cite_note-34"><span class="mw-cite-backlink"><a href="#cite_ref-34">↑</a></span> <span class="reference-text">For some historical statistics, see <a rel="nofollow" class="external free" href="http://organofcorti.blogspot.ca/2014/06/166-fifty-percent-club.html">http://organofcorti.blogspot.ca/2014/06/166-fifty-percent-club.html</a></span>
+</li>
+<li id="cite_note-35"><span class="mw-cite-backlink"><a href="#cite_ref-35">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="https://nxtforum.org/general/network-analysis/">https://nxtforum.org/general/network-analysis/</a></span>
+</li>
+<li id="cite_note-36"><span class="mw-cite-backlink"><a href="#cite_ref-36">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="https://nxtblocks.info/#section/blockexplorer_charts">https://nxtblocks.info/#section/blockexplorer_charts</a> as of July 8, 2014</span>
+</li>
+<li id="cite_note-37"><span class="mw-cite-backlink"><a href="#cite_ref-37">↑</a></span> <span class="reference-text">As of July 5, 2014, bitcoinaverage.com places the price per bitcoin at around $630USD</span>
+</li>
+<li id="cite_note-38"><span class="mw-cite-backlink"><a href="#cite_ref-38">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.butterflylabs.com/monarch/">http://www.butterflylabs.com/monarch/</a></span>
+</li>
+<li id="cite_note-39"><span class="mw-cite-backlink"><a href="#cite_ref-39">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://blockchain.info/stats">http://blockchain.info/stats</a></span>
+</li>
+<li id="cite_note-40"><span class="mw-cite-backlink"><a href="#cite_ref-40">↑</a></span> <span class="reference-text">Nxt Network Energy and Cost Efficiency Analysis <a rel="nofollow" class="external free" href="http://www.nxtcommunity.org/nxt/nxt/nxt-network-energy-and-cost-efficiency-analysis">http://www.nxtcommunity.org/nxt/nxt/nxt-network-energy-and-cost-efficiency-analysis</a></span>
+</li>
+</ol>
+
+<!-- 
+NewPP limit report
+CPU time usage: 0.253 seconds
+Real time usage: 0.258 seconds
+Preprocessor visited node count: 1049/1000000
+Preprocessor generated node count: 3170/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 3/40
+Expensive parser function count: 0/100
+-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 - -total
+-->
+
+<!-- Saved in parser cache with key nxtwiki-war_:pcache:idhash:1410-0!*!0!1!en!*!*!math=0 and timestamp 20181204200722 and revision id 53481
+ -->
+</div>									<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://nxtwiki.org/mediawiki/index.php?title=Whitepaper:Nxt&amp;oldid=53481">https://nxtwiki.org/mediawiki/index.php?title=Whitepaper:Nxt&amp;oldid=53481</a>"					</div>
+													<div id='catlinks' class='catlinks catlinks-allhidden'></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-uls" class="active"><a href="#" class="uls-trigger autonym">English</a></li><li id="pt-login"><a href="/mediawiki/index.php?title=Special:UserLogin&amp;returnto=Whitepaper%3ANxt" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/Whitepaper:Nxt"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk"><span><a href="/wiki/Talk:Whitepaper:Nxt"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variants</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="/wiki/Whitepaper:Nxt" >Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="/mediawiki/index.php?title=Whitepaper:Nxt&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="/mediawiki/index.php?title=Whitepaper:Nxt&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/mediawiki/index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Search" title="Search Nxt Wiki [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Wiki-Home"><a href="/wiki/Main_Page">Wiki Home</a></li>
+													<li id="n-About-Nxt"><a href="/wiki/Nxt_Wiki">About Nxt</a></li>
+													<li id="n-Getting-Started"><a href="/wiki/Getting_Started">Getting Started</a></li>
+													<li id="n-FAQ"><a href="/wiki/FAQ">FAQ</a></li>
+													<li id="n-How-To-Guides"><a href="/wiki/How-To">How-To Guides</a></li>
+													<li id="n-For-Developers"><a href="/wiki/For_Programmers">For Developers</a></li>
+													<li id="n-Glossary"><a href="/wiki/Glossary">Glossary</a></li>
+													<li id="n-Contribute.21"><a href="/wiki/Contribute">Contribute!</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Whitepaper:Nxt" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+													<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Whitepaper:Nxt" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+													<li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+													<li id="t-print"><a href="/mediawiki/index.php?title=Whitepaper:Nxt&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+													<li id="t-permalink"><a href="/mediawiki/index.php?title=Whitepaper:Nxt&amp;oldid=53481" title="Permanent link to this revision of the page">Permanent link</a></li>
+													<li id="t-info"><a href="/mediawiki/index.php?title=Whitepaper:Nxt&amp;action=info" title="More information about this page">Page information</a></li>
+						<li id="t-cite"><a href="/mediawiki/index.php?title=Special:CiteThisPage&amp;page=Whitepaper%3ANxt&amp;id=53481" title="Information on how to cite this page">Cite this page</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 2 July 2018, at 16:03.</li>
+											<li id="footer-info-copyright">Content is available under <a class="external" rel="nofollow" href="https://www.gnu.org/copyleft/fdl.html">GNU Free Documentation License 1.3 or later</a> unless otherwise noted.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/wiki/Nxt_Wiki:Privacy_policy" title="Nxt Wiki:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/wiki/Nxt_Wiki:About" title="Nxt Wiki:About">About Nxt Wiki</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/Nxt_Wiki:General_disclaimer" title="Nxt Wiki:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+															<a href="https://www.gnu.org/copyleft/fdl.html"><img src="/mediawiki/resources/assets/licenses/gnu-fdl.png" alt="GNU Free Documentation License 1.3 or later" width="88" height="31" /></a>
+													</li>
+											<li id="footer-poweredbyico">
+															<a href="//www.mediawiki.org/"><img src="/mediawiki/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/mediawiki/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /mediawiki/resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>if(window.jQuery)jQuery.ready();</script><script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["ext.cite","mediawiki.toc","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.uls.pt"],null,true);
+}</script>
+<script src="//meta.wikimedia.org/geoiplookup"></script>
+<script>if(window.mw){
+document.write("\u003Cscript src=\"https://nxtwiki.org/mediawiki/load.php?debug=false\u0026amp;lang=en\u0026amp;modules=site\u0026amp;only=scripts\u0026amp;skin=vector\u0026amp;*\"\u003E\u003C/script\u003E");
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":383});
+}</script>
+	</body>
+</html>

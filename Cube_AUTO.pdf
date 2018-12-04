@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="txt/html;charset=UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>CUBE</title>
+    <link rel="stylesheet" type="text/css" href="../../css/font.css">
+    <link rel="stylesheet" type="text/css" href="../../css/common.css">
+    <script type="text/javascript" src="../../js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="../../js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="../../js/common.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/moment.min.js"></script>
+    <!-- Global site tag (gtag.js) - AdWords: 823155751 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-823155751"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-823155751');
+    </script>
+</head>
+
+<body>
+<div id="wrap" class="sub">
+    <div id="menu">
+    <div class="content">
+        <a href="/"><h1 class="title">Cube</h1></a>
+        <a href="#cube" class="m_btn"><span>전체메뉴</span></a>
+        <div class="m_menu">
+            <!--<div class="lang">
+                &lt;!&ndash; 현재 언어 &ndash;&gt;
+                <a href="/" class="select">EN</a>
+                <ul>
+                    &lt;!&ndash; 현재 언어의 리스트에 클래스 'on'을 주어야 함 &ndash;&gt;
+                    <li class="on"><a href="/">EN</a></li>
+                    <li><a href="/kr">KR</a></li>
+                    <li><a href="/jp">JP</a></li>
+                    <li><a href="/cn">CH</a></li>
+                    <li><a href="/fr">FR</a></li>
+                </ul>
+            </div>-->
+
+            <ul class="nav">
+                <li class="on m"><a href="/#section_main">HOME</a></li>
+                <li><a href="https://cubeintelligenceltd.blogspot.in/">News</a></li>
+                <li><a href="/#section1">What We Do</a></li>
+                <!--<li><a href="/#section4">Team</a></li>-->
+                <li>
+                    <a href="./CUBEWhite_Paper-V2.2.pdf" open="CUBEWhite_Paper-V2.2.pdf" target="_blank">Whitepaper</a>
+                </li>
+                <li><a href="/#section6">Contact</a></li>
+                    <li><a href="/signin">Sign in</a></li>
+            </ul>
+
+            <a href="/signin" class="m signIn">Sign in</a>
+        </div>
+    </div>
+</div>
+<!-- Pre Sale Countdown Area Start -->
+<section id="client" class="testimonial-area pt-120 pb-80 bg-4" style="background-image: url(img/bg/bg-white.jpg);text-align: center">
+    <div class="container">
+        <div class="row">
+            <div class="testimonial-active owl-carousel pt-20" style="padding-top: 20px;">
+                <div class="col-md-12">
+                    <div class="text-center dashboard-section" style="color: white">
+                        <img src="/img/icon/error.png" style="width: 100px;display: inline-block;" />
+                        <h2 class="mt-40" style="margin-top: 20px;">404 ERROR</h2>
+                        <hr class="hr-50" />
+                        <div class="col-md-4 col-md-offset-4 text-center">
+                            <h3>There's nothing else!</h3>
+                            <p class="mb-50">Not all who wander are lost. But you certainly are</p>
+                            <a class="btn btn-default btn-full-width-2" href="/" style="margin: 20px auto;padding:11px">GO TO HOMEPAGE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Pre Sale Countdown Area End -->
+</div>
+<!-- map js -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwIQh7LGryQdDDi-A603lR8NqiF3R_ycA"></script>
+<script>
+
+    jQuery('.statistic-counter').counterUp({
+        delay: 10,
+        time: 2000
+    });
+
+    function ShowLoader() {
+        var overlay = jQuery('<div id="loading-overlay" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(255, 255, 255, 0.6); z-index: 10000;"><div style="text-align: center; width: 100%; position: absolute; top: 40%; margin-top: -50px;"> <div class="lds-css" style="background-image: url(\'/img/loader.gif\');background-size: 100%;background-repeat: no-repeat;background-position: center;width: 100px;height: 100px;display: inline-block;"></div> </div> </div>');
+        overlay.appendTo(document.body);
+    }
+    function HideLoader() {
+        $('#loading-overlay').remove();
+    }
+
+
+    var loadingEllipsisContain = '<div class="loading-ellipsis contain"></div>';
+    var loadingEllipsisInitial = '<div class="loading-ellipsis initial"></div>';
+    $( document ).ready(
+            function openMobileMenu() {
+                $(".js-open-mobile-menu").on("click", function(t) {
+                    t.preventDefault(), $(this).toggleClass("active"), $(".mobile-nav-items").toggleClass("active"), $(".header").toggleClass("changed-logo"), $("html, body").toggleClass("lock")
+                })
+            }
+    );
+
+</script>
+<!-- <script src="js/main.min.js"> </script> -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110081982-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-110081982-1');
+</script>
+</body>
+
+</html>
